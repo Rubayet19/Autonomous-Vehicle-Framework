@@ -1,0 +1,5 @@
+if(EXISTS "/avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_mapper[1]_tests.cmake")
+  include("/avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_mapper[1]_tests.cmake")
+else()
+  add_test(test_mapper_NOT_BUILT test_mapper_NOT_BUILT)
+endif()

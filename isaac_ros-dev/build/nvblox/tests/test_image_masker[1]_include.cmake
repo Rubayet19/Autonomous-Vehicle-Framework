@@ -1,0 +1,5 @@
+if(EXISTS "/avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_image_masker[1]_tests.cmake")
+  include("/avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_image_masker[1]_tests.cmake")
+else()
+  add_test(test_image_masker_NOT_BUILT test_image_masker_NOT_BUILT)
+endif()

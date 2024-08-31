@@ -1,0 +1,37 @@
+[0.052s] Invoking command in '/avlcode/workspaces/isaac_ros-dev/build/data_logger': AMENT_PREFIX_PATH=/avlcode/workspaces/isaac_ros-dev/install/image_transport CMAKE_PREFIX_PATH=/avlcode/workspaces/isaac_ros-dev/install/image_transport:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge LD_LIBRARY_PATH=/avlcode/workspaces/isaac_ros-dev/install/image_transport/lib:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib PYTHONPATH=/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib/python3.8/site-packages /usr/bin/cmake --build /avlcode/workspaces/isaac_ros-dev/build/data_logger -- -j12 -l12
+[0.113s] [35m[1mConsolidate compiler generated dependencies of target data_logger_node2[0m
+[0.143s] [ 50%] [32mBuilding CXX object CMakeFiles/data_logger_node2.dir/src/data_logger_node2.cpp.o[0m
+[10.714s] [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:24:30:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[10.715s]    24 | using std::placeholders::_1; [01;35m[K;[m[K
+[10.715s]       |                              [01;35m[K^[m[K
+[10.964s] [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:[m[K In constructor ‘[01m[KDataLogger::DataLogger()[m[K’:
+[10.964s] [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:49:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kentry[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[10.964s]    49 |     for (const auto &[01;35m[Kentry[m[K : fs::directory_iterator(m_drive)) {
+[10.964s]       |                      [01;35m[K^~~~~[m[K
+[10.965s] [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:65:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kentry[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[10.965s]    65 |     for (const auto &[01;35m[Kentry[m[K : fs::directory_iterator(m_image_drive)) {
+[10.966s]       |                      [01;35m[K^~~~~[m[K
+[11.250s] [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:104:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kapproximate_policy[m[K’ was not declared in this scope; did you mean ‘[01m[Km_approximate_policy[m[K’?
+[11.250s]   104 |                 [01;31m[Kapproximate_policy[m[K(10), m_front_camera, m_left_camera, m_right_camera, m_steering_msg);
+[11.250s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[11.250s]       |                 [32m[Km_approximate_policy[m[K
+[11.254s] [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:107:102:[m[K [01;31m[Kerror: [m[K‘[01m[Kplaceholder_1[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kplaceholders[m[K’?
+[11.254s]   107 |             syncApproximate.registerCallback(std::bind(&DataLogger::camera_sync_callback, this, std::[01;31m[Kplaceholder_1[m[K, std::placeholder_2,
+[11.255s]       |                                                                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[11.255s]       |                                                                                                      [32m[Kplaceholders[m[K
+[11.255s] [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:107:122:[m[K [01;31m[Kerror: [m[K‘[01m[Kplaceholder_2[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kplaceholders[m[K’?
+[11.255s]   107 |             syncApproximate.registerCallback(std::bind(&DataLogger::camera_sync_callback, this, std::placeholder_1, std::[01;31m[Kplaceholder_2[m[K,
+[11.256s]       |                                                                                                                          [01;31m[K^~~~~~~~~~~~~[m[K
+[11.256s]       |                                                                                                                          [32m[Kplaceholders[m[K
+[11.256s] [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:108:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kplaceholder_3[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kplaceholders[m[K’?
+[11.257s]   108 |     std::[01;31m[Kplaceholder_3[m[K, std::placeholder_4));
+[11.257s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[11.257s]       |          [32m[Kplaceholders[m[K
+[11.258s] [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:108:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kplaceholder_4[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kplaceholders[m[K’?
+[11.258s]   108 |     std::placeholder_3, std::[01;31m[Kplaceholder_4[m[K));
+[11.258s]       |                              [01;31m[K^~~~~~~~~~~~~[m[K
+[11.258s]       |                              [32m[Kplaceholders[m[K
+[16.215s] make[2]: *** [CMakeFiles/data_logger_node2.dir/build.make:76: CMakeFiles/data_logger_node2.dir/src/data_logger_node2.cpp.o] Interrupt
+[16.216s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/data_logger_node2.dir/all] Interrupt
+[16.216s] make: *** [Makefile:146: all] Interrupt
+[16.337s] Invoked command in '/avlcode/workspaces/isaac_ros-dev/build/data_logger' returned '-2': AMENT_PREFIX_PATH=/avlcode/workspaces/isaac_ros-dev/install/image_transport CMAKE_PREFIX_PATH=/avlcode/workspaces/isaac_ros-dev/install/image_transport:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge LD_LIBRARY_PATH=/avlcode/workspaces/isaac_ros-dev/install/image_transport/lib:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib PYTHONPATH=/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib/python3.8/site-packages /usr/bin/cmake --build /avlcode/workspaces/isaac_ros-dev/build/data_logger -- -j12 -l12

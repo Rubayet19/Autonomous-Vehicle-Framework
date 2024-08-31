@@ -1,0 +1,521 @@
+[0.000000] (-) TimerEvent: {}
+[0.000757] (-) JobUnselected: {'identifier': 'agv_bot_description'}
+[0.000974] (-) JobUnselected: {'identifier': 'async_web_server_cpp'}
+[0.001474] (-) JobUnselected: {'identifier': 'camera_calibration_parsers'}
+[0.006357] (-) JobUnselected: {'identifier': 'camera_info_manager'}
+[0.006733] (-) JobUnselected: {'identifier': 'camera_publishers'}
+[0.006839] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.006926] (-) JobUnselected: {'identifier': 'geodesy'}
+[0.007009] (-) JobUnselected: {'identifier': 'geographic_info'}
+[0.007061] (-) JobUnselected: {'identifier': 'geographic_msgs'}
+[0.009157] (-) JobUnselected: {'identifier': 'gps_package'}
+[0.009341] (-) JobUnselected: {'identifier': 'image_common'}
+[0.009560] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.009660] (-) JobUnselected: {'identifier': 'image_stitcher'}
+[0.009710] (-) JobUnselected: {'identifier': 'image_transport'}
+[0.009766] (-) JobUnselected: {'identifier': 'isaac_ros_apriltag_interfaces'}
+[0.009850] (-) JobUnselected: {'identifier': 'isaac_ros_bi3d_interfaces'}
+[0.009919] (-) JobUnselected: {'identifier': 'isaac_ros_common'}
+[0.010434] (-) JobUnselected: {'identifier': 'isaac_ros_nvblox'}
+[0.010534] (-) JobUnselected: {'identifier': 'isaac_ros_pointcloud_interfaces'}
+[0.010637] (-) JobUnselected: {'identifier': 'isaac_ros_tensor_list_interfaces'}
+[0.012151] (-) JobUnselected: {'identifier': 'isaac_ros_test'}
+[0.013855] (-) JobUnselected: {'identifier': 'joint_state_publisher'}
+[0.013964] (-) JobUnselected: {'identifier': 'joint_state_publisher_gui'}
+[0.014048] (-) JobUnselected: {'identifier': 'motor_control_pkg'}
+[0.014124] (-) JobUnselected: {'identifier': 'nvblox'}
+[0.014199] (-) JobUnselected: {'identifier': 'nvblox_cpu_gpu_tools'}
+[0.014270] (-) JobUnselected: {'identifier': 'nvblox_examples_bringup'}
+[0.014341] (-) JobUnselected: {'identifier': 'nvblox_image_padding'}
+[0.014413] (-) JobUnselected: {'identifier': 'nvblox_isaac_sim'}
+[0.014482] (-) JobUnselected: {'identifier': 'nvblox_msgs'}
+[0.014553] (-) JobUnselected: {'identifier': 'nvblox_nav2'}
+[0.014626] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement'}
+[0.014701] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement_msgs'}
+[0.014774] (-) JobUnselected: {'identifier': 'nvblox_ros'}
+[0.014844] (-) JobUnselected: {'identifier': 'nvblox_ros_common'}
+[0.014915] (-) JobUnselected: {'identifier': 'nvblox_rviz_plugin'}
+[0.014984] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.015053] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.015124] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.015193] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.015264] (-) JobUnselected: {'identifier': 'realsense_obj_det'}
+[0.015335] (-) JobUnselected: {'identifier': 'road_segmentation'}
+[0.015404] (-) JobUnselected: {'identifier': 'semantic_label_conversion'}
+[0.015475] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.015545] (-) JobUnselected: {'identifier': 'stdgpu'}
+[0.015615] (-) JobUnselected: {'identifier': 'teleop_twist_joy'}
+[0.015685] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.015757] (-) JobUnselected: {'identifier': 'twist_converter'}
+[0.015826] (-) JobUnselected: {'identifier': 'twist_mux'}
+[0.015900] (-) JobUnselected: {'identifier': 'velodyne'}
+[0.015972] (-) JobUnselected: {'identifier': 'velodyne_driver'}
+[0.016043] (-) JobUnselected: {'identifier': 'velodyne_laserscan'}
+[0.016115] (-) JobUnselected: {'identifier': 'velodyne_msgs'}
+[0.016186] (-) JobUnselected: {'identifier': 'velodyne_pointcloud'}
+[0.016260] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.016333] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.016399] (-) JobUnselected: {'identifier': 'xacro'}
+[0.016490] (data_logger) JobQueued: {'identifier': 'data_logger', 'dependencies': OrderedDict([('cv_bridge', '/avlcode/workspaces/isaac_ros-dev/install/cv_bridge'), ('image_transport', '/avlcode/workspaces/isaac_ros-dev/install/image_transport')])}
+[0.016585] (data_logger) JobStarted: {'identifier': 'data_logger'}
+[0.086281] (data_logger) JobProgress: {'identifier': 'data_logger', 'progress': 'cmake'}
+[0.087975] (data_logger) JobProgress: {'identifier': 'data_logger', 'progress': 'build'}
+[0.089402] (data_logger) Command: {'cmd': ['/usr/bin/cmake', '--build', '/avlcode/workspaces/isaac_ros-dev/build/data_logger', '--', '-j12', '-l12'], 'cwd': '/avlcode/workspaces/isaac_ros-dev/build/data_logger', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources'), ('HOSTNAME', 'agxorin1'), ('ROS_PACKAGE_PATH', '/avlcode/workspaces/isaac_ros-dev/install/async_web_server_cpp/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport/lib:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/avlcode/workspaces/isaac_ros-dev/install/velodyne_pointcloud/lib:/avlcode/workspaces/isaac_ros-dev/install/velodyne_driver/lib:/avlcode/workspaces/isaac_ros-dev/install/velodyne_msgs/lib:/avlcode/workspaces/isaac_ros-dev/install/velodyne_laserscan/lib:/avlcode/workspaces/isaac_ros-dev/install/teleop_twist_joy/lib:/avlcode/workspaces/isaac_ros-dev/install/slam_toolbox/lib:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera/lib:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_ros/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_image_padding/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_ros_common/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_nav2/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_msgs/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox/lib:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib:/avlcode/workspaces/isaac_ros-dev/install/image_geometry/lib:/avlcode/workspaces/isaac_ros-dev/install/geographic_msgs/lib:/avlcode/workspaces/isaac_ros-dev/install/camera_info_manager/lib:/avlcode/workspaces/isaac_ros-dev/install/camera_calibration_parsers/lib:/avlcode/workspaces/isaac_ros-dev/install/async_web_server_cpp/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib'), ('HOME', '/home/admin'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install:/avlcode/workspaces/isaac_ros-dev/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig:/avlcode/workspaces/isaac_ros-dev/install/async_web_server_cpp/lib/aarch64-linux-gnu/pkgconfig:/avlcode/workspaces/isaac_ros-dev/install/async_web_server_cpp/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('USERNAME', 'admin'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/avlcode/workspaces/isaac_ros-dev/install/xacro/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvidia/tao:/usr/local/cuda/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/usr/local/share/middleware_profiles/husarnet_fastdds_profile.xml'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/opt/ros/humble/install:/avlcode/workspaces/isaac_ros-dev/install/realsense2_description:/avlcode/workspaces/isaac_ros-dev/install/agv_bot_description:/avlcode/workspaces/isaac_ros-dev/install/xacro:/avlcode/workspaces/isaac_ros-dev/install/web_video_server:/avlcode/workspaces/isaac_ros-dev/install/vision_opencv:/avlcode/workspaces/isaac_ros-dev/install/velodyne:/avlcode/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/avlcode/workspaces/isaac_ros-dev/install/velodyne_driver:/avlcode/workspaces/isaac_ros-dev/install/velodyne_msgs:/avlcode/workspaces/isaac_ros-dev/install/velodyne_laserscan:/avlcode/workspaces/isaac_ros-dev/install/twist_mux:/avlcode/workspaces/isaac_ros-dev/install/teleop_twist_joy:/avlcode/workspaces/isaac_ros-dev/install/slam_toolbox:/avlcode/workspaces/isaac_ros-dev/install/semantic_label_conversion:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/avlcode/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin:/avlcode/workspaces/isaac_ros-dev/install/nvblox_performance_measurement:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_nvblox:/avlcode/workspaces/isaac_ros-dev/install/nvblox_ros:/avlcode/workspaces/isaac_ros-dev/install/nvblox_image_padding:/avlcode/workspaces/isaac_ros-dev/install/nvblox_ros_common:/avlcode/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs:/avlcode/workspaces/isaac_ros-dev/install/nvblox_nav2:/avlcode/workspaces/isaac_ros-dev/install/nvblox_msgs:/avlcode/workspaces/isaac_ros-dev/install/nvblox_examples_bringup:/avlcode/workspaces/isaac_ros-dev/install/motor_control_pkg:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_common:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/avlcode/workspaces/isaac_ros-dev/install/image_common:/avlcode/workspaces/isaac_ros-dev/install/image_transport:/avlcode/workspaces/isaac_ros-dev/install/image_stitcher:/avlcode/workspaces/isaac_ros-dev/install/image_geometry:/avlcode/workspaces/isaac_ros-dev/install/geographic_info:/avlcode/workspaces/isaac_ros-dev/install/geographic_msgs:/avlcode/workspaces/isaac_ros-dev/install/data_logger:/avlcode/workspaces/isaac_ros-dev/install/camera_info_manager'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/avlcode/workspaces/isaac_ros-dev/build/data_logger'), ('PYTHONPATH', '/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/twist_converter/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/teleop_twist_keyboard/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/slam_toolbox/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/road_segmentation/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/realsense_obj_det/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/opencv_tests/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/nvblox_msgs/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/nvblox_isaac_sim/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/nvblox_cpu_gpu_tools/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/motor_control_pkg/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/joint_state_publisher_gui/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/joint_state_publisher/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/image_stitcher/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/image_geometry/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/gps_package/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/geographic_msgs/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/geodesy/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/camera_publishers/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/camera_calibration_parsers/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('USER_GID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge:/avlcode/workspaces/isaac_ros-dev/install/motor_control_pkg:/avlcode/workspaces/isaac_ros-dev/install/image_stitcher:/opt/ros/humble/install:/avlcode/workspaces/isaac_ros-dev/install/realsense2_description:/avlcode/workspaces/isaac_ros-dev/install/agv_bot_description:/avlcode/workspaces/isaac_ros-dev/install/xacro:/avlcode/workspaces/isaac_ros-dev/install/web_video_server:/avlcode/workspaces/isaac_ros-dev/install/vision_opencv:/avlcode/workspaces/isaac_ros-dev/install/velodyne:/avlcode/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/avlcode/workspaces/isaac_ros-dev/install/velodyne_driver:/avlcode/workspaces/isaac_ros-dev/install/velodyne_msgs:/avlcode/workspaces/isaac_ros-dev/install/velodyne_laserscan:/avlcode/workspaces/isaac_ros-dev/install/twist_mux:/avlcode/workspaces/isaac_ros-dev/install/teleop_twist_joy:/avlcode/workspaces/isaac_ros-dev/install/slam_toolbox:/avlcode/workspaces/isaac_ros-dev/install/semantic_label_conversion:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/avlcode/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin:/avlcode/workspaces/isaac_ros-dev/install/nvblox_performance_measurement:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_nvblox:/avlcode/workspaces/isaac_ros-dev/install/nvblox_ros:/avlcode/workspaces/isaac_ros-dev/install/nvblox_image_padding:/avlcode/workspaces/isaac_ros-dev/install/nvblox_ros_common:/avlcode/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs:/avlcode/workspaces/isaac_ros-dev/install/nvblox_nav2:/avlcode/workspaces/isaac_ros-dev/install/nvblox_msgs:/avlcode/workspaces/isaac_ros-dev/install/nvblox_examples_bringup:/avlcode/workspaces/isaac_ros-dev/install/nvblox:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_common:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/avlcode/workspaces/isaac_ros-dev/install/image_common:/avlcode/workspaces/isaac_ros-dev/install/image_geometry:/avlcode/workspaces/isaac_ros-dev/install/geographic_info:/avlcode/workspaces/isaac_ros-dev/install/geographic_msgs:/avlcode/workspaces/isaac_ros-dev/install/data_logger:/avlcode/workspaces/isaac_ros-dev/install/camera_info_manager:/avlcode/workspaces/isaac_ros-dev/install/async_web_server_cpp')]), 'shell': False}
+[0.100562] (-) TimerEvent: {}
+[0.201678] (-) TimerEvent: {}
+[0.216234] (data_logger) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/data_logger_node2.dir/src/data_logger_node2.cpp.o\x1b[0m\n'}
+[0.301880] (-) TimerEvent: {}
+[0.402744] (-) TimerEvent: {}
+[0.504099] (-) TimerEvent: {}
+[0.606110] (-) TimerEvent: {}
+[0.707398] (-) TimerEvent: {}
+[0.808119] (-) TimerEvent: {}
+[0.908766] (-) TimerEvent: {}
+[1.009588] (-) TimerEvent: {}
+[1.110399] (-) TimerEvent: {}
+[1.211197] (-) TimerEvent: {}
+[1.312005] (-) TimerEvent: {}
+[1.412770] (-) TimerEvent: {}
+[1.513477] (-) TimerEvent: {}
+[1.614170] (-) TimerEvent: {}
+[1.714833] (-) TimerEvent: {}
+[1.815496] (-) TimerEvent: {}
+[1.916151] (-) TimerEvent: {}
+[2.016842] (-) TimerEvent: {}
+[2.117554] (-) TimerEvent: {}
+[2.218243] (-) TimerEvent: {}
+[2.318941] (-) TimerEvent: {}
+[2.419650] (-) TimerEvent: {}
+[2.520323] (-) TimerEvent: {}
+[2.620979] (-) TimerEvent: {}
+[2.721772] (-) TimerEvent: {}
+[2.822823] (-) TimerEvent: {}
+[2.923512] (-) TimerEvent: {}
+[3.024197] (-) TimerEvent: {}
+[3.125046] (-) TimerEvent: {}
+[3.226070] (-) TimerEvent: {}
+[3.326780] (-) TimerEvent: {}
+[3.427469] (-) TimerEvent: {}
+[3.528118] (-) TimerEvent: {}
+[3.628814] (-) TimerEvent: {}
+[3.729608] (-) TimerEvent: {}
+[3.830365] (-) TimerEvent: {}
+[3.931047] (-) TimerEvent: {}
+[4.031715] (-) TimerEvent: {}
+[4.132567] (-) TimerEvent: {}
+[4.233433] (-) TimerEvent: {}
+[4.334238] (-) TimerEvent: {}
+[4.435100] (-) TimerEvent: {}
+[4.536020] (-) TimerEvent: {}
+[4.636832] (-) TimerEvent: {}
+[4.737734] (-) TimerEvent: {}
+[4.838610] (-) TimerEvent: {}
+[4.939467] (-) TimerEvent: {}
+[5.040292] (-) TimerEvent: {}
+[5.140997] (-) TimerEvent: {}
+[5.241732] (-) TimerEvent: {}
+[5.342432] (-) TimerEvent: {}
+[5.443135] (-) TimerEvent: {}
+[5.543824] (-) TimerEvent: {}
+[5.644499] (-) TimerEvent: {}
+[5.745175] (-) TimerEvent: {}
+[5.846119] (-) TimerEvent: {}
+[5.946826] (-) TimerEvent: {}
+[6.047551] (-) TimerEvent: {}
+[6.148399] (-) TimerEvent: {}
+[6.249247] (-) TimerEvent: {}
+[6.350017] (-) TimerEvent: {}
+[6.450743] (-) TimerEvent: {}
+[6.551500] (-) TimerEvent: {}
+[6.653054] (-) TimerEvent: {}
+[6.753885] (-) TimerEvent: {}
+[6.854783] (-) TimerEvent: {}
+[6.955644] (-) TimerEvent: {}
+[7.056531] (-) TimerEvent: {}
+[7.157305] (-) TimerEvent: {}
+[7.260695] (-) TimerEvent: {}
+[7.361407] (-) TimerEvent: {}
+[7.462091] (-) TimerEvent: {}
+[7.562831] (-) TimerEvent: {}
+[7.663635] (-) TimerEvent: {}
+[7.764456] (-) TimerEvent: {}
+[7.865277] (-) TimerEvent: {}
+[7.966127] (-) TimerEvent: {}
+[8.066939] (-) TimerEvent: {}
+[8.167781] (-) TimerEvent: {}
+[8.268624] (-) TimerEvent: {}
+[8.369384] (-) TimerEvent: {}
+[8.470026] (-) TimerEvent: {}
+[8.570665] (-) TimerEvent: {}
+[8.671404] (-) TimerEvent: {}
+[8.772178] (-) TimerEvent: {}
+[8.872842] (-) TimerEvent: {}
+[8.973542] (-) TimerEvent: {}
+[9.074216] (-) TimerEvent: {}
+[9.174931] (-) TimerEvent: {}
+[9.275713] (-) TimerEvent: {}
+[9.376577] (-) TimerEvent: {}
+[9.477198] (-) TimerEvent: {}
+[9.577904] (-) TimerEvent: {}
+[9.678702] (-) TimerEvent: {}
+[9.779928] (-) TimerEvent: {}
+[9.880778] (-) TimerEvent: {}
+[9.981488] (-) TimerEvent: {}
+[10.082158] (-) TimerEvent: {}
+[10.182855] (-) TimerEvent: {}
+[10.284165] (-) TimerEvent: {}
+[10.384914] (-) TimerEvent: {}
+[10.485627] (-) TimerEvent: {}
+[10.586536] (-) TimerEvent: {}
+[10.608434] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:25:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[10.609187] (data_logger) StderrLine: {'line': b'   25 | using std::placeholders::_1; \x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[10.609476] (data_logger) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.686730] (-) TimerEvent: {}
+[10.787446] (-) TimerEvent: {}
+[10.888224] (-) TimerEvent: {}
+[10.989087] (-) TimerEvent: {}
+[11.089930] (-) TimerEvent: {}
+[11.101888] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDataLogger::DataLogger()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.102448] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:50:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kentry\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[11.102650] (data_logger) StderrLine: {'line': b'   50 |     for (const auto &\x1b[01;35m\x1b[Kentry\x1b[m\x1b[K : fs::directory_iterator(m_drive)) {\n'}
+[11.102816] (data_logger) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.103837] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:66:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kentry\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[11.104074] (data_logger) StderrLine: {'line': b'   66 |     for (const auto &\x1b[01;35m\x1b[Kentry\x1b[m\x1b[K : fs::directory_iterator(m_image_drive)) {\n'}
+[11.104259] (data_logger) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.109893] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:101:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for call to \xe2\x80\x98\x1b[01m\x1b[K(message_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, geometry_msgs::msg::Twist_<std::allocator<void> > > >) (int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.110384] (data_logger) StderrLine: {'line': b'  101 |    m_sync_approximate(4\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[11.110555] (data_logger) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.112511] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[11.112809] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[11.112980] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/base.hpp:55\x1b[m\x1b[K,\n'}
+[11.113125] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:54\x1b[m\x1b[K,\n'}
+[11.113266] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[11.113482] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:8\x1b[m\x1b[K:\n'}
+[11.113630] (data_logger) StderrLine: {'line': b'/usr/include/c++/9/functional: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_check_arity<void (DataLogger::*)(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >), DataLogger*, const std::_Placeholder<1>&>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.113781] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/functional:787:12:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct std::_Bind_helper<false, void (DataLogger::*)(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >), DataLogger*, const std::_Placeholder<1>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.113920] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/functional:808:5:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (DataLogger::*)(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >); _BoundArgs = {DataLogger*, const std::_Placeholder<1>&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.114067] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:110:121:\x1b[m\x1b[K   required from here\n'}
+[11.114200] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/functional:775:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kstatic assertion failed: Wrong number of arguments for pointer-to-member\n'}
+[11.114337] (data_logger) StderrLine: {'line': b'  774 |       static_assert(_Varargs::\x1b[01;31m\x1b[Kvalue\x1b[m\x1b[K\n'}
+[11.114495] (data_logger) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[11.114652] (data_logger) StderrLine: {'line': b'  775 | \x1b[01;31m\x1b[K      ? sizeof...(_BoundArgs) >= _Arity::value + 1\x1b[m\x1b[K\n'}
+[11.114792] (data_logger) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.114922] (data_logger) StderrLine: {'line': b'  776 | \x1b[01;31m\x1b[K      : sizeof...(_BoundArgs) == _Arity::value + 1\x1b[m\x1b[K,\n'}
+[11.115064] (data_logger) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.190123] (-) TimerEvent: {}
+[11.290855] (-) TimerEvent: {}
+[11.391571] (-) TimerEvent: {}
+[11.492272] (-) TimerEvent: {}
+[11.592984] (-) TimerEvent: {}
+[11.693696] (-) TimerEvent: {}
+[11.794394] (-) TimerEvent: {}
+[11.797359] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41\x1b[m\x1b[K,\n'}
+[11.797907] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14\x1b[m\x1b[K:\n'}
+[11.798083] (data_logger) StderrLine: {'line': b'/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Synchronizer<Policy>::Synchronizer() [with Policy = message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, geometry_msgs::msg::Twist_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.798302] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:31:44:\x1b[m\x1b[K   required from here\n'}
+[11.798452] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:140:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, geometry_msgs::msg::Twist_<std::allocator<void> > >::ApproximateTime()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.798603] (data_logger) StderrLine: {'line': b'  140 |   \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[11.798766] (data_logger) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.798904] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:15\x1b[m\x1b[K:\n'}
+[11.799033] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/sync_policies/approximate_time.h:130:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::sync_policies::ApproximateTime<M0, M1, M2, M3, M4, M5, M6, M7, M8>::ApproximateTime(const message_filters::sync_policies::ApproximateTime<M0, M1, M2, M3, M4, M5, M6, M7, M8>&) [with M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.799182] (data_logger) StderrLine: {'line': b'  130 |   \x1b[01;36m\x1b[KApproximateTime\x1b[m\x1b[K(const ApproximateTime& e)\n'}
+[11.799314] (data_logger) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.799444] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/sync_policies/approximate_time.h:130:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[11.799581] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:15\x1b[m\x1b[K:\n'}
+[11.799707] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/sync_policies/approximate_time.h:116:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::sync_policies::ApproximateTime<M0, M1, M2, M3, M4, M5, M6, M7, M8>::ApproximateTime(uint32_t) [with M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType; uint32_t = unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.799849] (data_logger) StderrLine: {'line': b'  116 |   \x1b[01;36m\x1b[KApproximateTime\x1b[m\x1b[K(uint32_t queue_size)\n'}
+[11.799975] (data_logger) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.800103] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/sync_policies/approximate_time.h:116:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[11.894570] (-) TimerEvent: {}
+[11.995276] (-) TimerEvent: {}
+[12.095976] (-) TimerEvent: {}
+[12.196683] (-) TimerEvent: {}
+[12.297394] (-) TimerEvent: {}
+[12.398077] (-) TimerEvent: {}
+[12.449846] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[12.451002] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41\x1b[m\x1b[K,\n'}
+[12.451292] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14\x1b[m\x1b[K:\n'}
+[12.451473] (data_logger) StderrLine: {'line': b'/opt/ros/humble/install/include/message_filters/message_filters/signal9.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(C&) [with C = const std::_Bind<void (DataLogger::*(DataLogger*, std::_Placeholder<1>))(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >)>; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.451659] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:298:40:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Connection message_filters::Synchronizer<Policy>::registerCallback(const C&) [with C = std::_Bind<void (DataLogger::*(DataLogger*, std::_Placeholder<1>))(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >)>; Policy = message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, geometry_msgs::msg::Twist_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.451835] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:110:122:\x1b[m\x1b[K   required from here\n'}
+[12.451984] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, geometry_msgs::msg::Twist_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::addCallback<const M0ConstPtr&, const M1ConstPtr&, const M2ConstPtr&, const M3ConstPtr&, const M4ConstPtr&, const M5ConstPtr&, const M6ConstPtr&, const M7ConstPtr&, const M8ConstPtr&>(std::_Bind_helper<false, const std::_Bind<void (DataLogger::*(DataLogger*, std::_Placeholder<1>))(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >)>&, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&, const std::_Placeholder<4>&, const std::_Placeholder<5>&, const std::_Placeholder<6>&, const std::_Placeholder<7>&, const std::_Placeholder<8>&, const std::_Placeholder<9>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.452198] (data_logger) StderrLine: {'line': b'  280 | ::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[12.452349] (data_logger) StderrLine: {'line': b'      |                                                                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.452489] (data_logger) StderrLine: {'line': b'\n'}
+[12.452621] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[12.452753] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41\x1b[m\x1b[K,\n'}
+[12.452925] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14\x1b[m\x1b[K:\n'}
+[12.453091] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:170:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(const std::function<void(P0, P1, P2, P3, P4, P5, P6, P7, P8)>&) [with P0 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P1 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P2 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P3 = const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&; P4 = const std::shared_ptr<const message_filters::NullType>&; P5 = const std::shared_ptr<const message_filters::NullType>&; P6 = const std::shared_ptr<const message_filters::NullType>&; P7 = const std::shared_ptr<const message_filters::NullType>&; P8 = const std::shared_ptr<const message_filters::NullType>&; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.453261] (data_logger) StderrLine: {'line': b'  170 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(const std::function<void(P0, P1, P2, P3, P4, P5, P6, P7, P8)>& callback)\n'}
+[12.453464] (data_logger) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.453610] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:170:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind_helper<false, const std::_Bind<void (DataLogger::*(DataLogger*, std::_Placeholder<1>))(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >)>&, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&, const std::_Placeholder<4>&, const std::_Placeholder<5>&, const std::_Placeholder<6>&, const std::_Placeholder<7>&, const std::_Placeholder<8>&, const std::_Placeholder<9>&>::type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind<std::_Bind<void (DataLogger::*(DataLogger*, std::_Placeholder<1>))(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >)>(std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>, std::_Placeholder<5>, std::_Placeholder<6>, std::_Placeholder<7>, std::_Placeholder<8>, std::_Placeholder<9>)>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&)>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.453856] (data_logger) StderrLine: {'line': b'  170 |   Connection addCallback(\x1b[01;36m\x1b[Kconst std::function<void(P0, P1, P2, P3, P4, P5, P6, P7, P8)>& callback\x1b[m\x1b[K)\n'}
+[12.454003] (data_logger) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[12.454146] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:180:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class P0, class P1> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1)) [with P0 = P0; P1 = P1; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.454392] (data_logger) StderrLine: {'line': b'  180 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(*callback)(P0, P1))\n'}
+[12.454546] (data_logger) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.454686] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:180:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[12.454826] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[12.454960] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41\x1b[m\x1b[K,\n'}
+[12.455097] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14\x1b[m\x1b[K:\n'}
+[12.455239] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (9, should be 2)\n'}
+[12.455374] (data_logger) StderrLine: {'line': b'  280 | ::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[12.455509] (data_logger) StderrLine: {'line': b'      |                                                                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.455669] (data_logger) StderrLine: {'line': b'\n'}
+[12.455823] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[12.456981] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41\x1b[m\x1b[K,\n'}
+[12.457641] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14\x1b[m\x1b[K:\n'}
+[12.457838] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:186:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class P0, class P1, class P2> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2)) [with P0 = P0; P1 = P1; P2 = P2; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.458020] (data_logger) StderrLine: {'line': b'  186 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(*callback)(P0, P1, P2))\n'}
+[12.458173] (data_logger) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.458312] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:186:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[12.458462] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[12.458597] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41\x1b[m\x1b[K,\n'}
+[12.458758] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14\x1b[m\x1b[K:\n'}
+[12.458896] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (9, should be 3)\n'}
+[12.459032] (data_logger) StderrLine: {'line': b'  280 | ::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[12.459210] (data_logger) StderrLine: {'line': b'      |                                                                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.459353] (data_logger) StderrLine: {'line': b'\n'}
+[12.459490] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[12.459649] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41\x1b[m\x1b[K,\n'}
+[12.459809] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14\x1b[m\x1b[K:\n'}
+[12.459946] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:192:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class P0, class P1, class P2, class P3> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3)) [with P0 = P0; P1 = P1; P2 = P2; P3 = P3; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.460113] (data_logger) StderrLine: {'line': b'  192 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(*callback)(P0, P1, P2, P3))\n'}
+[12.460254] (data_logger) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.460388] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:192:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[12.460522] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[12.460653] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41\x1b[m\x1b[K,\n'}
+[12.460784] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14\x1b[m\x1b[K:\n'}
+[12.460912] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (9, should be 4)\n'}
+[12.461039] (data_logger) StderrLine: {'line': b'  280 | ::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[12.461165] (data_logger) StderrLine: {'line': b'      |                                                                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.461293] (data_logger) StderrLine: {'line': b'\n'}
+[12.461463] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[12.461598] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41\x1b[m\x1b[K,\n'}
+[12.461729] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14\x1b[m\x1b[K:\n'}
+[12.461858] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:198:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class P0, class P1, class P2, class P3, class P4> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4)) [with P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.462028] (data_logger) StderrLine: {'line': b'  198 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(*callback)(P0, P1, P2, P3, P4))\n'}
+[12.462165] (data_logger) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.462296] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:198:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[12.462447] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[12.462581] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41\x1b[m\x1b[K,\n'}
+[12.462713] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14\x1b[m\x1b[K:\n'}
+[12.462846] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (9, should be 5)\n'}
+[12.463014] (data_logger) StderrLine: {'line': b'  280 | ::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[12.463149] (data_logger) StderrLine: {'line': b'      |                                                                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.463285] (data_logger) StderrLine: {'line': b'\n'}
+[12.463419] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[12.463552] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41\x1b[m\x1b[K,\n'}
+[12.463688] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14\x1b[m\x1b[K:\n'}
+[12.463819] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:204:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class P0, class P1, class P2, class P3, class P4, class P5> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4, P5)) [with P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.463964] (data_logger) StderrLine: {'line': b'  204 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(*callback)(P0, P1, P2, P3, P4, P5))\n'}
+[12.464092] (data_logger) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.464219] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:204:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[12.464346] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[12.464475] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41\x1b[m\x1b[K,\n'}
+[12.464623] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14\x1b[m\x1b[K:\n'}
+[12.464756] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (9, should be 6)\n'}
+[12.464891] (data_logger) StderrLine: {'line': b'  280 | ::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[12.465019] (data_logger) StderrLine: {'line': b'      |                                                                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.465148] (data_logger) StderrLine: {'line': b'\n'}
+[12.465272] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[12.465427] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41\x1b[m\x1b[K,\n'}
+[12.465562] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14\x1b[m\x1b[K:\n'}
+[12.465690] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:210:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class P0, class P1, class P2, class P3, class P4, class P5, class P6> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4, P5, P6)) [with P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; P6 = P6; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.465853] (data_logger) StderrLine: {'line': b'  210 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(*callback)(P0, P1, P2, P3, P4, P5, P6))\n'}
+[12.466002] (data_logger) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.466129] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:210:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[12.466274] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47\x1b[m\x1b[K,\n'}
+[12.466407] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41\x1b[m\x1b[K,\n'}
+[12.466539] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14\x1b[m\x1b[K:\n'}
+[12.466670] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (9, should be 7)\n'}
+[12.466806] (data_logger) StderrLine: {'line': b'  280 | ::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[12.466959] (data_logger) StderrLine: {'line': b'      |                                                                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.467092] (data_logger) StderrLine: {'line': b'\n'}
+[12.467224] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:216:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class P0, class P1, class P2, class P3, class P4, class P5, class P6, class P7> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4, P5, P6, P7)) [with P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; P6 = P6; P7 = P7; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.467371] (data_logger) StderrLine: {'line': b'  216 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(*callback)(P0, P1, P2, P3, P4, P5, P6, P7))\n'}
+[12.467513] (data_logger) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.467648] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:216:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[12.467782] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (9, should be 8)\n'}
+[12.467912] (data_logger) StderrLine: {'line': b'  280 | ::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[12.468039] (data_logger) StderrLine: {'line': b'      |                                                                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.468171] (data_logger) StderrLine: {'line': b'\n'}
+[12.468296] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:222:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4, P5, P6, P7, P8)) [with P0 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P1 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P2 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P3 = const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&; P4 = const std::shared_ptr<const message_filters::NullType>&; P5 = const std::shared_ptr<const message_filters::NullType>&; P6 = const std::shared_ptr<const message_filters::NullType>&; P7 = const std::shared_ptr<const message_filters::NullType>&; P8 = const std::shared_ptr<const message_filters::NullType>&; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.468502] (data_logger) StderrLine: {'line': b'  222 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(*callback)(P0, P1, P2, P3, P4, P5, P6, P7, P8))\n'}
+[12.468643] (data_logger) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.468778] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:222:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind_helper<false, const std::_Bind<void (DataLogger::*(DataLogger*, std::_Placeholder<1>))(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >)>&, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&, const std::_Placeholder<4>&, const std::_Placeholder<5>&, const std::_Placeholder<6>&, const std::_Placeholder<7>&, const std::_Placeholder<8>&, const std::_Placeholder<9>&>::type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind<std::_Bind<void (DataLogger::*(DataLogger*, std::_Placeholder<1>))(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >)>(std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>, std::_Placeholder<5>, std::_Placeholder<6>, std::_Placeholder<7>, std::_Placeholder<8>, std::_Placeholder<9>)>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kvoid (*)(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.468945] (data_logger) StderrLine: {'line': b'  222 |   Connection addCallback(\x1b[01;36m\x1b[Kvoid(*callback)(P0, P1, P2, P3, P4, P5, P6, P7, P8)\x1b[m\x1b[K)\n'}
+[12.469079] (data_logger) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.469211] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:228:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T, class P0, class P1> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1), T*) [with T = T; P0 = P0; P1 = P1; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.469409] (data_logger) StderrLine: {'line': b'  228 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(T::*callback)(P0, P1), T* t)\n'}
+[12.469566] (data_logger) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.469697] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:228:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[12.469852] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (9, should be 3)\n'}
+[12.469985] (data_logger) StderrLine: {'line': b'  280 | ::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[12.470113] (data_logger) StderrLine: {'line': b'      |                                                                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.470242] (data_logger) StderrLine: {'line': b'\n'}
+[12.470367] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:234:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T, class P0, class P1, class P2> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2), T*) [with T = T; P0 = P0; P1 = P1; P2 = P2; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.470548] (data_logger) StderrLine: {'line': b'  234 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(T::*callback)(P0, P1, P2), T* t)\n'}
+[12.470687] (data_logger) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.470821] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:234:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[12.470956] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (9, should be 4)\n'}
+[12.471084] (data_logger) StderrLine: {'line': b'  280 | ::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[12.471215] (data_logger) StderrLine: {'line': b'      |                                                                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.471344] (data_logger) StderrLine: {'line': b'\n'}
+[12.471471] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:240:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T, class P0, class P1, class P2, class P3> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3), T*) [with T = T; P0 = P0; P1 = P1; P2 = P2; P3 = P3; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.471610] (data_logger) StderrLine: {'line': b'  240 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(T::*callback)(P0, P1, P2, P3), T* t)\n'}
+[12.471759] (data_logger) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.471889] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:240:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[12.472019] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (9, should be 5)\n'}
+[12.472148] (data_logger) StderrLine: {'line': b'  280 | ::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[12.472290] (data_logger) StderrLine: {'line': b'      |                                                                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.472426] (data_logger) StderrLine: {'line': b'\n'}
+[12.472559] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:246:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T, class P0, class P1, class P2, class P3, class P4> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3, P4), T*) [with T = T; P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.472704] (data_logger) StderrLine: {'line': b'  246 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(T::*callback)(P0, P1, P2, P3, P4), T* t)\n'}
+[12.472837] (data_logger) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.472985] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:246:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[12.473131] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (9, should be 6)\n'}
+[12.473265] (data_logger) StderrLine: {'line': b'  280 | ::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[12.473427] (data_logger) StderrLine: {'line': b'      |                                                                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.473562] (data_logger) StderrLine: {'line': b'\n'}
+[12.473692] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:252:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T, class P0, class P1, class P2, class P3, class P4, class P5> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3, P4, P5), T*) [with T = T; P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.473860] (data_logger) StderrLine: {'line': b'  252 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(T::*callback)(P0, P1, P2, P3, P4, P5), T* t)\n'}
+[12.473997] (data_logger) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.474131] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:252:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[12.474260] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (9, should be 7)\n'}
+[12.474387] (data_logger) StderrLine: {'line': b'  280 | ::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[12.474515] (data_logger) StderrLine: {'line': b'      |                                                                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.474647] (data_logger) StderrLine: {'line': b'\n'}
+[12.474774] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:258:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T, class P0, class P1, class P2, class P3, class P4, class P5, class P6> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3, P4, P5, P6), T*) [with T = T; P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; P6 = P6; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.474935] (data_logger) StderrLine: {'line': b'  258 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(T::*callback)(P0, P1, P2, P3, P4, P5, P6), T* t)\n'}
+[12.475079] (data_logger) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.475209] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:258:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[12.475342] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (9, should be 8)\n'}
+[12.475472] (data_logger) StderrLine: {'line': b'  280 | ::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[12.475598] (data_logger) StderrLine: {'line': b'      |                                                                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.475746] (data_logger) StderrLine: {'line': b'\n'}
+[12.475879] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:264:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T, class P0, class P1, class P2, class P3, class P4, class P5, class P6, class P7> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3, P4, P5, P6, P7), T*) [with T = T; P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; P6 = P6; P7 = P7; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.476052] (data_logger) StderrLine: {'line': b'  264 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K(void(T::*callback)(P0, P1, P2, P3, P4, P5, P6, P7), T* t)\n'}
+[12.476190] (data_logger) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.476318] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:264:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[12.476446] (data_logger) StderrLine: {'line': b'/opt/ros/humble/install/include/message_filters/message_filters/signal9.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T, class P0, class P1, class P2, class P3, class P4, class P5, class P6, class P7> message_filters::Connection message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, geometry_msgs::msg::Twist_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::addCallback<T, P0, P1, P2, P3, P4, P5, P6, P7>(void (T::*)(P0, P1, P2, P3, P4, P5, P6, P7), T*) [with T = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P0 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P1 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P2 = const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&; P3 = const std::shared_ptr<const message_filters::NullType>&; P4 = const std::shared_ptr<const message_filters::NullType>&; P5 = const std::shared_ptr<const message_filters::NullType>&; P6 = const std::shared_ptr<const message_filters::NullType>&; P7 = const std::shared_ptr<const message_filters::NullType>&]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.476612] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(C&) [with C = const std::_Bind<void (DataLogger::*(DataLogger*, std::_Placeholder<1>))(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >)>; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.476762] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:298:40:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Connection message_filters::Synchronizer<Policy>::registerCallback(const C&) [with C = std::_Bind<void (DataLogger::*(DataLogger*, std::_Placeholder<1>))(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >)>; Policy = message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, geometry_msgs::msg::Twist_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.476952] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:110:122:\x1b[m\x1b[K   required from here\n'}
+[12.477093] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:264:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kforming pointer to reference type \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.477233] (data_logger) StderrLine: {'line': b'/opt/ros/humble/install/include/message_filters/message_filters/signal9.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(C&) [with C = const std::_Bind<void (DataLogger::*(DataLogger*, std::_Placeholder<1>))(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >)>; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.477407] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:298:40:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Connection message_filters::Synchronizer<Policy>::registerCallback(const C&) [with C = std::_Bind<void (DataLogger::*(DataLogger*, std::_Placeholder<1>))(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >, std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >)>; Policy = message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, geometry_msgs::msg::Twist_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.477561] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:110:122:\x1b[m\x1b[K   required from here\n'}
+[12.477705] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:270:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class C> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(C&) [with C = C; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.477852] (data_logger) StderrLine: {'line': b'  270 |   Connection \x1b[01;36m\x1b[KaddCallback\x1b[m\x1b[K( C& callback)\n'}
+[12.477999] (data_logger) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.478135] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:270:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[12.478269] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kwrong number of template arguments (9, should be 1)\n'}
+[12.478405] (data_logger) StderrLine: {'line': b'  280 | ::placeholders::_3, std::placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[12.478534] (data_logger) StderrLine: {'line': b'      |                                                                                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.478662] (data_logger) StderrLine: {'line': b'\n'}
+[12.498248] (-) TimerEvent: {}
+[12.598909] (-) TimerEvent: {}
+[12.699594] (-) TimerEvent: {}
+[12.800298] (-) TimerEvent: {}
+[12.900987] (-) TimerEvent: {}
+[13.001677] (-) TimerEvent: {}
+[13.102354] (-) TimerEvent: {}
+[13.203057] (-) TimerEvent: {}
+[13.303778] (-) TimerEvent: {}
+[13.404953] (-) TimerEvent: {}
+[13.505747] (-) TimerEvent: {}
+[13.606506] (-) TimerEvent: {}
+[13.707219] (-) TimerEvent: {}
+[13.808017] (-) TimerEvent: {}
+[13.908718] (-) TimerEvent: {}
+[14.010260] (-) TimerEvent: {}
+[14.110983] (-) TimerEvent: {}
+[14.211697] (-) TimerEvent: {}
+[14.312391] (-) TimerEvent: {}
+[14.413053] (-) TimerEvent: {}
+[14.513749] (-) TimerEvent: {}
+[14.614428] (-) TimerEvent: {}
+[14.715126] (-) TimerEvent: {}
+[14.815855] (-) TimerEvent: {}
+[14.916567] (-) TimerEvent: {}
+[15.017310] (-) TimerEvent: {}
+[15.118010] (-) TimerEvent: {}
+[15.218714] (-) TimerEvent: {}
+[15.319360] (-) TimerEvent: {}
+[15.420008] (-) TimerEvent: {}
+[15.520686] (-) TimerEvent: {}
+[15.621512] (-) TimerEvent: {}
+[15.722142] (-) TimerEvent: {}
+[15.822790] (-) TimerEvent: {}
+[15.923540] (-) TimerEvent: {}
+[16.024180] (-) TimerEvent: {}
+[16.124847] (-) TimerEvent: {}
+[16.225586] (-) TimerEvent: {}
+[16.326278] (-) TimerEvent: {}
+[16.427000] (-) TimerEvent: {}
+[16.527725] (-) TimerEvent: {}
+[16.628617] (-) TimerEvent: {}
+[16.729529] (-) TimerEvent: {}
+[16.830226] (-) TimerEvent: {}
+[16.930912] (-) TimerEvent: {}
+[17.031675] (-) TimerEvent: {}
+[17.132574] (-) TimerEvent: {}
+[17.233620] (-) TimerEvent: {}
+[17.334590] (-) TimerEvent: {}
+[17.435443] (-) TimerEvent: {}
+[17.536399] (-) TimerEvent: {}
+[17.637493] (-) TimerEvent: {}
+[17.738264] (-) TimerEvent: {}
+[17.839060] (-) TimerEvent: {}
+[17.939924] (-) TimerEvent: {}
+[18.040708] (-) TimerEvent: {}
+[18.141458] (-) TimerEvent: {}
+[18.242237] (-) TimerEvent: {}
+[18.343095] (-) TimerEvent: {}
+[18.443806] (-) TimerEvent: {}
+[18.544522] (-) TimerEvent: {}
+[18.645216] (-) TimerEvent: {}
+[18.746057] (-) TimerEvent: {}
+[18.846929] (-) TimerEvent: {}
+[18.947846] (-) TimerEvent: {}
+[19.048687] (-) TimerEvent: {}
+[19.149480] (-) TimerEvent: {}
+[19.250265] (-) TimerEvent: {}
+[19.351050] (-) TimerEvent: {}
+[19.451828] (-) TimerEvent: {}
+[19.552581] (-) TimerEvent: {}
+[19.653443] (-) TimerEvent: {}
+[19.754838] (-) TimerEvent: {}
+[19.855711] (-) TimerEvent: {}
+[19.956745] (-) TimerEvent: {}
+[20.057672] (-) TimerEvent: {}
+[20.158392] (-) TimerEvent: {}
+[20.259243] (-) TimerEvent: {}
+[20.360468] (-) TimerEvent: {}
+[20.461451] (-) TimerEvent: {}
+[20.562378] (-) TimerEvent: {}
+[20.664292] (-) TimerEvent: {}
+[20.765094] (-) TimerEvent: {}
+[20.866033] (-) TimerEvent: {}
+[20.966741] (-) TimerEvent: {}
+[21.067444] (-) TimerEvent: {}
+[21.168129] (-) TimerEvent: {}
+[21.268808] (-) TimerEvent: {}
+[21.369465] (-) TimerEvent: {}
+[21.470150] (-) TimerEvent: {}
+[21.570796] (-) TimerEvent: {}
+[21.671424] (-) TimerEvent: {}
+[21.772099] (-) TimerEvent: {}
+[21.872774] (-) TimerEvent: {}
+[21.973995] (-) TimerEvent: {}
+[22.074779] (-) TimerEvent: {}
+[22.120419] (data_logger) StderrLine: {'line': b'make[2]: *** [CMakeFiles/data_logger_node2.dir/build.make:76: CMakeFiles/data_logger_node2.dir/src/data_logger_node2.cpp.o] Error 1\n'}
+[22.121202] (data_logger) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/data_logger_node2.dir/all] Error 2\n'}
+[22.121930] (data_logger) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[22.126142] (data_logger) CommandEnded: {'returncode': 2}
+[22.175284] (-) TimerEvent: {}
+[22.281196] (-) TimerEvent: {}
+[22.315718] (data_logger) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 85, in build\n    create_environment_scripts(\n  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 89, in create_environment_scripts\n    create_file_with_runtime_dependencies(prefix_path, pkg))\n  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 172, in create_file_with_runtime_dependencies\n    path.write_text(\n  File "/usr/lib/python3.8/pathlib.py", line 1255, in write_text\n    with self.open(mode=\'w\', encoding=encoding, errors=errors) as f:\n  File "/usr/lib/python3.8/pathlib.py", line 1222, in open\n    return io.open(self, mode, buffering, encoding, errors, newline,\n  File "/usr/lib/python3.8/pathlib.py", line 1078, in _opener\n    return self._accessor.open(self, flags, mode)\nPermissionError: [Errno 13] Permission denied: \'/avlcode/workspaces/isaac_ros-dev/install/data_logger/share/colcon-core/packages/data_logger\'\n'}
+[22.316197] (data_logger) JobEnded: {'identifier': 'data_logger', 'rc': 1}
+[22.327159] (-) EventReactorShutdown: {}

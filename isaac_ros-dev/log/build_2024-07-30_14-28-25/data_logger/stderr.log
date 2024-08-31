@@ -1,0 +1,40 @@
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:[m[K In constructor ‘[01m[KDataLogger::DataLogger()[m[K’:
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:27:76:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Subscription<geometry_msgs::msg::Twist_<std::allocator<void> > >::Subscription()[m[K’
+   27 |   DataLogger() : Node("data_logger_node"),  m_log_count(0), m_image_count(0[01;31m[K)[m[K{
+      |                                                                            [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/install/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp:31[m[K,
+                 from [01m[K/opt/ros/humble/install/include/rclcpp/rclcpp/generic_publisher.hpp:27[m[K,
+                 from [01m[K/opt/ros/humble/install/include/rclcpp/rclcpp/node.hpp:45[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/install/image_transport/include/image_transport/image_transport/image_transport.hpp:37[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:14[m[K:
+[01m[K/opt/ros/humble/install/include/rclcpp/rclcpp/subscription.hpp:130:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::Subscription(rclcpp::node_interfaces::NodeBaseInterface*, const rosidl_message_type_support_t&, const string&, const rclcpp::QoS&, rclcpp::AnySubscriptionCallback<CallbackMessageT, AllocatorT>, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::SubscriptionTopicStatisticsSharedPtr) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; AllocatorT = std::allocator<void>; SubscribedT = geometry_msgs::msg::Twist_<std::allocator<void> >; ROSMessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> >; rosidl_message_type_support_t = rosidl_message_type_support_t; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> > >; rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::SubscriptionTopicStatisticsSharedPtr = std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<geometry_msgs::msg::Twist_<std::allocator<void> > > >][m[K’
+  130 |   [01;36m[KSubscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/rclcpp/rclcpp/subscription.hpp:130:3:[m[K [01;36m[Knote: [m[K  candidate expects 8 arguments, 0 provided
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:39:163:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Subscription<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’ and ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::Twist_<std::allocator<void> > > >[m[K’)
+   39 |  this->create_subscription<geometry_msgs::msg::Twist>("/twist_mux/cmd_vel", 10, std::bind(&DataLogger::topic_callback, this, _1)[01;31m[K)[m[K;
+      |                                                                                                                                 [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/install/include/rclcpp/rclcpp/context.hpp:34[m[K,
+                 from [01m[K/opt/ros/humble/install/include/rclcpp/rclcpp/utilities.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/install/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/install/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/install/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/install/include/rclcpp/rclcpp/node.hpp:40[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/install/image_transport/include/image_transport/image_transport/image_transport.hpp:37[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:14[m[K:
+[01m[K/opt/ros/humble/install/include/rclcpp/rclcpp/subscription.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>& rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::operator=(const rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>&) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; AllocatorT = std::allocator<void>; SubscribedT = geometry_msgs::msg::Twist_<std::allocator<void> >; ROSMessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> >][m[K’ <deleted>
+  421 |   [01;36m[KRCLCPP_DISABLE_COPY[m[K(Subscription)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/rclcpp/rclcpp/subscription.hpp:421:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::Twist_<std::allocator<void> > > >[m[K’ to ‘[01m[Kconst rclcpp::Subscription<geometry_msgs::msg::Twist_<std::allocator<void> > >&[m[K’
+  421 |   [01;36m[KRCLCPP_DISABLE_COPY[m[K(Subscription)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:88:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kentry[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   88 |     for (const auto &[01;35m[Kentry[m[K : fs::directory_iterator(m_drive)) {
+      |                      [01;35m[K^~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:99:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kentry[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   99 |     for (const auto &[01;35m[Kentry[m[K : fs::directory_iterator(m_image_drive)) {
+      |                      [01;35m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/data_logger_node.dir/build.make:76: CMakeFiles/data_logger_node.dir/src/data_logger_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/data_logger_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

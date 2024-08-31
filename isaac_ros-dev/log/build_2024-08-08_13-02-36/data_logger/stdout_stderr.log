@@ -1,0 +1,144 @@
+[35m[1mConsolidate compiler generated dependencies of target data_logger_node2[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/data_logger_node2.dir/src/data_logger_node2.cpp.o[0m
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:[m[K In constructor ‘[01m[KDataLogger::DataLogger()[m[K’:
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:30:47:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K{[m[K’ token
+   30 |             m_log_count(0), m_image_count(0), [01;31m[K{[m[K
+      |                                               [01;31m[K^[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:49:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kentry[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   49 |     for (const auto &[01;35m[Kentry[m[K : fs::directory_iterator(m_drive)) {
+      |                      [01;35m[K^~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:65:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kentry[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   65 |     for (const auto &[01;35m[Kentry[m[K : fs::directory_iterator(m_image_drive)) {
+      |                      [01;35m[K^~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:100:107:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsgs[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’; did you mean ‘[01m[Kmsg[m[K’?
+  100 |             typedef message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image, sensor_msgs::[01;31m[Kmsgs[m[K::Image,
+      |                                                                                                           [01;31m[K^~~~[m[K
+      |                                                                                                           [32m[Kmsg[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:101:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+  101 |                 sensor_msgs::msgs::Image, geometry_msgs::msgs::Twist[01;31m[K>[m[K approximate_policy;
+      |                                                                     [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:13[m[K:
+/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h: In instantiation of ‘[01m[Kclass message_filters::Synchronizer<int>[m[K’:
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:104:35:[m[K   required from here
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:53:7:[m[K [01;31m[Kerror: [m[Kbase type ‘[01m[Kint[m[K’ fails to be a struct or class type
+   53 | class [01;31m[KSynchronizer[m[K : public noncopyable, public Policy
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:56:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kint[m[K’ is not a class, struct, or union type
+   56 |   typedef typename Policy::Messages [01;31m[KMessages[m[K;
+      |                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:57:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kint[m[K’ is not a class, struct, or union type
+   57 |   typedef typename Policy::Events [01;31m[KEvents[m[K;
+      |                                   [01;31m[K^~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:58:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kint[m[K’ is not a class, struct, or union type
+   58 |   typedef typename Policy::Signal [01;31m[KSignal[m[K;
+      |                                   [01;31m[K^~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:60:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kint[m[K’ is not a class, struct, or union type
+   60 |   typedef typename std::tuple_element<0, Messages>::type [01;31m[KM0[m[K;
+      |                                                          [01;31m[K^~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:61:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kint[m[K’ is not a class, struct, or union type
+   61 |   typedef typename std::tuple_element<1, Messages>::type [01;31m[KM1[m[K;
+      |                                                          [01;31m[K^~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:62:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kint[m[K’ is not a class, struct, or union type
+   62 |   typedef typename std::tuple_element<2, Messages>::type [01;31m[KM2[m[K;
+      |                                                          [01;31m[K^~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:63:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kint[m[K’ is not a class, struct, or union type
+   63 |   typedef typename std::tuple_element<3, Messages>::type [01;31m[KM3[m[K;
+      |                                                          [01;31m[K^~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:64:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kint[m[K’ is not a class, struct, or union type
+   64 |   typedef typename std::tuple_element<4, Messages>::type [01;31m[KM4[m[K;
+      |                                                          [01;31m[K^~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:65:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kint[m[K’ is not a class, struct, or union type
+   65 |   typedef typename std::tuple_element<5, Messages>::type [01;31m[KM5[m[K;
+      |                                                          [01;31m[K^~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:66:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kint[m[K’ is not a class, struct, or union type
+   66 |   typedef typename std::tuple_element<6, Messages>::type [01;31m[KM6[m[K;
+      |                                                          [01;31m[K^~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:67:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kint[m[K’ is not a class, struct, or union type
+   67 |   typedef typename std::tuple_element<7, Messages>::type [01;31m[KM7[m[K;
+      |                                                          [01;31m[K^~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:68:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kint[m[K’ is not a class, struct, or union type
+   68 |   typedef typename std::tuple_element<8, Messages>::type [01;31m[KM8[m[K;
+      |                                                          [01;31m[K^~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:71:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kint[m[K’ is not a class, struct, or union type
+   71 |   typedef typename std::tuple_element<0, Events>::type [01;31m[KM0Event[m[K;
+      |                                                        [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:72:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kint[m[K’ is not a class, struct, or union type
+   72 |   typedef typename std::tuple_element<1, Events>::type [01;31m[KM1Event[m[K;
+      |                                                        [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:73:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kint[m[K’ is not a class, struct, or union type
+   73 |   typedef typename std::tuple_element<2, Events>::type [01;31m[KM2Event[m[K;
+      |                                                        [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:74:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kint[m[K’ is not a class, struct, or union type
+   74 |   typedef typename std::tuple_element<3, Events>::type [01;31m[KM3Event[m[K;
+      |                                                        [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:75:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kint[m[K’ is not a class, struct, or union type
+   75 |   typedef typename std::tuple_element<4, Events>::type [01;31m[KM4Event[m[K;
+      |                                                        [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:76:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kint[m[K’ is not a class, struct, or union type
+   76 |   typedef typename std::tuple_element<5, Events>::type [01;31m[KM5Event[m[K;
+      |                                                        [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:77:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kint[m[K’ is not a class, struct, or union type
+   77 |   typedef typename std::tuple_element<6, Events>::type [01;31m[KM6Event[m[K;
+      |                                                        [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:78:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kint[m[K’ is not a class, struct, or union type
+   78 |   typedef typename std::tuple_element<7, Events>::type [01;31m[KM7Event[m[K;
+      |                                                        [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:79:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kint[m[K’ is not a class, struct, or union type
+   79 |   typedef typename std::tuple_element<8, Events>::type [01;31m[KM8Event[m[K;
+      |                                                        [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:13[m[K:
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:325:17:[m[K [01;31m[Kerror: [m[Ktype ‘[01m[Kint[m[K’ is not a base type for type ‘[01m[Kmessage_filters::Synchronizer<int>[m[K’
+  325 |   using Policy::[01;31m[Kadd[m[K;
+      |                 [01;31m[K^~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:328:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kint[m[K’ is not a class, struct, or union type
+  328 |   void [01;31m[Kadd[m[K(const std::shared_ptr<typename std::tuple_element<i, Messages>::type const>& msg)
+      |        [01;31m[K^~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:344:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kint[m[K’ is not a class, struct, or union type
+  344 |   void [01;31m[Kcb[m[K(const typename std::tuple_element<i, Events>::type& evt)
+      |        [01;31m[K^~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:104:40:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in functional cast [[01;31m[K-fpermissive[m[K]
+  104 |                 approximate_policy(1, 0[01;31m[K)[m[K, m_front_camera, m_left_camera, m_right_camera, m_steering_msg);
+      |                                        [01;31m[K^[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:104:36:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+  104 |                 approximate_policy([01;35m[K1[m[K, 0), m_front_camera, m_left_camera, m_right_camera, m_steering_msg);
+      |                                    [01;35m[K^[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:106:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass message_filters::Synchronizer<int>[m[K’ has no member named ‘[01m[KsetMaxIntervalDuration[m[K’
+  106 |             syncApproximate.[01;31m[KsetMaxIntervalDuration[m[K(rclcpp::Duration(3, 0));
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:13[m[K:
+/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h: In instantiation of ‘[01m[Kmessage_filters::Synchronizer<Policy>::Synchronizer(const Policy&, F0&, F1&, F2&, F3&) [with F0 = message_filters::Subscriber<sensor_msgs::msg::Image_<std::allocator<void> > >; F1 = message_filters::Subscriber<sensor_msgs::msg::Image_<std::allocator<void> > >; F2 = message_filters::Subscriber<sensor_msgs::msg::Image_<std::allocator<void> > >; F3 = message_filters::Subscriber<geometry_msgs::msg::Twist_<std::allocator<void> > >; Policy = int][m[K’:
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:104:104:[m[K   required from here
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:162:18:[m[K [01;31m[Kerror: [m[Ktype ‘[01m[Kint[m[K’ is not a direct base of ‘[01m[Kmessage_filters::Synchronizer<int>[m[K’
+  162 |   : Policy(policy[01;31m[K)[m[K
+      |                  [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:13[m[K:
+/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h: In instantiation of ‘[01m[Kmessage_filters::Connection message_filters::Synchronizer<Policy>::registerCallback(const C&, T*) [with C = void (DataLogger::*)(const sensor_msgs::msg::Image_<std::allocator<void> >&, const sensor_msgs::msg::Image_<std::allocator<void> >&, const sensor_msgs::msg::Image_<std::allocator<void> >&, std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >); T = DataLogger; Policy = int][m[K’:
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:107:85:[m[K   required from here
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:304:12:[m[K [01;31m[Kerror: [m[Kusing invalid field ‘[01m[Kmessage_filters::Synchronizer<Policy>::signal_[m[K’
+  304 |     return [01;31m[Ksignal_[m[K.addCallback(callback, t);
+      |            [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/data_logger_node2.dir/build.make:76: CMakeFiles/data_logger_node2.dir/src/data_logger_node2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/data_logger_node2.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 85, in build
+    create_environment_scripts(
+  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 89, in create_environment_scripts
+    create_file_with_runtime_dependencies(prefix_path, pkg))
+  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 172, in create_file_with_runtime_dependencies
+    path.write_text(
+  File "/usr/lib/python3.8/pathlib.py", line 1255, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors) as f:
+  File "/usr/lib/python3.8/pathlib.py", line 1222, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/usr/lib/python3.8/pathlib.py", line 1078, in _opener
+    return self._accessor.open(self, flags, mode)
+PermissionError: [Errno 13] Permission denied: '/avlcode/workspaces/isaac_ros-dev/install/data_logger/share/colcon-core/packages/data_logger'

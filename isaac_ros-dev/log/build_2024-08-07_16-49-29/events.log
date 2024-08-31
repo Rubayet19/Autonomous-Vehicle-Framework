@@ -1,0 +1,63 @@
+[0.000000] (-) TimerEvent: {}
+[0.000545] (-) JobUnselected: {'identifier': 'agv_bot_description'}
+[0.000893] (-) JobUnselected: {'identifier': 'async_web_server_cpp'}
+[0.001450] (-) JobUnselected: {'identifier': 'camera_calibration_parsers'}
+[0.001761] (-) JobUnselected: {'identifier': 'camera_info_manager'}
+[0.003679] (-) JobUnselected: {'identifier': 'camera_publishers'}
+[0.003792] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.003838] (-) JobUnselected: {'identifier': 'data_logger'}
+[0.004044] (-) JobUnselected: {'identifier': 'geodesy'}
+[0.004137] (-) JobUnselected: {'identifier': 'geographic_info'}
+[0.004177] (-) JobUnselected: {'identifier': 'geographic_msgs'}
+[0.004221] (-) JobUnselected: {'identifier': 'gps_package'}
+[0.004306] (-) JobUnselected: {'identifier': 'image_common'}
+[0.004346] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.004382] (-) JobUnselected: {'identifier': 'image_transport'}
+[0.004417] (-) JobUnselected: {'identifier': 'isaac_ros_apriltag_interfaces'}
+[0.004452] (-) JobUnselected: {'identifier': 'isaac_ros_bi3d_interfaces'}
+[0.004486] (-) JobUnselected: {'identifier': 'isaac_ros_common'}
+[0.004530] (-) JobUnselected: {'identifier': 'isaac_ros_nvblox'}
+[0.004593] (-) JobUnselected: {'identifier': 'isaac_ros_pointcloud_interfaces'}
+[0.006282] (-) JobUnselected: {'identifier': 'isaac_ros_tensor_list_interfaces'}
+[0.006370] (-) JobUnselected: {'identifier': 'isaac_ros_test'}
+[0.006504] (-) JobUnselected: {'identifier': 'joint_state_publisher'}
+[0.006580] (-) JobUnselected: {'identifier': 'joint_state_publisher_gui'}
+[0.006625] (-) JobUnselected: {'identifier': 'motor_control_pkg'}
+[0.006686] (-) JobUnselected: {'identifier': 'nvblox'}
+[0.006729] (-) JobUnselected: {'identifier': 'nvblox_cpu_gpu_tools'}
+[0.006765] (-) JobUnselected: {'identifier': 'nvblox_examples_bringup'}
+[0.006801] (-) JobUnselected: {'identifier': 'nvblox_image_padding'}
+[0.006835] (-) JobUnselected: {'identifier': 'nvblox_isaac_sim'}
+[0.006870] (-) JobUnselected: {'identifier': 'nvblox_msgs'}
+[0.006910] (-) JobUnselected: {'identifier': 'nvblox_nav2'}
+[0.006969] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement'}
+[0.008523] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement_msgs'}
+[0.008608] (-) JobUnselected: {'identifier': 'nvblox_ros'}
+[0.008739] (-) JobUnselected: {'identifier': 'nvblox_ros_common'}
+[0.008812] (-) JobUnselected: {'identifier': 'nvblox_rviz_plugin'}
+[0.008871] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.008914] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.008950] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.008985] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.009019] (-) JobUnselected: {'identifier': 'realsense_obj_det'}
+[0.009054] (-) JobUnselected: {'identifier': 'road_segmentation'}
+[0.009092] (-) JobUnselected: {'identifier': 'semantic_label_conversion'}
+[0.009464] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.009553] (-) JobUnselected: {'identifier': 'stdgpu'}
+[0.009602] (-) JobUnselected: {'identifier': 'teleop_twist_joy'}
+[0.009645] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.009707] (-) JobUnselected: {'identifier': 'twist_converter'}
+[0.009746] (-) JobUnselected: {'identifier': 'twist_mux'}
+[0.009781] (-) JobUnselected: {'identifier': 'velodyne'}
+[0.009816] (-) JobUnselected: {'identifier': 'velodyne_driver'}
+[0.009856] (-) JobUnselected: {'identifier': 'velodyne_laserscan'}
+[0.011209] (-) JobUnselected: {'identifier': 'velodyne_msgs'}
+[0.012898] (-) JobUnselected: {'identifier': 'velodyne_pointcloud'}
+[0.013000] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.013082] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.013160] (-) JobUnselected: {'identifier': 'xacro'}
+[0.013245] (image_stitcher) JobQueued: {'identifier': 'image_stitcher', 'dependencies': OrderedDict([('cv_bridge', '/avlcode/workspaces/isaac_ros-dev/install/cv_bridge')])}
+[0.013344] (image_stitcher) JobStarted: {'identifier': 'image_stitcher'}
+[0.032465] (image_stitcher) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 40, in build\n    additional_hooks = create_environment_hook(\n  File "/usr/lib/python3/dist-packages/colcon_core/shell/__init__.py", line 440, in create_environment_hook\n    raise RuntimeError(\nRuntimeError: Could not find a primary shell extension for creating an environment hook\n'}
+[0.033677] (image_stitcher) JobEnded: {'identifier': 'image_stitcher', 'rc': 1}
+[0.043246] (-) EventReactorShutdown: {}

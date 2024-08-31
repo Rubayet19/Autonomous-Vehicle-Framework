@@ -1,0 +1,41 @@
+[35m[1mConsolidate compiler generated dependencies of target data_logger_node2[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/data_logger_node2.dir/src/data_logger_node2.cpp.o[0m
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:24:30:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   24 | using std::placeholders::_1; [01;35m[K;[m[K
+      |                              [01;35m[K^[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:[m[K In constructor ‘[01m[KDataLogger::DataLogger()[m[K’:
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:49:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kentry[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   49 |     for (const auto &[01;35m[Kentry[m[K : fs::directory_iterator(m_drive)) {
+      |                      [01;35m[K^~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:65:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kentry[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   65 |     for (const auto &[01;35m[Kentry[m[K : fs::directory_iterator(m_image_drive)) {
+      |                      [01;35m[K^~~~~[m[K
+[ 50%] [32m[1mLinking CXX executable data_logger_node2[0m
+[ 50%] Built target data_logger_node2
+-- Install configuration: ""
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/data_logger/lib/data_logger/data_logger_node2
+[31mCMake Error at cmake_install.cmake:52 (file):
+  file INSTALL cannot copy file
+  "/avlcode/workspaces/isaac_ros-dev/build/data_logger/data_logger_node2" to
+  "/avlcode/workspaces/isaac_ros-dev/install/data_logger/lib/data_logger/data_logger_node2":
+  Permission denied.
+
+[0m
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 85, in build
+    create_environment_scripts(
+  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 89, in create_environment_scripts
+    create_file_with_runtime_dependencies(prefix_path, pkg))
+  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 172, in create_file_with_runtime_dependencies
+    path.write_text(
+  File "/usr/lib/python3.8/pathlib.py", line 1255, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors) as f:
+  File "/usr/lib/python3.8/pathlib.py", line 1222, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/usr/lib/python3.8/pathlib.py", line 1078, in _opener
+    return self._accessor.open(self, flags, mode)
+PermissionError: [Errno 13] Permission denied: '/avlcode/workspaces/isaac_ros-dev/install/data_logger/share/colcon-core/packages/data_logger'

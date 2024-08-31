@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/usr/local/lib/python3.8/dist-packages/setuptools/__init__.py", line 18, in <module>
+    from setuptools.dist import Distribution
+  File "/usr/local/lib/python3.8/dist-packages/setuptools/dist.py", line 41, in <module>
+    from setuptools.config import setupcfg, pyprojecttoml
+  File "/usr/local/lib/python3.8/dist-packages/setuptools/config/__init__.py", line 10, in <module>
+    from . import setupcfg
+  File "/usr/local/lib/python3.8/dist-packages/setuptools/config/setupcfg.py", line 23, in <module>
+    from . import expand
+  File "/usr/local/lib/python3.8/dist-packages/setuptools/config/expand.py", line 63, in <module>
+    class StaticModule:
+  File "/usr/local/lib/python3.8/dist-packages/setuptools/config/expand.py", line 71, in StaticModule
+    def _find_assignments(self) -> Iterator[Tuple[ast.AST, ast.AST]]:
+KeyboardInterrupt
+make[2]: *** [CMakeFiles/ament_cmake_python_build_cv_bridge_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_cv_bridge_egg] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:219: CMakeFiles/ament_cmake_python_build_cv_bridge_egg.dir/all] Interrupt
+make: *** [Makefile:146: all] Interrupt

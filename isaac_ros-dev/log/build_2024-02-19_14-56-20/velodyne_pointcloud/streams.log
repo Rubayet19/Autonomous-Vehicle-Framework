@@ -1,0 +1,163 @@
+[0.150s] Invoking command in '/workspaces/isaac_ros-dev/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/isaac_ros-dev/src/velodyne/velodyne_pointcloud -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/velodyne_pointcloud
+[7.092s] -- The C compiler identification is GNU 9.4.0
+[7.094s] -- The CXX compiler identification is GNU 9.4.0
+[7.094s] -- Detecting C compiler ABI info
+[7.094s] -- Detecting C compiler ABI info - done
+[7.095s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.095s] -- Detecting C compile features
+[7.095s] -- Detecting C compile features - done
+[7.095s] -- Detecting CXX compiler ABI info
+[7.095s] -- Detecting CXX compiler ABI info - done
+[7.095s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.095s] -- Detecting CXX compile features
+[7.096s] -- Detecting CXX compile features - done
+[7.096s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[7.096s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[7.096s] -- Found angles: 1.15.0 (/opt/ros/humble/install/share/angles/cmake)
+[7.096s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/humble/install/share/diagnostic_updater/cmake)
+[7.096s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[7.096s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[7.097s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[7.097s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.097s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.097s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[7.097s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/install/share/rmw_fastrtps_cpp/cmake)
+[7.097s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.097s] -- Found FastRTPS: /opt/ros/humble/install/include  
+[7.097s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.098s] -- Looking for pthread.h
+[7.098s] -- Looking for pthread.h - found
+[7.098s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.098s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.098s] -- Looking for pthread_create in pthreads
+[7.098s] -- Looking for pthread_create in pthreads - not found
+[7.098s] -- Looking for pthread_create in pthread
+[7.098s] -- Looking for pthread_create in pthread - found
+[7.099s] -- Found Threads: TRUE  
+[7.099s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/install/share/geometry_msgs/cmake)
+[7.099s] -- Found message_filters: 4.3.2 (/opt/ros/humble/install/share/message_filters/cmake)
+[7.099s] -- Checking for module 'eigen3'
+[7.099s] --   Found eigen3, version 3.3.7
+[7.100s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[7.101s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[7.101s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[7.101s] -- looking for PCL_COMMON
+[7.101s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[7.101s] -- Found PCL: pcl_common;/usr/lib/aarch64-linux-gnu/libboost_system.so;/usr/lib/aarch64-linux-gnu/libboost_filesystem.so;/usr/lib/aarch64-linux-gnu/libboost_date_time.so;/usr/lib/aarch64-linux-gnu/libboost_iostreams.so;/usr/lib/aarch64-linux-gnu/libboost_regex.so  
+[7.102s] -- Found rclcpp_components: 16.0.3 (/opt/ros/humble/install/share/rclcpp_components/cmake)
+[7.102s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/install/share/sensor_msgs/cmake)
+[7.102s] -- Found tf2: 0.25.2 (/opt/ros/humble/install/share/tf2/cmake)
+[7.102s] -- Found tf2_ros: 0.25.2 (/opt/ros/humble/install/share/tf2_ros/cmake)
+[7.105s] [33mCMake Warning (dev) at /usr/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[7.105s]   The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+[7.105s]   does not match the name of the calling package (PCL).  This can lead to
+[7.106s]   problems in calling code that expects `find_package` result variables
+[7.107s]   (e.g., `_FOUND`) to follow a certain pattern.
+[7.108s] Call Stack (most recent call first):
+[7.108s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[7.108s]   CMakeLists.txt:19 (find_package)
+[7.108s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[7.108s] [0m
+[7.540s] -- Found velodyne_msgs: 2.3.0 (/workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake)
+[7.665s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[7.667s] -- Checking for module 'yaml-cpp'
+[7.741s] --   Found yaml-cpp, version 0.6.2
+[7.962s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[8.172s] -- Found gtest sources under '/opt/ros/humble/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.178s] -- Check if compiler accepts -pthread
+[8.332s] -- Check if compiler accepts -pthread - yes
+[8.354s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.363s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.364s] -- Configured cppcheck include dirs: /workspaces/isaac_ros-dev/src/velodyne/velodyne_pointcloud/include
+[8.365s] -- Configured cppcheck exclude dirs and/or files: 
+[8.373s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.374s] -- Configured cpplint exclude dirs and/or files: 
+[8.377s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.381s] -- Added test 'lint_cmake' to check CMake code style
+[8.384s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.392s] -- Added test 'uncrustify' to check C / C++ code style
+[8.393s] -- Configured uncrustify additional arguments: 
+[8.400s] -- Configuring done
+[8.540s] -- Generating done
+[8.548s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/velodyne_pointcloud
+[8.609s] Invoked command in '/workspaces/isaac_ros-dev/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/isaac_ros-dev/src/velodyne/velodyne_pointcloud -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/velodyne_pointcloud
+[8.611s] Invoking command in '/workspaces/isaac_ros-dev/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/velodyne_pointcloud -- -j12 -l12
+[25.463s] [  5%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_cloud_types.dir/pointcloudXYZIRT.cpp.o[0m
+[25.463s] [ 11%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_cloud_types.dir/organized_cloudXYZIRT.cpp.o[0m
+[36.984s] [ 16%] [32m[1mLinking CXX shared library libvelodyne_cloud_types.so[0m
+[37.319s] [ 16%] Built target velodyne_cloud_types
+[37.357s] [ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[45.563s] [ 27%] [32m[1mLinking CXX static library libgtest.a[0m
+[45.653s] [ 27%] Built target gtest
+[45.681s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[47.349s] [ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[47.404s] [ 38%] Built target gtest_main
+[47.439s] [ 44%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_rawdata.dir/rawdata.cpp.o[0m
+[62.435s] [ 50%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_rawdata.dir/calibration.cpp.o[0m
+[72.544s] [ 55%] [32m[1mLinking CXX shared library libvelodyne_rawdata.so[0m
+[72.946s] [ 55%] Built target velodyne_rawdata
+[73.029s] [ 61%] [32mBuilding CXX object CMakeFiles/transform.dir/src/conversions/transform.cpp.o[0m
+[73.064s] [ 66%] [32mBuilding CXX object tests/CMakeFiles/test_row_step.dir/test_row_step.cpp.o[0m
+[90.549s] [ 72%] [32m[1mLinking CXX executable test_row_step[0m
+[91.220s] [ 72%] Built target test_row_step
+[108.429s] [ 77%] [32m[1mLinking CXX shared library libtransform.so[0m
+[110.040s] [ 77%] Built target transform
+[110.076s] [ 88%] [32mBuilding CXX object CMakeFiles/velodyne_transform_node.dir/src/conversions/transform_node.cpp.o[0m
+[110.076s] [ 88%] [32mBuilding CXX object tests/CMakeFiles/test_calibration.dir/test_calibration.cpp.o[0m
+[114.063s] [ 94%] [32m[1mLinking CXX executable test_calibration[0m
+[114.865s] [ 94%] Built target test_calibration
+[130.533s] [100%] [32m[1mLinking CXX executable velodyne_transform_node[0m
+[131.603s] [100%] Built target velodyne_transform_node
+[131.617s] Invoked command in '/workspaces/isaac_ros-dev/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/velodyne_pointcloud -- -j12 -l12
+[131.717s] Invoking command in '/workspaces/isaac_ros-dev/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/velodyne_pointcloud
+[131.730s] -- Install configuration: ""
+[131.730s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/lib/libtransform.so
+[131.746s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/velodyne_pointcloud/lib/libtransform.so" to ""
+[131.746s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/lib/velodyne_pointcloud/velodyne_transform_node
+[131.748s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/velodyne_pointcloud/lib/velodyne_pointcloud/velodyne_transform_node" to ""
+[131.748s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/include/velodyne_pointcloud
+[131.748s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/include/velodyne_pointcloud/organized_cloudXYZIRT.hpp
+[131.748s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/include/velodyne_pointcloud/datacontainerbase.hpp
+[131.749s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/include/velodyne_pointcloud/transform.hpp
+[131.749s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/include/velodyne_pointcloud/pointcloudXYZIRT.hpp
+[131.749s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/include/velodyne_pointcloud/rawdata.hpp
+[131.749s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/include/velodyne_pointcloud/calibration.hpp
+[131.750s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/config
+[131.750s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP32C-velodyne_transform_node-params.yaml
+[131.750s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP16-velodyne_transform_node-params.yaml
+[131.751s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/launch
+[131.751s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-composed-launch.py
+[131.751s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP32C-composed-launch.py
+[131.751s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-launch.py
+[131.751s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP32C-launch.py
+[131.752s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/params
+[131.752s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16db.yaml
+[131.752s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s3-xiesc.yaml
+[131.752s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s2.1-sztaki.yaml
+[131.753s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/params/32db.yaml
+[131.753s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/params/issue_84_float_intensities.yaml
+[131.753s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_utexas.yaml
+[131.754s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/params/rviz_points.vcg
+[131.754s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16_hires_db.yaml
+[131.754s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VeloView-VLP-32C.yaml
+[131.755s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/ament_index/resource_index/package_run_dependencies/velodyne_pointcloud
+[131.755s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/ament_index/resource_index/parent_prefix_path/velodyne_pointcloud
+[131.756s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.sh
+[131.756s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.dsv
+[131.756s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.sh
+[131.757s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.dsv
+[131.757s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.bash
+[131.757s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.sh
+[131.758s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.zsh
+[131.758s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.dsv
+[131.758s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv
+[131.759s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/ament_index/resource_index/packages/velodyne_pointcloud
+[131.759s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/ament_index/resource_index/rclcpp_components/velodyne_pointcloud
+[131.760s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig.cmake
+[131.760s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig-version.cmake
+[131.760s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/share/velodyne_pointcloud/package.xml
+[131.761s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/lib/libvelodyne_cloud_types.so
+[131.763s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/velodyne_pointcloud/lib/libvelodyne_cloud_types.so" to ""
+[131.763s] -- Installing: /workspaces/isaac_ros-dev/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so
+[131.764s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so" to ""
+[131.779s] Invoked command in '/workspaces/isaac_ros-dev/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/velodyne_pointcloud

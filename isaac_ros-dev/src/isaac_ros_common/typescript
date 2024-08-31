@@ -1,0 +1,419 @@
+Script started on 2024-02-16 14:48:56-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;agxorin1@agxorin1: ~/workspaces/isaac_ros-dev/src/isaac_ros_common[01;32magxorin1@agxorin1[00m:[01;34m~/workspaces/isaac_ros-dev/src/isaac_ros_common[00m$ ls
+[0m[01;34mdocker[0m                         [01;34misaac_ros_common[0m                  LICENSE
+[01;34mdocs[0m                           [01;34misaac_ros_pointcloud_interfaces[0m   README.md
+[01;34misaac_ros_apriltag_interfaces[0m  [01;34misaac_ros_tensor_list_interfaces[0m  [01;34mscripts[0m
+[01;34misaac_ros_bi3d_interfaces[0m      [01;34misaac_ros_test[0m                    typescript
+]0;agxorin1@agxorin1: ~/workspaces/isaac_ros-dev/src/isaac_ros_common[01;32magxorin1@agxorin1[00m:[01;34m~/workspaces/isaac_ros-dev/src/isaac_ros_common[00m$ cd scripts/
+]0;agxorin1@agxorin1: ~/workspaces/isaac_ros-dev/src/isaac_ros_common/scripts[01;32magxorin1@agxorin1[00m:[01;34m~/workspaces/isaac_ros-dev/src/isaac_ros_common/scripts[00m$ ./
+build_base_image.sh  run_dev.sh           utils/
+]0;agxorin1@agxorin1: ~/workspaces/isaac_ros-dev/src/isaac_ros_common/scripts[01;32magxorin1@agxorin1[00m:[01;34m~/workspaces/isaac_ros-dev/src/isaac_ros_common/scripts[00m$ ./run_dev.sh 
+[33misaac_ros_dev not specified, assuming /home/agxorin1/workspaces/isaac_ros-dev
+(B[m[32mBuilding aarch64.ros2_humble.realsense.cppagv.user base as image: isaac_ros_dev-aarch64 using key aarch64.ros2_humble.realsense.cppagv.user
+(B[m[33mUsing base image name not specified, using ''
+(B[m[33mUsing docker context dir not specified, using Dockerfile directory
+(B[m[32mResolved the following Dockerfiles for target image: aarch64.ros2_humble.realsense.cppagv.user
+(B[m[32m/home/agxorin1/workspaces/isaac_ros-dev/src/isaac_ros_common/scripts/../docker/Dockerfile.user
+(B[m[32m/home/agxorin1/workspaces/isaac_ros-dev/src/isaac_ros_common/scripts/../docker/Dockerfile.cppagv
+(B[m[32m/home/agxorin1/workspaces/isaac_ros-dev/src/isaac_ros_common/scripts/../docker/Dockerfile.realsense
+(B[m[32m/home/agxorin1/workspaces/isaac_ros-dev/src/isaac_ros_common/scripts/../docker/Dockerfile.aarch64.ros2_humble
+(B[m[33mBuilding /home/agxorin1/workspaces/isaac_ros-dev/src/isaac_ros_common/scripts/../docker/Dockerfile.aarch64.ros2_humble as image: aarch64-ros2_humble-image with base: 
+(B[m[1A[1B[0G[?25l[+] Building 0.0s (0/1)                                          docker:default
+[?25h[1A[0G[?25l[+] Building 0.2s (2/3)                                          docker:default
+[34m => [internal] load .dockerignore                                          0.0s
+[0m[34m => => transferring context: 2B                                            0.0s
+[0m[34m => [internal] load build definition from Dockerfile.aarch64.ros2_humble   0.0s
+[0m[34m => => transferring dockerfile: 568B                                       0.0s
+[0m => [internal] load metadata for nvcr.io/nvidia/isaac/ros:aarch64-ros2_hu  0.1s
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 0.3s (2/3)                                          docker:default
+[34m => [internal] load .dockerignore                                          0.0s
+[0m[34m => => transferring context: 2B                                            0.0s
+[0m[34m => [internal] load build definition from Dockerfile.aarch64.ros2_humble   0.0s
+[0m[34m => => transferring dockerfile: 568B                                       0.0s
+[0m => [internal] load metadata for nvcr.io/nvidia/isaac/ros:aarch64-ros2_hu  0.3s
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 0.5s (2/3)                                          docker:default
+[34m => [internal] load .dockerignore                                          0.0s
+[0m[34m => => transferring context: 2B                                            0.0s
+[0m[34m => [internal] load build definition from Dockerfile.aarch64.ros2_humble   0.0s
+[0m[34m => => transferring dockerfile: 568B                                       0.0s
+[0m => [internal] load metadata for nvcr.io/nvidia/isaac/ros:aarch64-ros2_hu  0.4s
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 0.6s (3/3)                                          docker:default
+[34m => [internal] load .dockerignore                                          0.0s
+[0m[34m => => transferring context: 2B                                            0.0s
+[0m[34m => [internal] load build definition from Dockerfile.aarch64.ros2_humble   0.0s
+[0m[34m => => transferring dockerfile: 568B                                       0.0s
+[0m[34m => [internal] load metadata for nvcr.io/nvidia/isaac/ros:aarch64-ros2_hu  0.5s
+[0m[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 0.7s (5/5) FINISHED                                 docker:default
+[34m => [internal] load .dockerignore                                          0.0s
+[0m[34m => => transferring context: 2B                                            0.0s
+[0m[34m => [internal] load build definition from Dockerfile.aarch64.ros2_humble   0.0s
+[0m[34m => => transferring dockerfile: 568B                                       0.0s
+[0m[34m => [internal] load metadata for nvcr.io/nvidia/isaac/ros:aarch64-ros2_hu  0.5s
+[0m[34m => CACHED [1/1] FROM nvcr.io/nvidia/isaac/ros:aarch64-ros2_humble_c8ad2c  0.0s
+[0m[34m => exporting to image                                                     0.0s
+[0m[34m => => exporting layers                                                    0.0s
+[0m[34m => => writing image sha256:a8b1b944a2887ae21de58136aac7c36068913c4751939  0.0s
+[0m[34m => => naming to docker.io/library/aarch64-ros2_humble-image               0.0s
+[0m[?25h[33mBuilding /home/agxorin1/workspaces/isaac_ros-dev/src/isaac_ros_common/scripts/../docker/Dockerfile.realsense as image: realsense-image with base: aarch64-ros2_humble-image
+(B[m[1A[1B[0G[?25l[+] Building 0.0s (0/2)                                          docker:default
+[?25h[1A[0G[?25l[+] Building 0.2s (13/13)                                        docker:default
+[34m => [internal] load build definition from Dockerfile.realsense             0.0s
+[0m[34m => => transferring dockerfile: 873B                                       0.0s
+[0m[34m => [internal] load .dockerignore                                          0.0s
+[0m[34m => => transferring context: 2B                                            0.0s
+[0m[34m => [internal] load metadata for docker.io/library/aarch64-ros2_humble-im  0.0s
+[0m[34m => [1/8] FROM docker.io/library/aarch64-ros2_humble-image                 0.0s
+[0m[34m => [internal] load build context                                          0.0s
+[0m[34m => => transferring context: 11.54kB                                       0.0s
+[0m[34m => CACHED [2/8] COPY scripts/build-librealsense.sh /opt/realsense/build-  0.0s
+[0m[34m => CACHED [3/8] COPY scripts/install-realsense-dependencies.sh /opt/real  0.0s
+[0m[34m => CACHED [4/8] RUN chmod +x /opt/realsense/install-realsense-dependenci  0.0s
+[0m[34m => CACHED [5/8] RUN chmod +x /opt/realsense/build-librealsense.sh && /op  0.0s
+[0m[34m => CACHED [6/8] RUN mkdir -p /opt/realsense/                              0.0s
+[0m[34m => CACHED [7/8] COPY scripts/hotplug-realsense.sh /opt/realsense/hotplug  0.0s
+[0m[34m => CACHED [8/8] COPY udev_rules/99-realsense-libusb-custom.rules /etc/ud  0.0s
+[0m[34m => exporting to image                                                     0.0s
+[0m[34m => => exporting layers                                                    0.0s
+[0m[34m => => writing image sha256:711e85901dca0a6db04f19974f62a0f824c1e0b66854c  0.0s
+[0m[34m => => naming to docker.io/library/realsense-image                         0.0s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 0.2s (13/13) FINISHED                               docker:default
+[34m => [internal] load build definition from Dockerfile.realsense             0.0s
+[0m[34m => => transferring dockerfile: 873B                                       0.0s
+[0m[34m => [internal] load .dockerignore                                          0.0s
+[0m[34m => => transferring context: 2B                                            0.0s
+[0m[34m => [internal] load metadata for docker.io/library/aarch64-ros2_humble-im  0.0s
+[0m[34m => [1/8] FROM docker.io/library/aarch64-ros2_humble-image                 0.0s
+[0m[34m => [internal] load build context                                          0.0s
+[0m[34m => => transferring context: 11.54kB                                       0.0s
+[0m[34m => CACHED [2/8] COPY scripts/build-librealsense.sh /opt/realsense/build-  0.0s
+[0m[34m => CACHED [3/8] COPY scripts/install-realsense-dependencies.sh /opt/real  0.0s
+[0m[34m => CACHED [4/8] RUN chmod +x /opt/realsense/install-realsense-dependenci  0.0s
+[0m[34m => CACHED [5/8] RUN chmod +x /opt/realsense/build-librealsense.sh && /op  0.0s
+[0m[34m => CACHED [6/8] RUN mkdir -p /opt/realsense/                              0.0s
+[0m[34m => CACHED [7/8] COPY scripts/hotplug-realsense.sh /opt/realsense/hotplug  0.0s
+[0m[34m => CACHED [8/8] COPY udev_rules/99-realsense-libusb-custom.rules /etc/ud  0.0s
+[0m[34m => exporting to image                                                     0.0s
+[0m[34m => => exporting layers                                                    0.0s
+[0m[34m => => writing image sha256:711e85901dca0a6db04f19974f62a0f824c1e0b66854c  0.0s
+[0m[34m => => naming to docker.io/library/realsense-image                         0.0s
+[0m[?25h[33mBuilding /home/agxorin1/workspaces/isaac_ros-dev/src/isaac_ros_common/scripts/../docker/Dockerfile.cppagv as image: cppagv-image with base: realsense-image
+(B[m[1A[1B[0G[?25l[+] Building 0.0s (0/1)                                          docker:default
+[?25h[1A[0G[?25l[+] Building 0.1s (9/9) FINISHED                                 docker:default
+[34m => [internal] load build definition from Dockerfile.cppagv                0.0s
+[0m[34m => => transferring dockerfile: 625B                                       0.0s
+[0m[34m => [internal] load .dockerignore                                          0.0s
+[0m[34m => => transferring context: 2B                                            0.0s
+[0m[34m => [internal] load metadata for docker.io/library/realsense-image:latest  0.0s
+[0m[34m => [1/5] FROM docker.io/library/realsense-image                           0.0s
+[0m[34m => CACHED [2/5] RUN python3 -m pip install -U     pyserial     pyfirmata  0.0s
+[0m[34m => CACHED [3/5] RUN python3 -m pip install -U     pyOpenSSL     aiohttp   0.0s
+[0m[34m => CACHED [4/5] RUN python3 -m pip install -U     scikit-image            0.0s
+[0m[34m => CACHED [5/5] RUN apt-get install -y     net-tools                      0.0s
+[0m[34m => exporting to image                                                     0.0s
+[0m[34m => => exporting layers                                                    0.0s
+[0m[34m => => writing image sha256:95c7432f50fe59d02a354be45717cfdff58b71b57e68a  0.0s
+[0m[34m => => naming to docker.io/library/cppagv-image                            0.0s
+[0m[?25h[33mBuilding /home/agxorin1/workspaces/isaac_ros-dev/src/isaac_ros_common/scripts/../docker/Dockerfile.user as image: isaac_ros_dev-aarch64 with base: cppagv-image
+(B[m[1A[1B[0G[?25l[+] Building 0.0s (0/1)                                          docker:default
+[?25h[1A[0G[?25l[+] Building 0.2s (15/15)                                        docker:default
+[34m => [internal] load .dockerignore                                          0.0s
+[0m[34m => => transferring context: 2B                                            0.0s
+[0m[34m => [internal] load build definition from Dockerfile.user                  0.0s
+[0m[34m => => transferring dockerfile: 1.95kB                                     0.0s
+[0m[34m => [internal] load metadata for docker.io/library/cppagv-image:latest     0.0s
+[0m[34m => [ 1/10] FROM docker.io/library/cppagv-image                            0.0s
+[0m[34m => [internal] load build context                                          0.0s
+[0m[34m => => transferring context: 4.36kB                                        0.0s
+[0m[34m => CACHED [ 2/10] RUN apt-get update && apt-get install -y         sudo   0.0s
+[0m[34m => CACHED [ 3/10] RUN if [ $(getent group triton-server) ]; then          0.0s
+[0m[34m => CACHED [ 4/10] RUN if [ ! $(getent passwd admin) ]; then         grou  0.0s
+[0m[34m => CACHED [ 5/10] RUN echo admin ALL=(root) NOPASSWD:ALL > /etc/sudoers.  0.0s
+[0m[34m => CACHED [ 6/10] RUN mkdir -p /usr/local/bin/scripts                     0.0s
+[0m[34m => CACHED [ 7/10] COPY scripts/*entrypoint.sh /usr/local/bin/scripts/     0.0s
+[0m[34m => CACHED [ 8/10] RUN  chmod +x /usr/local/bin/scripts/*.sh               0.0s
+[0m[34m => CACHED [ 9/10] RUN mkdir -p /usr/local/share/middleware_profiles       0.0s
+[0m[34m => CACHED [10/10] COPY middleware_profiles/*profile.xml /usr/local/share  0.0s
+[0m[34m => exporting to image                                                     0.0s
+[0m[34m => => exporting layers                                                    0.0s
+[0m[34m => => writing image sha256:c77f9fdc0f7b72e9e875ab349af8659078584302db9b3  0.0s
+[0m[34m => => naming to docker.io/library/isaac_ros_dev-aarch64                   0.0s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 0.2s (15/15) FINISHED                               docker:default
+[34m => [internal] load .dockerignore                                          0.0s
+[0m[34m => => transferring context: 2B                                            0.0s
+[0m[34m => [internal] load build definition from Dockerfile.user                  0.0s
+[0m[34m => => transferring dockerfile: 1.95kB                                     0.0s
+[0m[34m => [internal] load metadata for docker.io/library/cppagv-image:latest     0.0s
+[0m[34m => [ 1/10] FROM docker.io/library/cppagv-image                            0.0s
+[0m[34m => [internal] load build context                                          0.0s
+[0m[34m => => transferring context: 4.36kB                                        0.0s
+[0m[34m => CACHED [ 2/10] RUN apt-get update && apt-get install -y         sudo   0.0s
+[0m[34m => CACHED [ 3/10] RUN if [ $(getent group triton-server) ]; then          0.0s
+[0m[34m => CACHED [ 4/10] RUN if [ ! $(getent passwd admin) ]; then         grou  0.0s
+[0m[34m => CACHED [ 5/10] RUN echo admin ALL=(root) NOPASSWD:ALL > /etc/sudoers.  0.0s
+[0m[34m => CACHED [ 6/10] RUN mkdir -p /usr/local/bin/scripts                     0.0s
+[0m[34m => CACHED [ 7/10] COPY scripts/*entrypoint.sh /usr/local/bin/scripts/     0.0s
+[0m[34m => CACHED [ 8/10] RUN  chmod +x /usr/local/bin/scripts/*.sh               0.0s
+[0m[34m => CACHED [ 9/10] RUN mkdir -p /usr/local/share/middleware_profiles       0.0s
+[0m[34m => CACHED [10/10] COPY middleware_profiles/*profile.xml /usr/local/share  0.0s
+[0m[34m => exporting to image                                                     0.0s
+[0m[34m => => exporting layers                                                    0.0s
+[0m[34m => => writing image sha256:c77f9fdc0f7b72e9e875ab349af8659078584302db9b3  0.0s
+[0m[34m => => naming to docker.io/library/isaac_ros_dev-aarch64                   0.0s
+[0m[?25h[32mRunning isaac_ros_dev-aarch64-container
+(B[m0% [Working]            Get:1 https://repo.download.nvidia.com/jetson/common r35.2 InRelease [2,555 B]
+0% [Connecting to ports.ubuntu.com (2620:2d:4000:1::19)] [1 InRelease 2,555 B/20% [Connecting to ports.ubuntu.com (2620:2d:4000:1::19)] [Connected to packagec0% [Connecting to ports.ubuntu.com (2620:2d:4000:1::19)] [Connecting to apt.kit                                                                               Get:3 http://packages.ros.org/ros2-testing/ubuntu focal InRelease [4,685 B]
+0% [Waiting for headers] [Waiting for headers] [Connected to apt.kitware.com (60% [Waiting for headers] [Waiting for headers] [Connected to apt.kitware.com (60% [Waiting for headers] [Waiting for headers] [Connected to apt.kitware.com (6                                                                               Get:4 https://repo.download.nvidia.com/jetson/common r35.2/main arm64 Packages [19.8 kB]
+0% [Waiting for headers] [Waiting for headers] [4 Packages 15.8 kB/19.8 kB 80%]0% [Waiting for headers] [Waiting for headers] [Connected to apt.kitware.com (60% [4 Packages store 0 B] [Waiting for headers] [Waiting for headers] [Waiting 0% [Waiting for headers] [Waiting for headers] [Waiting for headers] [Waiting f                                                                               Get:5 http://ports.ubuntu.com/ubuntu-ports focal InRelease [265 kB]
+0% [Waiting for headers] [5 InRelease 11.9 kB/265 kB 4%] [Waiting for headers]                                                                                Get:2 https://packagecloud.io/github/git-lfs/ubuntu focal InRelease [28.0 kB]
+0% [2 InRelease 24.6 kB/28.0 kB 88%] [5 InRelease 11.9 kB/265 kB 4%] [Waiting f                                                                               0% [5 InRelease 11.9 kB/265 kB 4%] [Waiting for headers] [Waiting for headers]0% [5 InRelease 11.9 kB/265 kB 4%] [Waiting for headers] [Waiting for headers]                                                                              Get:6 http://ppa.launchpad.net/mosquitto-dev/mosquitto-ppa/ubuntu focal InRelease [23.8 kB]
+0% [5 InRelease 11.9 kB/265 kB 4%] [Waiting for headers] [6 InRelease 13.2 kB/2                                                                               Get:7 https://apt.kitware.com/ubuntu focal InRelease [15.5 kB]
+0% [5 InRelease 11.9 kB/265 kB 4%] [7 InRelease 0 B/15.5 kB 0%] [6 InRelease 13                                                                               Get:8 http://packages.ros.org/ros2-testing/ubuntu focal/main arm64 Packages [1,173 kB]
+0% [5 InRelease 11.9 kB/265 kB 4%] [7 InRelease 0 B/15.5 kB 0%] [6 InRelease 130% [5 InRelease 16.7 kB/265 kB 6%] [7 InRelease 0 B/15.5 kB 0%] [6 InRelease 130% [5 InRelease 24.0 kB/265 kB 9%] [6 InRelease 13.2 kB/23.8 kB 55%] [8 Package                                                                               0% [5 InRelease 36.0 kB/265 kB 14%] [8 Packages 40.6 kB/1,173 kB 3%]                                                                    Err:7 https://apt.kitware.com/ubuntu focal InRelease
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 1A127079A92F09ED
+0% [5 InRelease 40.9 kB/265 kB 15%] [8 Packages 40.6 kB/1,173 kB 3%]0% [5 InRelease 98.8 kB/265 kB 37%] [8 Packages 152 kB/1,173 kB 13%]                                                                    Get:9 http://ppa.launchpad.net/mosquitto-dev/mosquitto-ppa/ubuntu focal/main arm64 Packages [2,598 B]
+0% [5 InRelease 193 kB/265 kB 73%] [9 Packages 2,598 B/2,598 B 100%] [8 Package                                                                               0% [5 InRelease 193 kB/265 kB 73%] [8 Packages 457 kB/1,173 kB 39%]0% [9 Packages store 0 B] [5 InRelease 193 kB/265 kB 73%] [8 Packages 457 kB/1,                                                                               0% [5 InRelease 197 kB/265 kB 74%] [8 Packages 457 kB/1,173 kB 39%]                                                                   0% [8 Packages 881 kB/1,173 kB 75%]                                   0% [Waiting for headers]0% [8 Packages store 0 B] [Waiting for headers]                                               Get:10 http://ports.ubuntu.com/ubuntu-ports focal-updates InRelease [114 kB]
+0% [8 Packages store 0 B] [10 InRelease 9,455 B/114 kB 8%]                                                          0% [10 InRelease 43.3 kB/114 kB 38%]0% [10 InRelease 114 kB/114 kB 100%]                                    0% [Waiting for headers]                        Get:11 http://ports.ubuntu.com/ubuntu-ports focal-backports InRelease [108 kB]
+0% [11 InRelease 9,455 B/108 kB 9%]                                   0% [Working]0% [Waiting for headers]                        Get:12 http://ports.ubuntu.com/ubuntu-ports focal-security InRelease [114 kB]
+0% [12 InRelease 11.9 kB/114 kB 10%]                                    0% [Working]0% [Waiting for headers]                        Get:13 http://ports.ubuntu.com/ubuntu-ports focal/restricted arm64 Packages [1,317 B]
+0% [13 Packages 1,317 B/1,317 B 100%]                                     0% [Working]            Get:14 http://ports.ubuntu.com/ubuntu-ports focal/multiverse arm64 Packages [139 kB]
+0% [14 Packages 9,455 B/139 kB 7%]0% [13 Packages store 0 B] [14 Packages 9,455 B/139 kB 7%]                                                          0% [14 Packages 9,455 B/139 kB 7%]22% [14 Packages 139 kB/139 kB 100%]                                    Get:15 http://ports.ubuntu.com/ubuntu-ports focal/universe arm64 Packages [11.1 MB]
+22% [15 Packages 24.9 kB/11.1 MB 0%]22% [14 Packages store 0 B] [15 Packages 29.8 kB/11.1 MB 0%]                                                            22% [15 Packages 56.3 kB/11.1 MB 1%]34% [15 Packages 3,452 kB/11.1 MB 31%]                                      62% [Working]             Get:16 http://ports.ubuntu.com/ubuntu-ports focal/main arm64 Packages [1,234 kB]
+62% [16 Packages 60.7 kB/1,234 kB 5%]62% [15 Packages store 0 B] [16 Packages 60.7 kB/1,234 kB 5%]                                                             66% [15 Packages store 0 B]                           Get:17 http://ports.ubuntu.com/ubuntu-ports focal-updates/universe arm64 Packages [1,369 kB]
+66% [15 Packages store 0 B] [17 Packages 55.9 kB/1,369 kB 4%]                                                             71% [15 Packages store 0 B]                           Get:18 http://ports.ubuntu.com/ubuntu-ports focal-updates/multiverse arm64 Packages [9,724 B]
+71% [15 Packages store 0 B] [18 Packages 9,724 B/9,724 B 100%]                                                              71% [15 Packages store 0 B]                           Get:19 http://ports.ubuntu.com/ubuntu-ports focal-updates/restricted arm64 Packages [50.9 kB]
+71% [15 Packages store 0 B] [19 Packages 16.4 kB/50.9 kB 32%]                                                             71% [15 Packages store 0 B]                           Get:20 http://ports.ubuntu.com/ubuntu-ports focal-updates/main arm64 Packages [2,918 kB]
+71% [15 Packages store 0 B] [20 Packages 13.3 kB/2,918 kB 0%]                                                             72% [20 Packages 80.8 kB/2,918 kB 3%]72% [16 Packages store 0 B] [20 Packages 80.8 kB/2,918 kB 3%]                                                             72% [20 Packages 129 kB/2,918 kB 4%]72% [17 Packages store 0 B] [20 Packages 129 kB/2,918 kB 4%]                                                            73% [20 Packages 197 kB/2,918 kB 7%]73% [18 Packages store 0 B] [20 Packages 200 kB/2,918 kB 7%]                                                            73% [20 Packages 200 kB/2,918 kB 7%]73% [19 Packages store 0 B] [20 Packages 200 kB/2,918 kB 7%]                                                            74% [20 Packages 208 kB/2,918 kB 7%]82% [20 Packages 2,543 kB/2,918 kB 87%]                                       83% [Working]83% [20 Packages store 0 B]                           Get:21 http://ports.ubuntu.com/ubuntu-ports focal-backports/main arm64 Packages [54.8 kB]
+83% [20 Packages store 0 B] [21 Packages 12.3 kB/54.8 kB 22%]                                                             84% [20 Packages store 0 B]                           Get:22 http://ports.ubuntu.com/ubuntu-ports focal-backports/universe arm64 Packages [27.8 kB]
+84% [20 Packages store 0 B] [22 Packages 8,192 B/27.8 kB 29%]                                                             84% [20 Packages store 0 B]                           Get:23 http://ports.ubuntu.com/ubuntu-ports focal-security/universe arm64 Packages [1,072 kB]
+84% [20 Packages store 0 B] [23 Packages 12.3 kB/1,072 kB 1%]                                                             88% [20 Packages store 0 B]                           Get:24 http://ports.ubuntu.com/ubuntu-ports focal-security/restricted arm64 Packages [50.7 kB]
+88% [20 Packages store 0 B] [24 Packages 50.7 kB/50.7 kB 100%]                                                              88% [20 Packages store 0 B]                           Get:25 http://ports.ubuntu.com/ubuntu-ports focal-security/multiverse arm64 Packages [3,615 B]
+88% [20 Packages store 0 B] [25 Packages 3,615 B/3,615 B 100%]                                                              88% [20 Packages store 0 B] [Waiting for headers]                                                 Get:26 http://ports.ubuntu.com/ubuntu-ports focal-security/main arm64 Packages [2,533 kB]
+88% [20 Packages store 0 B] [26 Packages 65.5 kB/2,533 kB 3%]                                                             90% [26 Packages 565 kB/2,533 kB 22%]90% [21 Packages store 0 B] [26 Packages 571 kB/2,533 kB 23%]                                                             91% [26 Packages 706 kB/2,533 kB 28%]91% [22 Packages store 0 B] [26 Packages 706 kB/2,533 kB 28%]                                                             91% [26 Packages 706 kB/2,533 kB 28%]91% [23 Packages store 0 B] [26 Packages 706 kB/2,533 kB 28%]                                                             97% [26 Packages 2,017 kB/2,533 kB 80%]97% [24 Packages store 0 B] [26 Packages 2,017 kB/2,533 kB 80%]                                                               98% [26 Packages 2,197 kB/2,533 kB 87%]98% [25 Packages store 0 B] [26 Packages 2,198 kB/2,533 kB 87%]                                                               98% [26 Packages 2,221 kB/2,533 kB 88%]                                       99% [Working]99% [26 Packages store 0 B]                           100% [Working]              Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 5%Reading package lists... 5%Reading package lists... 5%Reading package lists... 5%Reading package lists... 52%Reading package lists... 56%Reading package lists... 56%Reading package lists... 56%Reading package lists... 56%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 76%Reading package lists... 76%Reading package lists... 76%Reading package lists... 76%Reading package lists... 76%Reading package lists... 76%Reading package lists... 76%Reading package lists... 76%Reading package lists... 87%Reading package lists... 87%Reading package lists... 88%Reading package lists... 88%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 98%Reading package lists... 98%Reading package lists... Done
+W: GPG error: https://apt.kitware.com/ubuntu focal InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 1A127079A92F09ED
+E: The repository 'https://apt.kitware.com/ubuntu focal InRelease' is not signed.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+reading in sources list data from /etc/ros/rosdep/sources.list.d
+Hit https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/osx-homebrew.yaml
+Hit https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/base.yaml
+Hit https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/python.yaml
+Hit https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/ruby.yaml
+Hit https://raw.githubusercontent.com/ros/rosdistro/master/releases/fuerte.yaml
+Query rosdistro index https://raw.githubusercontent.com/ros/rosdistro/master/index-v4.yaml
+Skip end-of-life distro "ardent"
+Skip end-of-life distro "bouncy"
+Skip end-of-life distro "crystal"
+Skip end-of-life distro "dashing"
+Skip end-of-life distro "eloquent"
+Skip end-of-life distro "foxy"
+Skip end-of-life distro "galactic"
+Skip end-of-life distro "groovy"
+Add distro "humble"
+Skip end-of-life distro "hydro"
+Skip end-of-life distro "indigo"
+Add distro "iron"
+Skip end-of-life distro "jade"
+Skip end-of-life distro "kinetic"
+Skip end-of-life distro "lunar"
+Skip end-of-life distro "melodic"
+Add distro "noetic"
+Add distro "rolling"
+updated cache in /home/admin/.ros/rosdep/sources.cache
+ * Stopping hotplug events dispatcher systemd-udevd       [80G [74G[ OK ]
+ * Starting hotplug events dispatcher systemd-udevd       [80G [74G[ OK ]
+]0;admin@agxorin1: /workspaces/isaac_ros-devadmin@agxorin1:/workspaces/isaac_ros-dev$ /bin/bash -c"source /opt/ros/humble/se tup.bash[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "source /opt/ros/humble/setup.bash[A]0;admin@agxorin1: /workspaces/isaac_ros-devadmin@agxorin1:/workspaces/isaac_ros-dev$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C; colcon buils[Kd"
+[1.515s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'image_transport' is in: /opt/ros/humble/install
+	'camera_info_manager' is in: /opt/ros/humble/install
+	'camera_calibration_parsers' is in: /opt/ros/humble/install
+	'slam_toolbox' is in: /opt/ros/humble/install
+	'image_geometry' is in: /opt/ros/humble/install
+	'cv_bridge' is in: /opt/ros/humble/install
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding camera_calibration_parsers camera_info_manager cv_bridge image_geometry image_transport slam_toolbox
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.9s] [0/0 complete]                     Starting >>> cv_bridge
+]0;colcon build [0/59 done] [1 ongoing]Starting >>> nvblox_msgs
+]0;colcon build [0/59 done] [2 ongoing]Starting >>> isaac_ros_common
+]0;colcon build [0/59 done] [3 ongoing][1.0s] [0/59 complete] [3 ongoing] [cv_bridge - 0.1s] [nvblox_msgs - 0.0s] ...                                                                              Starting >>> nvblox_ros_common
+]0;colcon build [0/59 done] [4 ongoing]Starting >>> geographic_msgs
+]0;colcon build [0/59 done] [5 ongoing]Starting >>> image_transport
+]0;colcon build [0/59 done] [6 ongoing][1.1s] [0/59 complete] [6 ongoing] [cv_bridge - 0.2s] [nvblox_msgs - 0.1s] ...                                                                              Starting >>> nvblox
+]0;colcon build [0/59 done] [7 ongoing]Starting >>> realsense2_camera_msgs
+]0;colcon build [0/59 done] [8 ongoing][1.2s] [0/59 complete] [8 ongoing] [cv_bridge - 0.3s] [nvblox_msgs - 0.2s] ...                                                                              Starting >>> velodyne_msgs
+]0;colcon build [0/59 done] [9 ongoing]Starting >>> camera_calibration_parsers
+]0;colcon build [0/59 done] [10 ongoing]Starting >>> joint_state_publisher
+]0;colcon build [0/59 done] [11 ongoing][1.3s] [0/59 complete] [11 ongoing] [cv_bridge - 0.4s] [nvblox_msgs - 0.3s] ...                                                                               Starting >>> joy
+]0;colcon build [0/59 done] [12 ongoing][1.4s] [0/59 complete] [12 ongoing] [cv_bridge:build - 0.5s] ...                                                                [1.5s] [0/59 complete] [12 ongoing] [cv_bridge:build - 0.6s] ...                                                                [1.6s] [0/59 complete] [12 ongoing] [cv_bridge:build - 0.7s] ...                                                                [1.7s] [0/59 complete] [12 ongoing] [cv_bridge:build - 0.8s] ...                                                                [1.8s] [0/59 complete] [12 ongoing] [cv_bridge:build - 0.9s] ...                                                                [1.9s] [0/59 complete] [12 ongoing] [cv_bridge:build - 1.0s] ...                                                                [2.0s] [0/59 complete] [12 ongoing] [cv_bridge:build - 1.1s] ...                                                                [2.1s] [0/59 complete] [12 ongoing] [cv_bridge:build - 1.2s] ...                                                                [2.2s] [0/59 complete] [12 ongoing] [cv_bridge:build - 1.3s] ...                                                                [2.3s] [0/59 complete] [12 ongoing] [cv_bridge:build - 1.4s] ...                                                                [2.4s] [0/59 complete] [12 ongoing] [cv_bridge:build - 1.5s] ...                                                                [2.5s] [0/59 complete] [12 ongoing] [cv_bridge:build - 1.6s] ...                                                                [2.6s] [0/59 complete] [12 ongoing] [cv_bridge:build - 1.7s] ...                                                                [2.7s] [0/59 complete] [12 ongoing] [cv_bridge:build 44% - 1.8s] ...                                                                    [2.8s] [0/59 complete] [12 ongoing] [cv_bridge:build 44% - 1.9s] ...                                                                    --- stderr: cv_bridge
+failed to create symbolic link '/workspaces/isaac_ros-dev/build/cv_bridge/ament_cmake_python/cv_bridge/cv_bridge' because existing path cannot be removed: Is a directory
+make[2]: *** [CMakeFiles/ament_cmake_python_symlink_cv_bridge.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_cv_bridge] Error 1
+make[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/ament_cmake_python_symlink_cv_bridge.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:146: all] Error 2
+---
+Failed   <<< cv_bridge [1.92s, exited with code 2]
+]0;colcon build [1/59 done] [11 ongoing]Aborted  <<< isaac_ros_common [1.85s]
+]0;colcon build [2/59 done] [10 ongoing]Aborted  <<< nvblox_ros_common [1.82s]
+]0;colcon build [3/59 done] [9 ongoing]Aborted  <<< joy [1.51s]
+]0;colcon build [4/59 done] [8 ongoing][2.9s] [4/59 complete] [1 failed] [8 ongoing] ...                                                 Aborted  <<< velodyne_msgs [1.80s]
+]0;colcon build [5/59 done] [7 ongoing][3.0s] [5/59 complete] [1 failed] [7 ongoing] ...                                                 [3.1s] [5/59 complete] [1 failed] [7 ongoing] ...                                                 Aborted  <<< realsense2_camera_msgs [1.97s]
+]0;colcon build [6/59 done] [6 ongoing]Aborted  <<< nvblox_msgs [2.27s]
+]0;colcon build [7/59 done] [5 ongoing][3.2s] [7/59 complete] [1 failed] [5 ongoing] ...                                                 [3.3s] [7/59 complete] [1 failed] [5 ongoing] ...                                                 [3.4s] [7/59 complete] [1 failed] [5 ongoing] ...                                                 [3.5s] [7/59 complete] [1 failed] [5 ongoing] ...                                                 [3.6s] [7/59 complete] [1 failed] [5 ongoing] ...                                                 Aborted  <<< nvblox [2.57s]
+]0;colcon build [8/59 done] [4 ongoing][3.7s] [8/59 complete] [1 failed] [4 ongoing] ...                                                 [3.8s] [8/59 complete] [1 failed] [4 ongoing] ...                                                 [3.9s] [8/59 complete] [1 failed] [4 ongoing] ...                                                 [4.1s] [8/59 complete] [1 failed] [4 ongoing] ...                                                 [4.2s] [8/59 complete] [1 failed] [4 ongoing] ...                                                 [4.3s] [8/59 complete] [1 failed] [4 ongoing] ...                                                 [4.4s] [8/59 complete] [1 failed] [4 ongoing] ...                                                 [4.5s] [8/59 complete] [1 failed] [4 ongoing] ...                                                 [4.6s] [8/59 complete] [1 failed] [4 ongoing] ...                                                 [4.7s] [8/59 complete] [1 failed] [4 ongoing] ...                                                 [4.8s] [8/59 complete] [1 failed] [4 ongoing] ...                                                 Aborted  <<< joint_state_publisher [3.49s]
+]0;colcon build [9/59 done] [3 ongoing][4.9s] [9/59 complete] [1 failed] [3 ongoing] ...                                                 [5.0s] [9/59 complete] [1 failed] [3 ongoing] ...                                                 [5.1s] [9/59 complete] [1 failed] [3 ongoing] ...                                                 [5.2s] [9/59 complete] [1 failed] [3 ongoing] ...                                                 [5.3s] [9/59 complete] [1 failed] [3 ongoing] ...                                                 [5.4s] [9/59 complete] [1 failed] [3 ongoing] ...                                                 [5.5s] [9/59 complete] [1 failed] [3 ongoing] ...                                                 [5.6s] [9/59 complete] [1 failed] [3 ongoing] ...                                                 [5.7s] [9/59 complete] [1 failed] [3 ongoing] ...                                                 Aborted  <<< geographic_msgs [4.62s]
+]0;colcon build [10/59 done] [2 ongoing][5.8s] [10/59 complete] [1 failed] [2 ongoing] ...                                                  [5.9s] [10/59 complete] [1 failed] [2 ongoing] ...                                                  [6.0s] [10/59 complete] [1 failed] [2 ongoing] ...                                                  [6.1s] [10/59 complete] [1 failed] [2 ongoing] ...                                                  [6.2s] [10/59 complete] [1 failed] [2 ongoing] ...                                                  [6.3s] [10/59 complete] [1 failed] [2 ongoing] ...                                                  [6.4s] [10/59 complete] [1 failed] [2 ongoing] ...                                                  [6.5s] [10/59 complete] [1 failed] [2 ongoing] ...                                                  Aborted  <<< camera_calibration_parsers [5.26s]
+]0;colcon build [11/59 done] [1 ongoing][6.6s] [11/59 complete] [1 failed] [image_transport:build 78% - 5.5s]                                                                     [6.7s] [11/59 complete] [1 failed] [image_transport:build 78% - 5.6s]                                                                     [6.8s] [11/59 complete] [1 failed] [image_transport:build 78% - 5.7s]                                                                     [6.9s] [11/59 complete] [1 failed] [image_transport:build 78% - 5.8s]                                                                     [7.0s] [11/59 complete] [1 failed] [image_transport:build 78% - 5.9s]                                                                     [7.1s] [11/59 complete] [1 failed] [image_transport:build 78% - 6.0s]                                                                     [7.2s] [11/59 complete] [1 failed] [image_transport:build 78% - 6.1s]                                                                     [7.3s] [11/59 complete] [1 failed] [image_transport:build 78% - 6.2s]                                                                     [7.4s] [11/59 complete] [1 failed] [image_transport:build 78% - 6.3s]                                                                     [7.5s] [11/59 complete] [1 failed] [image_transport:build 81% - 6.4s]                                                                     [7.6s] [11/59 complete] [1 failed] [image_transport:build 81% - 6.5s]                                                                     [7.7s] [11/59 complete] [1 failed] [image_transport:build 81% - 6.6s]                                                                     [7.8s] [11/59 complete] [1 failed] [image_transport:build 81% - 6.7s]                                                                     [7.9s] [11/59 complete] [1 failed] [image_transport:build 81% - 6.8s]                                                                     [8.0s] [11/59 complete] [1 failed] [image_transport:build 81% - 6.9s]                                                                     [8.1s] [11/59 complete] [1 failed] [image_transport:build 81% - 7.0s]                                                                     [8.2s] [11/59 complete] [1 failed] [image_transport:build 81% - 7.1s]                                                                     [8.3s] [11/59 complete] [1 failed] [image_transport:build 81% - 7.2s]                                                                     [8.4s] [11/59 complete] [1 failed] [image_transport:build 81% - 7.3s]                                                                     [8.5s] [11/59 complete] [1 failed] [image_transport:build 81% - 7.4s]                                                                     [8.6s] [11/59 complete] [1 failed] [image_transport:build 81% - 7.5s]                                                                     [8.7s] [11/59 complete] [1 failed] [image_transport:build 81% - 7.6s]                                                                     [8.8s] [11/59 complete] [1 failed] [image_transport:build 81% - 7.7s]                                                                     [8.9s] [11/59 complete] [1 failed] [image_transport:build 81% - 7.8s]                                                                     [9.0s] [11/59 complete] [1 failed] [image_transport:build 81% - 7.9s]                                                                     [9.1s] [11/59 complete] [1 failed] [image_transport:build 81% - 8.0s]                                                                     [9.2s] [11/59 complete] [1 failed] [image_transport:build 81% - 8.1s]                                                                     [9.3s] [11/59 complete] [1 failed] [image_transport:build 81% - 8.2s]                                                                     [9.4s] [11/59 complete] [1 failed] [image_transport:build 81% - 8.3s]                                                                     [9.5s] [11/59 complete] [1 failed] [image_transport:build 81% - 8.4s]                                                                     [9.6s] [11/59 complete] [1 failed] [image_transport:build 81% - 8.5s]                                                                     [9.7s] [11/59 complete] [1 failed] [image_transport:build 81% - 8.6s]                                                                     [9.8s] [11/59 complete] [1 failed] [image_transport:build 81% - 8.7s]                                                                     [9.9s] [11/59 complete] [1 failed] [image_transport:build 81% - 8.8s]                                                                     [10.0s] [11/59 complete] [1 failed] [image_transport:build 81% - 8.9s]                                                                      [10.1s] [11/59 complete] [1 failed] [image_transport:build 81% - 9.0s]                                                                      [10.2s] [11/59 complete] [1 failed] [image_transport:build 81% - 9.1s]                                                                      [10.3s] [11/59 complete] [1 failed] [image_transport:build 81% - 9.2s]                                                                      [10.4s] [11/59 complete] [1 failed] [image_transport:build 81% - 9.3s]                                                                      [10.5s] [11/59 complete] [1 failed] [image_transport:build 81% - 9.4s]                                                                      [10.6s] [11/59 complete] [1 failed] [image_transport:build 81% - 9.5s]                                                                      [10.7s] [11/59 complete] [1 failed] [image_transport:build 81% - 9.6s]                                                                      [10.8s] [11/59 complete] [1 failed] [image_transport:build 81% - 9.7s]                                                                      [10.9s] [11/59 complete] [1 failed] [image_transport:build 81% - 9.8s]                                                                      [11.0s] [11/59 complete] [1 failed] [image_transport:build 81% - 9.9s]                                                                      [11.1s] [11/59 complete] [1 failed] [image_transport:build 81% - 10.0s]                                                                       [11.2s] [11/59 complete] [1 failed] [image_transport:build 81% - 10.1s]                                                                       [11.3s] [11/59 complete] [1 failed] [image_transport:build 81% - 10.2s]                                                                       [11.4s] [11/59 complete] [1 failed] [image_transport:build 81% - 10.3s]                                                                       [11.5s] [11/59 complete] [1 failed] [image_transport:build 81% - 10.4s]                                                                       [11.6s] [11/59 complete] [1 failed] [image_transport:build 81% - 10.5s]                                                                       [11.7s] [11/59 complete] [1 failed] [image_transport:build 81% - 10.6s]                                                                       [11.8s] [11/59 complete] [1 failed] [image_transport:build 81% - 10.7s]                                                                       [11.9s] [11/59 complete] [1 failed] [image_transport:build 81% - 10.8s]                                                                       [12.0s] [11/59 complete] [1 failed] [image_transport:build 81% - 10.9s]                                                                       [12.1s] [11/59 complete] [1 failed] [image_transport:build 81% - 11.0s]                                                                       [12.2s] [11/59 complete] [1 failed] [image_transport:build 81% - 11.1s]                                                                       [12.3s] [11/59 complete] [1 failed] [image_transport:build 81% - 11.2s]                                                                       [12.4s] [11/59 complete] [1 failed] [image_transport:build 81% - 11.3s]                                                                       [12.5s] [11/59 complete] [1 failed] [image_transport:build 81% - 11.4s]                                                                       [12.6s] [11/59 complete] [1 failed] [image_transport:build 81% - 11.5s]                                                                       [12.7s] [11/59 complete] [1 failed] [image_transport:build 81% - 11.6s]                                                                       [12.8s] [11/59 complete] [1 failed] [image_transport:build 81% - 11.7s]                                                                       [12.9s] [11/59 complete] [1 failed] [image_transport:build 81% - 11.8s]                                                                       [13.0s] [11/59 complete] [1 failed] [image_transport:build 81% - 11.9s]                                                                       [13.1s] [11/59 complete] [1 failed] [image_transport:build 81% - 12.0s]                                                                       [13.2s] [11/59 complete] [1 failed] [image_transport:build 81% - 12.1s]                                                                       [13.3s] [11/59 complete] [1 failed] [image_transport:build 81% - 12.2s]                                                                       [13.4s] [11/59 complete] [1 failed] [image_transport:build 81% - 12.3s]                                                                       [13.5s] [11/59 complete] [1 failed] [image_transport:build 81% - 12.4s]                                                                       [13.6s] [11/59 complete] [1 failed] [image_transport:build 81% - 12.5s]                                                                       [13.7s] [11/59 complete] [1 failed] [image_transport:build 81% - 12.6s]                                                                       [13.8s] [11/59 complete] [1 failed] [image_transport:build 81% - 12.7s]                                                                       [13.9s] [11/59 complete] [1 failed] [image_transport:build 81% - 12.8s]                                                                       [14.0s] [11/59 complete] [1 failed] [image_transport:build 81% - 12.9s]                                                                       [14.1s] [11/59 complete] [1 failed] [image_transport:build 81% - 13.0s]                                                                       [14.2s] [11/59 complete] [1 failed] [image_transport:build 81% - 13.1s]                                                                       [14.3s] [11/59 complete] [1 failed] [image_transport:build 81% - 13.2s]                                                                       [14.4s] [11/59 complete] [1 failed] [image_transport:build 81% - 13.3s]                                                                       [14.5s] [11/59 complete] [1 failed] [image_transport:build 81% - 13.4s]                                                                       [14.6s] [11/59 complete] [1 failed] [image_transport:build 81% - 13.5s]                                                                       [14.7s] [11/59 complete] [1 failed] [image_transport:build 81% - 13.6s]                                                                       [14.8s] [11/59 complete] [1 failed] [image_transport:build 81% - 13.7s]                                                                       [14.9s] [11/59 complete] [1 failed] [image_transport:build 81% - 13.8s]                                                                       [15.0s] [11/59 complete] [1 failed] [image_transport:build 81% - 13.9s]                                                                       [15.1s] [11/59 complete] [1 failed] [image_transport:build 81% - 14.0s]                                                                       [15.2s] [11/59 complete] [1 failed] [image_transport:build 81% - 14.1s]                                                                       [15.3s] [11/59 complete] [1 failed] [image_transport:build 81% - 14.2s]                                                                       [15.4s] [11/59 complete] [1 failed] [image_transport:build 84% - 14.3s]                                                                       [15.5s] [11/59 complete] [1 failed] [image_transport:build 87% - 14.4s]                                                                       [15.6s] [11/59 complete] [1 failed] [image_transport:build 87% - 14.5s]                                                                       [15.7s] [11/59 complete] [1 failed] [image_transport:build 90% - 14.6s]                                                                       [15.8s] [11/59 complete] [1 failed] [image_transport:build 93% - 14.7s]                                                                       [15.9s] [11/59 complete] [1 failed] [image_transport:build 93% - 14.8s]                                                                       [16.0s] [11/59 complete] [1 failed] [image_transport:build 93% - 14.9s]                                                                       [16.1s] [11/59 complete] [1 failed] [image_transport:build 93% - 15.0s]                                                                       [16.2s] [11/59 complete] [1 failed] [image_transport:build 93% - 15.1s]                                                                       [16.3s] [11/59 complete] [1 failed] [image_transport:build 93% - 15.2s]                                                                       [16.4s] [11/59 complete] [1 failed] [image_transport:build 96% - 15.3s]                                                                       [16.5s] [11/59 complete] [1 failed] [image_transport:build 100% - 15.4s]                                                                        [16.7s] [11/59 complete] [1 failed] [image_transport:build 100% - 15.5s]                                                                        [16.8s] [11/59 complete] [1 failed] [image_transport:build 100% - 15.6s]                                                                        [16.9s] [11/59 complete] [1 failed] [image_transport:build 100% - 15.7s]                                                                        [17.0s] [11/59 complete] [1 failed] [image_transport:build 100% - 15.8s]                                                                        [17.1s] [11/59 complete] [1 failed] [image_transport:build 100% - 15.9s]                                                                        [17.2s] [11/59 complete] [1 failed] [image_transport:build 100% - 16.0s]                                                                        [17.3s] [11/59 complete] [1 failed] [image_transport:build 100% - 16.1s]                                                                        [17.4s] [11/59 complete] [1 failed] [image_transport:build 100% - 16.2s]                                                                        [17.5s] [11/59 complete] [1 failed] [image_transport:build 100% - 16.3s]                                                                        Aborted  <<< image_transport [16.4s]
+]0;colcon build [12/59 done] [0 ongoing]
+Summary: 0 packages finished [17.5s]
+  1 package failed: cv_bridge
+  11 packages aborted: camera_calibration_parsers geographic_msgs image_transport isaac_ros_common joint_state_publisher joy nvblox nvblox_msgs nvblox_ros_common realsense2_camera_msgs velodyne_msgs
+  6 packages had stderr output: cv_bridge geographic_msgs joy nvblox_msgs realsense2_camera_msgs velodyne_msgs
+  47 packages not processed
+]0;admin@agxorin1: /workspaces/isaac_ros-devadmin@agxorin1:/workspaces/isaac_ros-dev$ colcon build
+[1.469s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'camera_calibration_parsers' is in: /opt/ros/humble/install
+	'camera_info_manager' is in: /opt/ros/humble/install
+	'image_transport' is in: /opt/ros/humble/install
+	'image_geometry' is in: /opt/ros/humble/install
+	'cv_bridge' is in: /opt/ros/humble/install
+	'slam_toolbox' is in: /opt/ros/humble/install
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding camera_calibration_parsers camera_info_manager cv_bridge image_geometry image_transport slam_toolbox
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.9s] [0/0 complete]                     Starting >>> cv_bridge
+]0;colcon build [0/59 done] [1 ongoing]Starting >>> nvblox_msgs
+]0;colcon build [0/59 done] [2 ongoing]Starting >>> isaac_ros_common
+]0;colcon build [0/59 done] [3 ongoing][1.0s] [0/59 complete] [3 ongoing] [cv_bridge - 0.1s] [nvblox_msgs - 0.0s] ...                                                                              Starting >>> nvblox_ros_common
+]0;colcon build [0/59 done] [4 ongoing]Starting >>> geographic_msgs
+]0;colcon build [0/59 done] [5 ongoing]Starting >>> image_transport
+]0;colcon build [0/59 done] [6 ongoing][1.1s] [0/59 complete] [6 ongoing] [cv_bridge - 0.2s] [nvblox_msgs - 0.1s] ...                                                                              Starting >>> nvblox
+]0;colcon build [0/59 done] [7 ongoing]Starting >>> realsense2_camera_msgs
+]0;colcon build [0/59 done] [8 ongoing]Starting >>> velodyne_msgs
+]0;colcon build [0/59 done] [9 ongoing][1.2s] [0/59 complete] [9 ongoing] [cv_bridge - 0.3s] [nvblox_msgs - 0.2s] ...                                                                              Starting >>> camera_calibration_parsers
+]0;colcon build [0/59 done] [10 ongoing]Starting >>> joint_state_publisher
+]0;colcon build [0/59 done] [11 ongoing][1.3s] [0/59 complete] [11 ongoing] [cv_bridge - 0.4s] [nvblox_msgs - 0.3s] ...                                                                               Starting >>> joy
+]0;colcon build [0/59 done] [12 ongoing][1.4s] [0/59 complete] [12 ongoing] [cv_bridge:build - 0.5s] ...                                                                [1.5s] [0/59 complete] [12 ongoing] [cv_bridge:build - 0.6s] ...                                                                [1.6s] [0/59 complete] [12 ongoing] [cv_bridge:build - 0.7s] ...                                                                [1.7s] [0/59 complete] [12 ongoing] [cv_bridge:build - 0.8s] ...                                                                [1.8s] [0/59 complete] [12 ongoing] [cv_bridge:build - 0.9s] ...                                                                [1.9s] [0/59 complete] [12 ongoing] [cv_bridge:build - 1.0s] ...                                                                [2.0s] [0/59 complete] [12 ongoing] [cv_bridge:build - 1.1s] ...                                                                [2.1s] [0/59 complete] [12 ongoing] [cv_bridge:build - 1.2s] ...                                                                [2.2s] [0/59 complete] [12 ongoing] [cv_bridge:build - 1.3s] ...                                                                [2.3s] [0/59 complete] [12 ongoing] [cv_bridge:build - 1.4s] ...                                                                [2.4s] [0/59 complete] [12 ongoing] [cv_bridge:build - 1.5s] ...                                                                [2.5s] [0/59 complete] [12 ongoing] [cv_bridge:build 44% - 1.6s] ...                                                                    [2.6s] [0/59 complete] [12 ongoing] [cv_bridge:build 44% - 1.7s] ...                                                                    --- stderr: cv_bridge
+failed to create symbolic link '/workspaces/isaac_ros-dev/build/cv_bridge/ament_cmake_python/cv_bridge/cv_bridge' because existing path cannot be removed: Is a directory
+make[2]: *** [CMakeFiles/ament_cmake_python_symlink_cv_bridge.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_cv_bridge] Error 1
+make[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/ament_cmake_python_symlink_cv_bridge.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:146: all] Error 2
+---
+Failed   <<< cv_bridge [1.80s, exited with code 2]
+]0;colcon build [1/59 done] [11 ongoing][2.7s] [1/59 complete] [1 failed] [11 ongoing] ...                                                  Aborted  <<< nvblox_ros_common [1.72s]
+]0;colcon build [2/59 done] [10 ongoing]Aborted  <<< isaac_ros_common [1.76s]
+]0;colcon build [3/59 done] [9 ongoing]Aborted  <<< joy [1.44s]
+]0;colcon build [4/59 done] [8 ongoing]Aborted  <<< camera_calibration_parsers [1.53s]
+]0;colcon build [5/59 done] [7 ongoing][2.8s] [5/59 complete] [1 failed] [7 ongoing] ...                                                 Aborted  <<< image_transport [1.77s]
+]0;colcon build [6/59 done] [6 ongoing]Aborted  <<< velodyne_msgs [1.71s]
+]0;colcon build [7/59 done] [5 ongoing][2.9s] [7/59 complete] [1 failed] [5 ongoing] ...                                                 [3.0s] [7/59 complete] [1 failed] [5 ongoing] ...                                                 Aborted  <<< realsense2_camera_msgs [1.88s]
+]0;colcon build [8/59 done] [4 ongoing][3.1s] [8/59 complete] [1 failed] [4 ongoing] ...                                                 Aborted  <<< nvblox_msgs [2.19s]
+]0;colcon build [9/59 done] [3 ongoing][3.2s] [9/59 complete] [1 failed] [3 ongoing] ...                                                 Aborted  <<< nvblox [2.11s]
+]0;colcon build [10/59 done] [2 ongoing][3.3s] [10/59 complete] [1 failed] [2 ongoing] ...                                                  [3.4s] [10/59 complete] [1 failed] [2 ongoing] ...                                                  [3.5s] [10/59 complete] [1 failed] [2 ongoing] ...                                                  [3.6s] [10/59 complete] [1 failed] [2 ongoing] ...                                                  [3.7s] [10/59 complete] [1 failed] [2 ongoing] ...                                                  [3.8s] [10/59 complete] [1 failed] [2 ongoing] ...                                                  Aborted  <<< geographic_msgs [2.80s]
+]0;colcon build [11/59 done] [1 ongoing][3.9s] [11/59 complete] [1 failed] [joint_state_publisher - 2.7s]                                                                 [4.0s] [11/59 complete] [1 failed] [joint_state_publisher - 2.8s]                                                                 [4.1s] [11/59 complete] [1 failed] [joint_state_publisher - 2.9s]                                                                 Aborted  <<< joint_state_publisher [2.89s]
+]0;colcon build [12/59 done] [0 ongoing]
+Summary: 0 packages finished [4.17s]
+  1 package failed: cv_bridge
+  11 packages aborted: camera_calibration_parsers geographic_msgs image_transport isaac_ros_common joint_state_publisher joy nvblox nvblox_msgs nvblox_ros_common realsense2_camera_msgs velodyne_msgs
+  6 packages had stderr output: cv_bridge geographic_msgs joy nvblox_msgs realsense2_camera_msgs velodyne_msgs
+  47 packages not processed
+]0;admin@agxorin1: /workspaces/isaac_ros-devadmin@agxorin1:/workspaces/isaac_ros-dev$ ls
+a.out  [0m[01;34mbags[0m  [01;34mbuild[0m  [01;34mconfigs[0m  [01;34minstall[0m  [01;34mlaunch[0m  [01;34mlog[0m  [01;34msrc[0m  [01;34mutils[0m
+]0;admin@agxorin1: /workspaces/isaac_ros-devadmin@agxorin1:/workspaces/isaac_ros-dev$ cd install/
+]0;admin@agxorin1: /workspaces/isaac_ros-dev/installadmin@agxorin1:/workspaces/isaac_ros-dev/install$ ls
+[0m[01;34magv_bot_description[0m               [01;34mnvblox_performance_measurement_msgs[0m
+[01;34masync_web_server_cpp[0m              [01;34mnvblox_ros[0m
+[01;34mcamera_calibration_parsers[0m        [01;34mnvblox_ros_common[0m
+[01;34mcamera_info_manager[0m               [01;34mnvblox_rviz_plugin[0m
+COLCON_IGNORE                     [01;34mopencv_tests[0m
+[01;34mcv_bridge[0m                         [01;34mpython_qt_binding[0m
+[01;34mencoder_pkg[0m                       [01;34mqt_dotgraph[0m
+[01;34mgeodesy[0m                           [01;34mqt_gui[0m
+[01;34mgeographic_info[0m                   [01;34mqt_gui_cpp[0m
+[01;34mgeographic_msgs[0m                   [01;34mqt_gui_py_common[0m
+[01;34mgps_package[0m                       [01;34mrealsense2_camera[0m
+[01;34mimage_geometry[0m                    [01;34mrealsense2_camera_msgs[0m
+[01;34mimage_stitcher[0m                    [01;34mrealsense2_description[0m
+[01;34mimage_transport[0m                   [01;34mrealsense_obj_det[0m
+[01;34misaac_ros_apriltag_interfaces[0m     [01;34mroad_segmentation[0m
+[01;34misaac_ros_bi3d_interfaces[0m         [01;34mrobot_localization[0m
+[01;34misaac_ros_common[0m                  [01;34mrqt_gui[0m
+[01;34misaac_ros_nvblox[0m                  [01;34mrqt_gui_py[0m
+[01;34misaac_ros_pointcloud_interfaces[0m   [01;34msemantic_label_conversion[0m
+[01;34misaac_ros_tensor_list_interfaces[0m  setup.bash
+[01;34misaac_ros_test[0m                    setup.ps1
+[01;34mjoint_state_publisher[0m             setup.sh
+[01;34mjoint_state_publisher_gui[0m         setup.zsh
+[01;34mjoy[0m                               [01;34msimulator_control[0m
+[01;34mlin_det_pkg[0m                       [01;34mspacenav_node[0m
+local_setup.bash                  [01;34mteleop_twist_joy[0m
+local_setup.ps1                   [01;34mteleop_twist_keyboard[0m
+local_setup.sh                    [01;34mtwist_converter[0m
+_local_setup_util_ps1.py          [01;34mtwist_mux[0m
+_local_setup_util_sh.py           [01;34musb_cam[0m
+local_setup.zsh                   [01;34mvelodyne[0m
+[01;34mnvblox[0m                            [01;34mvelodyne_driver[0m
+[01;34mnvblox_cpu_gpu_tools[0m              [01;34mvelodyne_laserscan[0m
+[01;34mnvblox_examples_bringup[0m           [01;34mvelodyne_msgs[0m
+[01;34mnvblox_image_padding[0m              [01;34mvelodyne_pointcloud[0m
+[01;34mnvblox_isaac_sim[0m                  [01;34mvision_opencv[0m
+[01;34mnvblox_msgs[0m                       [01;34mweb_video_server[0m
+[01;34mnvblox_nav2[0m                       [01;34mxacro[0m
+[01;34mnvblox_performance_measurement[0m
+]0;admin@agxorin1: /workspaces/isaac_ros-dev/installadmin@agxorin1:/workspaces/isaac_ros-dev/install$ source setup.bash
+]0;admin@agxorin1: /workspaces/isaac_ros-dev/installadmin@agxorin1:/workspaces/isaac_ros-dev/install$ cd ..
+]0;admin@agxorin1: /workspaces/isaac_ros-devadmin@agxorin1:/workspaces/isaac_ros-dev$ colcon build
+[1.662s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'image_transport' is in: /workspaces/isaac_ros-dev/install/image_transport, /opt/ros/humble/install
+	'image_geometry' is in: /workspaces/isaac_ros-dev/install/image_geometry, /opt/ros/humble/install
+	'camera_info_manager' is in: /workspaces/isaac_ros-dev/install/camera_info_manager, /opt/ros/humble/install
+	'cv_bridge' is in: /workspaces/isaac_ros-dev/install/cv_bridge, /opt/ros/humble/install
+	'camera_calibration_parsers' is in: /workspaces/isaac_ros-dev/install/camera_calibration_parsers, /opt/ros/humble/install
+	'slam_toolbox' is in: /opt/ros/humble/install
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding camera_calibration_parsers camera_info_manager cv_bridge image_geometry image_transport slam_toolbox
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.0s] [0/0 complete]                     Starting >>> cv_bridge
+]0;colcon build [0/59 done] [1 ongoing]Starting >>> nvblox_msgs
+]0;colcon build [0/59 done] [2 ongoing][1.1s] [0/59 complete] [2 ongoing] [cv_bridge - 0.1s] [nvblox_msgs - 0.0s]                                                                          Starting >>> isaac_ros_common
+]0;colcon build [0/59 done] [3 ongoing]Starting >>> nvblox_ros_common
+]0;colcon build [0/59 done] [4 ongoing][1.2s] [0/59 complete] [4 ongoing] [cv_bridge - 0.2s] [nvblox_msgs - 0.1s] ...                                                                              Starting >>> geographic_msgs
+]0;colcon build [0/59 done] [5 ongoing]Starting >>> image_transport
+]0;colcon build [0/59 done] [6 ongoing][1.3s] [0/59 complete] [6 ongoing] [cv_bridge - 0.3s] [nvblox_msgs - 0.2s] ...                                                                              Starting >>> nvblox
+]0;colcon build [0/59 done] [7 ongoing]Starting >>> realsense2_camera_msgs
+]0;colcon build [0/59 done] [8 ongoing][1.4s] [0/59 complete] [8 ongoing] [cv_bridge - 0.4s] [nvblox_msgs - 0.3s] ...                                                                              Starting >>> velodyne_msgs
+]0;colcon build [0/59 done] [9 ongoing]Starting >>> camera_calibration_parsers
+]0;colcon build [0/59 done] [10 ongoing][1.5s] [0/59 complete] [10 ongoing] [cv_bridge - 0.5s] [nvblox_msgs - 0.4s] ...                                                                               Starting >>> joint_state_publisher
+]0;colcon build [0/59 done] [11 ongoing]Starting >>> joy
+]0;colcon build [0/59 done] [12 ongoing][1.6s] [0/59 complete] [12 ongoing] [cv_bridge - 0.6s] [nvblox_msgs - 0.5s] ...                                                                               [1.7s] [0/59 complete] [12 ongoing] [cv_bridge:build - 0.7s] ...                                                                [1.8s] [0/59 complete] [12 ongoing] [cv_bridge:build - 0.8s] ...                                                                [1.9s] [0/59 complete] [12 ongoing] [cv_bridge:build - 0.9s] ...                                                                [2.0s] [0/59 complete] [12 ongoing] [cv_bridge:build - 1.0s] ...                                                                [2.1s] [0/59 complete] [12 ongoing] [cv_bridge:build - 1.1s] ...                                                                [2.2s] [0/59 complete] [12 ongoing] [cv_bridge:build - 1.2s] ...                                                                [2.3s] [0/59 complete] [12 ongoing] [cv_bridge:build - 1.3s] ...                                                                [2.4s] [0/59 complete] [12 ongoing] [cv_bridge:build - 1.4s] ...                                                                [2.5s] [0/59 complete] [12 ongoing] [cv_bridge:build - 1.5s] ...                                                                [2.6s] [0/59 complete] [12 ongoing] [cv_bridge:build - 1.6s] ...                                                                [2.7s] [0/59 complete] [12 ongoing] [cv_bridge:build - 1.7s] ...                                                                [2.8s] [0/59 complete] [12 ongoing] [cv_bridge:build - 1.8s] ...                                                                [2.9s] [0/59 complete] [12 ongoing] [cv_bridge:build - 1.9s] ...                                                                [3.0s] [0/59 complete] [12 ongoing] [cv_bridge:build - 2.0s] ...                                                                [3.1s] [0/59 complete] [12 ongoing] [cv_bridge:build 44% - 2.1s] ...                                                                    [3.3s] [0/59 complete] [12 ongoing] [cv_bridge:build 44% - 2.3s] ...                                                                    [3.4s] [0/59 complete] [12 ongoing] [cv_bridge:build 44% - 2.4s] ...                                                                    --- stderr: cv_bridge
+failed to create symbolic link '/workspaces/isaac_ros-dev/build/cv_bridge/ament_cmake_python/cv_bridge/cv_bridge' because existing path cannot be removed: Is a directory
+make[2]: *** [CMakeFiles/ament_cmake_python_symlink_cv_bridge.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_cv_bridge] Error 1
+make[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/ament_cmake_python_symlink_cv_bridge.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:146: all] Error 2
+---
+Failed   <<< cv_bridge [2.41s, exited with code 2]
+]0;colcon build [1/59 done] [11 ongoing]Aborted  <<< nvblox_ros_common [2.25s]
+]0;colcon build [2/59 done] [10 ongoing]Aborted  <<< isaac_ros_common [2.31s]
+]0;colcon build [3/59 done] [9 ongoing]Aborted  <<< joy [1.83s]
+]0;colcon build [4/59 done] [8 ongoing][3.5s] [4/59 complete] [1 failed] [8 ongoing] ...                                                 [3.6s] [4/59 complete] [1 failed] [8 ongoing] ...                                                 Aborted  <<< camera_calibration_parsers [2.13s]
+]0;colcon build [5/59 done] [7 ongoing][3.7s] [5/59 complete] [1 failed] [7 ongoing] ...                                                 [3.8s] [5/59 complete] [1 failed] [7 ongoing] ...                                                 [3.9s] [5/59 complete] [1 failed] [7 ongoing] ...                                                 Aborted  <<< image_transport [2.62s]
+]0;colcon build [6/59 done] [6 ongoing][4.0s] [6/59 complete] [1 failed] [6 ongoing] ...                                                 Aborted  <<< velodyne_msgs [2.57s]
+]0;colcon build [7/59 done] [5 ongoing][4.1s] [7/59 complete] [1 failed] [5 ongoing] ...                                                 [4.2s] [7/59 complete] [1 failed] [5 ongoing] ...                                                 [4.3s] [7/59 complete] [1 failed] [5 ongoing] ...                                                 Aborted  <<< realsense2_camera_msgs [2.97s]
+]0;colcon build [8/59 done] [4 ongoing][4.4s] [8/59 complete] [1 failed] [4 ongoing] ...                                                 [4.5s] [8/59 complete] [1 failed] [4 ongoing] ...                                                 [4.6s] [8/59 complete] [1 failed] [4 ongoing] ...                                                 Aborted  <<< nvblox_msgs [3.53s]
+]0;colcon build [9/59 done] [3 ongoing][4.7s] [9/59 complete] [1 failed] [3 ongoing] ...                                                 [4.8s] [9/59 complete] [1 failed] [3 ongoing] ...                                                 Aborted  <<< nvblox [3.50s]
+]0;colcon build [10/59 done] [2 ongoing][4.9s] [10/59 complete] [1 failed] [2 ongoing] ...                                                  [5.0s] [10/59 complete] [1 failed] [2 ongoing] ...                                                  Aborted  <<< joint_state_publisher [3.55s]
+]0;colcon build [11/59 done] [1 ongoing][5.1s] [11/59 complete] [1 failed] [geographic_msgs:build 12% - 3.9s]                                                                     [5.2s] [11/59 complete] [1 failed] [geographic_msgs:build 12% - 4.0s]                                                                     [5.3s] [11/59 complete] [1 failed] [geographic_msgs:build 12% - 4.1s]                                                                     [5.4s] [11/59 complete] [1 failed] [geographic_msgs:build 12% - 4.2s]                                                                     [5.5s] [11/59 complete] [1 failed] [geographic_msgs:build 12% - 4.3s]                                                                     [5.6s] [11/59 complete] [1 failed] [geographic_msgs:build 12% - 4.4s]                                                                     [5.7s] [11/59 complete] [1 failed] [geographic_msgs:build 12% - 4.5s]                                                                     [5.8s] [11/59 complete] [1 failed] [geographic_msgs:build 12% - 4.6s]                                                                     [5.9s] [11/59 complete] [1 failed] [geographic_msgs:build 12% - 4.7s]                                                                     [6.0s] [11/59 complete] [1 failed] [geographic_msgs:build 12% - 4.8s]                                                                     [6.1s] [11/59 complete] [1 failed] [geographic_msgs:build 12% - 4.9s]                                                                     [6.2s] [11/59 complete] [1 failed] [geographic_msgs:build 12% - 5.0s]                                                              

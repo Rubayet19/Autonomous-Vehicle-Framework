@@ -1,0 +1,52 @@
+[  1%] Built target nvblox_msgs__cpp
+[ 12%] Built target nvblox_msgs__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_nvblox_msgs
+[ 23%] Built target nvblox_msgs__rosidl_typesupport_cpp
+[ 35%] Built target nvblox_msgs__rosidl_typesupport_fastrtps_cpp
+[ 46%] Built target nvblox_msgs__rosidl_typesupport_introspection_c
+[ 57%] Built target nvblox_msgs__rosidl_typesupport_introspection_cpp
+[ 69%] Built target nvblox_msgs__rosidl_typesupport_c
+[ 80%] Built target nvblox_msgs__rosidl_typesupport_fastrtps_c
+[ 80%] Built target nvblox_msgs
+[ 81%] Built target nvblox_msgs__py
+[ 91%] Built target nvblox_msgs__rosidl_generator_py
+[100%] Built target nvblox_msgs__rosidl_typesupport_c__pyext
+[100%] Built target nvblox_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target nvblox_msgs__rosidl_typesupport_introspection_c__pyext
+Traceback (most recent call last):
+  File "setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/usr/local/lib/python3.8/dist-packages/setuptools/__init__.py", line 18, in <module>
+    from setuptools.dist import Distribution
+  File "/usr/local/lib/python3.8/dist-packages/setuptools/dist.py", line 41, in <module>
+    from setuptools.config import setupcfg, pyprojecttoml
+  File "/usr/local/lib/python3.8/dist-packages/setuptools/config/__init__.py", line 10, in <module>
+    from . import setupcfg
+  File "/usr/local/lib/python3.8/dist-packages/setuptools/config/setupcfg.py", line 18, in <module>
+    from setuptools.extern.packaging.requirements import Requirement, InvalidRequirement
+  File "/usr/local/lib/python3.8/dist-packages/setuptools/_vendor/packaging/requirements.py", line 10, in <module>
+    from setuptools.extern.pyparsing import (  # noqa
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 657, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 556, in module_from_spec
+  File "/usr/local/lib/python3.8/dist-packages/setuptools/extern/__init__.py", line 52, in create_module
+    return self.load_module(spec.name)
+  File "/usr/local/lib/python3.8/dist-packages/setuptools/extern/__init__.py", line 37, in load_module
+    __import__(extant)
+  File "/usr/local/lib/python3.8/dist-packages/setuptools/_vendor/pyparsing/__init__.py", line 149, in <module>
+    from .common import (
+  File "/usr/local/lib/python3.8/dist-packages/setuptools/_vendor/pyparsing/common.py", line 8, in <module>
+    class pyparsing_common:
+  File "/usr/local/lib/python3.8/dist-packages/setuptools/_vendor/pyparsing/common.py", line 168, in pyparsing_common
+    Word(hexnums).set_name("hex integer").set_parse_action(token_map(int, 16))
+  File "/usr/local/lib/python3.8/dist-packages/setuptools/_vendor/pyparsing/core.py", line 2739, in __init__
+    self.errmsg = "Expected " + self.name
+  File "/usr/local/lib/python3.8/dist-packages/setuptools/_vendor/pyparsing/core.py", line 1860, in name
+    return self.customName if self.customName is not None else self.default_name
+  File "/usr/local/lib/python3.8/dist-packages/setuptools/_vendor/pyparsing/core.py", line 1835, in default_name
+    self._defaultName = self._generateDefaultName()
+KeyboardInterrupt
+make[2]: *** [CMakeFiles/ament_cmake_python_build_nvblox_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_nvblox_msgs_egg] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_nvblox_msgs_egg.dir/all] Interrupt
+make: *** [Makefile:146: all] Interrupt

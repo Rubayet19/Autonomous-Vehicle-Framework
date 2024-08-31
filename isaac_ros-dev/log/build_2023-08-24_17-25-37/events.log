@@ -1,0 +1,145 @@
+[0.000000] (-) TimerEvent: {}
+[0.000843] (-) JobUnselected: {'identifier': 'agv_bot_description'}
+[0.001099] (-) JobUnselected: {'identifier': 'async_web_server_cpp'}
+[0.001606] (-) JobUnselected: {'identifier': 'geodesy'}
+[0.001944] (-) JobUnselected: {'identifier': 'geographic_info'}
+[0.004329] (-) JobUnselected: {'identifier': 'geographic_msgs'}
+[0.004445] (-) JobUnselected: {'identifier': 'gps_package'}
+[0.004641] (-) JobUnselected: {'identifier': 'image_stitcher'}
+[0.004732] (-) JobUnselected: {'identifier': 'isaac_ros_apriltag_interfaces'}
+[0.004783] (-) JobUnselected: {'identifier': 'isaac_ros_bi3d_interfaces'}
+[0.004877] (-) JobUnselected: {'identifier': 'isaac_ros_common'}
+[0.004947] (-) JobUnselected: {'identifier': 'isaac_ros_nvblox'}
+[0.006769] (-) JobUnselected: {'identifier': 'isaac_ros_pointcloud_interfaces'}
+[0.006973] (-) JobUnselected: {'identifier': 'isaac_ros_tensor_list_interfaces'}
+[0.007075] (-) JobUnselected: {'identifier': 'isaac_ros_test'}
+[0.007136] (-) JobUnselected: {'identifier': 'joint_state_publisher'}
+[0.007191] (-) JobUnselected: {'identifier': 'joint_state_publisher_gui'}
+[0.007241] (-) JobUnselected: {'identifier': 'nvblox'}
+[0.007286] (-) JobUnselected: {'identifier': 'nvblox_cpu_gpu_tools'}
+[0.008793] (-) JobUnselected: {'identifier': 'nvblox_examples_bringup'}
+[0.008899] (-) JobUnselected: {'identifier': 'nvblox_image_padding'}
+[0.009039] (-) JobUnselected: {'identifier': 'nvblox_isaac_sim'}
+[0.009116] (-) JobUnselected: {'identifier': 'nvblox_msgs'}
+[0.009165] (-) JobUnselected: {'identifier': 'nvblox_nav2'}
+[0.009209] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement'}
+[0.009256] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement_msgs'}
+[0.009315] (-) JobUnselected: {'identifier': 'nvblox_ros'}
+[0.009359] (-) JobUnselected: {'identifier': 'nvblox_ros_common'}
+[0.009424] (-) JobUnselected: {'identifier': 'nvblox_rviz_plugin'}
+[0.009842] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.009939] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.009985] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.010030] (-) JobUnselected: {'identifier': 'realsense_obj_det'}
+[0.010080] (-) JobUnselected: {'identifier': 'road_segmentation'}
+[0.011589] (-) JobUnselected: {'identifier': 'semantic_label_conversion'}
+[0.013364] (-) JobUnselected: {'identifier': 'teleop_twist_joy'}
+[0.013498] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.013587] (-) JobUnselected: {'identifier': 'twist_converter'}
+[0.013670] (-) JobUnselected: {'identifier': 'twist_mux'}
+[0.013748] (-) JobUnselected: {'identifier': 'velodyne'}
+[0.013828] (-) JobUnselected: {'identifier': 'velodyne_driver'}
+[0.013903] (-) JobUnselected: {'identifier': 'velodyne_laserscan'}
+[0.013977] (-) JobUnselected: {'identifier': 'velodyne_msgs'}
+[0.014053] (-) JobUnselected: {'identifier': 'velodyne_pointcloud'}
+[0.014127] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.014202] (-) JobUnselected: {'identifier': 'xacro'}
+[0.014290] (robot_localization) JobQueued: {'identifier': 'robot_localization', 'dependencies': OrderedDict([('geographic_msgs', '/workspaces/isaac_ros-dev/install/geographic_msgs')])}
+[0.014395] (robot_localization) JobStarted: {'identifier': 'robot_localization'}
+[0.084706] (robot_localization) JobProgress: {'identifier': 'robot_localization', 'progress': 'cmake'}
+[0.086787] (robot_localization) JobProgress: {'identifier': 'robot_localization', 'progress': 'build'}
+[0.088284] (robot_localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/isaac_ros-dev/build/robot_localization', '--', '-j12', '-l12'], 'cwd': '/workspaces/isaac_ros-dev/build/robot_localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources'), ('HOSTNAME', 'agxorinagv'), ('ROS_PACKAGE_PATH', '/workspaces/isaac_ros-dev/install/async_web_server_cpp/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspaces/isaac_ros-dev/install/geographic_msgs/lib:/workspaces/isaac_ros-dev/install/velodyne_pointcloud/lib:/workspaces/isaac_ros-dev/install/velodyne_driver/lib:/workspaces/isaac_ros-dev/install/velodyne_msgs/lib:/workspaces/isaac_ros-dev/install/velodyne_laserscan/lib:/workspaces/isaac_ros-dev/install/usb_cam/lib:/workspaces/isaac_ros-dev/install/teleop_twist_joy/lib:/workspaces/isaac_ros-dev/install/robot_localization/lib:/workspaces/isaac_ros-dev/install/realsense2_camera/lib:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib:/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin/lib:/workspaces/isaac_ros-dev/install/nvblox_ros/lib:/workspaces/isaac_ros-dev/install/nvblox_image_padding/lib:/workspaces/isaac_ros-dev/install/nvblox_ros_common/lib:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs/lib:/workspaces/isaac_ros-dev/install/nvblox_nav2/lib:/workspaces/isaac_ros-dev/install/nvblox_msgs/lib:/workspaces/isaac_ros-dev/install/nvblox/lib:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib:/workspaces/isaac_ros-dev/install/geodesy/lib:/workspaces/isaac_ros-dev/install/async_web_server_cpp/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib'), ('HOME', '/home/admin'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('COLCON_PREFIX_PATH', '/workspaces/isaac_ros-dev/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/workspaces/isaac_ros-dev/install/async_web_server_cpp/lib/aarch64-linux-gnu/pkgconfig:/workspaces/isaac_ros-dev/install/async_web_server_cpp/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('USERNAME', 'admin'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/workspaces/isaac_ros-dev/install/xacro/bin:/opt/ros/humble/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvidia/tao:/usr/local/cuda/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/usr/local/share/middleware_profiles/husarnet_fastdds_profile.xml'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/realsense2_description:/workspaces/isaac_ros-dev/install/agv_bot_description:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/web_video_server:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/usb_cam:/workspaces/isaac_ros-dev/install/twist_mux:/workspaces/isaac_ros-dev/install/twist_converter:/workspaces/isaac_ros-dev/install/teleop_twist_keyboard:/workspaces/isaac_ros-dev/install/teleop_twist_joy:/workspaces/isaac_ros-dev/install/simulator_control:/workspaces/isaac_ros-dev/install/semantic_label_conversion:/workspaces/isaac_ros-dev/install/robot_localization:/workspaces/isaac_ros-dev/install/road_segmentation:/workspaces/isaac_ros-dev/install/realsense_obj_det:/workspaces/isaac_ros-dev/install/realsense2_camera:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement:/workspaces/isaac_ros-dev/install/isaac_ros_nvblox:/workspaces/isaac_ros-dev/install/nvblox_ros:/workspaces/isaac_ros-dev/install/nvblox_image_padding:/workspaces/isaac_ros-dev/install/nvblox_ros_common:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs:/workspaces/isaac_ros-dev/install/nvblox_nav2:/workspaces/isaac_ros-dev/install/nvblox_msgs:/workspaces/isaac_ros-dev/install/nvblox_isaac_sim:/workspaces/isaac_ros-dev/install/nvblox_examples_bringup:/workspaces/isaac_ros-dev/install/nvblox_cpu_gpu_tools:/workspaces/isaac_ros-dev/install/lin_det_pkg:/workspaces/isaac_ros-dev/install/joint_state_publisher_gui:/workspaces/isaac_ros-dev/install/joint_state_publisher:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/image_stitcher:/workspaces/isaac_ros-dev/install/gps_package:/workspaces/isaac_ros-dev/install/geographic_info:/workspaces/isaac_ros-dev/install/geodesy:/workspaces/isaac_ros-dev/install/geographic_msgs:/workspaces/isaac_ros-dev/install/encoder_pkg:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/workspaces/isaac_ros-dev/build/robot_localization'), ('PYTHONPATH', '/workspaces/isaac_ros-dev/install/geographic_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/twist_converter:/workspaces/isaac_ros-dev/install/twist_converter/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/teleop_twist_keyboard/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/simulator_control/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/robot_localization/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/road_segmentation:/workspaces/isaac_ros-dev/install/road_segmentation/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/realsense_obj_det/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/nvblox_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/nvblox_isaac_sim/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/nvblox_cpu_gpu_tools/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/lin_det_pkg/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/joint_state_publisher_gui/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/joint_state_publisher/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/image_stitcher:/workspaces/isaac_ros-dev/install/image_stitcher/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/gps_package/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/geodesy/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/encoder_pkg/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('USER_GID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/geographic_msgs:/workspaces/isaac_ros-dev/install/realsense2_description:/workspaces/isaac_ros-dev/install/agv_bot_description:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/web_video_server:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/usb_cam:/workspaces/isaac_ros-dev/install/twist_mux:/workspaces/isaac_ros-dev/install/teleop_twist_joy:/workspaces/isaac_ros-dev/install/semantic_label_conversion:/workspaces/isaac_ros-dev/install/robot_localization:/workspaces/isaac_ros-dev/install/realsense2_camera:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement:/workspaces/isaac_ros-dev/install/isaac_ros_nvblox:/workspaces/isaac_ros-dev/install/nvblox_ros:/workspaces/isaac_ros-dev/install/nvblox_image_padding:/workspaces/isaac_ros-dev/install/nvblox_ros_common:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs:/workspaces/isaac_ros-dev/install/nvblox_nav2:/workspaces/isaac_ros-dev/install/nvblox_msgs:/workspaces/isaac_ros-dev/install/nvblox_examples_bringup:/workspaces/isaac_ros-dev/install/nvblox:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/geographic_info:/workspaces/isaac_ros-dev/install/geodesy:/workspaces/isaac_ros-dev/install/twist_converter:/workspaces/isaac_ros-dev/install/teleop_twist_keyboard:/workspaces/isaac_ros-dev/install/simulator_control:/workspaces/isaac_ros-dev/install/road_segmentation:/workspaces/isaac_ros-dev/install/realsense_obj_det:/workspaces/isaac_ros-dev/install/nvblox_isaac_sim:/workspaces/isaac_ros-dev/install/nvblox_cpu_gpu_tools:/workspaces/isaac_ros-dev/install/lin_det_pkg:/workspaces/isaac_ros-dev/install/joint_state_publisher_gui:/workspaces/isaac_ros-dev/install/joint_state_publisher:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/image_stitcher:/workspaces/isaac_ros-dev/install/gps_package:/workspaces/isaac_ros-dev/install/encoder_pkg:/workspaces/isaac_ros-dev/install/async_web_server_cpp:/opt/ros/humble/install')]), 'shell': False}
+[0.098994] (-) TimerEvent: {}
+[0.179257] (robot_localization) StdoutLine: {'line': b"-- robot_localization: You did not request a specific build type: selecting 'RelWithDebInfo'.\n"}
+[0.180011] (robot_localization) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/install/share/ament_cmake/cmake)\n'}
+[0.199094] (-) TimerEvent: {}
+[0.299818] (-) TimerEvent: {}
+[0.400551] (-) TimerEvent: {}
+[0.501152] (-) TimerEvent: {}
+[0.542265] (robot_localization) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/opt/ros/humble/install/share/angles/cmake)\n'}
+[0.546872] (robot_localization) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/install/share/rclcpp/cmake)\n'}
+[0.601351] (-) TimerEvent: {}
+[0.635071] (robot_localization) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)\n'}
+[0.641390] (robot_localization) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)\n'}
+[0.657533] (robot_localization) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)\n'}
+[0.689760] (robot_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.701469] (-) TimerEvent: {}
+[0.731289] (robot_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801690] (-) TimerEvent: {}
+[0.869781] (robot_localization) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)\n'}
+[0.877505] (robot_localization) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/install/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.901786] (-) TimerEvent: {}
+[1.002497] (-) TimerEvent: {}
+[1.103304] (-) TimerEvent: {}
+[1.203991] (-) TimerEvent: {}
+[1.281420] (robot_localization) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.304108] (-) TimerEvent: {}
+[1.404769] (-) TimerEvent: {}
+[1.505593] (-) TimerEvent: {}
+[1.603889] (robot_localization) StdoutLine: {'line': b'-- Found diagnostic_msgs: 4.2.3 (/opt/ros/humble/install/share/diagnostic_msgs/cmake)\n'}
+[1.605685] (-) TimerEvent: {}
+[1.691329] (robot_localization) StdoutLine: {'line': b'-- Found diagnostic_updater: 3.1.2 (/opt/ros/humble/install/share/diagnostic_updater/cmake)\n'}
+[1.705811] (-) TimerEvent: {}
+[1.724416] (robot_localization) StdoutLine: {'line': b'-- Found geographic_msgs: 1.0.5 (/workspaces/isaac_ros-dev/install/geographic_msgs/share/geographic_msgs/cmake)\n'}
+[1.806016] (-) TimerEvent: {}
+[1.906848] (-) TimerEvent: {}
+[2.007634] (-) TimerEvent: {}
+[2.038231] (robot_localization) StdoutLine: {'line': b'-- Found message_filters: 4.3.2 (/opt/ros/humble/install/share/message_filters/cmake)\n'}
+[2.050877] (robot_localization) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/install/share/nav_msgs/cmake)\n'}
+[2.107742] (-) TimerEvent: {}
+[2.208450] (-) TimerEvent: {}
+[2.209414] (robot_localization) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/install/share/rosidl_default_generators/cmake)\n'}
+[2.236402] (robot_localization) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/install/share/sensor_msgs/cmake)\n'}
+[2.308619] (-) TimerEvent: {}
+[2.395434] (robot_localization) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/install/share/std_srvs/cmake)\n'}
+[2.408723] (-) TimerEvent: {}
+[2.434545] (robot_localization) StdoutLine: {'line': b'-- Found tf2: 0.25.2 (/opt/ros/humble/install/share/tf2/cmake)\n'}
+[2.452281] (robot_localization) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.2 (/opt/ros/humble/install/share/tf2_eigen/cmake)\n'}
+[2.508886] (-) TimerEvent: {}
+[2.609649] (-) TimerEvent: {}
+[2.710426] (-) TimerEvent: {}
+[2.811261] (-) TimerEvent: {}
+[2.912097] (-) TimerEvent: {}
+[3.012940] (-) TimerEvent: {}
+[3.088516] (robot_localization) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/install/share/tf2_geometry_msgs/cmake)\n'}
+[3.099120] (robot_localization) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/install/share/eigen3_cmake_module/cmake)\n'}
+[3.102238] (robot_localization) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.113037] (-) TimerEvent: {}
+[3.132245] (robot_localization) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/install/share/yaml_cpp_vendor/cmake)\n'}
+[3.183088] (robot_localization) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:39 (find_package):\n'}
+[3.184286] (robot_localization) StderrLine: {'line': b'  By not providing "FindGeographicLib.cmake" in CMAKE_MODULE_PATH this\n'}
+[3.184659] (robot_localization) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[3.184962] (robot_localization) StderrLine: {'line': b'  "GeographicLib", but CMake did not find one.\n'}
+[3.185230] (robot_localization) StderrLine: {'line': b'\n'}
+[3.185507] (robot_localization) StderrLine: {'line': b'  Could not find a package configuration file provided by "GeographicLib"\n'}
+[3.185808] (robot_localization) StderrLine: {'line': b'  with any of the following names:\n'}
+[3.186052] (robot_localization) StderrLine: {'line': b'\n'}
+[3.186392] (robot_localization) StderrLine: {'line': b'    GeographicLibConfig.cmake\n'}
+[3.186646] (robot_localization) StderrLine: {'line': b'    geographiclib-config.cmake\n'}
+[3.186946] (robot_localization) StderrLine: {'line': b'\n'}
+[3.187196] (robot_localization) StderrLine: {'line': b'  Add the installation prefix of "GeographicLib" to CMAKE_PREFIX_PATH or set\n'}
+[3.187438] (robot_localization) StderrLine: {'line': b'  "GeographicLib_DIR" to a directory containing one of the above files.  If\n'}
+[3.187680] (robot_localization) StderrLine: {'line': b'  "GeographicLib" provides a separate development package or SDK, be sure it\n'}
+[3.187916] (robot_localization) StderrLine: {'line': b'  has been installed.\n'}
+[3.188150] (robot_localization) StderrLine: {'line': b'\n'}
+[3.188388] (robot_localization) StderrLine: {'line': b'\x1b[0m\n'}
+[3.188674] (robot_localization) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.188950] (robot_localization) StdoutLine: {'line': b'See also "/workspaces/isaac_ros-dev/build/robot_localization/CMakeFiles/CMakeOutput.log".\n'}
+[3.189203] (robot_localization) StdoutLine: {'line': b'See also "/workspaces/isaac_ros-dev/build/robot_localization/CMakeFiles/CMakeError.log".\n'}
+[3.203737] (robot_localization) StderrLine: {'line': b'make: *** [Makefile:2621: cmake_check_build_system] Error 1\n'}
+[3.207145] (robot_localization) CommandEnded: {'returncode': 2}
+[3.213813] (-) TimerEvent: {}
+[3.315133] (-) TimerEvent: {}
+[3.415741] (-) TimerEvent: {}
+[3.516483] (-) TimerEvent: {}
+[3.617186] (-) TimerEvent: {}
+[3.718335] (-) TimerEvent: {}
+[3.819230] (-) TimerEvent: {}
+[3.919956] (-) TimerEvent: {}
+[4.020778] (-) TimerEvent: {}
+[4.121506] (-) TimerEvent: {}
+[4.222314] (-) TimerEvent: {}
+[4.323044] (-) TimerEvent: {}
+[4.425453] (-) TimerEvent: {}
+[4.490596] (robot_localization) JobEnded: {'identifier': 'robot_localization', 'rc': 2}
+[4.501548] (-) EventReactorShutdown: {}

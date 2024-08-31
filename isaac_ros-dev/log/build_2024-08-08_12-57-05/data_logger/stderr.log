@@ -1,0 +1,32 @@
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:[m[K In constructor ‘[01m[KDataLogger::DataLogger()[m[K’:
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:30:47:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K{[m[K’ token
+   30 |             m_log_count(0), m_image_count(0), [01;31m[K{[m[K
+      |                                               [01;31m[K^[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:49:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kentry[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   49 |     for (const auto &[01;35m[Kentry[m[K : fs::directory_iterator(m_drive)) {
+      |                      [01;35m[K^~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:65:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kentry[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   65 |     for (const auto &[01;35m[Kentry[m[K : fs::directory_iterator(m_image_drive)) {
+      |                      [01;35m[K^~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:100:53:[m[K [01;31m[Kerror: [m[K‘[01m[KApproximateTimer[m[K’ in namespace ‘[01m[Kmessage_filters::sync_policies[m[K’ does not name a template type; did you mean ‘[01m[KApproximateTime[m[K’?
+  100 |             typedef message_filters::sync_policies::[01;31m[KApproximateTimer[m[K<sensor_msgs::msg::Image, sensor_msgs::msgs::Image,
+      |                                                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                                     [32m[KApproximateTime[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:103:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kapproximate_policy[m[K’ was not declared in this scope
+  103 |             message_filters::Synchronizer<[01;31m[Kapproximate_policy[m[K>syncApproximate(
+      |                                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:103:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  103 |             message_filters::Synchronizer<approximate_policy[01;31m[K>[m[KsyncApproximate(
+      |                                                             [01;31m[K^[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:104:104:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+  104 |                 approximate_policy(1, 0), m_front_camera, m_left_camera, m_right_camera, m_steering_msg[01;31m[K)[m[K;
+      |                                                                                                        [01;31m[K^[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:106:29:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsetMaxIntervalDuration[m[K’ in ‘[01m[KsyncApproximate[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  106 |             syncApproximate.[01;31m[KsetMaxIntervalDuration[m[K(rclcpp::Duration(3, 0));
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:107:29:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KregisterCallback[m[K’ in ‘[01m[KsyncApproximate[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  107 |             syncApproximate.[01;31m[KregisterCallback[m[K(&DataLogger::camera_sync_callback, this);
+      |                             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/data_logger_node2.dir/build.make:76: CMakeFiles/data_logger_node2.dir/src/data_logger_node2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/data_logger_node2.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

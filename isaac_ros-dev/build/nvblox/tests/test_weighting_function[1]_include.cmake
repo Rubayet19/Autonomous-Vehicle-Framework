@@ -1,0 +1,5 @@
+if(EXISTS "/avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_weighting_function[1]_tests.cmake")
+  include("/avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_weighting_function[1]_tests.cmake")
+else()
+  add_test(test_weighting_function_NOT_BUILT test_weighting_function_NOT_BUILT)
+endif()

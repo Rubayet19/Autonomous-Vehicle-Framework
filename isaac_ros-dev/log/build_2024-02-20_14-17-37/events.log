@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.000511] (-) JobUnselected: {'identifier': 'agv_bot_description'}
+[0.001321] (-) JobUnselected: {'identifier': 'async_web_server_cpp'}
+[0.001618] (-) JobUnselected: {'identifier': 'camera_calibration_parsers'}
+[0.003359] (-) JobUnselected: {'identifier': 'camera_info_manager'}
+[0.003457] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.003633] (-) JobUnselected: {'identifier': 'geodesy'}
+[0.003711] (-) JobUnselected: {'identifier': 'geographic_info'}
+[0.003753] (-) JobUnselected: {'identifier': 'geographic_msgs'}
+[0.003827] (-) JobUnselected: {'identifier': 'gps_package'}
+[0.003889] (-) JobUnselected: {'identifier': 'image_common'}
+[0.005339] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.005417] (-) JobUnselected: {'identifier': 'image_stitcher'}
+[0.005543] (-) JobUnselected: {'identifier': 'image_transport'}
+[0.005612] (-) JobUnselected: {'identifier': 'isaac_ros_apriltag_interfaces'}
+[0.005653] (-) JobUnselected: {'identifier': 'isaac_ros_bi3d_interfaces'}
+[0.005692] (-) JobUnselected: {'identifier': 'isaac_ros_common'}
+[0.005744] (-) JobUnselected: {'identifier': 'isaac_ros_nvblox'}
+[0.005784] (-) JobUnselected: {'identifier': 'isaac_ros_pointcloud_interfaces'}
+[0.005838] (-) JobUnselected: {'identifier': 'isaac_ros_tensor_list_interfaces'}
+[0.007143] (-) JobUnselected: {'identifier': 'isaac_ros_test'}
+[0.007221] (-) JobUnselected: {'identifier': 'joint_state_publisher'}
+[0.007338] (-) JobUnselected: {'identifier': 'joint_state_publisher_gui'}
+[0.007404] (-) JobUnselected: {'identifier': 'nvblox'}
+[0.007446] (-) JobUnselected: {'identifier': 'nvblox_cpu_gpu_tools'}
+[0.007488] (-) JobUnselected: {'identifier': 'nvblox_examples_bringup'}
+[0.007566] (-) JobUnselected: {'identifier': 'nvblox_image_padding'}
+[0.007615] (-) JobUnselected: {'identifier': 'nvblox_isaac_sim'}
+[0.007955] (-) JobUnselected: {'identifier': 'nvblox_msgs'}
+[0.008046] (-) JobUnselected: {'identifier': 'nvblox_nav2'}
+[0.008087] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement'}
+[0.008129] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement_msgs'}
+[0.008179] (-) JobUnselected: {'identifier': 'nvblox_ros'}
+[0.008219] (-) JobUnselected: {'identifier': 'nvblox_ros_common'}
+[0.009494] (-) JobUnselected: {'identifier': 'nvblox_rviz_plugin'}
+[0.010936] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.011025] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.011101] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.011168] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.011235] (-) JobUnselected: {'identifier': 'realsense_obj_det'}
+[0.011301] (-) JobUnselected: {'identifier': 'road_segmentation'}
+[0.011358] (-) JobUnselected: {'identifier': 'semantic_label_conversion'}
+[0.011421] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.011478] (-) JobUnselected: {'identifier': 'teleop_twist_joy'}
+[0.011533] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.011666] (-) JobUnselected: {'identifier': 'twist_converter'}
+[0.011734] (-) JobUnselected: {'identifier': 'twist_mux'}
+[0.011777] (-) JobUnselected: {'identifier': 'velodyne'}
+[0.011818] (-) JobUnselected: {'identifier': 'velodyne_driver'}
+[0.011877] (-) JobUnselected: {'identifier': 'velodyne_laserscan'}
+[0.011932] (-) JobUnselected: {'identifier': 'velodyne_msgs'}
+[0.012049] (-) JobUnselected: {'identifier': 'velodyne_pointcloud'}
+[0.012115] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.012187] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.012242] (-) JobUnselected: {'identifier': 'xacro'}
+[0.012290] (robot_localization) JobQueued: {'identifier': 'robot_localization', 'dependencies': OrderedDict([('geographic_msgs', '/workspaces/isaac_ros-dev/install/geographic_msgs')])}
+[0.012349] (robot_localization) JobStarted: {'identifier': 'robot_localization'}
+[0.067419] (robot_localization) JobProgress: {'identifier': 'robot_localization', 'progress': 'cmake'}
+[0.069771] (robot_localization) JobProgress: {'identifier': 'robot_localization', 'progress': 'build'}
+[0.071136] (robot_localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/isaac_ros-dev/build/robot_localization', '--', '-j12', '-l12'], 'cwd': '/workspaces/isaac_ros-dev/build/robot_localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources'), ('HOSTNAME', 'agxorin1'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/workspaces/isaac_ros-dev/install/geographic_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib'), ('HOME', '/home/admin'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('USERNAME', 'admin'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvidia/tao:/usr/local/cuda/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/usr/local/share/middleware_profiles/husarnet_fastdds_profile.xml'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/geographic_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/workspaces/isaac_ros-dev/build/robot_localization'), ('PYTHONPATH', '/workspaces/isaac_ros-dev/install/geographic_msgs/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('USER_GID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/geographic_msgs:/opt/ros/humble/install')]), 'shell': False}
+[0.099023] (-) TimerEvent: {}
+[0.199686] (-) TimerEvent: {}
+[0.218196] (robot_localization) StdoutLine: {'line': b'[  0%] Built target robot_localization__cpp\n'}
+[0.238354] (robot_localization) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_robot_localization\n'}
+[0.240032] (robot_localization) StdoutLine: {'line': b'[  8%] Built target robot_localization__rosidl_generator_c\n'}
+[0.242172] (robot_localization) StdoutLine: {'line': b'[ 10%] Built target gtest_main\n'}
+[0.247426] (robot_localization) StdoutLine: {'line': b'[ 12%] Built target gtest\n'}
+[0.266801] (robot_localization) StdoutLine: {'line': b'[ 19%] Built target robot_localization__rosidl_typesupport_cpp\n'}
+[0.269916] (robot_localization) StdoutLine: {'line': b'[ 26%] Built target robot_localization__rosidl_typesupport_introspection_cpp\n'}
+[0.272139] (robot_localization) StdoutLine: {'line': b'[ 33%] Built target robot_localization__rosidl_typesupport_fastrtps_cpp\n'}
+[0.280511] (robot_localization) StdoutLine: {'line': b'[ 40%] Built target robot_localization__rosidl_typesupport_c\n'}
+[0.284025] (robot_localization) StdoutLine: {'line': b'[ 47%] Built target robot_localization__rosidl_typesupport_introspection_c\n'}
+[0.288468] (robot_localization) StdoutLine: {'line': b'[ 54%] Built target robot_localization__rosidl_typesupport_fastrtps_c\n'}
+[0.299805] (-) TimerEvent: {}
+[0.314335] (robot_localization) StdoutLine: {'line': b'[ 54%] Built target robot_localization\n'}
+[0.343644] (robot_localization) StdoutLine: {'line': b'[ 55%] Built target robot_localization__py\n'}
+[0.356756] (robot_localization) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/rl_lib.dir/src/navsat_transform.cpp.o\x1b[0m\n'}
+[0.383366] (robot_localization) StdoutLine: {'line': b'[ 62%] Built target robot_localization__rosidl_generator_py\n'}
+[0.399954] (-) TimerEvent: {}
+[0.419712] (robot_localization) StdoutLine: {'line': b'[ 64%] Built target robot_localization__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.420246] (robot_localization) StdoutLine: {'line': b'[ 68%] Built target robot_localization__rosidl_typesupport_c__pyext\n'}
+[0.420432] (robot_localization) StdoutLine: {'line': b'[ 68%] Built target robot_localization__rosidl_typesupport_introspection_c__pyext\n'}
+[0.500050] (-) TimerEvent: {}
+[0.600788] (-) TimerEvent: {}
+[0.701313] (-) TimerEvent: {}
+[0.801811] (-) TimerEvent: {}
+[0.902239] (-) TimerEvent: {}
+[1.002803] (-) TimerEvent: {}
+[1.047881] (robot_localization) StdoutLine: {'line': b'running egg_info\n'}
+[1.080447] (robot_localization) StdoutLine: {'line': b'writing robot_localization.egg-info/PKG-INFO\n'}
+[1.081031] (robot_localization) StdoutLine: {'line': b'writing dependency_links to robot_localization.egg-info/dependency_links.txt\n'}
+[1.081636] (robot_localization) StdoutLine: {'line': b'writing top-level names to robot_localization.egg-info/top_level.txt\n'}
+[1.102895] (-) TimerEvent: {}
+[1.121188] (robot_localization) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/workspaces/isaac_ros-dev/src/robot_localization/src/navsat_transform.cpp:32\x1b[m\x1b[K:\n'}
+[1.121547] (robot_localization) StderrLine: {'line': b'\x1b[01m\x1b[K/workspaces/isaac_ros-dev/src/robot_localization/include/robot_localization/navsat_transform.hpp:39:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KGeographicLib/LocalCartesian.hpp: No such file or directory\n'}
+[1.121755] (robot_localization) StderrLine: {'line': b'   39 | #include \x1b[01;31m\x1b[K"GeographicLib/LocalCartesian.hpp"\x1b[m\x1b[K\n'}
+[1.121925] (robot_localization) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.122087] (robot_localization) StderrLine: {'line': b'compilation terminated.\n'}
+[1.126709] (robot_localization) StderrLine: {'line': b'make[2]: *** [CMakeFiles/rl_lib.dir/build.make:132: CMakeFiles/rl_lib.dir/src/navsat_transform.cpp.o] Error 1\n'}
+[1.127443] (robot_localization) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:638: CMakeFiles/rl_lib.dir/all] Error 2\n'}
+[1.127770] (robot_localization) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[1.174536] (robot_localization) StdoutLine: {'line': b"reading manifest file 'robot_localization.egg-info/SOURCES.txt'\n"}
+[1.176144] (robot_localization) StdoutLine: {'line': b"writing manifest file 'robot_localization.egg-info/SOURCES.txt'\n"}
+[1.203005] (-) TimerEvent: {}
+[1.276944] (robot_localization) StdoutLine: {'line': b'[ 68%] Built target ament_cmake_python_build_robot_localization_egg\n'}
+[1.278477] (robot_localization) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[1.281643] (robot_localization) CommandEnded: {'returncode': 2}
+[1.303190] (-) TimerEvent: {}
+[1.403870] (-) TimerEvent: {}
+[1.504578] (-) TimerEvent: {}
+[1.605270] (-) TimerEvent: {}
+[1.705949] (-) TimerEvent: {}
+[1.806648] (-) TimerEvent: {}
+[1.907611] (-) TimerEvent: {}
+[2.008155] (-) TimerEvent: {}
+[2.015806] (robot_localization) JobEnded: {'identifier': 'robot_localization', 'rc': 2}
+[2.026576] (-) EventReactorShutdown: {}

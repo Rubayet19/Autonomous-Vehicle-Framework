@@ -1,0 +1,5 @@
+add_test([=[ImageMaskerTest.RandomMask]=]  /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_image_masker [==[--gtest_filter=ImageMaskerTest.RandomMask]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[ImageMaskerTest.RandomMask]=]  PROPERTIES WORKING_DIRECTORY /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[ImageMaskerTest.PerpendicularTransformMask]=]  /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_image_masker [==[--gtest_filter=ImageMaskerTest.PerpendicularTransformMask]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[ImageMaskerTest.PerpendicularTransformMask]=]  PROPERTIES WORKING_DIRECTORY /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  test_image_masker_TESTS ImageMaskerTest.RandomMask ImageMaskerTest.PerpendicularTransformMask)

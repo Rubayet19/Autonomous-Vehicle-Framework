@@ -1,0 +1,5 @@
+add_test([=[ImageProjectorTest.ExtractVoxelCentersOnGPUTest]=]  /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_image_projector [==[--gtest_filter=ImageProjectorTest.ExtractVoxelCentersOnGPUTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[ImageProjectorTest.ExtractVoxelCentersOnGPUTest]=]  PROPERTIES WORKING_DIRECTORY /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[ImageProjectorTest.BackProjection]=]  /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_image_projector [==[--gtest_filter=ImageProjectorTest.BackProjection]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[ImageProjectorTest.BackProjection]=]  PROPERTIES WORKING_DIRECTORY /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  test_image_projector_TESTS ImageProjectorTest.ExtractVoxelCentersOnGPUTest ImageProjectorTest.BackProjection)

@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.000587] (-) JobUnselected: {'identifier': 'agv_bot_description'}
+[0.001016] (-) JobUnselected: {'identifier': 'async_web_server_cpp'}
+[0.001310] (-) JobUnselected: {'identifier': 'camera_calibration_parsers'}
+[0.003355] (-) JobUnselected: {'identifier': 'camera_info_manager'}
+[0.003450] (-) JobUnselected: {'identifier': 'camera_publishers'}
+[0.003615] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.003694] (-) JobUnselected: {'identifier': 'data_logger'}
+[0.003779] (-) JobUnselected: {'identifier': 'geodesy'}
+[0.003839] (-) JobUnselected: {'identifier': 'geographic_info'}
+[0.005457] (-) JobUnselected: {'identifier': 'geographic_msgs'}
+[0.005532] (-) JobUnselected: {'identifier': 'gps_package'}
+[0.005658] (-) JobUnselected: {'identifier': 'image_common'}
+[0.005726] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.005783] (-) JobUnselected: {'identifier': 'image_stitcher'}
+[0.005829] (-) JobUnselected: {'identifier': 'image_transport'}
+[0.005870] (-) JobUnselected: {'identifier': 'isaac_ros_apriltag_interfaces'}
+[0.007392] (-) JobUnselected: {'identifier': 'isaac_ros_bi3d_interfaces'}
+[0.007492] (-) JobUnselected: {'identifier': 'isaac_ros_common'}
+[0.007622] (-) JobUnselected: {'identifier': 'isaac_ros_nvblox'}
+[0.007709] (-) JobUnselected: {'identifier': 'isaac_ros_pointcloud_interfaces'}
+[0.007761] (-) JobUnselected: {'identifier': 'isaac_ros_tensor_list_interfaces'}
+[0.007807] (-) JobUnselected: {'identifier': 'isaac_ros_test'}
+[0.007852] (-) JobUnselected: {'identifier': 'joint_state_publisher'}
+[0.007896] (-) JobUnselected: {'identifier': 'joint_state_publisher_gui'}
+[0.007951] (-) JobUnselected: {'identifier': 'motor_control_pkg'}
+[0.008314] (-) JobUnselected: {'identifier': 'nvblox'}
+[0.008401] (-) JobUnselected: {'identifier': 'nvblox_cpu_gpu_tools'}
+[0.008459] (-) JobUnselected: {'identifier': 'nvblox_examples_bringup'}
+[0.008503] (-) JobUnselected: {'identifier': 'nvblox_image_padding'}
+[0.008545] (-) JobUnselected: {'identifier': 'nvblox_isaac_sim'}
+[0.008586] (-) JobUnselected: {'identifier': 'nvblox_msgs'}
+[0.009872] (-) JobUnselected: {'identifier': 'nvblox_nav2'}
+[0.011494] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement'}
+[0.011584] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement_msgs'}
+[0.011658] (-) JobUnselected: {'identifier': 'nvblox_ros'}
+[0.011725] (-) JobUnselected: {'identifier': 'nvblox_ros_common'}
+[0.011791] (-) JobUnselected: {'identifier': 'nvblox_rviz_plugin'}
+[0.011856] (-) JobUnselected: {'identifier': 'object_avoidance'}
+[0.011920] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.011984] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.012047] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.012110] (-) JobUnselected: {'identifier': 'realsense_obj_det'}
+[0.012175] (-) JobUnselected: {'identifier': 'road_segmentation'}
+[0.012238] (-) JobUnselected: {'identifier': 'semantic_label_conversion'}
+[0.012301] (-) JobUnselected: {'identifier': 'simple_http_server'}
+[0.012366] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.012430] (-) JobUnselected: {'identifier': 'stdgpu'}
+[0.012494] (-) JobUnselected: {'identifier': 'teleop_twist_joy'}
+[0.012557] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.012621] (-) JobUnselected: {'identifier': 'twist_converter'}
+[0.012684] (-) JobUnselected: {'identifier': 'twist_mux'}
+[0.012750] (-) JobUnselected: {'identifier': 'velodyne'}
+[0.012814] (-) JobUnselected: {'identifier': 'velodyne_driver'}
+[0.012879] (-) JobUnselected: {'identifier': 'velodyne_laserscan'}
+[0.012942] (-) JobUnselected: {'identifier': 'velodyne_msgs'}
+[0.013006] (-) JobUnselected: {'identifier': 'velodyne_pointcloud'}
+[0.013068] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.013131] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.013196] (-) JobUnselected: {'identifier': 'web_video_server_python'}
+[0.013259] (-) JobUnselected: {'identifier': 'xacro'}
+[0.013331] (realsense2_camera) JobQueued: {'identifier': 'realsense2_camera', 'dependencies': OrderedDict([('cv_bridge', '/avlcode/workspaces/isaac_ros-dev/install/cv_bridge'), ('image_transport', '/avlcode/workspaces/isaac_ros-dev/install/image_transport'), ('realsense2_camera_msgs', '/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera_msgs')])}
+[0.013467] (realsense2_camera) JobStarted: {'identifier': 'realsense2_camera'}
+[0.099440] (-) TimerEvent: {}
+[0.126782] (realsense2_camera) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 85, in build\n    create_environment_scripts(\n  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 89, in create_environment_scripts\n    create_file_with_runtime_dependencies(prefix_path, pkg))\n  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 172, in create_file_with_runtime_dependencies\n    path.write_text(\n  File "/usr/lib/python3.8/pathlib.py", line 1255, in write_text\n    with self.open(mode=\'w\', encoding=encoding, errors=errors) as f:\n  File "/usr/lib/python3.8/pathlib.py", line 1222, in open\n    return io.open(self, mode, buffering, encoding, errors, newline,\n  File "/usr/lib/python3.8/pathlib.py", line 1078, in _opener\n    return self._accessor.open(self, flags, mode)\nPermissionError: [Errno 13] Permission denied: \'/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera/share/colcon-core/packages/realsense2_camera\'\n'}
+[0.128017] (realsense2_camera) JobEnded: {'identifier': 'realsense2_camera', 'rc': 1}
+[0.137763] (-) EventReactorShutdown: {}

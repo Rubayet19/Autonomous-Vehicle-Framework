@@ -1,0 +1,124 @@
+[0.409s] Invoking command in '/workspaces/isaac_ros-dev/build/nvblox': /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/nvblox -- -j12 -l12
+[1.751s] -- Downloading 3rdparty dependencies
+[1.751s] -- Downloading Eigen
+[1.752s] -- Downloading STDGPU
+[1.752s] -- Could NOT find Doxygen: Found unsuitable version "1.8.17", but required is at least "1.9.1" (found /usr/bin/doxygen, found components: doxygen dot)
+[1.752s] -- 
+[1.753s] -- ************************ stdgpu Configuration Summary *************************
+[1.753s] -- 
+[1.753s] -- General:
+[1.753s] --   Version                                   :   1.3.0
+[1.754s] --   System                                    :   Linux
+[1.757s] --   Build type                                :   RelWithDebInfo
+[1.758s] -- 
+[1.759s] -- Build:
+[1.759s] --   STDGPU_BACKEND                            :   STDGPU_BACKEND_CUDA
+[1.759s] --   STDGPU_BUILD_SHARED_LIBS                  :   OFF
+[1.759s] --   STDGPU_SETUP_COMPILER_FLAGS               :   OFF
+[1.760s] --   STDGPU_TREAT_WARNINGS_AS_ERRORS           :   OFF
+[1.760s] --   STDGPU_ANALYZE_WITH_CLANG_TIDY            :   OFF
+[1.760s] --   STDGPU_ANALYZE_WITH_CPPCHECK              :   OFF
+[1.760s] -- 
+[1.760s] -- Configuration:
+[1.760s] --   STDGPU_ENABLE_CONTRACT_CHECKS             :   OFF
+[1.760s] --   STDGPU_USE_32_BIT_INDEX                   :   ON
+[1.760s] -- 
+[1.761s] -- Examples:
+[1.761s] --   STDGPU_BUILD_EXAMPLES                     :   OFF
+[1.761s] -- 
+[1.761s] -- Tests:
+[1.761s] --   STDGPU_BUILD_TESTS                        :   OFF
+[1.761s] --   STDGPU_BUILD_TEST_COVERAGE                :   OFF
+[1.761s] -- 
+[1.762s] -- Documentation:
+[1.762s] --   Doxygen                                   :   NO
+[1.762s] -- 
+[1.762s] -- *******************************************************************************
+[1.762s] -- 
+[1.762s] -- Detecting CCs of GPUs : /workspaces/isaac_ros-dev/build/nvblox/_deps/ext_stdgpu-src/cmake/cuda/compute_capability.cpp
+[3.760s] -- Detecting CCs of GPUs : /workspaces/isaac_ros-dev/build/nvblox/_deps/ext_stdgpu-src/cmake/cuda/compute_capability.cpp - Success (found CCs : 87)
+[3.760s] -- Enabled compilation for CC 87
+[3.760s] -- Building with modified CMAKE_CUDA_ARCHITECTURES : 87
+[4.044s] -- Up-to-date: /workspaces/isaac_ros-dev/build/nvblox/tests/data
+[4.044s] -- Up-to-date: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch
+[4.044s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/camera-intrinsics.txt
+[4.045s] -- Up-to-date: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01
+[4.045s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000116.pose.txt
+[4.046s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000001.pose.txt
+[4.048s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000000.pose.txt
+[4.049s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000002.pose.txt
+[4.052s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000422.pose.txt
+[4.170s] -- Configuring done
+[6.968s] -- Generating done
+[7.175s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/nvblox
+[7.569s] [35m[1mConsolidate compiler generated dependencies of target stdgpu[0m
+[7.736s] [  1%] [34m[1mCompleted 'ext_eigen'[0m
+[7.761s] [  1%] [32mBuilding CXX object _deps/ext_stdgpu-build/src/stdgpu/CMakeFiles/stdgpu.dir/impl/iterator.cpp.o[0m
+[7.763s] [  2%] [32mBuilding CXX object _deps/ext_stdgpu-build/src/stdgpu/CMakeFiles/stdgpu.dir/impl/memory.cpp.o[0m
+[7.821s] [  3%] [32mBuilding CXX object _deps/ext_stdgpu-build/src/stdgpu/CMakeFiles/stdgpu.dir/cuda/impl/memory.cpp.o[0m
+[7.845s] [  3%] [32mBuilding CXX object _deps/ext_stdgpu-build/src/stdgpu/CMakeFiles/stdgpu.dir/impl/limits.cpp.o[0m
+[8.075s] [  7%] Built target ext_eigen
+[16.844s] [  7%] [32m[1mLinking CXX static library libstdgpu.a[0m
+[17.168s] [  7%] Built target stdgpu
+[17.260s] [35m[1mConsolidate compiler generated dependencies of target nvblox_gpu_hash[0m
+[17.482s] [  8%] [32mBuilding CUDA object CMakeFiles/nvblox_gpu_hash.dir/src/gpu_hash/gpu_layer_view.cu.o[0m
+[89.986s] [  8%] [32mBuilding CUDA object CMakeFiles/nvblox_gpu_hash.dir/src/gpu_hash/gpu_set.cu.o[0m
+[112.232s] [  9%] [32m[1mLinking CXX static library libnvblox_gpu_hash.a[0m
+[112.470s] [ 11%] Built target nvblox_gpu_hash
+[112.538s] [35m[1mConsolidate compiler generated dependencies of target nvblox_lib[0m
+[112.723s] [ 11%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/map/blox.cu.o[0m
+[112.739s] [ 12%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/map/layer.cu.o[0m
+[112.742s] [ 13%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/sensors/image.cu.o[0m
+[112.743s] [ 14%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/sensors/camera.cpp.o[0m
+[112.744s] [ 14%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/sensors/pointcloud.cu.o[0m
+[112.745s] [ 15%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/geometry/bounding_boxes.cpp.o[0m
+[113.788s] [ 15%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/integrators/projective_occupancy_integrator.cu.o[0m
+[113.788s] [ 16%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/integrators/occupancy_decay_integrator.cu.o[0m
+[113.808s] [ 17%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/integrators/view_calculator.cu.o[0m
+[113.825s] [ 17%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/mapper/multi_mapper.cpp.o[0m
+[114.917s] [ 17%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/geometry/bounding_spheres.cpp.o[0m
+[114.925s] [ 18%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/mapper/mapper.cpp.o[0m
+[124.449s] [ 19%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/integrators/projective_tsdf_integrator.cu.o[0m
+[124.480s] [ 19%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/integrators/projective_color_integrator.cu.o[0m
+[125.529s] [ 20%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/integrators/esdf_integrator.cu.o[0m
+[130.055s] [ 20%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/rays/sphere_tracer.cu.o[0m
+[131.503s] [ 21%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/interpolation/interpolation_3d.cpp.o[0m
+[132.790s] [ 22%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/io/mesh_io.cpp.o[0m
+[133.046s] [ 22%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/io/ply_writer.cpp.o[0m
+[134.914s] [ 23%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/io/layer_cake_io.cpp.o[0m
+[141.648s] [ 23%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/mesh/marching_cubes.cu.o[0m
+[141.671s] [ 24%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/io/image_io.cpp.o[0m
+[142.710s] [ 24%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/io/pointcloud_io.cpp.o[0m
+[146.482s] [ 25%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/mesh/mesh_block.cu.o[0m
+[149.595s] [ 25%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/mesh/mesh_integrator_color.cu.o[0m
+[149.889s] [ 26%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/mesh/mesh_integrator.cu.o[0m
+[156.217s] [ 26%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/primitives/primitives.cpp.o[0m
+[158.246s] [ 27%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/primitives/scene.cpp.o[0m
+[160.288s] [ 28%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/mesh/mesh.cpp.o[0m
+[166.568s] [ 28%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/semantics/image_masker.cu.o[0m
+[166.569s] [ 29%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/semantics/image_projector.cu.o[0m
+[167.906s] [ 30%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/serialization/sqlite_database.cpp.o[0m
+[167.910s] [ 31%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/serialization/layer_type_register.cpp.o[0m
+[170.962s] [ 31%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/serialization/serializer.cpp.o[0m
+[193.509s] [ 31%] [32m[1mLinking CUDA device code CMakeFiles/nvblox_lib.dir/cmake_device_link.o[0m
+[200.224s] [ 32%] [32m[1mLinking CXX shared library libnvblox_lib.so[0m
+[203.006s] [ 34%] Built target nvblox_lib
+[203.035s] [35m[1mConsolidate compiler generated dependencies of target sphere_benchmark[0m
+[203.040s] [35m[1mConsolidate compiler generated dependencies of target load_map_and_mesh[0m
+[203.040s] [35m[1mConsolidate compiler generated dependencies of target esdf_query[0m
+[203.044s] [35m[1mConsolidate compiler generated dependencies of target nvblox_datasets[0m
+[203.069s] [ 34%] [32mBuilding CXX object CMakeFiles/sphere_benchmark.dir/src/benchmarks/sphere_benchmark.cpp.o[0m
+[203.084s] [ 35%] [32m[1mLinking CUDA device code CMakeFiles/load_map_and_mesh.dir/cmake_device_link.o[0m
+[203.106s] [ 36%] [32m[1mLinking CUDA device code CMakeFiles/nvblox_datasets.dir/cmake_device_link.o[0m
+[203.113s] [ 37%] [32m[1mLinking CUDA device code CMakeFiles/esdf_query.dir/cmake_device_link.o[0m
+[203.279s] [ 37%] [32m[1mLinking CXX executable load_map_and_mesh[0m
+[203.342s] [ 37%] [32m[1mLinking CXX shared library libnvblox_datasets.so[0m
+[203.373s] [ 37%] [32m[1mLinking CXX executable esdf_query[0m
+[203.639s] [ 37%] Built target load_map_and_mesh
+[203.750s] [ 37%] Built target esdf_query
+[203.939s] make[2]: *** Deleting file 'executables/libnvblox_datasets.so'
+[203.941s] make[2]: *** [CMakeFiles/sphere_benchmark.dir/build.make:76: CMakeFiles/sphere_benchmark.dir/src/benchmarks/sphere_benchmark.cpp.o] Interrupt
+[203.941s] make[1]: *** [CMakeFiles/Makefile2:436: CMakeFiles/sphere_benchmark.dir/all] Interrupt
+[203.941s] make[2]: *** [executables/CMakeFiles/nvblox_datasets.dir/build.make:203: executables/libnvblox_datasets.so] Interrupt
+[203.941s] make[1]: *** [CMakeFiles/Makefile2:1245: executables/CMakeFiles/nvblox_datasets.dir/all] Interrupt
+[203.941s] make: *** [Makefile:146: all] Interrupt

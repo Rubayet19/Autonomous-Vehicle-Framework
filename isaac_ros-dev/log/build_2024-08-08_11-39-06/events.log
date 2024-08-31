@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.001143] (-) JobUnselected: {'identifier': 'agv_bot_description'}
+[0.001475] (-) JobUnselected: {'identifier': 'async_web_server_cpp'}
+[0.003090] (-) JobUnselected: {'identifier': 'camera_calibration_parsers'}
+[0.003199] (-) JobUnselected: {'identifier': 'camera_info_manager'}
+[0.003365] (-) JobUnselected: {'identifier': 'camera_publishers'}
+[0.003451] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.003497] (-) JobUnselected: {'identifier': 'geodesy'}
+[0.003542] (-) JobUnselected: {'identifier': 'geographic_info'}
+[0.003612] (-) JobUnselected: {'identifier': 'geographic_msgs'}
+[0.003678] (-) JobUnselected: {'identifier': 'gps_package'}
+[0.005268] (-) JobUnselected: {'identifier': 'image_common'}
+[0.005362] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.005499] (-) JobUnselected: {'identifier': 'image_stitcher'}
+[0.005573] (-) JobUnselected: {'identifier': 'image_transport'}
+[0.005636] (-) JobUnselected: {'identifier': 'isaac_ros_apriltag_interfaces'}
+[0.005694] (-) JobUnselected: {'identifier': 'isaac_ros_bi3d_interfaces'}
+[0.005753] (-) JobUnselected: {'identifier': 'isaac_ros_common'}
+[0.007262] (-) JobUnselected: {'identifier': 'isaac_ros_nvblox'}
+[0.007447] (-) JobUnselected: {'identifier': 'isaac_ros_pointcloud_interfaces'}
+[0.007567] (-) JobUnselected: {'identifier': 'isaac_ros_tensor_list_interfaces'}
+[0.007668] (-) JobUnselected: {'identifier': 'isaac_ros_test'}
+[0.007741] (-) JobUnselected: {'identifier': 'joint_state_publisher'}
+[0.008190] (-) JobUnselected: {'identifier': 'joint_state_publisher_gui'}
+[0.008300] (-) JobUnselected: {'identifier': 'motor_control_pkg'}
+[0.008347] (-) JobUnselected: {'identifier': 'motor_control_pkg'}
+[0.008396] (-) JobUnselected: {'identifier': 'nvblox'}
+[0.008470] (-) JobUnselected: {'identifier': 'nvblox_cpu_gpu_tools'}
+[0.008523] (-) JobUnselected: {'identifier': 'nvblox_examples_bringup'}
+[0.008566] (-) JobUnselected: {'identifier': 'nvblox_image_padding'}
+[0.008626] (-) JobUnselected: {'identifier': 'nvblox_isaac_sim'}
+[0.009999] (-) JobUnselected: {'identifier': 'nvblox_msgs'}
+[0.011606] (-) JobUnselected: {'identifier': 'nvblox_nav2'}
+[0.011710] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement'}
+[0.011794] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement_msgs'}
+[0.011871] (-) JobUnselected: {'identifier': 'nvblox_ros'}
+[0.011949] (-) JobUnselected: {'identifier': 'nvblox_ros_common'}
+[0.012015] (-) JobUnselected: {'identifier': 'nvblox_rviz_plugin'}
+[0.012085] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.012160] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.012312] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.012390] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.012447] (-) JobUnselected: {'identifier': 'realsense_obj_det'}
+[0.012496] (-) JobUnselected: {'identifier': 'road_segmentation'}
+[0.012563] (-) JobUnselected: {'identifier': 'semantic_label_conversion'}
+[0.012627] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.012773] (-) JobUnselected: {'identifier': 'stdgpu'}
+[0.012845] (-) JobUnselected: {'identifier': 'teleop_twist_joy'}
+[0.012927] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.012988] (-) JobUnselected: {'identifier': 'twist_converter'}
+[0.013032] (-) JobUnselected: {'identifier': 'twist_mux'}
+[0.013077] (-) JobUnselected: {'identifier': 'velodyne'}
+[0.013117] (-) JobUnselected: {'identifier': 'velodyne_driver'}
+[0.013187] (-) JobUnselected: {'identifier': 'velodyne_laserscan'}
+[0.013256] (-) JobUnselected: {'identifier': 'velodyne_msgs'}
+[0.013331] (-) JobUnselected: {'identifier': 'velodyne_pointcloud'}
+[0.013461] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.013534] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.013578] (-) JobUnselected: {'identifier': 'xacro'}
+[0.013631] (data_logger) JobQueued: {'identifier': 'data_logger', 'dependencies': OrderedDict([('cv_bridge', '/avlcode/workspaces/isaac_ros-dev/install/cv_bridge'), ('image_transport', '/avlcode/workspaces/isaac_ros-dev/install/image_transport')])}
+[0.013832] (data_logger) JobStarted: {'identifier': 'data_logger'}
+[0.040595] (data_logger) JobProgress: {'identifier': 'data_logger', 'progress': 'cmake'}
+[0.042191] (data_logger) Command: {'cmd': ['/usr/bin/cmake', '/avlcode/workspaces/isaac_ros-dev/src/data_logger', '-DCMAKE_INSTALL_PREFIX=/avlcode/workspaces/isaac_ros-dev/install/data_logger'], 'cwd': '/avlcode/workspaces/isaac_ros-dev/build/data_logger', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'agxorin1'), ('LD_LIBRARY_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport/lib:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib'), ('HOME', '/root'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --packages-select data_logger'), ('AMENT_PREFIX_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'admin'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/avlcode/workspaces/isaac_ros-dev/build/data_logger'), ('PYTHONPATH', '/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge')]), 'shell': False}
+[0.098749] (-) TimerEvent: {}
+[0.109268] (data_logger) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.109944] (data_logger) StderrLine: {'line': b'  By not providing "Findament_cmake_ros.cmake" in CMAKE_MODULE_PATH this\n'}
+[0.110132] (data_logger) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[0.110291] (data_logger) StderrLine: {'line': b'  "ament_cmake_ros", but CMake did not find one.\n'}
+[0.110437] (data_logger) StderrLine: {'line': b'\n'}
+[0.110570] (data_logger) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake_ros"\n'}
+[0.110703] (data_logger) StderrLine: {'line': b'  with any of the following names:\n'}
+[0.110831] (data_logger) StderrLine: {'line': b'\n'}
+[0.110958] (data_logger) StderrLine: {'line': b'    ament_cmake_rosConfig.cmake\n'}
+[0.111084] (data_logger) StderrLine: {'line': b'    ament_cmake_ros-config.cmake\n'}
+[0.111209] (data_logger) StderrLine: {'line': b'\n'}
+[0.111330] (data_logger) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake_ros" to CMAKE_PREFIX_PATH or\n'}
+[0.111484] (data_logger) StderrLine: {'line': b'  set "ament_cmake_ros_DIR" to a directory containing one of the above files.\n'}
+[0.111612] (data_logger) StderrLine: {'line': b'  If "ament_cmake_ros" provides a separate development package or SDK, be\n'}
+[0.111738] (data_logger) StderrLine: {'line': b'  sure it has been installed.\n'}
+[0.112132] (data_logger) StderrLine: {'line': b'\n'}
+[0.112928] (data_logger) StderrLine: {'line': b'\x1b[0m\n'}
+[0.113642] (data_logger) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.114254] (data_logger) StdoutLine: {'line': b'See also "/avlcode/workspaces/isaac_ros-dev/build/data_logger/CMakeFiles/CMakeOutput.log".\n'}
+[0.114630] (data_logger) CommandEnded: {'returncode': 1}
+[0.170676] (data_logger) JobEnded: {'identifier': 'data_logger', 'rc': 1}
+[0.172746] (-) EventReactorShutdown: {}

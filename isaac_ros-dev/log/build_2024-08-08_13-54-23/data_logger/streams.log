@@ -1,0 +1,51 @@
+[0.034s] Invoking command in '/avlcode/workspaces/isaac_ros-dev/build/data_logger': AMENT_PREFIX_PATH=/avlcode/workspaces/isaac_ros-dev/install/image_transport CMAKE_PREFIX_PATH=/avlcode/workspaces/isaac_ros-dev/install/image_transport:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge LD_LIBRARY_PATH=/avlcode/workspaces/isaac_ros-dev/install/image_transport/lib:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib PYTHONPATH=/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib/python3.8/site-packages /usr/bin/cmake --build /avlcode/workspaces/isaac_ros-dev/build/data_logger -- -j12 -l12
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target data_logger_node2[0m
+[0.118s] [ 50%] [32mBuilding CXX object CMakeFiles/data_logger_node2.dir/src/data_logger_node2.cpp.o[0m
+[10.058s] [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:24:30:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[10.058s]    24 | using std::placeholders::_1; [01;35m[K;[m[K
+[10.058s]       |                              [01;35m[K^[m[K
+[10.557s] [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:[m[K In constructor ‘[01m[KDataLogger::DataLogger()[m[K’:
+[10.557s] [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:49:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kentry[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[10.557s]    49 |     for (const auto &[01;35m[Kentry[m[K : fs::directory_iterator(m_drive)) {
+[10.557s]       |                      [01;35m[K^~~~~[m[K
+[10.558s] [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:65:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kentry[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[10.559s]    65 |     for (const auto &[01;35m[Kentry[m[K : fs::directory_iterator(m_image_drive)) {
+[10.559s]       |                      [01;35m[K^~~~~[m[K
+[10.575s] [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:103:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kapproximate_policy[m[K’ was not declared in this scope; did you mean ‘[01m[Km_approximate_policy[m[K’?
+[10.575s]   103 |             message_filters::Synchronizer<[01;31m[Kapproximate_policy[m[K> m_syncApproximate(
+[10.575s]       |                                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[10.575s]       |                                           [32m[Km_approximate_policy[m[K
+[10.576s] [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:103:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.576s]   103 |             message_filters::Synchronizer<approximate_policy[01;31m[K>[m[K m_syncApproximate(
+[10.576s]       |                                                             [01;31m[K^[m[K
+[10.576s] [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:104:102:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+[10.576s]   104 |                 approximate_policy(10), m_front_camera, m_left_camera, m_right_camera, m_steering_msg[01;31m[K)[m[K;
+[10.576s]       |                                                                                                      [01;31m[K^[m[K
+[10.586s] [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:107:13:[m[K [01;31m[Kerror: [m[K‘[01m[KsyncApproximate[m[K’ was not declared in this scope; did you mean ‘[01m[Km_syncApproximate[m[K’?
+[10.586s]   107 |             [01;31m[KsyncApproximate[m[K.registerCallback(&DataLogger::camera_sync_callback, this);
+[10.587s]       |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[10.587s]       |             [32m[Km_syncApproximate[m[K
+[10.587s] [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:103:63:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Km_syncApproximate[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[10.588s]   103 |             message_filters::Synchronizer<approximate_policy> [01;35m[Km_syncApproximate[m[K(
+[10.588s]       |                                                               [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[11.291s] In file included from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41[m[K,
+[11.292s]                  from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:13[m[K:
+[11.292s] /opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h: In instantiation of ‘[01m[Kmessage_filters::Synchronizer<Policy>::Synchronizer() [with Policy = message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, geometry_msgs::msg::Twist_<std::allocator<void> > >][m[K’:
+[11.293s] [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:30:44:[m[K   required from here
+[11.293s] [01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:140:3:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmessage_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, geometry_msgs::msg::Twist_<std::allocator<void> > >::ApproximateTime()[m[K’
+[11.294s]   140 |   [01;31m[K{[m[K
+[11.294s]       |   [01;31m[K^[m[K
+[11.294s] In file included from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14[m[K:
+[11.294s] [01m[K/opt/ros/humble/install/include/message_filters/message_filters/sync_policies/approximate_time.h:130:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::sync_policies::ApproximateTime<M0, M1, M2, M3, M4, M5, M6, M7, M8>::ApproximateTime(const message_filters::sync_policies::ApproximateTime<M0, M1, M2, M3, M4, M5, M6, M7, M8>&) [with M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+[11.295s]   130 |   [01;36m[KApproximateTime[m[K(const ApproximateTime& e)
+[11.295s]       |   [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.296s] [01m[K/opt/ros/humble/install/include/message_filters/message_filters/sync_policies/approximate_time.h:130:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[11.296s] In file included from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14[m[K:
+[11.297s] [01m[K/opt/ros/humble/install/include/message_filters/message_filters/sync_policies/approximate_time.h:116:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::sync_policies::ApproximateTime<M0, M1, M2, M3, M4, M5, M6, M7, M8>::ApproximateTime(uint32_t) [with M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType; uint32_t = unsigned int][m[K’
+[11.297s]   116 |   [01;36m[KApproximateTime[m[K(uint32_t queue_size)
+[11.297s]       |   [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.297s] [01m[K/opt/ros/humble/install/include/message_filters/message_filters/sync_policies/approximate_time.h:116:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[21.030s] make[2]: *** [CMakeFiles/data_logger_node2.dir/build.make:76: CMakeFiles/data_logger_node2.dir/src/data_logger_node2.cpp.o] Error 1
+[21.030s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/data_logger_node2.dir/all] Error 2
+[21.031s] make: *** [Makefile:146: all] Error 2
+[21.035s] Invoked command in '/avlcode/workspaces/isaac_ros-dev/build/data_logger' returned '2': AMENT_PREFIX_PATH=/avlcode/workspaces/isaac_ros-dev/install/image_transport CMAKE_PREFIX_PATH=/avlcode/workspaces/isaac_ros-dev/install/image_transport:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge LD_LIBRARY_PATH=/avlcode/workspaces/isaac_ros-dev/install/image_transport/lib:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib PYTHONPATH=/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib/python3.8/site-packages /usr/bin/cmake --build /avlcode/workspaces/isaac_ros-dev/build/data_logger -- -j12 -l12

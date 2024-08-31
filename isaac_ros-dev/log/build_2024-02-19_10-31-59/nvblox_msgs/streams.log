@@ -1,0 +1,53 @@
+[0.418s] Invoking command in '/workspaces/isaac_ros-dev/build/nvblox_msgs': /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/nvblox_msgs -- -j12 -l12
+[1.356s] [  1%] Built target nvblox_msgs__cpp
+[1.356s] [ 12%] Built target nvblox_msgs__rosidl_generator_c
+[1.357s] [ 12%] Built target ament_cmake_python_copy_nvblox_msgs
+[1.360s] [ 23%] Built target nvblox_msgs__rosidl_typesupport_cpp
+[1.362s] [ 35%] Built target nvblox_msgs__rosidl_typesupport_fastrtps_cpp
+[1.365s] [ 46%] Built target nvblox_msgs__rosidl_typesupport_introspection_c
+[1.366s] [ 57%] Built target nvblox_msgs__rosidl_typesupport_introspection_cpp
+[1.367s] [ 69%] Built target nvblox_msgs__rosidl_typesupport_c
+[1.368s] [ 80%] Built target nvblox_msgs__rosidl_typesupport_fastrtps_c
+[1.368s] [ 80%] Built target nvblox_msgs
+[1.368s] [ 81%] Built target nvblox_msgs__py
+[1.369s] [ 91%] Built target nvblox_msgs__rosidl_generator_py
+[1.369s] [100%] Built target nvblox_msgs__rosidl_typesupport_c__pyext
+[1.369s] [100%] Built target nvblox_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.369s] [100%] Built target nvblox_msgs__rosidl_typesupport_introspection_c__pyext
+[1.374s] Traceback (most recent call last):
+[1.374s]   File "setup.py", line 1, in <module>
+[1.374s]     from setuptools import find_packages
+[1.374s]   File "/usr/local/lib/python3.8/dist-packages/setuptools/__init__.py", line 18, in <module>
+[1.374s]     from setuptools.dist import Distribution
+[1.375s]   File "/usr/local/lib/python3.8/dist-packages/setuptools/dist.py", line 41, in <module>
+[1.375s]     from setuptools.config import setupcfg, pyprojecttoml
+[1.375s]   File "/usr/local/lib/python3.8/dist-packages/setuptools/config/__init__.py", line 10, in <module>
+[1.375s]     from . import setupcfg
+[1.375s]   File "/usr/local/lib/python3.8/dist-packages/setuptools/config/setupcfg.py", line 18, in <module>
+[1.375s]     from setuptools.extern.packaging.requirements import Requirement, InvalidRequirement
+[1.375s]   File "/usr/local/lib/python3.8/dist-packages/setuptools/_vendor/packaging/requirements.py", line 10, in <module>
+[1.375s]     from setuptools.extern.pyparsing import (  # noqa
+[1.376s]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[1.376s]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[1.376s]   File "<frozen importlib._bootstrap>", line 657, in _load_unlocked
+[1.376s]   File "<frozen importlib._bootstrap>", line 556, in module_from_spec
+[1.376s]   File "/usr/local/lib/python3.8/dist-packages/setuptools/extern/__init__.py", line 52, in create_module
+[1.376s]     return self.load_module(spec.name)
+[1.376s]   File "/usr/local/lib/python3.8/dist-packages/setuptools/extern/__init__.py", line 37, in load_module
+[1.376s]     __import__(extant)
+[1.377s]   File "/usr/local/lib/python3.8/dist-packages/setuptools/_vendor/pyparsing/__init__.py", line 149, in <module>
+[1.377s]     from .common import (
+[1.377s]   File "/usr/local/lib/python3.8/dist-packages/setuptools/_vendor/pyparsing/common.py", line 8, in <module>
+[1.377s]     class pyparsing_common:
+[1.377s]   File "/usr/local/lib/python3.8/dist-packages/setuptools/_vendor/pyparsing/common.py", line 168, in pyparsing_common
+[1.377s]     Word(hexnums).set_name("hex integer").set_parse_action(token_map(int, 16))
+[1.377s]   File "/usr/local/lib/python3.8/dist-packages/setuptools/_vendor/pyparsing/core.py", line 2739, in __init__
+[1.377s]     self.errmsg = "Expected " + self.name
+[1.377s]   File "/usr/local/lib/python3.8/dist-packages/setuptools/_vendor/pyparsing/core.py", line 1860, in name
+[1.378s]     return self.customName if self.customName is not None else self.default_name
+[1.378s]   File "/usr/local/lib/python3.8/dist-packages/setuptools/_vendor/pyparsing/core.py", line 1835, in default_name
+[1.378s]     self._defaultName = self._generateDefaultName()
+[1.378s] KeyboardInterrupt
+[1.424s] make[2]: *** [CMakeFiles/ament_cmake_python_build_nvblox_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_nvblox_msgs_egg] Interrupt
+[1.425s] make[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_nvblox_msgs_egg.dir/all] Interrupt
+[1.426s] make: *** [Makefile:146: all] Interrupt

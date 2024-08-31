@@ -1,0 +1,5 @@
+if(EXISTS "/avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_mesh[1]_tests.cmake")
+  include("/avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_mesh[1]_tests.cmake")
+else()
+  add_test(test_mesh_NOT_BUILT test_mesh_NOT_BUILT)
+endif()

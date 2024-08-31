@@ -1,0 +1,5 @@
+add_test([=[MapperTest.ClearOutsideSphere]=]  /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_mapper [==[--gtest_filter=MapperTest.ClearOutsideSphere]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[MapperTest.ClearOutsideSphere]=]  PROPERTIES WORKING_DIRECTORY /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[MapperTest.GenerateEsdfInFakeObservedAreas]=]  /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_mapper [==[--gtest_filter=MapperTest.GenerateEsdfInFakeObservedAreas]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[MapperTest.GenerateEsdfInFakeObservedAreas]=]  PROPERTIES WORKING_DIRECTORY /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  test_mapper_TESTS MapperTest.ClearOutsideSphere MapperTest.GenerateEsdfInFakeObservedAreas)

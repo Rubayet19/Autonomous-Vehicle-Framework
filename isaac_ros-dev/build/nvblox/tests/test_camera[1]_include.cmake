@@ -1,0 +1,5 @@
+if(EXISTS "/avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_camera[1]_tests.cmake")
+  include("/avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_camera[1]_tests.cmake")
+else()
+  add_test(test_camera_NOT_BUILT test_camera_NOT_BUILT)
+endif()

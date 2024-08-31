@@ -1,0 +1,300 @@
+[0.000000] (-) TimerEvent: {}
+[0.000716] (-) JobUnselected: {'identifier': 'agv_bot_description'}
+[0.001304] (-) JobUnselected: {'identifier': 'async_web_server_cpp'}
+[0.001597] (-) JobUnselected: {'identifier': 'camera_calibration_parsers'}
+[0.003336] (-) JobUnselected: {'identifier': 'camera_info_manager'}
+[0.003437] (-) JobUnselected: {'identifier': 'camera_publishers'}
+[0.003598] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.003681] (-) JobUnselected: {'identifier': 'geodesy'}
+[0.003735] (-) JobUnselected: {'identifier': 'geographic_info'}
+[0.003801] (-) JobUnselected: {'identifier': 'geographic_msgs'}
+[0.003856] (-) JobUnselected: {'identifier': 'gps_package'}
+[0.005382] (-) JobUnselected: {'identifier': 'image_common'}
+[0.005468] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.005594] (-) JobUnselected: {'identifier': 'image_stitcher'}
+[0.005666] (-) JobUnselected: {'identifier': 'image_transport'}
+[0.005731] (-) JobUnselected: {'identifier': 'isaac_ros_apriltag_interfaces'}
+[0.005797] (-) JobUnselected: {'identifier': 'isaac_ros_bi3d_interfaces'}
+[0.007127] (-) JobUnselected: {'identifier': 'isaac_ros_common'}
+[0.007209] (-) JobUnselected: {'identifier': 'isaac_ros_nvblox'}
+[0.007331] (-) JobUnselected: {'identifier': 'isaac_ros_pointcloud_interfaces'}
+[0.007410] (-) JobUnselected: {'identifier': 'isaac_ros_tensor_list_interfaces'}
+[0.007476] (-) JobUnselected: {'identifier': 'isaac_ros_test'}
+[0.007524] (-) JobUnselected: {'identifier': 'joint_state_publisher'}
+[0.007571] (-) JobUnselected: {'identifier': 'joint_state_publisher_gui'}
+[0.007916] (-) JobUnselected: {'identifier': 'motor_control_pkg'}
+[0.008006] (-) JobUnselected: {'identifier': 'nvblox'}
+[0.008074] (-) JobUnselected: {'identifier': 'nvblox_cpu_gpu_tools'}
+[0.008126] (-) JobUnselected: {'identifier': 'nvblox_examples_bringup'}
+[0.009311] (-) JobUnselected: {'identifier': 'nvblox_image_padding'}
+[0.010847] (-) JobUnselected: {'identifier': 'nvblox_isaac_sim'}
+[0.010956] (-) JobUnselected: {'identifier': 'nvblox_msgs'}
+[0.011035] (-) JobUnselected: {'identifier': 'nvblox_nav2'}
+[0.011110] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement'}
+[0.011187] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement_msgs'}
+[0.011242] (-) JobUnselected: {'identifier': 'nvblox_ros'}
+[0.011385] (-) JobUnselected: {'identifier': 'nvblox_ros_common'}
+[0.011550] (-) JobUnselected: {'identifier': 'nvblox_rviz_plugin'}
+[0.011649] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.011739] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.011795] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.011936] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.012009] (-) JobUnselected: {'identifier': 'realsense_obj_det'}
+[0.012091] (-) JobUnselected: {'identifier': 'road_segmentation'}
+[0.012146] (-) JobUnselected: {'identifier': 'semantic_label_conversion'}
+[0.012196] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.012243] (-) JobUnselected: {'identifier': 'stdgpu'}
+[0.012311] (-) JobUnselected: {'identifier': 'teleop_twist_joy'}
+[0.012380] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.012432] (-) JobUnselected: {'identifier': 'twist_converter'}
+[0.012479] (-) JobUnselected: {'identifier': 'twist_mux'}
+[0.012605] (-) JobUnselected: {'identifier': 'velodyne'}
+[0.012693] (-) JobUnselected: {'identifier': 'velodyne_driver'}
+[0.012758] (-) JobUnselected: {'identifier': 'velodyne_laserscan'}
+[0.012839] (-) JobUnselected: {'identifier': 'velodyne_msgs'}
+[0.012890] (-) JobUnselected: {'identifier': 'velodyne_pointcloud'}
+[0.013060] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.013132] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.013209] (-) JobUnselected: {'identifier': 'xacro'}
+[0.013268] (data_logger) JobQueued: {'identifier': 'data_logger', 'dependencies': OrderedDict([('cv_bridge', '/avlcode/workspaces/isaac_ros-dev/install/cv_bridge'), ('image_transport', '/avlcode/workspaces/isaac_ros-dev/install/image_transport')])}
+[0.013345] (data_logger) JobStarted: {'identifier': 'data_logger'}
+[0.041996] (data_logger) JobProgress: {'identifier': 'data_logger', 'progress': 'cmake'}
+[0.043777] (data_logger) JobProgress: {'identifier': 'data_logger', 'progress': 'build'}
+[0.045386] (data_logger) Command: {'cmd': ['/usr/bin/cmake', '--build', '/avlcode/workspaces/isaac_ros-dev/build/data_logger', '--', '-j12', '-l12'], 'cwd': '/avlcode/workspaces/isaac_ros-dev/build/data_logger', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources'), ('HOSTNAME', 'agxorin1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport/lib:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib'), ('HOME', '/home/admin'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('USERNAME', 'admin'), ('TERM', 'xterm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvidia/tao:/usr/local/cuda/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/usr/local/share/middleware_profiles/husarnet_fastdds_profile.xml'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/avlcode/workspaces/isaac_ros-dev/build/data_logger'), ('PYTHONPATH', '/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('USER_GID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge')]), 'shell': False}
+[0.099210] (-) TimerEvent: {}
+[0.110985] (data_logger) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target data_logger_node\x1b[0m\n'}
+[0.152197] (data_logger) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/data_logger_node.dir/src/data_logger_node.cpp.o\x1b[0m\n'}
+[0.199373] (-) TimerEvent: {}
+[0.300171] (-) TimerEvent: {}
+[0.400994] (-) TimerEvent: {}
+[0.501821] (-) TimerEvent: {}
+[0.602536] (-) TimerEvent: {}
+[0.703262] (-) TimerEvent: {}
+[0.804094] (-) TimerEvent: {}
+[0.905003] (-) TimerEvent: {}
+[1.005841] (-) TimerEvent: {}
+[1.106701] (-) TimerEvent: {}
+[1.207552] (-) TimerEvent: {}
+[1.308363] (-) TimerEvent: {}
+[1.409096] (-) TimerEvent: {}
+[1.509808] (-) TimerEvent: {}
+[1.610512] (-) TimerEvent: {}
+[1.711217] (-) TimerEvent: {}
+[1.811909] (-) TimerEvent: {}
+[1.912610] (-) TimerEvent: {}
+[2.013355] (-) TimerEvent: {}
+[2.114070] (-) TimerEvent: {}
+[2.214768] (-) TimerEvent: {}
+[2.315497] (-) TimerEvent: {}
+[2.416446] (-) TimerEvent: {}
+[2.517411] (-) TimerEvent: {}
+[2.618130] (-) TimerEvent: {}
+[2.718857] (-) TimerEvent: {}
+[2.819575] (-) TimerEvent: {}
+[2.920473] (-) TimerEvent: {}
+[3.021457] (-) TimerEvent: {}
+[3.122194] (-) TimerEvent: {}
+[3.222889] (-) TimerEvent: {}
+[3.323559] (-) TimerEvent: {}
+[3.424234] (-) TimerEvent: {}
+[3.524946] (-) TimerEvent: {}
+[3.625626] (-) TimerEvent: {}
+[3.726303] (-) TimerEvent: {}
+[3.827042] (-) TimerEvent: {}
+[3.927670] (-) TimerEvent: {}
+[4.028363] (-) TimerEvent: {}
+[4.129103] (-) TimerEvent: {}
+[4.229822] (-) TimerEvent: {}
+[4.330553] (-) TimerEvent: {}
+[4.431268] (-) TimerEvent: {}
+[4.531976] (-) TimerEvent: {}
+[4.632707] (-) TimerEvent: {}
+[4.733429] (-) TimerEvent: {}
+[4.834151] (-) TimerEvent: {}
+[4.934821] (-) TimerEvent: {}
+[5.035507] (-) TimerEvent: {}
+[5.136173] (-) TimerEvent: {}
+[5.236850] (-) TimerEvent: {}
+[5.337532] (-) TimerEvent: {}
+[5.438248] (-) TimerEvent: {}
+[5.538969] (-) TimerEvent: {}
+[5.639648] (-) TimerEvent: {}
+[5.740309] (-) TimerEvent: {}
+[5.841022] (-) TimerEvent: {}
+[5.941696] (-) TimerEvent: {}
+[6.042355] (-) TimerEvent: {}
+[6.143027] (-) TimerEvent: {}
+[6.243686] (-) TimerEvent: {}
+[6.344352] (-) TimerEvent: {}
+[6.445043] (-) TimerEvent: {}
+[6.545720] (-) TimerEvent: {}
+[6.646611] (-) TimerEvent: {}
+[6.747308] (-) TimerEvent: {}
+[6.848015] (-) TimerEvent: {}
+[6.948754] (-) TimerEvent: {}
+[7.049482] (-) TimerEvent: {}
+[7.150239] (-) TimerEvent: {}
+[7.251006] (-) TimerEvent: {}
+[7.351718] (-) TimerEvent: {}
+[7.452434] (-) TimerEvent: {}
+[7.553188] (-) TimerEvent: {}
+[7.653907] (-) TimerEvent: {}
+[7.754618] (-) TimerEvent: {}
+[7.855335] (-) TimerEvent: {}
+[7.956058] (-) TimerEvent: {}
+[8.056781] (-) TimerEvent: {}
+[8.157486] (-) TimerEvent: {}
+[8.258202] (-) TimerEvent: {}
+[8.358913] (-) TimerEvent: {}
+[8.459623] (-) TimerEvent: {}
+[8.560336] (-) TimerEvent: {}
+[8.661079] (-) TimerEvent: {}
+[8.761855] (-) TimerEvent: {}
+[8.862605] (-) TimerEvent: {}
+[8.963345] (-) TimerEvent: {}
+[9.064109] (-) TimerEvent: {}
+[9.164857] (-) TimerEvent: {}
+[9.265609] (-) TimerEvent: {}
+[9.366350] (-) TimerEvent: {}
+[9.467095] (-) TimerEvent: {}
+[9.567859] (-) TimerEvent: {}
+[9.668574] (-) TimerEvent: {}
+[9.769316] (-) TimerEvent: {}
+[9.869989] (-) TimerEvent: {}
+[9.970678] (-) TimerEvent: {}
+[10.071419] (-) TimerEvent: {}
+[10.172125] (-) TimerEvent: {}
+[10.272820] (-) TimerEvent: {}
+[10.287570] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDataLogger::DataLogger()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.288316] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:89:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kentry\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[10.288531] (data_logger) StderrLine: {'line': b'   89 |     for (const auto &\x1b[01;35m\x1b[Kentry\x1b[m\x1b[K : fs::directory_iterator(m_drive)) {\n'}
+[10.288723] (data_logger) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.288900] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:100:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kentry\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[10.289087] (data_logger) StderrLine: {'line': b'  100 |     for (const auto &\x1b[01;35m\x1b[Kentry\x1b[m\x1b[K : fs::directory_iterator(m_image_drive)) {\n'}
+[10.289243] (data_logger) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.290451] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[10.290954] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[10.291139] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[10.291311] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/node.hpp:40\x1b[m\x1b[K,\n'}
+[10.291467] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/install/image_transport/include/image_transport/image_transport/image_transport.hpp:37\x1b[m\x1b[K,\n'}
+[10.291630] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:14\x1b[m\x1b[K:\n'}
+[10.291779] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:111:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator<<\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kconst char [19]\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::filesystem::__cxx11::path\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[10.291943] (data_logger) StderrLine: {'line': b'  111 |     RCLCPP_ERROR(this->get_logger(), \x1b[32m\x1b[K"File is not open: "\x1b[m\x1b[K \x1b[01;31m\x1b[K<<\x1b[m\x1b[K \x1b[34m\x1b[Kfs::current_path()\x1b[m\x1b[K);\n'}
+[10.292095] (data_logger) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^~\x1b[m\x1b[K \x1b[34m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.292242] (data_logger) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[K|\x1b[m\x1b[K                                       \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[10.292388] (data_logger) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Kconst char [19]\x1b[m\x1b[K                         \x1b[34m\x1b[Kstd::filesystem::__cxx11::path\x1b[m\x1b[K\n'}
+[10.292532] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/filesystem:37\x1b[m\x1b[K,\n'}
+[10.292697] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:4\x1b[m\x1b[K:\n'}
+[10.292854] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/fs_path.h:403:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::filesystem::__cxx11::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::filesystem::__cxx11::path&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.293008] (data_logger) StderrLine: {'line': b'  403 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os, const path& __p)\n'}
+[10.293176] (data_logger) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.293322] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/fs_path.h:403:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.293467] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[10.293609] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[10.293766] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[10.293911] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/node.hpp:40\x1b[m\x1b[K,\n'}
+[10.294053] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/install/image_transport/include/image_transport/image_transport/image_transport.hpp:37\x1b[m\x1b[K,\n'}
+[10.294198] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:14\x1b[m\x1b[K:\n'}
+[10.294341] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:111:79:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [19]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.294510] (data_logger) StderrLine: {'line': b'  111 | this->get_logger(), "File is not open: " << fs::current_path(\x1b[01;36m\x1b[K)\x1b[m\x1b[K);\n'}
+[10.294655] (data_logger) StderrLine: {'line': b'      |                                                              \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[10.294809] (data_logger) StderrLine: {'line': b'\n'}
+[10.306533] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DataLogger::topic_callback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.307042] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:169:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator<<\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::filesystem::__cxx11::path\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[10.307255] (data_logger) StderrLine: {'line': b'  169 |     RCLCPP_ERROR(this->get_logger(), \x1b[32m\x1b[K"File is not open"\x1b[m\x1b[K \x1b[01;31m\x1b[K<<\x1b[m\x1b[K \x1b[34m\x1b[Kfs::current_path()\x1b[m\x1b[K);\n'}
+[10.307433] (data_logger) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K \x1b[01;31m\x1b[K^~\x1b[m\x1b[K \x1b[34m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.307598] (data_logger) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[K|\x1b[m\x1b[K                                     \x1b[34m\x1b[K|\x1b[m\x1b[K\n'}
+[10.307754] (data_logger) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Kconst char [17]\x1b[m\x1b[K                       \x1b[34m\x1b[Kstd::filesystem::__cxx11::path\x1b[m\x1b[K\n'}
+[10.307913] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/filesystem:37\x1b[m\x1b[K,\n'}
+[10.308063] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:4\x1b[m\x1b[K:\n'}
+[10.308212] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/fs_path.h:403:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::filesystem::__cxx11::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::filesystem::__cxx11::path&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.308372] (data_logger) StderrLine: {'line': b'  403 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_CharT, _Traits>& __os, const path& __p)\n'}
+[10.308522] (data_logger) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.308713] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/fs_path.h:403:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.308873] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[10.309025] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[10.309171] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[10.309322] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/node.hpp:40\x1b[m\x1b[K,\n'}
+[10.309465] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/install/image_transport/include/image_transport/image_transport/image_transport.hpp:37\x1b[m\x1b[K,\n'}
+[10.309742] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:14\x1b[m\x1b[K:\n'}
+[10.309945] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:169:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [17]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.310133] (data_logger) StderrLine: {'line': b'  169 | R(this->get_logger(), "File is not open" << fs::current_path(\x1b[01;36m\x1b[K)\x1b[m\x1b[K);\n'}
+[10.310285] (data_logger) StderrLine: {'line': b'      |                                                              \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[10.310431] (data_logger) StderrLine: {'line': b'\n'}
+[10.372954] (-) TimerEvent: {}
+[10.473571] (-) TimerEvent: {}
+[10.574226] (-) TimerEvent: {}
+[10.675319] (-) TimerEvent: {}
+[10.775955] (-) TimerEvent: {}
+[10.876936] (-) TimerEvent: {}
+[10.977583] (-) TimerEvent: {}
+[11.078239] (-) TimerEvent: {}
+[11.178885] (-) TimerEvent: {}
+[11.279553] (-) TimerEvent: {}
+[11.380196] (-) TimerEvent: {}
+[11.480858] (-) TimerEvent: {}
+[11.581523] (-) TimerEvent: {}
+[11.682185] (-) TimerEvent: {}
+[11.782857] (-) TimerEvent: {}
+[11.883533] (-) TimerEvent: {}
+[11.984201] (-) TimerEvent: {}
+[12.084893] (-) TimerEvent: {}
+[12.185576] (-) TimerEvent: {}
+[12.286267] (-) TimerEvent: {}
+[12.386960] (-) TimerEvent: {}
+[12.487653] (-) TimerEvent: {}
+[12.588322] (-) TimerEvent: {}
+[12.689040] (-) TimerEvent: {}
+[12.789736] (-) TimerEvent: {}
+[12.890463] (-) TimerEvent: {}
+[12.991212] (-) TimerEvent: {}
+[13.091946] (-) TimerEvent: {}
+[13.192727] (-) TimerEvent: {}
+[13.293475] (-) TimerEvent: {}
+[13.394251] (-) TimerEvent: {}
+[13.495541] (-) TimerEvent: {}
+[13.596275] (-) TimerEvent: {}
+[13.697058] (-) TimerEvent: {}
+[13.798001] (-) TimerEvent: {}
+[13.898872] (-) TimerEvent: {}
+[13.999767] (-) TimerEvent: {}
+[14.100703] (-) TimerEvent: {}
+[14.201551] (-) TimerEvent: {}
+[14.302276] (-) TimerEvent: {}
+[14.403000] (-) TimerEvent: {}
+[14.503730] (-) TimerEvent: {}
+[14.604457] (-) TimerEvent: {}
+[14.705193] (-) TimerEvent: {}
+[14.805898] (-) TimerEvent: {}
+[14.906602] (-) TimerEvent: {}
+[15.007310] (-) TimerEvent: {}
+[15.108017] (-) TimerEvent: {}
+[15.208750] (-) TimerEvent: {}
+[15.309460] (-) TimerEvent: {}
+[15.410173] (-) TimerEvent: {}
+[15.510889] (-) TimerEvent: {}
+[15.611614] (-) TimerEvent: {}
+[15.712345] (-) TimerEvent: {}
+[15.813161] (-) TimerEvent: {}
+[15.913975] (-) TimerEvent: {}
+[16.014795] (-) TimerEvent: {}
+[16.115898] (-) TimerEvent: {}
+[16.216818] (-) TimerEvent: {}
+[16.317682] (-) TimerEvent: {}
+[16.418478] (-) TimerEvent: {}
+[16.519275] (-) TimerEvent: {}
+[16.620095] (-) TimerEvent: {}
+[16.720917] (-) TimerEvent: {}
+[16.821720] (-) TimerEvent: {}
+[16.922534] (-) TimerEvent: {}
+[17.023350] (-) TimerEvent: {}
+[17.124122] (-) TimerEvent: {}
+[17.224919] (-) TimerEvent: {}
+[17.281177] (data_logger) StderrLine: {'line': b'make[2]: *** [CMakeFiles/data_logger_node.dir/build.make:76: CMakeFiles/data_logger_node.dir/src/data_logger_node.cpp.o] Error 1\n'}
+[17.281927] (data_logger) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/data_logger_node.dir/all] Error 2\n'}
+[17.282591] (data_logger) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[17.286114] (data_logger) CommandEnded: {'returncode': 2}
+[17.325117] (-) TimerEvent: {}
+[17.406521] (data_logger) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 85, in build\n    create_environment_scripts(\n  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 89, in create_environment_scripts\n    create_file_with_runtime_dependencies(prefix_path, pkg))\n  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 172, in create_file_with_runtime_dependencies\n    path.write_text(\n  File "/usr/lib/python3.8/pathlib.py", line 1255, in write_text\n    with self.open(mode=\'w\', encoding=encoding, errors=errors) as f:\n  File "/usr/lib/python3.8/pathlib.py", line 1222, in open\n    return io.open(self, mode, buffering, encoding, errors, newline,\n  File "/usr/lib/python3.8/pathlib.py", line 1078, in _opener\n    return self._accessor.open(self, flags, mode)\nPermissionError: [Errno 13] Permission denied: \'/avlcode/workspaces/isaac_ros-dev/install/data_logger/share/colcon-core/packages/data_logger\'\n'}
+[17.407395] (data_logger) JobEnded: {'identifier': 'data_logger', 'rc': 1}
+[17.417433] (-) EventReactorShutdown: {}

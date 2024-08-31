@@ -1,0 +1,613 @@
+[0.000000] (-) TimerEvent: {}
+[0.000577] (-) JobUnselected: {'identifier': 'agv_bot_description'}
+[0.000951] (-) JobUnselected: {'identifier': 'async_web_server_cpp'}
+[0.001170] (-) JobUnselected: {'identifier': 'geodesy'}
+[0.001659] (-) JobUnselected: {'identifier': 'geographic_info'}
+[0.001967] (-) JobUnselected: {'identifier': 'geographic_msgs'}
+[0.004049] (-) JobUnselected: {'identifier': 'gps_package'}
+[0.004159] (-) JobUnselected: {'identifier': 'image_stitcher'}
+[0.004350] (-) JobUnselected: {'identifier': 'isaac_ros_apriltag_interfaces'}
+[0.004441] (-) JobUnselected: {'identifier': 'isaac_ros_bi3d_interfaces'}
+[0.004489] (-) JobUnselected: {'identifier': 'isaac_ros_common'}
+[0.004587] (-) JobUnselected: {'identifier': 'isaac_ros_nvblox'}
+[0.004632] (-) JobUnselected: {'identifier': 'isaac_ros_pointcloud_interfaces'}
+[0.004670] (-) JobUnselected: {'identifier': 'isaac_ros_tensor_list_interfaces'}
+[0.004707] (-) JobUnselected: {'identifier': 'isaac_ros_test'}
+[0.004749] (-) JobUnselected: {'identifier': 'joint_state_publisher'}
+[0.004814] (-) JobUnselected: {'identifier': 'joint_state_publisher_gui'}
+[0.006608] (-) JobUnselected: {'identifier': 'nvblox'}
+[0.006843] (-) JobUnselected: {'identifier': 'nvblox_cpu_gpu_tools'}
+[0.006939] (-) JobUnselected: {'identifier': 'nvblox_examples_bringup'}
+[0.007021] (-) JobUnselected: {'identifier': 'nvblox_image_padding'}
+[0.007074] (-) JobUnselected: {'identifier': 'nvblox_isaac_sim'}
+[0.007138] (-) JobUnselected: {'identifier': 'nvblox_msgs'}
+[0.008654] (-) JobUnselected: {'identifier': 'nvblox_nav2'}
+[0.008746] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement'}
+[0.008881] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement_msgs'}
+[0.008958] (-) JobUnselected: {'identifier': 'nvblox_ros'}
+[0.009036] (-) JobUnselected: {'identifier': 'nvblox_ros_common'}
+[0.009497] (-) JobUnselected: {'identifier': 'nvblox_rviz_plugin'}
+[0.009628] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.009690] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.009745] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.009814] (-) JobUnselected: {'identifier': 'realsense_obj_det'}
+[0.011492] (-) JobUnselected: {'identifier': 'road_segmentation'}
+[0.013330] (-) JobUnselected: {'identifier': 'robot_localization'}
+[0.013462] (-) JobUnselected: {'identifier': 'semantic_label_conversion'}
+[0.013553] (-) JobUnselected: {'identifier': 'teleop_twist_joy'}
+[0.013833] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.013949] (-) JobUnselected: {'identifier': 'twist_converter'}
+[0.014074] (-) JobUnselected: {'identifier': 'twist_mux'}
+[0.014216] (-) JobUnselected: {'identifier': 'velodyne'}
+[0.014303] (-) JobUnselected: {'identifier': 'velodyne_driver'}
+[0.014377] (-) JobUnselected: {'identifier': 'velodyne_laserscan'}
+[0.014428] (-) JobUnselected: {'identifier': 'velodyne_msgs'}
+[0.014468] (-) JobUnselected: {'identifier': 'velodyne_pointcloud'}
+[0.014505] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.014541] (-) JobUnselected: {'identifier': 'xacro'}
+[0.014589] (slam_toolbox) JobQueued: {'identifier': 'slam_toolbox', 'dependencies': OrderedDict()}
+[0.014644] (slam_toolbox) JobStarted: {'identifier': 'slam_toolbox'}
+[0.075950] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'cmake'}
+[0.076917] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/isaac_ros-dev/src/slam_toolbox', '-DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/slam_toolbox'], 'cwd': '/workspaces/isaac_ros-dev/build/slam_toolbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources'), ('HOSTNAME', 'agxorinagv'), ('ROS_PACKAGE_PATH', '/workspaces/isaac_ros-dev/install/async_web_server_cpp/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspaces/isaac_ros-dev/install/velodyne_pointcloud/lib:/workspaces/isaac_ros-dev/install/velodyne_driver/lib:/workspaces/isaac_ros-dev/install/velodyne_msgs/lib:/workspaces/isaac_ros-dev/install/velodyne_laserscan/lib:/workspaces/isaac_ros-dev/install/usb_cam/lib:/workspaces/isaac_ros-dev/install/teleop_twist_joy/lib:/workspaces/isaac_ros-dev/install/robot_localization/lib:/workspaces/isaac_ros-dev/install/realsense2_camera/lib:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib:/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin/lib:/workspaces/isaac_ros-dev/install/nvblox_ros/lib:/workspaces/isaac_ros-dev/install/nvblox_image_padding/lib:/workspaces/isaac_ros-dev/install/nvblox_ros_common/lib:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs/lib:/workspaces/isaac_ros-dev/install/nvblox_nav2/lib:/workspaces/isaac_ros-dev/install/nvblox_msgs/lib:/workspaces/isaac_ros-dev/install/nvblox/lib:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib:/workspaces/isaac_ros-dev/install/geodesy/lib:/workspaces/isaac_ros-dev/install/geographic_msgs/lib:/workspaces/isaac_ros-dev/install/async_web_server_cpp/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64::/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/workspaces/isaac_ros-dev/src'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('COLCON_PREFIX_PATH', '/workspaces/isaac_ros-dev/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/workspaces/isaac_ros-dev/install/async_web_server_cpp/lib/aarch64-linux-gnu/pkgconfig:/workspaces/isaac_ros-dev/install/async_web_server_cpp/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('USERNAME', 'admin'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/workspaces/isaac_ros-dev/install/xacro/bin:/opt/ros/humble/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvidia/tao:/usr/local/cuda/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/usr/local/share/middleware_profiles/husarnet_fastdds_profile.xml'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/realsense2_description:/workspaces/isaac_ros-dev/install/agv_bot_description:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/web_video_server:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/usb_cam:/workspaces/isaac_ros-dev/install/twist_mux:/workspaces/isaac_ros-dev/install/twist_converter:/workspaces/isaac_ros-dev/install/teleop_twist_keyboard:/workspaces/isaac_ros-dev/install/teleop_twist_joy:/workspaces/isaac_ros-dev/install/simulator_control:/workspaces/isaac_ros-dev/install/semantic_label_conversion:/workspaces/isaac_ros-dev/install/robot_localization:/workspaces/isaac_ros-dev/install/road_segmentation:/workspaces/isaac_ros-dev/install/realsense_obj_det:/workspaces/isaac_ros-dev/install/realsense2_camera:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement:/workspaces/isaac_ros-dev/install/isaac_ros_nvblox:/workspaces/isaac_ros-dev/install/nvblox_ros:/workspaces/isaac_ros-dev/install/nvblox_image_padding:/workspaces/isaac_ros-dev/install/nvblox_ros_common:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs:/workspaces/isaac_ros-dev/install/nvblox_nav2:/workspaces/isaac_ros-dev/install/nvblox_msgs:/workspaces/isaac_ros-dev/install/nvblox_isaac_sim:/workspaces/isaac_ros-dev/install/nvblox_examples_bringup:/workspaces/isaac_ros-dev/install/nvblox_cpu_gpu_tools:/workspaces/isaac_ros-dev/install/lin_det_pkg:/workspaces/isaac_ros-dev/install/joint_state_publisher_gui:/workspaces/isaac_ros-dev/install/joint_state_publisher:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/image_stitcher:/workspaces/isaac_ros-dev/install/gps_package:/workspaces/isaac_ros-dev/install/geographic_info:/workspaces/isaac_ros-dev/install/geodesy:/workspaces/isaac_ros-dev/install/geographic_msgs:/workspaces/isaac_ros-dev/install/encoder_pkg:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/workspaces/isaac_ros-dev/build/slam_toolbox'), ('PYTHONPATH', '/workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/twist_converter:/workspaces/isaac_ros-dev/install/twist_converter/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/teleop_twist_keyboard/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/simulator_control/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/robot_localization/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/road_segmentation:/workspaces/isaac_ros-dev/install/road_segmentation/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/realsense_obj_det/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/nvblox_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/nvblox_isaac_sim/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/nvblox_cpu_gpu_tools/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/lin_det_pkg/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/joint_state_publisher_gui/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/joint_state_publisher/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/image_stitcher:/workspaces/isaac_ros-dev/install/image_stitcher/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/gps_package/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/geodesy/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/geographic_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/encoder_pkg/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('USER_GID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/realsense2_description:/workspaces/isaac_ros-dev/install/agv_bot_description:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/web_video_server:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/usb_cam:/workspaces/isaac_ros-dev/install/twist_mux:/workspaces/isaac_ros-dev/install/teleop_twist_joy:/workspaces/isaac_ros-dev/install/semantic_label_conversion:/workspaces/isaac_ros-dev/install/robot_localization:/workspaces/isaac_ros-dev/install/realsense2_camera:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement:/workspaces/isaac_ros-dev/install/isaac_ros_nvblox:/workspaces/isaac_ros-dev/install/nvblox_ros:/workspaces/isaac_ros-dev/install/nvblox_image_padding:/workspaces/isaac_ros-dev/install/nvblox_ros_common:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs:/workspaces/isaac_ros-dev/install/nvblox_nav2:/workspaces/isaac_ros-dev/install/nvblox_msgs:/workspaces/isaac_ros-dev/install/nvblox_examples_bringup:/workspaces/isaac_ros-dev/install/nvblox:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/geographic_info:/workspaces/isaac_ros-dev/install/geodesy:/workspaces/isaac_ros-dev/install/geographic_msgs:/workspaces/isaac_ros-dev/install/twist_converter:/workspaces/isaac_ros-dev/install/teleop_twist_keyboard:/workspaces/isaac_ros-dev/install/simulator_control:/workspaces/isaac_ros-dev/install/road_segmentation:/workspaces/isaac_ros-dev/install/realsense_obj_det:/workspaces/isaac_ros-dev/install/nvblox_isaac_sim:/workspaces/isaac_ros-dev/install/nvblox_cpu_gpu_tools:/workspaces/isaac_ros-dev/install/lin_det_pkg:/workspaces/isaac_ros-dev/install/joint_state_publisher_gui:/workspaces/isaac_ros-dev/install/joint_state_publisher:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/image_stitcher:/workspaces/isaac_ros-dev/install/gps_package:/workspaces/isaac_ros-dev/install/encoder_pkg:/workspaces/isaac_ros-dev/install/async_web_server_cpp:/opt/ros/humble/install')]), 'shell': False}
+[0.099294] (-) TimerEvent: {}
+[0.200201] (-) TimerEvent: {}
+[0.290126] (slam_toolbox) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.300344] (-) TimerEvent: {}
+[0.401074] (-) TimerEvent: {}
+[0.423592] (slam_toolbox) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.448578] (slam_toolbox) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.501224] (-) TimerEvent: {}
+[0.602091] (-) TimerEvent: {}
+[0.605220] (slam_toolbox) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.630046] (slam_toolbox) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.631583] (slam_toolbox) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.632417] (slam_toolbox) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.641273] (slam_toolbox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.702205] (-) TimerEvent: {}
+[0.802978] (-) TimerEvent: {}
+[0.807043] (slam_toolbox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.828078] (slam_toolbox) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.828954] (slam_toolbox) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.829887] (slam_toolbox) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.849267] (slam_toolbox) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/install/share/ament_cmake/cmake)\n'}
+[0.903147] (-) TimerEvent: {}
+[1.003882] (-) TimerEvent: {}
+[1.104708] (-) TimerEvent: {}
+[1.205508] (-) TimerEvent: {}
+[1.306320] (-) TimerEvent: {}
+[1.407116] (-) TimerEvent: {}
+[1.507888] (-) TimerEvent: {}
+[1.608535] (-) TimerEvent: {}
+[1.709489] (-) TimerEvent: {}
+[1.810552] (-) TimerEvent: {}
+[1.911167] (-) TimerEvent: {}
+[2.011785] (-) TimerEvent: {}
+[2.112397] (-) TimerEvent: {}
+[2.213312] (-) TimerEvent: {}
+[2.314031] (-) TimerEvent: {}
+[2.414869] (-) TimerEvent: {}
+[2.515517] (-) TimerEvent: {}
+[2.616130] (-) TimerEvent: {}
+[2.716761] (-) TimerEvent: {}
+[2.817373] (-) TimerEvent: {}
+[2.918021] (-) TimerEvent: {}
+[3.018703] (-) TimerEvent: {}
+[3.119569] (-) TimerEvent: {}
+[3.164329] (slam_toolbox) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter \n'}
+[3.219707] (-) TimerEvent: {}
+[3.320422] (-) TimerEvent: {}
+[3.421288] (-) TimerEvent: {}
+[3.522077] (-) TimerEvent: {}
+[3.562897] (slam_toolbox) StdoutLine: {'line': b'-- Found message_filters: 4.3.2 (/opt/ros/humble/install/share/message_filters/cmake)\n'}
+[3.622248] (-) TimerEvent: {}
+[3.722912] (-) TimerEvent: {}
+[3.795515] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)\n'}
+[3.823079] (-) TimerEvent: {}
+[3.826925] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)\n'}
+[3.867130] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)\n'}
+[3.922969] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.923525] (-) TimerEvent: {}
+[4.000365] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.023643] (-) TimerEvent: {}
+[4.124166] (-) TimerEvent: {}
+[4.224893] (-) TimerEvent: {}
+[4.259644] (slam_toolbox) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)\n'}
+[4.279246] (slam_toolbox) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/install/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.325039] (-) TimerEvent: {}
+[4.425703] (-) TimerEvent: {}
+[4.526388] (-) TimerEvent: {}
+[4.627456] (-) TimerEvent: {}
+[4.728336] (-) TimerEvent: {}
+[4.729996] (slam_toolbox) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[4.828543] (-) TimerEvent: {}
+[4.831647] (slam_toolbox) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/install/include  \n'}
+[4.928708] (-) TimerEvent: {}
+[5.000146] (slam_toolbox) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.028809] (-) TimerEvent: {}
+[5.057219] (slam_toolbox) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.128991] (-) TimerEvent: {}
+[5.214216] (slam_toolbox) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.215107] (slam_toolbox) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.229145] (-) TimerEvent: {}
+[5.329876] (-) TimerEvent: {}
+[5.375169] (slam_toolbox) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[5.375931] (slam_toolbox) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[5.430061] (-) TimerEvent: {}
+[5.510734] (slam_toolbox) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[5.511421] (slam_toolbox) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[5.530220] (-) TimerEvent: {}
+[5.630880] (-) TimerEvent: {}
+[5.668705] (slam_toolbox) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[5.672791] (slam_toolbox) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.731044] (-) TimerEvent: {}
+[5.831813] (-) TimerEvent: {}
+[5.932644] (-) TimerEvent: {}
+[6.033418] (-) TimerEvent: {}
+[6.063206] (slam_toolbox) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/install/share/nav_msgs/cmake)\n'}
+[6.133557] (-) TimerEvent: {}
+[6.234264] (-) TimerEvent: {}
+[6.331769] (slam_toolbox) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/install/share/sensor_msgs/cmake)\n'}
+[6.334349] (-) TimerEvent: {}
+[6.434936] (-) TimerEvent: {}
+[6.513810] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2: 0.25.2 (/opt/ros/humble/install/share/tf2/cmake)\n'}
+[6.535071] (-) TimerEvent: {}
+[6.557206] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.2 (/opt/ros/humble/install/share/tf2_ros/cmake)\n'}
+[6.635207] (-) TimerEvent: {}
+[6.735831] (-) TimerEvent: {}
+[6.836602] (-) TimerEvent: {}
+[6.937377] (-) TimerEvent: {}
+[7.038213] (-) TimerEvent: {}
+[7.139020] (-) TimerEvent: {}
+[7.239823] (-) TimerEvent: {}
+[7.308795] (slam_toolbox) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/install/share/visualization_msgs/cmake)\n'}
+[7.339940] (-) TimerEvent: {}
+[7.440648] (-) TimerEvent: {}
+[7.541421] (-) TimerEvent: {}
+[7.547127] (slam_toolbox) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/install/share/pluginlib/cmake)\n'}
+[7.641298] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/install/share/tf2_geometry_msgs/cmake)\n'}
+[7.641925] (-) TimerEvent: {}
+[7.708004] (slam_toolbox) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/install/share/eigen3_cmake_module/cmake)\n'}
+[7.711217] (slam_toolbox) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[7.711656] (slam_toolbox) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[7.742071] (-) TimerEvent: {}
+[7.743648] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.25.2 (/opt/ros/humble/install/share/tf2_sensor_msgs/cmake)\n'}
+[7.796965] (slam_toolbox) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/install/share/std_srvs/cmake)\n'}
+[7.842185] (-) TimerEvent: {}
+[7.848013] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/install/share/rosidl_default_generators/cmake)\n'}
+[7.904506] (slam_toolbox) StdoutLine: {'line': b'-- Found rviz_common: 11.2.5 (/opt/ros/humble/install/share/rviz_common/cmake)\n'}
+[7.942369] (-) TimerEvent: {}
+[7.999638] (slam_toolbox) StdoutLine: {'line': b'-- library: libassimp.so.5\n'}
+[8.014891] (slam_toolbox) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/install/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[8.019215] (slam_toolbox) StdoutLine: {'line': b'-- Found OGRE\n'}
+[8.019645] (slam_toolbox) StdoutLine: {'line': b'--   static     : OFF\n'}
+[8.020086] (slam_toolbox) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[8.020595] (slam_toolbox) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_EXR\n'}
+[8.020922] (slam_toolbox) StdoutLine: {'line': b'--   media      : /opt/ros/humble/install/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[8.021211] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[8.021488] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/install/opt/rviz_ogre_vendor/lib\n'}
+[8.021748] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_EXR\n'}
+[8.022004] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/install/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[8.022253] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/install/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[8.022582] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/install/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[8.022847] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/install/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[8.023103] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/install/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[8.025107] (slam_toolbox) StdoutLine: {'line': b'-- Could not find freeimage library\n'}
+[8.042481] (-) TimerEvent: {}
+[8.092646] (slam_toolbox) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[8.117582] (slam_toolbox) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   \n'}
+[8.142620] (-) TimerEvent: {}
+[8.243252] (-) TimerEvent: {}
+[8.344014] (-) TimerEvent: {}
+[8.444855] (-) TimerEvent: {}
+[8.527131] (slam_toolbox) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[8.528255] (slam_toolbox) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so\n'}
+[8.544916] (-) TimerEvent: {}
+[8.645515] (-) TimerEvent: {}
+[8.692198] (slam_toolbox) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found\n'}
+[8.692977] (slam_toolbox) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[8.745666] (-) TimerEvent: {}
+[8.846358] (-) TimerEvent: {}
+[8.848513] (slam_toolbox) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[8.849232] (slam_toolbox) StdoutLine: {'line': b'-- Looking for connect\n'}
+[8.946522] (-) TimerEvent: {}
+[9.006421] (slam_toolbox) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[9.007199] (slam_toolbox) StdoutLine: {'line': b'-- Looking for remove\n'}
+[9.046698] (-) TimerEvent: {}
+[9.147354] (-) TimerEvent: {}
+[9.167984] (slam_toolbox) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[9.168724] (slam_toolbox) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[9.247553] (-) TimerEvent: {}
+[9.326034] (slam_toolbox) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[9.326619] (slam_toolbox) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[9.347626] (-) TimerEvent: {}
+[9.448252] (-) TimerEvent: {}
+[9.490501] (slam_toolbox) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[9.500239] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[9.500995] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[9.548389] (-) TimerEvent: {}
+[9.649117] (-) TimerEvent: {}
+[9.749820] (-) TimerEvent: {}
+[9.850550] (-) TimerEvent: {}
+[9.892715] (slam_toolbox) StdoutLine: {'line': b'-- library: /usr/lib/aarch64-linux-gnu/libcurl.so\n'}
+[9.950694] (-) TimerEvent: {}
+[10.051444] (-) TimerEvent: {}
+[10.118324] (slam_toolbox) StdoutLine: {'line': b'-- Found rviz_default_plugins: 11.2.5 (/opt/ros/humble/install/share/rviz_default_plugins/cmake)\n'}
+[10.151552] (-) TimerEvent: {}
+[10.252193] (-) TimerEvent: {}
+[10.352996] (-) TimerEvent: {}
+[10.453782] (-) TimerEvent: {}
+[10.554572] (-) TimerEvent: {}
+[10.655375] (-) TimerEvent: {}
+[10.756171] (-) TimerEvent: {}
+[10.856979] (-) TimerEvent: {}
+[10.886838] (slam_toolbox) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system serialization filesystem thread \n'}
+[10.924033] (slam_toolbox) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[10.953574] (slam_toolbox) StdoutLine: {'line': b'-- Found CHOLMOD: /usr/include/suitesparse  \n'}
+[10.957041] (-) TimerEvent: {}
+[10.960544] (slam_toolbox) StdoutLine: {'line': b'-- Found CSparse: /usr/include/suitesparse  \n'}
+[11.057242] (-) TimerEvent: {}
+[11.072120] (slam_toolbox) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[11.157420] (-) TimerEvent: {}
+[11.224920] (slam_toolbox) StdoutLine: {'line': b'-- Looking for sgemm_ - not found\n'}
+[11.257622] (-) TimerEvent: {}
+[11.358384] (-) TimerEvent: {}
+[11.377165] (slam_toolbox) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[11.458595] (-) TimerEvent: {}
+[11.559298] (-) TimerEvent: {}
+[11.562844] (slam_toolbox) StdoutLine: {'line': b'-- Looking for sgemm_ - found\n'}
+[11.564132] (slam_toolbox) StdoutLine: {'line': b'-- Found BLAS: /usr/lib/aarch64-linux-gnu/libopenblas.so  \n'}
+[11.569088] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_\n'}
+[11.659456] (-) TimerEvent: {}
+[11.760186] (-) TimerEvent: {}
+[11.762739] (slam_toolbox) StdoutLine: {'line': b'-- Looking for cheev_ - found\n'}
+[11.763829] (slam_toolbox) StdoutLine: {'line': b'-- Found LAPACK: /usr/lib/aarch64-linux-gnu/libopenblas.so;-lpthread;-lm;-ldl  \n'}
+[11.785191] (slam_toolbox) StdoutLine: {'line': b'-- Found installed version of Eigen: /usr/lib/cmake/eigen3\n'}
+[11.787806] (slam_toolbox) StdoutLine: {'line': b'-- Found required Ceres dependency: Eigen version 3.3.7 in /usr/include/eigen3\n'}
+[11.811291] (slam_toolbox) StdoutLine: {'line': b'-- Found required Ceres dependency: glog\n'}
+[11.815919] (slam_toolbox) StdoutLine: {'line': b'-- Found installed version of gflags: /usr/lib/aarch64-linux-gnu/cmake/gflags\n'}
+[11.816325] (slam_toolbox) StdoutLine: {'line': b'-- Detected gflags version: 2.2.2\n'}
+[11.818680] (slam_toolbox) StdoutLine: {'line': b'-- Found required Ceres dependency: gflags\n'}
+[11.820258] (slam_toolbox) StdoutLine: {'line': b'-- Found Ceres version: 1.14.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, OpenMP, Multithreading]\n'}
+[11.860319] (-) TimerEvent: {}
+[11.960900] (-) TimerEvent: {}
+[12.061666] (-) TimerEvent: {}
+[12.162438] (-) TimerEvent: {}
+[12.263211] (-) TimerEvent: {}
+[12.364015] (-) TimerEvent: {}
+[12.464831] (-) TimerEvent: {}
+[12.565640] (-) TimerEvent: {}
+[12.659200] (slam_toolbox) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)\n'}
+[12.665748] (-) TimerEvent: {}
+[12.766383] (-) TimerEvent: {}
+[12.867152] (-) TimerEvent: {}
+[12.967792] (-) TimerEvent: {}
+[13.068485] (-) TimerEvent: {}
+[13.169295] (-) TimerEvent: {}
+[13.270064] (-) TimerEvent: {}
+[13.370875] (-) TimerEvent: {}
+[13.471669] (-) TimerEvent: {}
+[13.572491] (-) TimerEvent: {}
+[13.624349] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.672662] (-) TimerEvent: {}
+[13.773358] (-) TimerEvent: {}
+[13.874015] (-) TimerEvent: {}
+[13.974699] (-) TimerEvent: {}
+[13.992703] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[14.074863] (-) TimerEvent: {}
+[14.077793] (slam_toolbox) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") \n'}
+[14.091834] (slam_toolbox) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)\n'}
+[14.175051] (-) TimerEvent: {}
+[14.189593] (slam_toolbox) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[14.190271] (slam_toolbox) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[14.190577] (slam_toolbox) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[14.190858] (slam_toolbox) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[14.271088] (slam_toolbox) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[14.275135] (-) TimerEvent: {}
+[14.375745] (-) TimerEvent: {}
+[14.476576] (-) TimerEvent: {}
+[14.577381] (-) TimerEvent: {}
+[14.678210] (-) TimerEvent: {}
+[14.779042] (-) TimerEvent: {}
+[14.879878] (-) TimerEvent: {}
+[14.923618] (slam_toolbox) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.979977] (-) TimerEvent: {}
+[15.080732] (-) TimerEvent: {}
+[15.181537] (-) TimerEvent: {}
+[15.282337] (-) TimerEvent: {}
+[15.383106] (-) TimerEvent: {}
+[15.463069] (slam_toolbox) StdoutLine: {'line': b'-- Generating done\n'}
+[15.474990] (slam_toolbox) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/isaac_ros-dev/build/slam_toolbox\n'}
+[15.483183] (-) TimerEvent: {}
+[15.537022] (slam_toolbox) CommandEnded: {'returncode': 0}
+[15.539224] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'build'}
+[15.541433] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/isaac_ros-dev/build/slam_toolbox', '--', '-j12', '-l12'], 'cwd': '/workspaces/isaac_ros-dev/build/slam_toolbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources'), ('HOSTNAME', 'agxorinagv'), ('ROS_PACKAGE_PATH', '/workspaces/isaac_ros-dev/install/async_web_server_cpp/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/workspaces/isaac_ros-dev/install/velodyne_pointcloud/lib:/workspaces/isaac_ros-dev/install/velodyne_driver/lib:/workspaces/isaac_ros-dev/install/velodyne_msgs/lib:/workspaces/isaac_ros-dev/install/velodyne_laserscan/lib:/workspaces/isaac_ros-dev/install/usb_cam/lib:/workspaces/isaac_ros-dev/install/teleop_twist_joy/lib:/workspaces/isaac_ros-dev/install/robot_localization/lib:/workspaces/isaac_ros-dev/install/realsense2_camera/lib:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib:/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin/lib:/workspaces/isaac_ros-dev/install/nvblox_ros/lib:/workspaces/isaac_ros-dev/install/nvblox_image_padding/lib:/workspaces/isaac_ros-dev/install/nvblox_ros_common/lib:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs/lib:/workspaces/isaac_ros-dev/install/nvblox_nav2/lib:/workspaces/isaac_ros-dev/install/nvblox_msgs/lib:/workspaces/isaac_ros-dev/install/nvblox/lib:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib:/workspaces/isaac_ros-dev/install/geodesy/lib:/workspaces/isaac_ros-dev/install/geographic_msgs/lib:/workspaces/isaac_ros-dev/install/async_web_server_cpp/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64::/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/workspaces/isaac_ros-dev/src'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('COLCON_PREFIX_PATH', '/workspaces/isaac_ros-dev/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/workspaces/isaac_ros-dev/install/async_web_server_cpp/lib/aarch64-linux-gnu/pkgconfig:/workspaces/isaac_ros-dev/install/async_web_server_cpp/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('USERNAME', 'admin'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/workspaces/isaac_ros-dev/install/xacro/bin:/opt/ros/humble/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvidia/tao:/usr/local/cuda/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/usr/local/share/middleware_profiles/husarnet_fastdds_profile.xml'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/realsense2_description:/workspaces/isaac_ros-dev/install/agv_bot_description:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/web_video_server:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/usb_cam:/workspaces/isaac_ros-dev/install/twist_mux:/workspaces/isaac_ros-dev/install/twist_converter:/workspaces/isaac_ros-dev/install/teleop_twist_keyboard:/workspaces/isaac_ros-dev/install/teleop_twist_joy:/workspaces/isaac_ros-dev/install/simulator_control:/workspaces/isaac_ros-dev/install/semantic_label_conversion:/workspaces/isaac_ros-dev/install/robot_localization:/workspaces/isaac_ros-dev/install/road_segmentation:/workspaces/isaac_ros-dev/install/realsense_obj_det:/workspaces/isaac_ros-dev/install/realsense2_camera:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement:/workspaces/isaac_ros-dev/install/isaac_ros_nvblox:/workspaces/isaac_ros-dev/install/nvblox_ros:/workspaces/isaac_ros-dev/install/nvblox_image_padding:/workspaces/isaac_ros-dev/install/nvblox_ros_common:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs:/workspaces/isaac_ros-dev/install/nvblox_nav2:/workspaces/isaac_ros-dev/install/nvblox_msgs:/workspaces/isaac_ros-dev/install/nvblox_isaac_sim:/workspaces/isaac_ros-dev/install/nvblox_examples_bringup:/workspaces/isaac_ros-dev/install/nvblox_cpu_gpu_tools:/workspaces/isaac_ros-dev/install/lin_det_pkg:/workspaces/isaac_ros-dev/install/joint_state_publisher_gui:/workspaces/isaac_ros-dev/install/joint_state_publisher:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/image_stitcher:/workspaces/isaac_ros-dev/install/gps_package:/workspaces/isaac_ros-dev/install/geographic_info:/workspaces/isaac_ros-dev/install/geodesy:/workspaces/isaac_ros-dev/install/geographic_msgs:/workspaces/isaac_ros-dev/install/encoder_pkg:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/workspaces/isaac_ros-dev/build/slam_toolbox'), ('PYTHONPATH', '/workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/twist_converter:/workspaces/isaac_ros-dev/install/twist_converter/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/teleop_twist_keyboard/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/simulator_control/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/robot_localization/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/road_segmentation:/workspaces/isaac_ros-dev/install/road_segmentation/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/realsense_obj_det/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/nvblox_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/nvblox_isaac_sim/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/nvblox_cpu_gpu_tools/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/lin_det_pkg/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/joint_state_publisher_gui/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/joint_state_publisher/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/build/image_stitcher:/workspaces/isaac_ros-dev/install/image_stitcher/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/gps_package/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/geodesy/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/geographic_msgs/lib/python3.8/site-packages:/workspaces/isaac_ros-dev/install/encoder_pkg/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('USER_GID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/realsense2_description:/workspaces/isaac_ros-dev/install/agv_bot_description:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/web_video_server:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/usb_cam:/workspaces/isaac_ros-dev/install/twist_mux:/workspaces/isaac_ros-dev/install/teleop_twist_joy:/workspaces/isaac_ros-dev/install/semantic_label_conversion:/workspaces/isaac_ros-dev/install/robot_localization:/workspaces/isaac_ros-dev/install/realsense2_camera:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement:/workspaces/isaac_ros-dev/install/isaac_ros_nvblox:/workspaces/isaac_ros-dev/install/nvblox_ros:/workspaces/isaac_ros-dev/install/nvblox_image_padding:/workspaces/isaac_ros-dev/install/nvblox_ros_common:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs:/workspaces/isaac_ros-dev/install/nvblox_nav2:/workspaces/isaac_ros-dev/install/nvblox_msgs:/workspaces/isaac_ros-dev/install/nvblox_examples_bringup:/workspaces/isaac_ros-dev/install/nvblox:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/geographic_info:/workspaces/isaac_ros-dev/install/geodesy:/workspaces/isaac_ros-dev/install/geographic_msgs:/workspaces/isaac_ros-dev/install/twist_converter:/workspaces/isaac_ros-dev/install/teleop_twist_keyboard:/workspaces/isaac_ros-dev/install/simulator_control:/workspaces/isaac_ros-dev/install/road_segmentation:/workspaces/isaac_ros-dev/install/realsense_obj_det:/workspaces/isaac_ros-dev/install/nvblox_isaac_sim:/workspaces/isaac_ros-dev/install/nvblox_cpu_gpu_tools:/workspaces/isaac_ros-dev/install/lin_det_pkg:/workspaces/isaac_ros-dev/install/joint_state_publisher_gui:/workspaces/isaac_ros-dev/install/joint_state_publisher:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/image_stitcher:/workspaces/isaac_ros-dev/install/gps_package:/workspaces/isaac_ros-dev/install/encoder_pkg:/workspaces/isaac_ros-dev/install/async_web_server_cpp:/opt/ros/humble/install')]), 'shell': False}
+[15.583459] (-) TimerEvent: {}
+[15.646416] (slam_toolbox) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[15.675047] (slam_toolbox) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o\x1b[0m\n'}
+[15.675738] (slam_toolbox) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o\x1b[0m\n'}
+[15.675944] (slam_toolbox) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[15.683558] (-) TimerEvent: {}
+[15.686983] (slam_toolbox) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_slam_toolbox\n'}
+[15.783717] (-) TimerEvent: {}
+[15.884343] (-) TimerEvent: {}
+[15.984972] (-) TimerEvent: {}
+[16.085596] (-) TimerEvent: {}
+[16.186179] (-) TimerEvent: {}
+[16.286778] (-) TimerEvent: {}
+[16.387401] (-) TimerEvent: {}
+[16.487998] (-) TimerEvent: {}
+[16.588621] (-) TimerEvent: {}
+[16.681184] (slam_toolbox) StdoutLine: {'line': b'running egg_info\n'}
+[16.683277] (slam_toolbox) StdoutLine: {'line': b'creating slam_toolbox.egg-info\n'}
+[16.688695] (-) TimerEvent: {}
+[16.721468] (slam_toolbox) StdoutLine: {'line': b'writing slam_toolbox.egg-info/PKG-INFO\n'}
+[16.721995] (slam_toolbox) StdoutLine: {'line': b'writing dependency_links to slam_toolbox.egg-info/dependency_links.txt\n'}
+[16.722456] (slam_toolbox) StdoutLine: {'line': b'writing top-level names to slam_toolbox.egg-info/top_level.txt\n'}
+[16.722798] (slam_toolbox) StdoutLine: {'line': b"writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'\n"}
+[16.788850] (-) TimerEvent: {}
+[16.833708] (slam_toolbox) StdoutLine: {'line': b"reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'\n"}
+[16.834977] (slam_toolbox) StdoutLine: {'line': b"writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'\n"}
+[16.888993] (-) TimerEvent: {}
+[16.949503] (slam_toolbox) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_slam_toolbox_egg\n'}
+[16.989162] (-) TimerEvent: {}
+[17.089896] (-) TimerEvent: {}
+[17.190539] (-) TimerEvent: {}
+[17.291209] (-) TimerEvent: {}
+[17.391847] (-) TimerEvent: {}
+[17.492520] (-) TimerEvent: {}
+[17.514926] (slam_toolbox) StdoutLine: {'line': b'[  3%] Built target slam_toolbox__cpp\n'}
+[17.555332] (slam_toolbox) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[17.559695] (slam_toolbox) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[17.560916] (slam_toolbox) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[17.592698] (-) TimerEvent: {}
+[17.693351] (-) TimerEvent: {}
+[17.735692] (slam_toolbox) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/toggle_interactive__functions.c.o\x1b[0m\n'}
+[17.737805] (slam_toolbox) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear_queue__functions.c.o\x1b[0m\n'}
+[17.738533] (slam_toolbox) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/save_map__functions.c.o\x1b[0m\n'}
+[17.738723] (slam_toolbox) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/pause__functions.c.o\x1b[0m\n'}
+[17.738894] (slam_toolbox) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear__functions.c.o\x1b[0m\n'}
+[17.739052] (slam_toolbox) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/loop_closure__functions.c.o\x1b[0m\n'}
+[17.739201] (slam_toolbox) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/merge_maps__functions.c.o\x1b[0m\n'}
+[17.793520] (-) TimerEvent: {}
+[17.894221] (-) TimerEvent: {}
+[17.994946] (-) TimerEvent: {}
+[18.053960] (slam_toolbox) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[18.056795] (slam_toolbox) StderrLine: {'line': b"make[2]: *** Deleting file 'rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp'\n"}
+[18.058269] (slam_toolbox) StderrLine: {'line': b"make[2]: *** Deleting file 'rosidl_typesupport_cpp/slam_toolbox/srv/pause__type_support.cpp'\n"}
+[18.059558] (slam_toolbox) StderrLine: {'line': b'  File "/opt/ros/humble/install/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 23, in <module>\n'}
+[18.060654] (slam_toolbox) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[18.061742] (slam_toolbox) StderrLine: {'line': b'  File "/opt/ros/humble/install/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp", line 28, in <module>\n'}
+[18.062752] (slam_toolbox) StderrLine: {'line': b'    sys.exit(main())\n'}
+[18.063226] (slam_toolbox) StderrLine: {'line': b'  File "/opt/ros/humble/install/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 19, in main\n'}
+[18.063419] (slam_toolbox) StderrLine: {'line': b'    sys.exit(main())\n'}
+[18.063619] (slam_toolbox) StderrLine: {'line': b'  File "/opt/ros/humble/install/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp", line 24, in main\n'}
+[18.063827] (slam_toolbox) StderrLine: {'line': b'make[2]: *** [CMakeFiles/slam_toolbox__rosidl_generator_c.dir/build.make:374: CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear_queue__functions.c.o] Interrupt\n'}
+[18.063981] (slam_toolbox) StderrLine: {'line': b'    generate_cpp(args.generator_arguments_file)\n'}
+[18.064213] (slam_toolbox) StderrLine: {'line': b'make[2]: *** [CMakeFiles/slam_toolbox__rosidl_generator_c.dir/build.make:402: CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear__functions.c.o] Interrupt\n'}
+[18.064414] (slam_toolbox) StderrLine: {'line': b'  File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py", line 24, in generate_cpp\n'}
+[18.064635] (slam_toolbox) StderrLine: {'line': b'make[2]: *** [CMakeFiles/slam_toolbox__rosidl_generator_c.dir/build.make:416: CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/save_map__functions.c.o] Interrupt\n'}
+[18.064818] (slam_toolbox) StderrLine: {'line': b'make[2]: *** [CMakeFiles/slam_toolbox__rosidl_generator_c.dir/build.make:430: CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/loop_closure__functions.c.o] Interrupt\n'}
+[18.065019] (slam_toolbox) StderrLine: {'line': b'    generate_cpp(args.generator_arguments_file, args.typesupports)\n'}
+[18.065158] (slam_toolbox) StderrLine: {'line': b'  File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_typesupport_cpp/__init__.py", line 28, in generate_cpp\n'}
+[18.065342] (slam_toolbox) StderrLine: {'line': b'make[2]: *** [CMakeFiles/slam_toolbox__rosidl_generator_c.dir/build.make:444: CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/merge_maps__functions.c.o] Interrupt\n'}
+[18.065508] (slam_toolbox) StderrLine: {'line': b'    return generate_files(generator_arguments_file, mapping)\n'}
+[18.065668] (slam_toolbox) StderrLine: {'line': b'  File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 87, in generate_files\n'}
+[18.065839] (slam_toolbox) StderrLine: {'line': b'    return generate_files(\n'}
+[18.066044] (slam_toolbox) StderrLine: {'line': b'  File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 87, in generate_files\n'}
+[18.066189] (slam_toolbox) StderrLine: {'line': b'    expand_template(\n'}
+[18.066367] (slam_toolbox) StderrLine: {'line': b'  File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 149, in expand_template\n'}
+[18.066505] (slam_toolbox) StderrLine: {'line': b'    interpreter.string(template_content, template_path, locals=data)\n'}
+[18.066679] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[18.066884] (slam_toolbox) StderrLine: {'line': b'make[2]: *** [CMakeFiles/slam_toolbox__rosidl_generator_c.dir/build.make:360: CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/pause__functions.c.o] Interrupt\n'}
+[18.067024] (slam_toolbox) StderrLine: {'line': b'    expand_template(\n'}
+[18.068575] (slam_toolbox) StderrLine: {'line': b'make[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:76: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o] Interrupt\n'}
+[18.068783] (slam_toolbox) StderrLine: {'line': b'  File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 149, in expand_template\n'}
+[18.069002] (slam_toolbox) StderrLine: {'line': b'make[2]: *** [CMakeFiles/slam_toolbox__rosidl_generator_c.dir/build.make:388: CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/toggle_interactive__functions.c.o] Interrupt\n'}
+[18.069156] (slam_toolbox) StderrLine: {'line': b'    interpreter.string(template_content, template_path, locals=data)\n'}
+[18.069360] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[18.069547] (slam_toolbox) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[18.069693] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[18.069895] (slam_toolbox) StderrLine: {'line': b'make[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Interrupt\n'}
+[18.070036] (slam_toolbox) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:259: CMakeFiles/slam_toolbox__rosidl_generator_c.dir/all] Interrupt\n'}
+[18.070218] (slam_toolbox) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[18.070352] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[18.070541] (slam_toolbox) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Interrupt\n'}
+[18.070717] (slam_toolbox) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[18.070856] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[18.070990] (slam_toolbox) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[18.071117] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[18.071272] (slam_toolbox) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[18.071408] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run\n'}
+[18.071542] (slam_toolbox) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[18.071676] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2595, in execute\n'}
+[18.071808] (slam_toolbox) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[18.071938] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1547, in run\n'}
+[18.072066] (slam_toolbox) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[18.072192] (slam_toolbox) StderrLine: {'line': b'  File "<string>", line 19, in <module>\n'}
+[18.072324] (slam_toolbox) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[18.072449] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3.8/pathlib.py", line 920, in parts\n'}
+[18.072605] (slam_toolbox) StderrLine: {'line': b'    self.subrun(info[0][1], interpreter, locals)\n'}
+[18.072761] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun\n'}
+[18.072891] (slam_toolbox) StderrLine: {'line': b'    return self._pparts\n'}
+[18.073019] (slam_toolbox) StderrLine: {'line': b'AttributeError: _pparts\n'}
+[18.073147] (slam_toolbox) StderrLine: {'line': b'    token.run(interpreter, locals)\n'}
+[18.073271] (slam_toolbox) StderrLine: {'line': b'\n'}
+[18.073400] (slam_toolbox) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[18.073528] (slam_toolbox) StderrLine: {'line': b'\n'}
+[18.073650] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run\n'}
+[18.073776] (slam_toolbox) StderrLine: {'line': b'  File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 198, in _expand_template\n'}
+[18.073903] (slam_toolbox) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[18.074025] (slam_toolbox) StderrLine: {'line': b'  File "/opt/ros/humble/install/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp", line 31, in <module>\n'}
+[18.074152] (slam_toolbox) StderrLine: {'line': b'    sys.exit(main())\n'}
+[18.074278] (slam_toolbox) StderrLine: {'line': b'    interpreter.string(content, str(template_path), kwargs)\n'}
+[18.074404] (slam_toolbox) StderrLine: {'line': b'  File "/opt/ros/humble/install/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp", line 27, in main\n'}
+[18.074530] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[18.074708] (slam_toolbox) StderrLine: {'line': b'    generate_cpp(args.generator_arguments_file)\n'}
+[18.074840] (slam_toolbox) StderrLine: {'line': b'  File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_typesupport_introspection_cpp/__init__.py", line 31, in generate_cpp\n'}
+[18.074974] (slam_toolbox) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[18.075098] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2595, in execute\n'}
+[18.075224] (slam_toolbox) StderrLine: {'line': b'    return generate_files(generator_arguments_file, mapping)\n'}
+[18.075353] (slam_toolbox) StderrLine: {'line': b'  File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 87, in generate_files\n'}
+[18.075482] (slam_toolbox) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[18.075606] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[18.075734] (slam_toolbox) StderrLine: {'line': b'    expand_template(\n'}
+[18.075860] (slam_toolbox) StderrLine: {'line': b'  File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 149, in expand_template\n'}
+[18.075985] (slam_toolbox) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[18.076147] (slam_toolbox) StderrLine: {'line': b'  File "<string>", line 2, in <module>\n'}
+[18.076278] (slam_toolbox) StderrLine: {'line': b'    interpreter.string(template_content, template_path, locals=data)\n'}
+[18.076408] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[18.076538] (slam_toolbox) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[18.076710] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[18.076839] (slam_toolbox) StderrLine: {'line': b'  File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 198, in _expand_template\n'}
+[18.076963] (slam_toolbox) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[18.077095] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[18.077219] (slam_toolbox) StderrLine: {'line': b'    interpreter.string(content, str(template_path), kwargs)\n'}
+[18.077345] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[18.077472] (slam_toolbox) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[18.077597] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run\n'}
+[18.077723] (slam_toolbox) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[18.077853] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2595, in execute\n'}
+[18.077977] (slam_toolbox) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[18.078101] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[18.078225] (slam_toolbox) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[18.078352] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[18.078476] (slam_toolbox) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[18.078602] (slam_toolbox) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[18.078727] (slam_toolbox) StderrLine: {'line': b'  File "<string>", line 2, in <module>\n'}
+[18.078851] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1547, in run\n'}
+[18.078977] (slam_toolbox) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[18.079100] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[18.079223] (slam_toolbox) StderrLine: {'line': b'    self.subrun(info[0][1], interpreter, locals)\n'}
+[18.079428] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun\n'}
+[18.079562] (slam_toolbox) StderrLine: {'line': b'  File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 198, in _expand_template\n'}
+[18.079693] (slam_toolbox) StderrLine: {'line': b'    interpreter.string(content, str(template_path), kwargs)\n'}
+[18.079819] (slam_toolbox) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[18.079944] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[18.080091] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run\n'}
+[18.080225] (slam_toolbox) StderrLine: {'line': b'    token.run(interpreter, locals)\n'}
+[18.080355] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run\n'}
+[18.080483] (slam_toolbox) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[18.080644] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2595, in execute\n'}
+[18.080777] (slam_toolbox) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[18.080907] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2595, in execute\n'}
+[18.081033] (slam_toolbox) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[18.081158] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[18.081284] (slam_toolbox) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[18.081412] (slam_toolbox) StderrLine: {'line': b'  File "<string>", line 2, in <module>\n'}
+[18.081537] (slam_toolbox) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[18.081659] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2417, in parse\n'}
+[18.081783] (slam_toolbox) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[18.081905] (slam_toolbox) StderrLine: {'line': b'  File "<string>", line 2, in <module>\n'}
+[18.082028] (slam_toolbox) StderrLine: {'line': b'  File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 198, in _expand_template\n'}
+[18.082156] (slam_toolbox) StderrLine: {'line': b'    token = scanner.one()\n'}
+[18.082282] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1984, in one\n'}
+[18.082410] (slam_toolbox) StderrLine: {'line': b'    interpreter.string(content, str(template_path), kwargs)\n'}
+[18.082536] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[18.082666] (slam_toolbox) StderrLine: {'line': b'  File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 198, in _expand_template\n'}
+[18.082795] (slam_toolbox) StderrLine: {'line': b'    interpreter.string(content, str(template_path), kwargs)\n'}
+[18.082921] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[18.083049] (slam_toolbox) StderrLine: {'line': b'    token.scan(self)\n'}
+[18.083176] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1468, in scan\n'}
+[18.083305] (slam_toolbox) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[18.083435] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[18.083561] (slam_toolbox) StderrLine: {'line': b'    self.subscan(scanner, self.type)\n'}
+[18.083685] (slam_toolbox) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[18.083812] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1483, in subscan\n'}
+[18.083934] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[18.084055] (slam_toolbox) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[18.084227] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[18.084360] (slam_toolbox) StderrLine: {'line': b'    token = scanner.one()\n'}
+[18.084489] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1984, in one\n'}
+[18.084664] (slam_toolbox) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[18.084798] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[18.084929] (slam_toolbox) StderrLine: {'line': b'    token.scan(self)\n'}
+[18.085059] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1468, in scan\n'}
+[18.085189] (slam_toolbox) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[18.085313] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run\n'}
+[18.085440] (slam_toolbox) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[18.085564] (slam_toolbox) StderrLine: {'line': b'    self.subscan(scanner, self.type)\n'}
+[18.085686] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run\n'}
+[18.085813] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1483, in subscan\n'}
+[18.085988] (slam_toolbox) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[18.086122] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2595, in execute\n'}
+[18.086255] (slam_toolbox) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[18.086385] (slam_toolbox) StderrLine: {'line': b'    token = scanner.one()\n'}
+[18.086510] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2595, in execute\n'}
+[18.086635] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1984, in one\n'}
+[18.086761] (slam_toolbox) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[18.086886] (slam_toolbox) StderrLine: {'line': b'  File "<string>", line 2, in <module>\n'}
+[18.087010] (slam_toolbox) StderrLine: {'line': b'    token.scan(self)\n'}
+[18.087133] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1456, in scan\n'}
+[18.087260] (slam_toolbox) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[18.087388] (slam_toolbox) StderrLine: {'line': b'  File "<string>", line 2, in <module>\n'}
+[18.087514] (slam_toolbox) StderrLine: {'line': b"    i = scanner.complex('[', ']', 0)\n"}
+[18.087636] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1893, in complex\n'}
+[18.087801] (slam_toolbox) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[18.087946] (slam_toolbox) StderrLine: {'line': b'  File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 198, in _expand_template\n'}
+[18.088083] (slam_toolbox) StderrLine: {'line': b'    interpreter.string(content, str(template_path), kwargs)\n'}
+[18.088220] (slam_toolbox) StderrLine: {'line': b'    newQuote = self.check(i, quote)\n'}
+[18.088353] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[18.088482] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1762, in check\n'}
+[18.088664] (slam_toolbox) StderrLine: {'line': b'    def check(self, i, archetype=None):\n'}
+[18.088809] (slam_toolbox) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[18.088941] (slam_toolbox) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[18.089080] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[18.089209] (slam_toolbox) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[18.089333] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[18.089750] (slam_toolbox) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[18.089896] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1333, in run\n'}
+[18.090037] (slam_toolbox) StderrLine: {'line': b'    result = interpreter.evaluate(self.testCode, locals)\n'}
+[18.090173] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2572, in evaluate\n'}
+[18.090302] (slam_toolbox) StderrLine: {'line': b'    result = eval(expression, self.globals, locals)\n'}
+[18.090438] (slam_toolbox) StderrLine: {'line': b'  File "<string>", line 1, in <module>\n'}
+[18.090566] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3.8/pathlib.py", line 921, in parts\n'}
+[18.090689] (slam_toolbox) StderrLine: {'line': b'    except AttributeError:\n'}
+[18.090848] (slam_toolbox) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[18.090981] (slam_toolbox) StderrLine: {'line': b'Exception ignored in: <function Interpreter.__del__ at 0xffff99e98b80>\n'}
+[18.091113] (slam_toolbox) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[18.091241] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__\n'}
+[18.091367] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown\n'}
+[18.091502] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2646, in finalize\n'}
+[18.091627] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2200, in push\n'}
+[18.091758] (slam_toolbox) StderrLine: {'line': b"AttributeError: '_io.TextIOWrapper' object has no attribute 'push'\n"}
+[18.092509] (slam_toolbox) StderrLine: {'line': b'Exception ignored in: <function Interpreter.__del__ at 0xffff8afe5dc0>\n'}
+[18.092852] (slam_toolbox) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[18.093003] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__\n'}
+[18.093141] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown\n'}
+[18.093269] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2646, in finalize\n'}
+[18.093402] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2200, in push\n'}
+[18.093523] (slam_toolbox) StderrLine: {'line': b"AttributeError: '_io.TextIOWrapper' object has no attribute 'push'\n"}
+[18.095012] (-) TimerEvent: {}
+[18.097602] (slam_toolbox) StderrLine: {'line': b'Exception ignored in: <function Interpreter.__del__ at 0xffff8a5e2b80>\n'}
+[18.097996] (slam_toolbox) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[18.098170] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__\n'}
+[18.098314] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown\n'}
+[18.098447] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2646, in finalize\n'}
+[18.098577] (slam_toolbox) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2200, in push\n'}
+[18.098716] (slam_toolbox) StderrLine: {'line': b"AttributeError: '_io.TextIOWrapper' object has no attribute 'push'\n"}
+[18.105882] (slam_toolbox) StderrLine: {'line': b'make[2]: *** [CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/build.make:200: rosidl_typesupport_cpp/slam_toolbox/srv/pause__type_support.cpp] Interrupt\n'}
+[18.106473] (slam_toolbox) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:440: CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/all] Interrupt\n'}
+[18.110519] (slam_toolbox) StderrLine: {'line': b'make[2]: *** [CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/build.make:202: rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/pause__type_support.cpp] Interrupt\n'}
+[18.110874] (slam_toolbox) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:336: CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt\n'}
+[18.116508] (slam_toolbox) StderrLine: {'line': b'make[2]: *** [CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/build.make:202: rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp] Interrupt\n'}
+[18.116861] (slam_toolbox) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:414: CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/all] Interrupt\n'}
+[18.117895] (slam_toolbox) StderrLine: {'line': b'make: *** [Makefile:146: all] Interrupt\n'}
+[18.121087] (slam_toolbox) CommandEnded: {'returncode': -2}
+[18.195233] (-) TimerEvent: {}
+[18.296222] (-) TimerEvent: {}
+[18.396833] (-) TimerEvent: {}
+[18.497579] (-) TimerEvent: {}
+[18.598244] (-) TimerEvent: {}
+[18.698912] (-) TimerEvent: {}
+[18.799574] (-) TimerEvent: {}
+[18.900438] (-) TimerEvent: {}
+[19.001229] (-) TimerEvent: {}
+[19.102009] (-) TimerEvent: {}
+[19.202679] (-) TimerEvent: {}
+[19.303477] (-) TimerEvent: {}
+[19.404424] (-) TimerEvent: {}
+[19.505218] (-) TimerEvent: {}
+[19.606149] (-) TimerEvent: {}
+[19.709207] (-) TimerEvent: {}
+[19.744084] (slam_toolbox) JobEnded: {'identifier': 'slam_toolbox', 'rc': 'SIGINT'}
+[19.754912] (-) EventReactorShutdown: {}

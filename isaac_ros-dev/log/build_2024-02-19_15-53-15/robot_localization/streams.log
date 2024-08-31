@@ -1,0 +1,44 @@
+[0.692s] Invoking command in '/workspaces/isaac_ros-dev/build/robot_localization': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/geographic_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/geographic_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/geographic_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/geographic_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/robot_localization -- -j12 -l12
+[0.797s] [  0%] Built target robot_localization__cpp
+[0.798s] [  2%] Built target gtest_main
+[0.798s] [  4%] Built target gtest
+[0.798s] [ 12%] Built target robot_localization__rosidl_generator_c
+[0.808s] [ 12%] Built target ament_cmake_python_copy_robot_localization
+[0.839s] [ 19%] Built target robot_localization__rosidl_typesupport_cpp
+[0.841s] [ 26%] Built target robot_localization__rosidl_typesupport_introspection_cpp
+[0.848s] [ 36%] Built target robot_localization__rosidl_typesupport_introspection_c
+[0.849s] [ 40%] Built target robot_localization__rosidl_typesupport_fastrtps_cpp
+[0.849s] [ 47%] Built target robot_localization__rosidl_typesupport_c
+[0.849s] [ 54%] Built target robot_localization__rosidl_typesupport_fastrtps_c
+[0.886s] [ 54%] Built target robot_localization
+[0.916s] [ 55%] [32mBuilding CXX object CMakeFiles/rl_lib.dir/src/navsat_transform.cpp.o[0m
+[0.927s] [ 56%] Built target robot_localization__py
+[0.976s] [ 62%] Built target robot_localization__rosidl_generator_py
+[1.017s] [ 64%] Built target robot_localization__rosidl_typesupport_fastrtps_c__pyext
+[1.020s] [ 66%] Built target robot_localization__rosidl_typesupport_introspection_c__pyext
+[1.023s] [ 68%] Built target robot_localization__rosidl_typesupport_c__pyext
+[1.709s] running egg_info
+[1.734s] writing robot_localization.egg-info/PKG-INFO
+[1.735s] writing dependency_links to robot_localization.egg-info/dependency_links.txt
+[1.735s] writing top-level names to robot_localization.egg-info/top_level.txt
+[1.836s] reading manifest file 'robot_localization.egg-info/SOURCES.txt'
+[1.836s] writing manifest file 'robot_localization.egg-info/SOURCES.txt'
+[1.954s] [ 68%] Built target ament_cmake_python_build_robot_localization_egg
+[11.548s] In file included from [01m[K/workspaces/isaac_ros-dev/src/robot_localization/src/navsat_transform.cpp:32[m[K:
+[11.548s] [01m[K/workspaces/isaac_ros-dev/src/robot_localization/include/robot_localization/navsat_transform.hpp:370:3:[m[K [01;31m[Kerror: [m[K‘[01m[KGeographicLib[m[K’ does not name a type
+[11.549s]   370 |   [01;31m[KGeographicLib[m[K::LocalCartesian gps_local_cartesian_;
+[11.549s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[11.946s] [01m[K/workspaces/isaac_ros-dev/src/robot_localization/src/navsat_transform.cpp:[m[K In member function ‘[01m[Kbool robot_localization::NavSatTransform::fromLLCallback(std::shared_ptr<robot_localization::srv::FromLL_Request_<std::allocator<void> > >, std::shared_ptr<robot_localization::srv::FromLL_Response_<std::allocator<void> > >)[m[K’:
+[11.947s] [01m[K/workspaces/isaac_ros-dev/src/robot_localization/src/navsat_transform.cpp:434:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgps_local_cartesian_[m[K’ was not declared in this scope; did you mean ‘[01m[Kuse_local_cartesian_[m[K’?
+[11.947s]   434 |     [01;31m[Kgps_local_cartesian_[m[K.Forward(
+[11.947s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[11.947s]       |     [32m[Kuse_local_cartesian_[m[K
+[12.045s] [01m[K/workspaces/isaac_ros-dev/src/robot_localization/src/navsat_transform.cpp:[m[K In member function ‘[01m[Kvoid robot_localization::NavSatTransform::setTransformGps(const SharedPtr&)[m[K’:
+[12.045s] [01m[K/workspaces/isaac_ros-dev/src/robot_localization/src/navsat_transform.cpp:840:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgps_local_cartesian_[m[K’ was not declared in this scope; did you mean ‘[01m[Kuse_local_cartesian_[m[K’?
+[12.045s]   840 |     [01;31m[Kgps_local_cartesian_[m[K.Reset(msg->latitude, msg->longitude, hae_altitude);
+[12.046s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[12.046s]       |     [32m[Kuse_local_cartesian_[m[K
+[26.849s] make[2]: *** [CMakeFiles/rl_lib.dir/build.make:132: CMakeFiles/rl_lib.dir/src/navsat_transform.cpp.o] Error 1
+[26.850s] make[1]: *** [CMakeFiles/Makefile2:638: CMakeFiles/rl_lib.dir/all] Error 2
+[26.851s] make: *** [Makefile:146: all] Error 2
+[26.855s] Invoked command in '/workspaces/isaac_ros-dev/build/robot_localization' returned '2': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/geographic_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/geographic_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/geographic_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/geographic_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/robot_localization -- -j12 -l12

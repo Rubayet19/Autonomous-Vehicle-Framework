@@ -1,0 +1,5 @@
+add_test([=[OccupancyIntegratorTest.ReconstructPlane]=]  /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_occupancy_integrator [==[--gtest_filter=OccupancyIntegratorTest.ReconstructPlane]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[OccupancyIntegratorTest.ReconstructPlane]=]  PROPERTIES WORKING_DIRECTORY /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[OccupancyIntegratorTest.SphereSceneTest]=]  /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_occupancy_integrator [==[--gtest_filter=OccupancyIntegratorTest.SphereSceneTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[OccupancyIntegratorTest.SphereSceneTest]=]  PROPERTIES WORKING_DIRECTORY /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  test_occupancy_integrator_TESTS OccupancyIntegratorTest.ReconstructPlane OccupancyIntegratorTest.SphereSceneTest)

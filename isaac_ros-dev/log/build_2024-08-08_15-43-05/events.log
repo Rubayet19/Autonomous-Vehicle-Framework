@@ -1,0 +1,386 @@
+[0.000000] (-) TimerEvent: {}
+[0.000806] (-) JobUnselected: {'identifier': 'agv_bot_description'}
+[0.001021] (-) JobUnselected: {'identifier': 'async_web_server_cpp'}
+[0.001455] (-) JobUnselected: {'identifier': 'camera_calibration_parsers'}
+[0.001792] (-) JobUnselected: {'identifier': 'camera_info_manager'}
+[0.004000] (-) JobUnselected: {'identifier': 'camera_publishers'}
+[0.004113] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.004314] (-) JobUnselected: {'identifier': 'geodesy'}
+[0.004404] (-) JobUnselected: {'identifier': 'geographic_info'}
+[0.004497] (-) JobUnselected: {'identifier': 'geographic_msgs'}
+[0.004545] (-) JobUnselected: {'identifier': 'gps_package'}
+[0.004608] (-) JobUnselected: {'identifier': 'image_common'}
+[0.006238] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.006320] (-) JobUnselected: {'identifier': 'image_stitcher'}
+[0.006441] (-) JobUnselected: {'identifier': 'image_transport'}
+[0.006510] (-) JobUnselected: {'identifier': 'isaac_ros_apriltag_interfaces'}
+[0.006559] (-) JobUnselected: {'identifier': 'isaac_ros_bi3d_interfaces'}
+[0.006605] (-) JobUnselected: {'identifier': 'isaac_ros_common'}
+[0.006649] (-) JobUnselected: {'identifier': 'isaac_ros_nvblox'}
+[0.006691] (-) JobUnselected: {'identifier': 'isaac_ros_pointcloud_interfaces'}
+[0.008193] (-) JobUnselected: {'identifier': 'isaac_ros_tensor_list_interfaces'}
+[0.008338] (-) JobUnselected: {'identifier': 'isaac_ros_test'}
+[0.008456] (-) JobUnselected: {'identifier': 'joint_state_publisher'}
+[0.008610] (-) JobUnselected: {'identifier': 'joint_state_publisher_gui'}
+[0.008692] (-) JobUnselected: {'identifier': 'motor_control_pkg'}
+[0.008747] (-) JobUnselected: {'identifier': 'nvblox'}
+[0.008800] (-) JobUnselected: {'identifier': 'nvblox_cpu_gpu_tools'}
+[0.008842] (-) JobUnselected: {'identifier': 'nvblox_examples_bringup'}
+[0.008880] (-) JobUnselected: {'identifier': 'nvblox_image_padding'}
+[0.008918] (-) JobUnselected: {'identifier': 'nvblox_isaac_sim'}
+[0.008954] (-) JobUnselected: {'identifier': 'nvblox_msgs'}
+[0.009029] (-) JobUnselected: {'identifier': 'nvblox_nav2'}
+[0.009098] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement'}
+[0.009533] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement_msgs'}
+[0.009588] (-) JobUnselected: {'identifier': 'nvblox_ros'}
+[0.009628] (-) JobUnselected: {'identifier': 'nvblox_ros_common'}
+[0.009724] (-) JobUnselected: {'identifier': 'nvblox_rviz_plugin'}
+[0.009775] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.009823] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.009870] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.009914] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.009975] (-) JobUnselected: {'identifier': 'realsense_obj_det'}
+[0.011407] (-) JobUnselected: {'identifier': 'road_segmentation'}
+[0.011466] (-) JobUnselected: {'identifier': 'semantic_label_conversion'}
+[0.011506] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.011544] (-) JobUnselected: {'identifier': 'stdgpu'}
+[0.011581] (-) JobUnselected: {'identifier': 'teleop_twist_joy'}
+[0.011617] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.011653] (-) JobUnselected: {'identifier': 'twist_converter'}
+[0.011688] (-) JobUnselected: {'identifier': 'twist_mux'}
+[0.011723] (-) JobUnselected: {'identifier': 'velodyne'}
+[0.011759] (-) JobUnselected: {'identifier': 'velodyne_driver'}
+[0.011794] (-) JobUnselected: {'identifier': 'velodyne_laserscan'}
+[0.011891] (-) JobUnselected: {'identifier': 'velodyne_msgs'}
+[0.011938] (-) JobUnselected: {'identifier': 'velodyne_pointcloud'}
+[0.011977] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.012012] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.012047] (-) JobUnselected: {'identifier': 'xacro'}
+[0.012093] (data_logger) JobQueued: {'identifier': 'data_logger', 'dependencies': OrderedDict([('cv_bridge', '/avlcode/workspaces/isaac_ros-dev/install/cv_bridge'), ('image_transport', '/avlcode/workspaces/isaac_ros-dev/install/image_transport')])}
+[0.012163] (data_logger) JobStarted: {'identifier': 'data_logger'}
+[0.085684] (data_logger) JobProgress: {'identifier': 'data_logger', 'progress': 'cmake'}
+[0.087193] (data_logger) JobProgress: {'identifier': 'data_logger', 'progress': 'build'}
+[0.088520] (data_logger) Command: {'cmd': ['/usr/bin/cmake', '--build', '/avlcode/workspaces/isaac_ros-dev/build/data_logger', '--', '-j12', '-l12'], 'cwd': '/avlcode/workspaces/isaac_ros-dev/build/data_logger', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources'), ('HOSTNAME', 'agxorin1'), ('ROS_PACKAGE_PATH', '/avlcode/workspaces/isaac_ros-dev/install/async_web_server_cpp/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport/lib:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/avlcode/workspaces/isaac_ros-dev/install/velodyne_pointcloud/lib:/avlcode/workspaces/isaac_ros-dev/install/velodyne_driver/lib:/avlcode/workspaces/isaac_ros-dev/install/velodyne_msgs/lib:/avlcode/workspaces/isaac_ros-dev/install/velodyne_laserscan/lib:/avlcode/workspaces/isaac_ros-dev/install/teleop_twist_joy/lib:/avlcode/workspaces/isaac_ros-dev/install/slam_toolbox/lib:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera/lib:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_ros/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_image_padding/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_ros_common/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_nav2/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_msgs/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox/lib:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib:/avlcode/workspaces/isaac_ros-dev/install/image_geometry/lib:/avlcode/workspaces/isaac_ros-dev/install/geographic_msgs/lib:/avlcode/workspaces/isaac_ros-dev/install/camera_info_manager/lib:/avlcode/workspaces/isaac_ros-dev/install/camera_calibration_parsers/lib:/avlcode/workspaces/isaac_ros-dev/install/async_web_server_cpp/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/avlcode/workspaces'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install:/avlcode/workspaces/isaac_ros-dev/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig:/avlcode/workspaces/isaac_ros-dev/install/async_web_server_cpp/lib/aarch64-linux-gnu/pkgconfig:/avlcode/workspaces/isaac_ros-dev/install/async_web_server_cpp/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('USERNAME', 'admin'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/avlcode/workspaces/isaac_ros-dev/install/xacro/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvidia/tao:/usr/local/cuda/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/usr/local/share/middleware_profiles/husarnet_fastdds_profile.xml'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/opt/ros/humble/install:/avlcode/workspaces/isaac_ros-dev/install/realsense2_description:/avlcode/workspaces/isaac_ros-dev/install/agv_bot_description:/avlcode/workspaces/isaac_ros-dev/install/xacro:/avlcode/workspaces/isaac_ros-dev/install/web_video_server:/avlcode/workspaces/isaac_ros-dev/install/vision_opencv:/avlcode/workspaces/isaac_ros-dev/install/velodyne:/avlcode/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/avlcode/workspaces/isaac_ros-dev/install/velodyne_driver:/avlcode/workspaces/isaac_ros-dev/install/velodyne_msgs:/avlcode/workspaces/isaac_ros-dev/install/velodyne_laserscan:/avlcode/workspaces/isaac_ros-dev/install/twist_mux:/avlcode/workspaces/isaac_ros-dev/install/teleop_twist_joy:/avlcode/workspaces/isaac_ros-dev/install/slam_toolbox:/avlcode/workspaces/isaac_ros-dev/install/semantic_label_conversion:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/avlcode/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin:/avlcode/workspaces/isaac_ros-dev/install/nvblox_performance_measurement:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_nvblox:/avlcode/workspaces/isaac_ros-dev/install/nvblox_ros:/avlcode/workspaces/isaac_ros-dev/install/nvblox_image_padding:/avlcode/workspaces/isaac_ros-dev/install/nvblox_ros_common:/avlcode/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs:/avlcode/workspaces/isaac_ros-dev/install/nvblox_nav2:/avlcode/workspaces/isaac_ros-dev/install/nvblox_msgs:/avlcode/workspaces/isaac_ros-dev/install/nvblox_examples_bringup:/avlcode/workspaces/isaac_ros-dev/install/motor_control_pkg:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_common:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/avlcode/workspaces/isaac_ros-dev/install/image_common:/avlcode/workspaces/isaac_ros-dev/install/image_transport:/avlcode/workspaces/isaac_ros-dev/install/image_stitcher:/avlcode/workspaces/isaac_ros-dev/install/image_geometry:/avlcode/workspaces/isaac_ros-dev/install/geographic_info:/avlcode/workspaces/isaac_ros-dev/install/geographic_msgs:/avlcode/workspaces/isaac_ros-dev/install/data_logger:/avlcode/workspaces/isaac_ros-dev/install/camera_info_manager'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/avlcode/workspaces/isaac_ros-dev/build/data_logger'), ('PYTHONPATH', '/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/twist_converter/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/teleop_twist_keyboard/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/slam_toolbox/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/road_segmentation/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/realsense_obj_det/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/opencv_tests/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/nvblox_msgs/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/nvblox_isaac_sim/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/nvblox_cpu_gpu_tools/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/motor_control_pkg/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/joint_state_publisher_gui/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/joint_state_publisher/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/image_stitcher/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/image_geometry/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/gps_package/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/geographic_msgs/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/geodesy/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/camera_publishers/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/camera_calibration_parsers/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('USER_GID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge:/avlcode/workspaces/isaac_ros-dev/install/motor_control_pkg:/avlcode/workspaces/isaac_ros-dev/install/image_stitcher:/opt/ros/humble/install:/avlcode/workspaces/isaac_ros-dev/install/realsense2_description:/avlcode/workspaces/isaac_ros-dev/install/agv_bot_description:/avlcode/workspaces/isaac_ros-dev/install/xacro:/avlcode/workspaces/isaac_ros-dev/install/web_video_server:/avlcode/workspaces/isaac_ros-dev/install/vision_opencv:/avlcode/workspaces/isaac_ros-dev/install/velodyne:/avlcode/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/avlcode/workspaces/isaac_ros-dev/install/velodyne_driver:/avlcode/workspaces/isaac_ros-dev/install/velodyne_msgs:/avlcode/workspaces/isaac_ros-dev/install/velodyne_laserscan:/avlcode/workspaces/isaac_ros-dev/install/twist_mux:/avlcode/workspaces/isaac_ros-dev/install/teleop_twist_joy:/avlcode/workspaces/isaac_ros-dev/install/slam_toolbox:/avlcode/workspaces/isaac_ros-dev/install/semantic_label_conversion:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/avlcode/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin:/avlcode/workspaces/isaac_ros-dev/install/nvblox_performance_measurement:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_nvblox:/avlcode/workspaces/isaac_ros-dev/install/nvblox_ros:/avlcode/workspaces/isaac_ros-dev/install/nvblox_image_padding:/avlcode/workspaces/isaac_ros-dev/install/nvblox_ros_common:/avlcode/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs:/avlcode/workspaces/isaac_ros-dev/install/nvblox_nav2:/avlcode/workspaces/isaac_ros-dev/install/nvblox_msgs:/avlcode/workspaces/isaac_ros-dev/install/nvblox_examples_bringup:/avlcode/workspaces/isaac_ros-dev/install/nvblox:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_common:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/avlcode/workspaces/isaac_ros-dev/install/image_common:/avlcode/workspaces/isaac_ros-dev/install/image_geometry:/avlcode/workspaces/isaac_ros-dev/install/geographic_info:/avlcode/workspaces/isaac_ros-dev/install/geographic_msgs:/avlcode/workspaces/isaac_ros-dev/install/data_logger:/avlcode/workspaces/isaac_ros-dev/install/camera_info_manager:/avlcode/workspaces/isaac_ros-dev/install/async_web_server_cpp')]), 'shell': False}
+[0.099307] (-) TimerEvent: {}
+[0.200560] (-) TimerEvent: {}
+[0.217312] (data_logger) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/data_logger_node2.dir/src/data_logger_node2.cpp.o\x1b[0m\n'}
+[0.300729] (-) TimerEvent: {}
+[0.401408] (-) TimerEvent: {}
+[0.502070] (-) TimerEvent: {}
+[0.602750] (-) TimerEvent: {}
+[0.703418] (-) TimerEvent: {}
+[0.804165] (-) TimerEvent: {}
+[0.905004] (-) TimerEvent: {}
+[1.005738] (-) TimerEvent: {}
+[1.106422] (-) TimerEvent: {}
+[1.207085] (-) TimerEvent: {}
+[1.307761] (-) TimerEvent: {}
+[1.408423] (-) TimerEvent: {}
+[1.509134] (-) TimerEvent: {}
+[1.610881] (-) TimerEvent: {}
+[1.711868] (-) TimerEvent: {}
+[1.812630] (-) TimerEvent: {}
+[1.913374] (-) TimerEvent: {}
+[2.014192] (-) TimerEvent: {}
+[2.114959] (-) TimerEvent: {}
+[2.215790] (-) TimerEvent: {}
+[2.316506] (-) TimerEvent: {}
+[2.417281] (-) TimerEvent: {}
+[2.517963] (-) TimerEvent: {}
+[2.618728] (-) TimerEvent: {}
+[2.719448] (-) TimerEvent: {}
+[2.820381] (-) TimerEvent: {}
+[2.921237] (-) TimerEvent: {}
+[3.021962] (-) TimerEvent: {}
+[3.122647] (-) TimerEvent: {}
+[3.223355] (-) TimerEvent: {}
+[3.324109] (-) TimerEvent: {}
+[3.424836] (-) TimerEvent: {}
+[3.525540] (-) TimerEvent: {}
+[3.626226] (-) TimerEvent: {}
+[3.726920] (-) TimerEvent: {}
+[3.827600] (-) TimerEvent: {}
+[3.928315] (-) TimerEvent: {}
+[4.029125] (-) TimerEvent: {}
+[4.129827] (-) TimerEvent: {}
+[4.230499] (-) TimerEvent: {}
+[4.331192] (-) TimerEvent: {}
+[4.431881] (-) TimerEvent: {}
+[4.532822] (-) TimerEvent: {}
+[4.633521] (-) TimerEvent: {}
+[4.734222] (-) TimerEvent: {}
+[4.834926] (-) TimerEvent: {}
+[4.935643] (-) TimerEvent: {}
+[5.036368] (-) TimerEvent: {}
+[5.137057] (-) TimerEvent: {}
+[5.237760] (-) TimerEvent: {}
+[5.338461] (-) TimerEvent: {}
+[5.439154] (-) TimerEvent: {}
+[5.539866] (-) TimerEvent: {}
+[5.640601] (-) TimerEvent: {}
+[5.741310] (-) TimerEvent: {}
+[5.842005] (-) TimerEvent: {}
+[5.942712] (-) TimerEvent: {}
+[6.043413] (-) TimerEvent: {}
+[6.144132] (-) TimerEvent: {}
+[6.244781] (-) TimerEvent: {}
+[6.345447] (-) TimerEvent: {}
+[6.446034] (-) TimerEvent: {}
+[6.546656] (-) TimerEvent: {}
+[6.647286] (-) TimerEvent: {}
+[6.755192] (-) TimerEvent: {}
+[6.855840] (-) TimerEvent: {}
+[6.956502] (-) TimerEvent: {}
+[7.057173] (-) TimerEvent: {}
+[7.157851] (-) TimerEvent: {}
+[7.258499] (-) TimerEvent: {}
+[7.359628] (-) TimerEvent: {}
+[7.460864] (-) TimerEvent: {}
+[7.561921] (-) TimerEvent: {}
+[7.662684] (-) TimerEvent: {}
+[7.763434] (-) TimerEvent: {}
+[7.864233] (-) TimerEvent: {}
+[7.965000] (-) TimerEvent: {}
+[8.065723] (-) TimerEvent: {}
+[8.166365] (-) TimerEvent: {}
+[8.267072] (-) TimerEvent: {}
+[8.367756] (-) TimerEvent: {}
+[8.468458] (-) TimerEvent: {}
+[8.569121] (-) TimerEvent: {}
+[8.669785] (-) TimerEvent: {}
+[8.770443] (-) TimerEvent: {}
+[8.871125] (-) TimerEvent: {}
+[8.971989] (-) TimerEvent: {}
+[9.072706] (-) TimerEvent: {}
+[9.173364] (-) TimerEvent: {}
+[9.274014] (-) TimerEvent: {}
+[9.374815] (-) TimerEvent: {}
+[9.475496] (-) TimerEvent: {}
+[9.576164] (-) TimerEvent: {}
+[9.676879] (-) TimerEvent: {}
+[9.777609] (-) TimerEvent: {}
+[9.878333] (-) TimerEvent: {}
+[9.979032] (-) TimerEvent: {}
+[10.079729] (-) TimerEvent: {}
+[10.180469] (-) TimerEvent: {}
+[10.281229] (-) TimerEvent: {}
+[10.381956] (-) TimerEvent: {}
+[10.482658] (-) TimerEvent: {}
+[10.583340] (-) TimerEvent: {}
+[10.684020] (-) TimerEvent: {}
+[10.784718] (-) TimerEvent: {}
+[10.885389] (-) TimerEvent: {}
+[10.915420] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:27:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[10.916166] (data_logger) StderrLine: {'line': b'   27 | using std::placeholders::_1; \x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[10.916484] (data_logger) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.985553] (-) TimerEvent: {}
+[11.086228] (-) TimerEvent: {}
+[11.186937] (-) TimerEvent: {}
+[11.287621] (-) TimerEvent: {}
+[11.388330] (-) TimerEvent: {}
+[11.415275] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDataLogger::DataLogger()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.415902] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:150:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDataLogger::m_image_count\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[11.416123] (data_logger) StderrLine: {'line': b'  150 |   int \x1b[01;35m\x1b[Km_image_count\x1b[m\x1b[K;\n'}
+[11.416335] (data_logger) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.416495] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:129:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, geometry_msgs::msg::Twist_<std::allocator<void> > > > DataLogger::m_sync_approximate\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[11.416671] (data_logger) StderrLine: {'line': b'  129 |         message_filters::Synchronizer<m_approximate_policy> \x1b[01;35m\x1b[Km_sync_approximate\x1b[m\x1b[K;\n'}
+[11.416823] (data_logger) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.416961] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:32:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[11.417105] (data_logger) StderrLine: {'line': b'   32 |   \x1b[01;35m\x1b[KDataLogger\x1b[m\x1b[K() : Node("data_logger_node"),\n'}
+[11.417238] (data_logger) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.428999] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:52:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kentry\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[11.429533] (data_logger) StderrLine: {'line': b'   52 |     for (const auto &\x1b[01;35m\x1b[Kentry\x1b[m\x1b[K : fs::directory_iterator(m_drive)) {\n'}
+[11.429729] (data_logger) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.430668] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:68:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kentry\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[11.430848] (data_logger) StderrLine: {'line': b'   68 |     for (const auto &\x1b[01;35m\x1b[Kentry\x1b[m\x1b[K : fs::directory_iterator(m_image_drive)) {\n'}
+[11.430998] (data_logger) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[11.488490] (-) TimerEvent: {}
+[11.589161] (-) TimerEvent: {}
+[11.689847] (-) TimerEvent: {}
+[11.790560] (-) TimerEvent: {}
+[11.891242] (-) TimerEvent: {}
+[11.991919] (-) TimerEvent: {}
+[12.092678] (-) TimerEvent: {}
+[12.193357] (-) TimerEvent: {}
+[12.294048] (-) TimerEvent: {}
+[12.394728] (-) TimerEvent: {}
+[12.495410] (-) TimerEvent: {}
+[12.596034] (-) TimerEvent: {}
+[12.696678] (-) TimerEvent: {}
+[12.797321] (-) TimerEvent: {}
+[12.897989] (-) TimerEvent: {}
+[12.998646] (-) TimerEvent: {}
+[13.099262] (-) TimerEvent: {}
+[13.199890] (-) TimerEvent: {}
+[13.300586] (-) TimerEvent: {}
+[13.401647] (-) TimerEvent: {}
+[13.502339] (-) TimerEvent: {}
+[13.603069] (-) TimerEvent: {}
+[13.703780] (-) TimerEvent: {}
+[13.804537] (-) TimerEvent: {}
+[13.905243] (-) TimerEvent: {}
+[14.005947] (-) TimerEvent: {}
+[14.106636] (-) TimerEvent: {}
+[14.207322] (-) TimerEvent: {}
+[14.308003] (-) TimerEvent: {}
+[14.408726] (-) TimerEvent: {}
+[14.509454] (-) TimerEvent: {}
+[14.610314] (-) TimerEvent: {}
+[14.711136] (-) TimerEvent: {}
+[14.811902] (-) TimerEvent: {}
+[14.912658] (-) TimerEvent: {}
+[15.013347] (-) TimerEvent: {}
+[15.114374] (-) TimerEvent: {}
+[15.215046] (-) TimerEvent: {}
+[15.315739] (-) TimerEvent: {}
+[15.416441] (-) TimerEvent: {}
+[15.517107] (-) TimerEvent: {}
+[15.617776] (-) TimerEvent: {}
+[15.652866] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:25\x1b[m\x1b[K:\n'}
+[15.653799] (data_logger) StderrLine: {'line': b'/usr/include/boost/bind/bind.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid boost::_bi::list5<A1, A2, A3, A4, A5>::operator()(boost::_bi::type<void>, F&, A&, int) [with F = boost::_mfi::mf4<void, DataLogger, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&>; A = boost::_bi::rrlist9<const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&>; A1 = boost::_bi::value<DataLogger*>; A2 = boost::_bi::value<std::_Placeholder<1> >; A3 = boost::_bi::value<std::_Placeholder<2> >; A4 = boost::_bi::value<std::_Placeholder<3> >; A5 = boost::_bi::value<std::_Placeholder<4> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.654413] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind/bind.hpp:1402:50:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kboost::_bi::bind_t<R, F, L>::result_type boost::_bi::bind_t<R, F, L>::operator()(A1&&, A2&&, A3&&, A4&&, A5&&, A6&&, A7&&, A8&&, A9&&) [with A1 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; A2 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; A3 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; A4 = const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&; A5 = const std::shared_ptr<const message_filters::NullType>&; A6 = const std::shared_ptr<const message_filters::NullType>&; A7 = const std::shared_ptr<const message_filters::NullType>&; A8 = const std::shared_ptr<const message_filters::NullType>&; A9 = const std::shared_ptr<const message_filters::NullType>&; R = void; F = boost::_mfi::mf4<void, DataLogger, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&>; L = boost::_bi::list5<boost::_bi::value<DataLogger*>, boost::_bi::value<std::_Placeholder<1> >, boost::_bi::value<std::_Placeholder<2> >, boost::_bi::value<std::_Placeholder<3> >, boost::_bi::value<std::_Placeholder<4> > >; boost::_bi::bind_t<R, F, L>::result_type = void]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.654886] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/invoke.h:60:36:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kconstexpr _Res std::__invoke_impl(std::__invoke_other, _Fn&&, _Args&& ...) [with _Res = void; _Fn = boost::_bi::bind_t<void, boost::_mfi::mf4<void, DataLogger, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&>, boost::_bi::list5<boost::_bi::value<DataLogger*>, boost::_bi::value<std::_Placeholder<1> >, boost::_bi::value<std::_Placeholder<2> >, boost::_bi::value<std::_Placeholder<3> >, boost::_bi::value<std::_Placeholder<4> > > >&; _Args = {const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.655091] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/invoke.h:95:40:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kconstexpr typename std::__invoke_result<_Functor, _ArgTypes>::type std::__invoke(_Callable&&, _Args&& ...) [with _Callable = boost::_bi::bind_t<void, boost::_mfi::mf4<void, DataLogger, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&>, boost::_bi::list5<boost::_bi::value<DataLogger*>, boost::_bi::value<std::_Placeholder<1> >, boost::_bi::value<std::_Placeholder<2> >, boost::_bi::value<std::_Placeholder<3> >, boost::_bi::value<std::_Placeholder<4> > > >&; _Args = {const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&}; typename std::__invoke_result<_Functor, _ArgTypes>::type = void]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.655320] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/functional:400:24:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[K_Result std::_Bind<_Functor(_Bound_args ...)>::__call(std::tuple<_Args2 ...>&&, std::_Index_tuple<_Indexes ...>) [with _Result = void; _Args = {const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&}; long unsigned int ..._Indexes = {0, 1, 2, 3, 4, 5, 6, 7, 8}; _Functor = boost::_bi::bind_t<void, boost::_mfi::mf4<void, DataLogger, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&>, boost::_bi::list5<boost::_bi::value<DataLogger*>, boost::_bi::value<std::_Placeholder<1> >, boost::_bi::value<std::_Placeholder<2> >, boost::_bi::value<std::_Placeholder<3> >, boost::_bi::value<std::_Placeholder<4> > > >; _Bound_args = {std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>, std::_Placeholder<5>, std::_Placeholder<6>, std::_Placeholder<7>, std::_Placeholder<8>, std::_Placeholder<9>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.655517] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/functional:484:24:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[K_Result std::_Bind<_Functor(_Bound_args ...)>::operator()(_Args&& ...) [with _Args = {const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&}; _Result = void; _Functor = boost::_bi::bind_t<void, boost::_mfi::mf4<void, DataLogger, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&>, boost::_bi::list5<boost::_bi::value<DataLogger*>, boost::_bi::value<std::_Placeholder<1> >, boost::_bi::value<std::_Placeholder<2> >, boost::_bi::value<std::_Placeholder<3> >, boost::_bi::value<std::_Placeholder<4> > > >; _Bound_args = {std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>, std::_Placeholder<5>, std::_Placeholder<6>, std::_Placeholder<7>, std::_Placeholder<8>, std::_Placeholder<9>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.655693] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:300:37:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::_Function_handler<void(_ArgTypes ...), _Functor>::_M_invoke(const std::_Any_data&, _ArgTypes&& ...) [with _Functor = std::_Bind<boost::_bi::bind_t<void, boost::_mfi::mf4<void, DataLogger, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&>, boost::_bi::list5<boost::_bi::value<DataLogger*>, boost::_bi::value<std::_Placeholder<1> >, boost::_bi::value<std::_Placeholder<2> >, boost::_bi::value<std::_Placeholder<3> >, boost::_bi::value<std::_Placeholder<4> > > >(std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>, std::_Placeholder<5>, std::_Placeholder<6>, std::_Placeholder<7>, std::_Placeholder<8>, std::_Placeholder<9>)>; _ArgTypes = {const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.655914] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:676:19:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>::function(_Functor) [with _Functor = std::_Bind<boost::_bi::bind_t<void, boost::_mfi::mf4<void, DataLogger, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&>, boost::_bi::list5<boost::_bi::value<DataLogger*>, boost::_bi::value<std::_Placeholder<1> >, boost::_bi::value<std::_Placeholder<2> >, boost::_bi::value<std::_Placeholder<3> >, boost::_bi::value<std::_Placeholder<4> > > >(std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>, std::_Placeholder<5>, std::_Placeholder<6>, std::_Placeholder<7>, std::_Placeholder<8>, std::_Placeholder<9>)>; <template-parameter-2-2> = void; <template-parameter-2-3> = void; _Res = void; _ArgTypes = {const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.656089] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(C&) [with C = const boost::_bi::bind_t<void, boost::_mfi::mf4<void, DataLogger, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&>, boost::_bi::list5<boost::_bi::value<DataLogger*>, boost::_bi::value<std::_Placeholder<1> >, boost::_bi::value<std::_Placeholder<2> >, boost::_bi::value<std::_Placeholder<3> >, boost::_bi::value<std::_Placeholder<4> > > >; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.656295] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:298:40:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Connection message_filters::Synchronizer<Policy>::registerCallback(const C&) [with C = boost::_bi::bind_t<void, boost::_mfi::mf4<void, DataLogger, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&>, boost::_bi::list5<boost::_bi::value<DataLogger*>, boost::_bi::value<std::_Placeholder<1> >, boost::_bi::value<std::_Placeholder<2> >, boost::_bi::value<std::_Placeholder<3> >, boost::_bi::value<std::_Placeholder<4> > > >; Policy = message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, geometry_msgs::msg::Twist_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.656500] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:114:50:\x1b[m\x1b[K   required from here\n'}
+[15.656651] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind/bind.hpp:531:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for call to \xe2\x80\x98\x1b[01m\x1b[K(boost::_mfi::mf4<void, DataLogger, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&>) (DataLogger*&, std::_Placeholder<1>&, std::_Placeholder<2>&, std::_Placeholder<3>&, std::_Placeholder<4>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.656800] (data_logger) StderrLine: {'line': b'  531 |         \x1b[01;31m\x1b[Kunwrapper<F>::unwrap(f, 0)(a[base_type::a1_], a[base_type::a2_], a[base_type::a3_], a[base_type::a4_], a[base_type::a5_])\x1b[m\x1b[K;\n'}
+[15.656942] (data_logger) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.657079] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/bind/mem_fn.hpp:215\x1b[m\x1b[K,\n'}
+[15.657216] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mem_fn.hpp:22\x1b[m\x1b[K,\n'}
+[15.657348] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/bind/bind.hpp:26\x1b[m\x1b[K,\n'}
+[15.657479] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:25\x1b[m\x1b[K:\n'}
+[15.657607] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind/mem_fn_template.hpp:504:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KR boost::_mfi::mf4<R, T, A1, A2, A3, A4>::operator()(T*, A1, A2, A3, A4) const [with R = void; T = DataLogger; A1 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; A2 = std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >; A3 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; A4 = const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.657742] (data_logger) StderrLine: {'line': b'  504 |     R \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K()(T * p, A1 a1, A2 a2, A3 a3, A4 a4) const\n'}
+[15.657903] (data_logger) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[15.658045] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind/mem_fn_template.hpp:504:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Placeholder<1>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.658194] (data_logger) StderrLine: {'line': b'  504 |     R operator()(T * p, \x1b[01;36m\x1b[KA1 a1\x1b[m\x1b[K, A2 a2, A3 a3, A4 a4) const\n'}
+[15.658332] (data_logger) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K~~~^~\x1b[m\x1b[K\n'}
+[15.658467] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind/mem_fn_template.hpp:509:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class U> R boost::_mfi::mf4<R, T, A1, A2, A3, A4>::operator()(U&, A1, A2, A3, A4) const [with U = U; R = void; T = DataLogger; A1 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; A2 = std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >; A3 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; A4 = const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.658645] (data_logger) StderrLine: {'line': b'  509 |     template<class U> R \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K()(U & u, A1 a1, A2 a2, A3 a3, A4 a4) const\n'}
+[15.658807] (data_logger) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[15.658964] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind/mem_fn_template.hpp:509:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[15.659108] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:25\x1b[m\x1b[K:\n'}
+[15.659241] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind/bind.hpp:531:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K(& a)->boost::_bi::rrlist9<const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&>::operator[]<std::_Placeholder<1> >(((boost::_bi::list5<boost::_bi::value<DataLogger*>, boost::_bi::value<std::_Placeholder<1> >, boost::_bi::value<std::_Placeholder<2> >, boost::_bi::value<std::_Placeholder<3> >, boost::_bi::value<std::_Placeholder<4> > >*)this)->boost::_bi::list5<boost::_bi::value<DataLogger*>, boost::_bi::value<std::_Placeholder<1> >, boost::_bi::value<std::_Placeholder<2> >, boost::_bi::value<std::_Placeholder<3> >, boost::_bi::value<std::_Placeholder<4> > >::<anonymous>.boost::_bi::storage5<boost::_bi::value<DataLogger*>, boost::_bi::value<std::_Placeholder<1> >, boost::_bi::value<std::_Placeholder<2> >, boost::_bi::value<std::_Placeholder<3> >, boost::_bi::value<std::_Placeholder<4> > >::<anonymous>.boost::_bi::storage4<boost::_bi::value<DataLogger*>, boost::_bi::value<std::_Placeholder<1> >, boost::_bi::value<std::_Placeholder<2> >, boost::_bi::value<std::_Placeholder<3> > >::<anonymous>.boost::_bi::storage3<boost::_bi::value<DataLogger*>, boost::_bi::value<std::_Placeholder<1> >, boost::_bi::value<std::_Placeholder<2> > >::<anonymous>.boost::_bi::storage2<boost::_bi::value<DataLogger*>, boost::_bi::value<std::_Placeholder<1> > >::a2_)\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Placeholder<1>\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.659440] (data_logger) StderrLine: {'line': b'  531 |         \x1b[01;36m\x1b[Kunwrapper<F>::unwrap(f, 0)(a[base_type::a1_], a[base_type::a2_], a[base_type::a3_], a[base_type::a4_], a[base_type::a5_])\x1b[m\x1b[K;\n'}
+[15.659582] (data_logger) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.659793] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/bind/mem_fn.hpp:215\x1b[m\x1b[K,\n'}
+[15.660035] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mem_fn.hpp:22\x1b[m\x1b[K,\n'}
+[15.660195] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/bind/bind.hpp:26\x1b[m\x1b[K,\n'}
+[15.660376] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:25\x1b[m\x1b[K:\n'}
+[15.660513] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind/mem_fn_template.hpp:517:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class U> R boost::_mfi::mf4<R, T, A1, A2, A3, A4>::operator()(const U&, A1, A2, A3, A4) const [with U = U; R = void; T = DataLogger; A1 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; A2 = std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >; A3 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; A4 = const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.660662] (data_logger) StderrLine: {'line': b'  517 |     template<class U> R \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K()(U const & u, A1 a1, A2 a2, A3 a3, A4 a4) const\n'}
+[15.660803] (data_logger) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[15.660934] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind/mem_fn_template.hpp:517:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[15.661065] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:25\x1b[m\x1b[K:\n'}
+[15.661247] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind/bind.hpp:531:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K(& a)->boost::_bi::rrlist9<const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&>::operator[]<std::_Placeholder<1> >(((boost::_bi::list5<boost::_bi::value<DataLogger*>, boost::_bi::value<std::_Placeholder<1> >, boost::_bi::value<std::_Placeholder<2> >, boost::_bi::value<std::_Placeholder<3> >, boost::_bi::value<std::_Placeholder<4> > >*)this)->boost::_bi::list5<boost::_bi::value<DataLogger*>, boost::_bi::value<std::_Placeholder<1> >, boost::_bi::value<std::_Placeholder<2> >, boost::_bi::value<std::_Placeholder<3> >, boost::_bi::value<std::_Placeholder<4> > >::<anonymous>.boost::_bi::storage5<boost::_bi::value<DataLogger*>, boost::_bi::value<std::_Placeholder<1> >, boost::_bi::value<std::_Placeholder<2> >, boost::_bi::value<std::_Placeholder<3> >, boost::_bi::value<std::_Placeholder<4> > >::<anonymous>.boost::_bi::storage4<boost::_bi::value<DataLogger*>, boost::_bi::value<std::_Placeholder<1> >, boost::_bi::value<std::_Placeholder<2> >, boost::_bi::value<std::_Placeholder<3> > >::<anonymous>.boost::_bi::storage3<boost::_bi::value<DataLogger*>, boost::_bi::value<std::_Placeholder<1> >, boost::_bi::value<std::_Placeholder<2> > >::<anonymous>.boost::_bi::storage2<boost::_bi::value<DataLogger*>, boost::_bi::value<std::_Placeholder<1> > >::a2_)\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Placeholder<1>\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.661453] (data_logger) StderrLine: {'line': b'  531 |         \x1b[01;36m\x1b[Kunwrapper<F>::unwrap(f, 0)(a[base_type::a1_], a[base_type::a2_], a[base_type::a3_], a[base_type::a4_], a[base_type::a5_])\x1b[m\x1b[K;\n'}
+[15.661592] (data_logger) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.661728] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/bind/mem_fn.hpp:215\x1b[m\x1b[K,\n'}
+[15.661862] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mem_fn.hpp:22\x1b[m\x1b[K,\n'}
+[15.661997] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/bind/bind.hpp:26\x1b[m\x1b[K,\n'}
+[15.662130] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:25\x1b[m\x1b[K:\n'}
+[15.662261] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind/mem_fn_template.hpp:525:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KR boost::_mfi::mf4<R, T, A1, A2, A3, A4>::operator()(T&, A1, A2, A3, A4) const [with R = void; T = DataLogger; A1 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; A2 = std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >; A3 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; A4 = const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.662403] (data_logger) StderrLine: {'line': b'  525 |     R \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K()(T & t, A1 a1, A2 a2, A3 a3, A4 a4) const\n'}
+[15.662531] (data_logger) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[15.662663] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind/mem_fn_template.hpp:525:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KDataLogger*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[KDataLogger&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[15.662803] (data_logger) StderrLine: {'line': b'  525 |     R operator()(\x1b[01;36m\x1b[KT & t\x1b[m\x1b[K, A1 a1, A2 a2, A3 a3, A4 a4) const\n'}
+[15.662941] (data_logger) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~^\x1b[m\x1b[K\n'}
+[15.717954] (-) TimerEvent: {}
+[15.818635] (-) TimerEvent: {}
+[15.919294] (-) TimerEvent: {}
+[16.019993] (-) TimerEvent: {}
+[16.120797] (-) TimerEvent: {}
+[16.221490] (-) TimerEvent: {}
+[16.322184] (-) TimerEvent: {}
+[16.422888] (-) TimerEvent: {}
+[16.523582] (-) TimerEvent: {}
+[16.624353] (-) TimerEvent: {}
+[16.725093] (-) TimerEvent: {}
+[16.825976] (-) TimerEvent: {}
+[16.926840] (-) TimerEvent: {}
+[17.027613] (-) TimerEvent: {}
+[17.128343] (-) TimerEvent: {}
+[17.229164] (-) TimerEvent: {}
+[17.329924] (-) TimerEvent: {}
+[17.430814] (-) TimerEvent: {}
+[17.531652] (-) TimerEvent: {}
+[17.632522] (-) TimerEvent: {}
+[17.733334] (-) TimerEvent: {}
+[17.834064] (-) TimerEvent: {}
+[17.934770] (-) TimerEvent: {}
+[18.035518] (-) TimerEvent: {}
+[18.136288] (-) TimerEvent: {}
+[18.237027] (-) TimerEvent: {}
+[18.337769] (-) TimerEvent: {}
+[18.438508] (-) TimerEvent: {}
+[18.539261] (-) TimerEvent: {}
+[18.640009] (-) TimerEvent: {}
+[18.740884] (-) TimerEvent: {}
+[18.841728] (-) TimerEvent: {}
+[18.942488] (-) TimerEvent: {}
+[19.043264] (-) TimerEvent: {}
+[19.144003] (-) TimerEvent: {}
+[19.244916] (-) TimerEvent: {}
+[19.345689] (-) TimerEvent: {}
+[19.446409] (-) TimerEvent: {}
+[19.547278] (-) TimerEvent: {}
+[19.648032] (-) TimerEvent: {}
+[19.748833] (-) TimerEvent: {}
+[19.849473] (-) TimerEvent: {}
+[19.950047] (-) TimerEvent: {}
+[20.050706] (-) TimerEvent: {}
+[20.151448] (-) TimerEvent: {}
+[20.252122] (-) TimerEvent: {}
+[20.352844] (-) TimerEvent: {}
+[20.453524] (-) TimerEvent: {}
+[20.554228] (-) TimerEvent: {}
+[20.654997] (-) TimerEvent: {}
+[20.755778] (-) TimerEvent: {}
+[20.856657] (-) TimerEvent: {}
+[20.957372] (-) TimerEvent: {}
+[21.058077] (-) TimerEvent: {}
+[21.158763] (-) TimerEvent: {}
+[21.259449] (-) TimerEvent: {}
+[21.360145] (-) TimerEvent: {}
+[21.460898] (-) TimerEvent: {}
+[21.561655] (-) TimerEvent: {}
+[21.662388] (-) TimerEvent: {}
+[21.763188] (-) TimerEvent: {}
+[21.863837] (-) TimerEvent: {}
+[21.964556] (-) TimerEvent: {}
+[22.065249] (-) TimerEvent: {}
+[22.165932] (-) TimerEvent: {}
+[22.266607] (-) TimerEvent: {}
+[22.367292] (-) TimerEvent: {}
+[22.467996] (-) TimerEvent: {}
+[22.568805] (-) TimerEvent: {}
+[22.669461] (-) TimerEvent: {}
+[22.770126] (-) TimerEvent: {}
+[22.871002] (-) TimerEvent: {}
+[22.971778] (-) TimerEvent: {}
+[23.072502] (-) TimerEvent: {}
+[23.173193] (-) TimerEvent: {}
+[23.273985] (-) TimerEvent: {}
+[23.374721] (-) TimerEvent: {}
+[23.475451] (-) TimerEvent: {}
+[23.576142] (-) TimerEvent: {}
+[23.676849] (-) TimerEvent: {}
+[23.777519] (-) TimerEvent: {}
+[23.878213] (-) TimerEvent: {}
+[23.978951] (-) TimerEvent: {}
+[24.066095] (data_logger) StderrLine: {'line': b'make[2]: *** [CMakeFiles/data_logger_node2.dir/build.make:76: CMakeFiles/data_logger_node2.dir/src/data_logger_node2.cpp.o] Error 1\n'}
+[24.066814] (data_logger) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/data_logger_node2.dir/all] Error 2\n'}
+[24.067307] (data_logger) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[24.071542] (data_logger) CommandEnded: {'returncode': 2}
+[24.079404] (-) TimerEvent: {}
+[24.180582] (-) TimerEvent: {}
+[24.270491] (data_logger) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 85, in build\n    create_environment_scripts(\n  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 89, in create_environment_scripts\n    create_file_with_runtime_dependencies(prefix_path, pkg))\n  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 172, in create_file_with_runtime_dependencies\n    path.write_text(\n  File "/usr/lib/python3.8/pathlib.py", line 1255, in write_text\n    with self.open(mode=\'w\', encoding=encoding, errors=errors) as f:\n  File "/usr/lib/python3.8/pathlib.py", line 1222, in open\n    return io.open(self, mode, buffering, encoding, errors, newline,\n  File "/usr/lib/python3.8/pathlib.py", line 1078, in _opener\n    return self._accessor.open(self, flags, mode)\nPermissionError: [Errno 13] Permission denied: \'/avlcode/workspaces/isaac_ros-dev/install/data_logger/share/colcon-core/packages/data_logger\'\n'}
+[24.271036] (data_logger) JobEnded: {'identifier': 'data_logger', 'rc': 1}
+[24.281091] (-) TimerEvent: {}
+[24.282479] (-) EventReactorShutdown: {}

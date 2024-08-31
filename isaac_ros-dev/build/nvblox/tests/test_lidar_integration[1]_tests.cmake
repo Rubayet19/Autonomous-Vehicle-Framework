@@ -1,0 +1,7 @@
+add_test([=[LidarIntegrationTest.LidarAabb]=]  /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_lidar_integration [==[--gtest_filter=LidarIntegrationTest.LidarAabb]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[LidarIntegrationTest.LidarAabb]=]  PROPERTIES WORKING_DIRECTORY /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[LidarIntegrationTest.LidarBlocksInView]=]  /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_lidar_integration [==[--gtest_filter=LidarIntegrationTest.LidarBlocksInView]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[LidarIntegrationTest.LidarBlocksInView]=]  PROPERTIES WORKING_DIRECTORY /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[LidarIntegrationTest.SurroundingSphere]=]  /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_lidar_integration [==[--gtest_filter=LidarIntegrationTest.SurroundingSphere]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[LidarIntegrationTest.SurroundingSphere]=]  PROPERTIES WORKING_DIRECTORY /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  test_lidar_integration_TESTS LidarIntegrationTest.LidarAabb LidarIntegrationTest.LidarBlocksInView LidarIntegrationTest.SurroundingSphere)

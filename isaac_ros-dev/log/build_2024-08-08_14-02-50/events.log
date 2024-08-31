@@ -1,0 +1,325 @@
+[0.000000] (-) TimerEvent: {}
+[0.000715] (-) JobUnselected: {'identifier': 'agv_bot_description'}
+[0.001359] (-) JobUnselected: {'identifier': 'async_web_server_cpp'}
+[0.003586] (-) JobUnselected: {'identifier': 'camera_calibration_parsers'}
+[0.003717] (-) JobUnselected: {'identifier': 'camera_info_manager'}
+[0.003899] (-) JobUnselected: {'identifier': 'camera_publishers'}
+[0.004000] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.004094] (-) JobUnselected: {'identifier': 'geodesy'}
+[0.004162] (-) JobUnselected: {'identifier': 'geographic_info'}
+[0.005765] (-) JobUnselected: {'identifier': 'geographic_msgs'}
+[0.005863] (-) JobUnselected: {'identifier': 'gps_package'}
+[0.006006] (-) JobUnselected: {'identifier': 'image_common'}
+[0.006085] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.006169] (-) JobUnselected: {'identifier': 'image_stitcher'}
+[0.006215] (-) JobUnselected: {'identifier': 'image_transport'}
+[0.006253] (-) JobUnselected: {'identifier': 'isaac_ros_apriltag_interfaces'}
+[0.006295] (-) JobUnselected: {'identifier': 'isaac_ros_bi3d_interfaces'}
+[0.006361] (-) JobUnselected: {'identifier': 'isaac_ros_common'}
+[0.007860] (-) JobUnselected: {'identifier': 'isaac_ros_nvblox'}
+[0.007945] (-) JobUnselected: {'identifier': 'isaac_ros_pointcloud_interfaces'}
+[0.008097] (-) JobUnselected: {'identifier': 'isaac_ros_tensor_list_interfaces'}
+[0.008172] (-) JobUnselected: {'identifier': 'isaac_ros_test'}
+[0.008250] (-) JobUnselected: {'identifier': 'joint_state_publisher'}
+[0.008308] (-) JobUnselected: {'identifier': 'joint_state_publisher_gui'}
+[0.008712] (-) JobUnselected: {'identifier': 'motor_control_pkg'}
+[0.008802] (-) JobUnselected: {'identifier': 'nvblox'}
+[0.008851] (-) JobUnselected: {'identifier': 'nvblox_cpu_gpu_tools'}
+[0.008894] (-) JobUnselected: {'identifier': 'nvblox_examples_bringup'}
+[0.008936] (-) JobUnselected: {'identifier': 'nvblox_image_padding'}
+[0.008978] (-) JobUnselected: {'identifier': 'nvblox_isaac_sim'}
+[0.009021] (-) JobUnselected: {'identifier': 'nvblox_msgs'}
+[0.010203] (-) JobUnselected: {'identifier': 'nvblox_nav2'}
+[0.011961] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement'}
+[0.012062] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement_msgs'}
+[0.012136] (-) JobUnselected: {'identifier': 'nvblox_ros'}
+[0.012204] (-) JobUnselected: {'identifier': 'nvblox_ros_common'}
+[0.012274] (-) JobUnselected: {'identifier': 'nvblox_rviz_plugin'}
+[0.012335] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.012406] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.012457] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.012502] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.012684] (-) JobUnselected: {'identifier': 'realsense_obj_det'}
+[0.012777] (-) JobUnselected: {'identifier': 'road_segmentation'}
+[0.012826] (-) JobUnselected: {'identifier': 'semantic_label_conversion'}
+[0.012891] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.013060] (-) JobUnselected: {'identifier': 'stdgpu'}
+[0.013152] (-) JobUnselected: {'identifier': 'teleop_twist_joy'}
+[0.013248] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.013308] (-) JobUnselected: {'identifier': 'twist_converter'}
+[0.013353] (-) JobUnselected: {'identifier': 'twist_mux'}
+[0.013396] (-) JobUnselected: {'identifier': 'velodyne'}
+[0.013438] (-) JobUnselected: {'identifier': 'velodyne_driver'}
+[0.013505] (-) JobUnselected: {'identifier': 'velodyne_laserscan'}
+[0.013572] (-) JobUnselected: {'identifier': 'velodyne_msgs'}
+[0.013637] (-) JobUnselected: {'identifier': 'velodyne_pointcloud'}
+[0.013759] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.013828] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.013895] (-) JobUnselected: {'identifier': 'xacro'}
+[0.013968] (data_logger) JobQueued: {'identifier': 'data_logger', 'dependencies': OrderedDict([('cv_bridge', '/avlcode/workspaces/isaac_ros-dev/install/cv_bridge'), ('image_transport', '/avlcode/workspaces/isaac_ros-dev/install/image_transport')])}
+[0.014129] (data_logger) JobStarted: {'identifier': 'data_logger'}
+[0.043089] (data_logger) JobProgress: {'identifier': 'data_logger', 'progress': 'cmake'}
+[0.045090] (data_logger) JobProgress: {'identifier': 'data_logger', 'progress': 'build'}
+[0.046678] (data_logger) Command: {'cmd': ['/usr/bin/cmake', '--build', '/avlcode/workspaces/isaac_ros-dev/build/data_logger', '--', '-j12', '-l12'], 'cwd': '/avlcode/workspaces/isaac_ros-dev/build/data_logger', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'agxorin1'), ('LD_LIBRARY_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport/lib:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib'), ('HOME', '/root'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --packages-select data_logger'), ('AMENT_PREFIX_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'admin'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/avlcode/workspaces/isaac_ros-dev/build/data_logger'), ('PYTHONPATH', '/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge')]), 'shell': False}
+[0.099130] (-) TimerEvent: {}
+[0.107391] (data_logger) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target data_logger_node2\x1b[0m\n'}
+[0.137879] (data_logger) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/data_logger_node2.dir/src/data_logger_node2.cpp.o\x1b[0m\n'}
+[0.199382] (-) TimerEvent: {}
+[0.300177] (-) TimerEvent: {}
+[0.400928] (-) TimerEvent: {}
+[0.501687] (-) TimerEvent: {}
+[0.602550] (-) TimerEvent: {}
+[0.703283] (-) TimerEvent: {}
+[0.803951] (-) TimerEvent: {}
+[0.904837] (-) TimerEvent: {}
+[1.005683] (-) TimerEvent: {}
+[1.106429] (-) TimerEvent: {}
+[1.207119] (-) TimerEvent: {}
+[1.307834] (-) TimerEvent: {}
+[1.408529] (-) TimerEvent: {}
+[1.509235] (-) TimerEvent: {}
+[1.609924] (-) TimerEvent: {}
+[1.710649] (-) TimerEvent: {}
+[1.811499] (-) TimerEvent: {}
+[1.912350] (-) TimerEvent: {}
+[2.013202] (-) TimerEvent: {}
+[2.114027] (-) TimerEvent: {}
+[2.214847] (-) TimerEvent: {}
+[2.315612] (-) TimerEvent: {}
+[2.416476] (-) TimerEvent: {}
+[2.517318] (-) TimerEvent: {}
+[2.618795] (-) TimerEvent: {}
+[2.719662] (-) TimerEvent: {}
+[2.820518] (-) TimerEvent: {}
+[2.921363] (-) TimerEvent: {}
+[3.022252] (-) TimerEvent: {}
+[3.123067] (-) TimerEvent: {}
+[3.227180] (-) TimerEvent: {}
+[3.327972] (-) TimerEvent: {}
+[3.428666] (-) TimerEvent: {}
+[3.529384] (-) TimerEvent: {}
+[3.630075] (-) TimerEvent: {}
+[3.730722] (-) TimerEvent: {}
+[3.831386] (-) TimerEvent: {}
+[3.932030] (-) TimerEvent: {}
+[4.032651] (-) TimerEvent: {}
+[4.133262] (-) TimerEvent: {}
+[4.233891] (-) TimerEvent: {}
+[4.334511] (-) TimerEvent: {}
+[4.435128] (-) TimerEvent: {}
+[4.535776] (-) TimerEvent: {}
+[4.636454] (-) TimerEvent: {}
+[4.737181] (-) TimerEvent: {}
+[4.837880] (-) TimerEvent: {}
+[4.938555] (-) TimerEvent: {}
+[5.039379] (-) TimerEvent: {}
+[5.140094] (-) TimerEvent: {}
+[5.240813] (-) TimerEvent: {}
+[5.341486] (-) TimerEvent: {}
+[5.442172] (-) TimerEvent: {}
+[5.542843] (-) TimerEvent: {}
+[5.643590] (-) TimerEvent: {}
+[5.744314] (-) TimerEvent: {}
+[5.844996] (-) TimerEvent: {}
+[5.945672] (-) TimerEvent: {}
+[6.046351] (-) TimerEvent: {}
+[6.147023] (-) TimerEvent: {}
+[6.247744] (-) TimerEvent: {}
+[6.348507] (-) TimerEvent: {}
+[6.449220] (-) TimerEvent: {}
+[6.549925] (-) TimerEvent: {}
+[6.650614] (-) TimerEvent: {}
+[6.751329] (-) TimerEvent: {}
+[6.852038] (-) TimerEvent: {}
+[6.952759] (-) TimerEvent: {}
+[7.053488] (-) TimerEvent: {}
+[7.154201] (-) TimerEvent: {}
+[7.254921] (-) TimerEvent: {}
+[7.355661] (-) TimerEvent: {}
+[7.456376] (-) TimerEvent: {}
+[7.557082] (-) TimerEvent: {}
+[7.657781] (-) TimerEvent: {}
+[7.758452] (-) TimerEvent: {}
+[7.859149] (-) TimerEvent: {}
+[7.959863] (-) TimerEvent: {}
+[8.060554] (-) TimerEvent: {}
+[8.161230] (-) TimerEvent: {}
+[8.261974] (-) TimerEvent: {}
+[8.362701] (-) TimerEvent: {}
+[8.463434] (-) TimerEvent: {}
+[8.564118] (-) TimerEvent: {}
+[8.664818] (-) TimerEvent: {}
+[8.765543] (-) TimerEvent: {}
+[8.866262] (-) TimerEvent: {}
+[8.966930] (-) TimerEvent: {}
+[9.067682] (-) TimerEvent: {}
+[9.168417] (-) TimerEvent: {}
+[9.269163] (-) TimerEvent: {}
+[9.369894] (-) TimerEvent: {}
+[9.470634] (-) TimerEvent: {}
+[9.571394] (-) TimerEvent: {}
+[9.672090] (-) TimerEvent: {}
+[9.772770] (-) TimerEvent: {}
+[9.873456] (-) TimerEvent: {}
+[9.974138] (-) TimerEvent: {}
+[10.074813] (-) TimerEvent: {}
+[10.175497] (-) TimerEvent: {}
+[10.276174] (-) TimerEvent: {}
+[10.376861] (-) TimerEvent: {}
+[10.477547] (-) TimerEvent: {}
+[10.544627] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:24:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[10.545266] (data_logger) StderrLine: {'line': b'   24 | using std::placeholders::_1; \x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[10.545485] (data_logger) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.577710] (-) TimerEvent: {}
+[10.678387] (-) TimerEvent: {}
+[10.779102] (-) TimerEvent: {}
+[10.808361] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDataLogger::DataLogger()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.808919] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:49:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kentry\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[10.809136] (data_logger) StderrLine: {'line': b'   49 |     for (const auto &\x1b[01;35m\x1b[Kentry\x1b[m\x1b[K : fs::directory_iterator(m_drive)) {\n'}
+[10.809299] (data_logger) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.810256] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:65:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kentry\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[10.810651] (data_logger) StderrLine: {'line': b'   65 |     for (const auto &\x1b[01;35m\x1b[Kentry\x1b[m\x1b[K : fs::directory_iterator(m_image_drive)) {\n'}
+[10.810918] (data_logger) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.879283] (-) TimerEvent: {}
+[10.979983] (-) TimerEvent: {}
+[11.080644] (-) TimerEvent: {}
+[11.100608] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:107:102:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kplaceholder2_1\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kplaceholders\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.101140] (data_logger) StderrLine: {'line': b'  107 |             syncApproximate.registerCallback(std::bind(&DataLogger::camera_sync_callback, this, std::\x1b[01;31m\x1b[Kplaceholder2_1\x1b[m\x1b[K, std::placeholders_2,\n'}
+[11.101324] (data_logger) StderrLine: {'line': b'      |                                                                                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.101472] (data_logger) StderrLine: {'line': b'      |                                                                                                      \x1b[32m\x1b[Kplaceholders\x1b[m\x1b[K\n'}
+[11.101721] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:107:123:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kplaceholders_2\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kplaceholders\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.101877] (data_logger) StderrLine: {'line': b'  107 |             syncApproximate.registerCallback(std::bind(&DataLogger::camera_sync_callback, this, std::placeholder2_1, std::\x1b[01;31m\x1b[Kplaceholders_2\x1b[m\x1b[K,\n'}
+[11.102018] (data_logger) StderrLine: {'line': b'      |                                                                                                                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.102152] (data_logger) StderrLine: {'line': b'      |                                                                                                                           \x1b[32m\x1b[Kplaceholders\x1b[m\x1b[K\n'}
+[11.103008] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:108:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kplaceholder2_3\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kplaceholders\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.103180] (data_logger) StderrLine: {'line': b'  108 |     std::\x1b[01;31m\x1b[Kplaceholder2_3\x1b[m\x1b[K, std::placeholder2_4));\n'}
+[11.103356] (data_logger) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.103508] (data_logger) StderrLine: {'line': b'      |          \x1b[32m\x1b[Kplaceholders\x1b[m\x1b[K\n'}
+[11.104252] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:108:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kplaceholder2_4\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kplaceholders\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.104464] (data_logger) StderrLine: {'line': b'  108 |     std::placeholder2_3, std::\x1b[01;31m\x1b[Kplaceholder2_4\x1b[m\x1b[K));\n'}
+[11.104616] (data_logger) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.104758] (data_logger) StderrLine: {'line': b'      |                               \x1b[32m\x1b[Kplaceholders\x1b[m\x1b[K\n'}
+[11.180826] (-) TimerEvent: {}
+[11.281552] (-) TimerEvent: {}
+[11.382211] (-) TimerEvent: {}
+[11.482991] (-) TimerEvent: {}
+[11.583714] (-) TimerEvent: {}
+[11.684405] (-) TimerEvent: {}
+[11.785110] (-) TimerEvent: {}
+[11.885920] (-) TimerEvent: {}
+[11.986814] (-) TimerEvent: {}
+[12.087593] (-) TimerEvent: {}
+[12.188315] (-) TimerEvent: {}
+[12.289140] (-) TimerEvent: {}
+[12.389889] (-) TimerEvent: {}
+[12.490757] (-) TimerEvent: {}
+[12.591624] (-) TimerEvent: {}
+[12.692476] (-) TimerEvent: {}
+[12.793213] (-) TimerEvent: {}
+[12.893958] (-) TimerEvent: {}
+[12.994681] (-) TimerEvent: {}
+[13.095583] (-) TimerEvent: {}
+[13.196439] (-) TimerEvent: {}
+[13.297286] (-) TimerEvent: {}
+[13.398106] (-) TimerEvent: {}
+[13.498887] (-) TimerEvent: {}
+[13.599614] (-) TimerEvent: {}
+[13.700331] (-) TimerEvent: {}
+[13.801045] (-) TimerEvent: {}
+[13.901743] (-) TimerEvent: {}
+[14.002434] (-) TimerEvent: {}
+[14.103212] (-) TimerEvent: {}
+[14.204128] (-) TimerEvent: {}
+[14.304833] (-) TimerEvent: {}
+[14.405557] (-) TimerEvent: {}
+[14.506378] (-) TimerEvent: {}
+[14.607223] (-) TimerEvent: {}
+[14.708086] (-) TimerEvent: {}
+[14.808957] (-) TimerEvent: {}
+[14.909831] (-) TimerEvent: {}
+[15.010678] (-) TimerEvent: {}
+[15.111572] (-) TimerEvent: {}
+[15.212406] (-) TimerEvent: {}
+[15.313217] (-) TimerEvent: {}
+[15.414012] (-) TimerEvent: {}
+[15.514888] (-) TimerEvent: {}
+[15.615811] (-) TimerEvent: {}
+[15.716895] (-) TimerEvent: {}
+[15.817692] (-) TimerEvent: {}
+[15.919158] (-) TimerEvent: {}
+[16.020028] (-) TimerEvent: {}
+[16.122138] (-) TimerEvent: {}
+[16.222836] (-) TimerEvent: {}
+[16.323579] (-) TimerEvent: {}
+[16.424300] (-) TimerEvent: {}
+[16.524997] (-) TimerEvent: {}
+[16.625817] (-) TimerEvent: {}
+[16.726541] (-) TimerEvent: {}
+[16.827330] (-) TimerEvent: {}
+[16.928086] (-) TimerEvent: {}
+[17.028906] (-) TimerEvent: {}
+[17.129774] (-) TimerEvent: {}
+[17.230585] (-) TimerEvent: {}
+[17.331489] (-) TimerEvent: {}
+[17.432251] (-) TimerEvent: {}
+[17.533049] (-) TimerEvent: {}
+[17.633821] (-) TimerEvent: {}
+[17.734633] (-) TimerEvent: {}
+[17.835379] (-) TimerEvent: {}
+[17.936114] (-) TimerEvent: {}
+[18.036857] (-) TimerEvent: {}
+[18.137600] (-) TimerEvent: {}
+[18.238337] (-) TimerEvent: {}
+[18.339103] (-) TimerEvent: {}
+[18.439932] (-) TimerEvent: {}
+[18.540721] (-) TimerEvent: {}
+[18.641498] (-) TimerEvent: {}
+[18.742245] (-) TimerEvent: {}
+[18.843050] (-) TimerEvent: {}
+[18.943885] (-) TimerEvent: {}
+[19.044667] (-) TimerEvent: {}
+[19.145458] (-) TimerEvent: {}
+[19.246199] (-) TimerEvent: {}
+[19.346863] (-) TimerEvent: {}
+[19.447730] (-) TimerEvent: {}
+[19.548572] (-) TimerEvent: {}
+[19.649413] (-) TimerEvent: {}
+[19.750249] (-) TimerEvent: {}
+[19.851138] (-) TimerEvent: {}
+[19.951972] (-) TimerEvent: {}
+[20.052782] (-) TimerEvent: {}
+[20.153577] (-) TimerEvent: {}
+[20.254409] (-) TimerEvent: {}
+[20.355224] (-) TimerEvent: {}
+[20.456581] (-) TimerEvent: {}
+[20.557413] (-) TimerEvent: {}
+[20.658159] (-) TimerEvent: {}
+[20.759014] (-) TimerEvent: {}
+[20.859862] (-) TimerEvent: {}
+[20.960675] (-) TimerEvent: {}
+[21.061475] (-) TimerEvent: {}
+[21.162293] (-) TimerEvent: {}
+[21.263097] (-) TimerEvent: {}
+[21.363898] (-) TimerEvent: {}
+[21.465850] (-) TimerEvent: {}
+[21.566589] (-) TimerEvent: {}
+[21.667392] (-) TimerEvent: {}
+[21.768130] (-) TimerEvent: {}
+[21.868890] (-) TimerEvent: {}
+[21.969612] (-) TimerEvent: {}
+[22.070463] (-) TimerEvent: {}
+[22.171335] (-) TimerEvent: {}
+[22.272026] (-) TimerEvent: {}
+[22.372859] (-) TimerEvent: {}
+[22.473535] (-) TimerEvent: {}
+[22.574198] (-) TimerEvent: {}
+[22.674884] (-) TimerEvent: {}
+[22.775670] (-) TimerEvent: {}
+[22.876666] (-) TimerEvent: {}
+[22.945663] (data_logger) StderrLine: {'line': b'make[2]: *** [CMakeFiles/data_logger_node2.dir/build.make:76: CMakeFiles/data_logger_node2.dir/src/data_logger_node2.cpp.o] Error 1\n'}
+[22.946506] (data_logger) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/data_logger_node2.dir/all] Error 2\n'}
+[22.947079] (data_logger) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[22.950691] (data_logger) CommandEnded: {'returncode': 2}
+[22.976891] (-) TimerEvent: {}
+[23.055986] (data_logger) JobEnded: {'identifier': 'data_logger', 'rc': 2}
+[23.067500] (-) EventReactorShutdown: {}

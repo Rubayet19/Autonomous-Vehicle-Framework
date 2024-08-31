@@ -1,0 +1,1798 @@
+[0.310s] Invoking command in '/workspaces/isaac_ros-dev/build/nvblox': /usr/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_nvblox/nvblox/nvblox -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/nvblox
+[1.501s] -- The CXX compiler identification is GNU 9.4.0
+[1.999s] -- The CUDA compiler identification is NVIDIA 11.4.315
+[2.015s] -- Detecting CXX compiler ABI info
+[2.193s] -- Detecting CXX compiler ABI info - done
+[2.208s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.209s] -- Detecting CXX compile features
+[2.210s] -- Detecting CXX compile features - done
+[2.217s] -- Detecting CUDA compiler ABI info
+[3.600s] -- Detecting CUDA compiler ABI info - done
+[3.648s] -- Check for working CUDA compiler: /usr/local/cuda/bin/nvcc - skipped
+[3.649s] -- Detecting CUDA compile features
+[3.650s] -- Detecting CUDA compile features - done
+[3.653s] -- Downloading 3rdparty dependencies
+[3.653s] -- Downloading Eigen
+[3.684s] -- Downloading STDGPU
+[8.769s] -- Found thrust: /usr/local/cuda/include (found suitable version "1.12.1", minimum required is "1.9.2") 
+[8.778s] -- Found CUDAToolkit: /usr/local/cuda/include (found suitable version "11.4.315", minimum required is "10.0") 
+[8.886s] -- Looking for C++ include pthread.h
+[9.756s] -- Looking for C++ include pthread.h - found
+[9.757s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.602s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[10.603s] -- Looking for pthread_create in pthreads
+[11.494s] -- Looking for pthread_create in pthreads - not found
+[11.494s] -- Looking for pthread_create in pthread
+[12.389s] -- Looking for pthread_create in pthread - found
+[12.393s] -- Found Threads: TRUE  
+[14.047s] -- Could NOT find Doxygen: Found unsuitable version "1.8.17", but required is at least "1.9.1" (found /usr/bin/doxygen, found components: doxygen dot)
+[14.295s] -- 
+[14.295s] -- ************************ stdgpu Configuration Summary *************************
+[14.295s] -- 
+[14.296s] -- General:
+[14.296s] --   Version                                   :   1.3.0
+[14.296s] --   System                                    :   Linux
+[14.296s] --   Build type                                :   RelWithDebInfo
+[14.297s] -- 
+[14.297s] -- Build:
+[14.297s] --   STDGPU_BACKEND                            :   STDGPU_BACKEND_CUDA
+[14.297s] --   STDGPU_BUILD_SHARED_LIBS                  :   OFF
+[14.297s] --   STDGPU_SETUP_COMPILER_FLAGS               :   OFF
+[14.297s] --   STDGPU_TREAT_WARNINGS_AS_ERRORS           :   OFF
+[14.297s] --   STDGPU_ANALYZE_WITH_CLANG_TIDY            :   OFF
+[14.298s] --   STDGPU_ANALYZE_WITH_CPPCHECK              :   OFF
+[14.298s] -- 
+[14.298s] -- Configuration:
+[14.298s] --   STDGPU_ENABLE_CONTRACT_CHECKS             :   OFF
+[14.298s] --   STDGPU_USE_32_BIT_INDEX                   :   ON
+[14.298s] -- 
+[14.298s] -- Examples:
+[14.298s] --   STDGPU_BUILD_EXAMPLES                     :   OFF
+[14.299s] -- 
+[14.299s] -- Tests:
+[14.299s] --   STDGPU_BUILD_TESTS                        :   OFF
+[14.299s] --   STDGPU_BUILD_TEST_COVERAGE                :   OFF
+[14.299s] -- 
+[14.299s] -- Documentation:
+[14.299s] --   Doxygen                                   :   NO
+[14.299s] -- 
+[14.300s] -- *******************************************************************************
+[14.300s] -- 
+[14.300s] -- Detecting CCs of GPUs : /workspaces/isaac_ros-dev/build/nvblox/_deps/ext_stdgpu-src/cmake/cuda/compute_capability.cpp
+[18.731s] -- Detecting CCs of GPUs : /workspaces/isaac_ros-dev/build/nvblox/_deps/ext_stdgpu-src/cmake/cuda/compute_capability.cpp - Success (found CCs : 87)
+[18.731s] -- Enabled compilation for CC 87
+[18.731s] -- Building with modified CMAKE_CUDA_ARCHITECTURES : 87
+[18.955s] -- Found CUDA: /usr/local/cuda (found version "11.4") 
+[18.985s] -- Found Glog: /usr/include  
+[19.045s] -- Found SQLite3: /usr/include (found version "3.31.1") 
+[19.146s] -- Found GTest: /opt/ros/humble/install/lib/cmake/GTest/GTestConfig.cmake (found version "1.10.0")  
+[19.148s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data
+[19.148s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch
+[19.149s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/camera-intrinsics.txt
+[19.149s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01
+[19.149s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000000.depth.png
+[19.174s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000001.color.png
+[19.175s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000001.depth.png
+[19.175s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000002.color.png
+[19.176s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000002.depth.png
+[19.177s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000116.pose.txt
+[19.177s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000001.pose.txt
+[19.178s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000000.pose.txt
+[19.178s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000422.depth.png
+[19.178s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000002.pose.txt
+[19.179s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000422.pose.txt
+[19.179s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000422.color.png
+[19.180s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000000.color.png
+[19.206s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000116.depth.png
+[19.207s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000116.color.png
+[19.295s] -- Configuring done
+[20.611s] -- Generating done
+[20.667s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/nvblox
+[20.761s] Invoked command in '/workspaces/isaac_ros-dev/build/nvblox' returned '0': /usr/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_nvblox/nvblox/nvblox -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/nvblox
+[20.762s] Invoking command in '/workspaces/isaac_ros-dev/build/nvblox': /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/nvblox -- -j12 -l12
+[28.953s] [  1%] [34m[1mCreating directories for 'ext_eigen'[0m
+[28.954s] [  1%] [32mBuilding CXX object _deps/ext_stdgpu-build/src/stdgpu/CMakeFiles/stdgpu.dir/impl/iterator.cpp.o[0m
+[28.954s] [  2%] [32mBuilding CXX object _deps/ext_stdgpu-build/src/stdgpu/CMakeFiles/stdgpu.dir/impl/memory.cpp.o[0m
+[28.954s] [  2%] [32mBuilding CXX object _deps/ext_stdgpu-build/src/stdgpu/CMakeFiles/stdgpu.dir/impl/limits.cpp.o[0m
+[28.954s] [  3%] [32mBuilding CXX object _deps/ext_stdgpu-build/src/stdgpu/CMakeFiles/stdgpu.dir/cuda/impl/memory.cpp.o[0m
+[28.954s] [  3%] [34m[1mPerforming download step (download, verify and extract) for 'ext_eigen'[0m
+[28.954s] -- Downloading...
+[28.955s]    dst='/workspaces/isaac_ros-dev/build/nvblox/eigen/src/eigen-3.4.0.tar.gz'
+[28.955s]    timeout='none'
+[28.955s]    inactivity timeout='none'
+[28.955s] -- Using src='https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.gz'
+[28.955s] -- Downloading... done
+[28.955s] -- extracting...
+[28.955s]      src='/workspaces/isaac_ros-dev/build/nvblox/eigen/src/eigen-3.4.0.tar.gz'
+[28.955s]      dst='/workspaces/isaac_ros-dev/build/nvblox/eigen/src/ext_eigen'
+[28.956s] -- extracting... [tar xfz]
+[28.956s] -- extracting... [analysis]
+[28.956s] -- extracting... [rename]
+[28.956s] -- extracting... [clean up]
+[28.956s] -- extracting... done
+[28.956s] [  4%] [34m[1mNo update step for 'ext_eigen'[0m
+[28.957s] [  4%] [34m[1mNo patch step for 'ext_eigen'[0m
+[28.957s] [  5%] [34m[1mPerforming configure step for 'ext_eigen'[0m
+[28.957s] -- The C compiler identification is GNU 9.4.0
+[28.957s] -- The CXX compiler identification is GNU 9.4.0
+[28.957s] -- Detecting C compiler ABI info
+[28.958s] -- Detecting C compiler ABI info - done
+[28.958s] -- Check for working C compiler: /usr/bin/cc - skipped
+[28.958s] -- Detecting C compile features
+[28.958s] -- Detecting C compile features - done
+[28.958s] -- Detecting CXX compiler ABI info
+[28.958s] -- Detecting CXX compiler ABI info - done
+[28.958s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[28.958s] -- Detecting CXX compile features
+[28.959s] -- Detecting CXX compile features - done
+[28.959s] -- Performing Test EIGEN_COMPILER_SUPPORT_CPP11
+[28.966s] -- Performing Test EIGEN_COMPILER_SUPPORT_CPP11 - Success
+[28.967s] -- Performing Test COMPILER_SUPPORT_std=cpp03
+[28.967s] -- Performing Test COMPILER_SUPPORT_std=cpp03 - Success
+[28.967s] -- Performing Test standard_math_library_linked_to_automatically
+[28.967s] [  5%] [32m[1mLinking CXX static library libstdgpu.a[0m
+[28.968s] -- Performing Test standard_math_library_linked_to_automatically - Success
+[28.968s] -- Standard libraries to link to explicitly: none
+[28.968s] -- Performing Test COMPILER_SUPPORT_WERROR
+[28.968s] [  5%] Built target stdgpu
+[28.968s] -- Performing Test COMPILER_SUPPORT_WERROR - Success
+[28.968s] -- Performing Test COMPILER_SUPPORT_pedantic
+[28.969s] -- Performing Test COMPILER_SUPPORT_pedantic - Success
+[28.969s] -- Performing Test COMPILER_SUPPORT_Wall
+[28.969s] -- Performing Test COMPILER_SUPPORT_Wall - Success
+[28.969s] -- Performing Test COMPILER_SUPPORT_Wextra
+[28.969s] -- Performing Test COMPILER_SUPPORT_Wextra - Success
+[28.969s] -- Performing Test COMPILER_SUPPORT_Wundef
+[28.969s] -- Performing Test COMPILER_SUPPORT_Wundef - Success
+[28.969s] -- Performing Test COMPILER_SUPPORT_Wcastalign
+[29.103s] -- Performing Test COMPILER_SUPPORT_Wcastalign - Success
+[29.105s] -- Performing Test COMPILER_SUPPORT_Wcharsubscripts
+[29.295s] -- Performing Test COMPILER_SUPPORT_Wcharsubscripts - Success
+[29.298s] -- Performing Test COMPILER_SUPPORT_Wnonvirtualdtor
+[29.659s] -- Performing Test COMPILER_SUPPORT_Wnonvirtualdtor - Success
+[29.661s] -- Performing Test COMPILER_SUPPORT_Wunusedlocaltypedefs
+[30.040s] -- Performing Test COMPILER_SUPPORT_Wunusedlocaltypedefs - Success
+[30.040s] -- Performing Test COMPILER_SUPPORT_Wpointerarith
+[30.316s] -- Performing Test COMPILER_SUPPORT_Wpointerarith - Success
+[30.318s] -- Performing Test COMPILER_SUPPORT_Wwritestrings
+[30.770s] -- Performing Test COMPILER_SUPPORT_Wwritestrings - Success
+[30.770s] -- Performing Test COMPILER_SUPPORT_Wformatsecurity
+[31.060s] -- Performing Test COMPILER_SUPPORT_Wformatsecurity - Success
+[31.061s] -- Performing Test COMPILER_SUPPORT_Wshorten64to32
+[31.252s] -- Performing Test COMPILER_SUPPORT_Wshorten64to32 - Failed
+[31.253s] -- Performing Test COMPILER_SUPPORT_Wlogicalop
+[31.600s] -- Performing Test COMPILER_SUPPORT_Wlogicalop - Success
+[31.602s] -- Performing Test COMPILER_SUPPORT_Wenumconversion
+[31.731s] -- Performing Test COMPILER_SUPPORT_Wenumconversion - Failed
+[31.733s] -- Performing Test COMPILER_SUPPORT_Wcpp11extensions
+[31.893s] -- Performing Test COMPILER_SUPPORT_Wcpp11extensions - Failed
+[31.893s] -- Performing Test COMPILER_SUPPORT_Wdoublepromotion
+[32.282s] -- Performing Test COMPILER_SUPPORT_Wdoublepromotion - Success
+[32.284s] -- Performing Test COMPILER_SUPPORT_Wshadow
+[32.702s] -- Performing Test COMPILER_SUPPORT_Wshadow - Success
+[32.704s] -- Performing Test COMPILER_SUPPORT_Wnopsabi
+[32.990s] -- Performing Test COMPILER_SUPPORT_Wnopsabi - Success
+[32.992s] -- Performing Test COMPILER_SUPPORT_Wnovariadicmacros
+[33.287s] -- Performing Test COMPILER_SUPPORT_Wnovariadicmacros - Success
+[33.299s] -- Performing Test COMPILER_SUPPORT_Wnolonglong
+[33.583s] -- Performing Test COMPILER_SUPPORT_Wnolonglong - Success
+[33.584s] -- Performing Test COMPILER_SUPPORT_fnochecknew
+[33.941s] -- Performing Test COMPILER_SUPPORT_fnochecknew - Success
+[33.941s] -- Performing Test COMPILER_SUPPORT_fnocommon
+[34.156s] -- Performing Test COMPILER_SUPPORT_fnocommon - Success
+[34.158s] -- Performing Test COMPILER_SUPPORT_fstrictaliasing
+[34.431s] -- Performing Test COMPILER_SUPPORT_fstrictaliasing - Success
+[34.433s] -- Performing Test COMPILER_SUPPORT_wd981
+[34.530s] -- Performing Test COMPILER_SUPPORT_wd981 - Failed
+[34.532s] -- Performing Test COMPILER_SUPPORT_wd2304
+[34.639s] -- Performing Test COMPILER_SUPPORT_wd2304 - Failed
+[34.639s] -- Performing Test COMPILER_SUPPORT_STRICTANSI
+[34.737s] -- Performing Test COMPILER_SUPPORT_STRICTANSI - Failed
+[34.739s] -- Performing Test COMPILER_SUPPORT_Qunusedarguments
+[34.798s] -- Performing Test COMPILER_SUPPORT_Qunusedarguments - Failed
+[34.802s] -- Performing Test COMPILER_SUPPORT_ansi
+[35.009s] -- Performing Test COMPILER_SUPPORT_ansi - Success
+[35.009s] -- Performing Test COMPILER_SUPPORT_OPENMP
+[35.241s] -- Performing Test COMPILER_SUPPORT_OPENMP - Success
+[35.316s] -- Found unsuitable Qt version "5.12.8" from /usr/bin/qmake
+[35.627s] -- Looking for a Fortran compiler
+[36.117s] -- Looking for a Fortran compiler - /usr/bin/f95
+[36.278s] -- The Fortran compiler identification is GNU 9.4.0
+[36.314s] -- Detecting Fortran compiler ABI info
+[36.499s] -- Detecting Fortran compiler ABI info - done
+[36.519s] -- Check for working Fortran compiler: /usr/bin/f95 - skipped
+[36.569s] -- Found CHOLMOD: /usr/include/suitesparse  
+[36.583s] -- Found UMFPACK: /usr/include/suitesparse  
+[36.592s] -- Found KLU: /usr/include/suitesparse  
+[36.628s] -- Performing Test SUPERLU_HAS_GLOBAL_MEM_USAGE_T
+[36.846s] -- Performing Test SUPERLU_HAS_GLOBAL_MEM_USAGE_T - Success
+[36.846s] -- Performing Test SUPERLU_HAS_CLEAN_ENUMS
+[37.021s] -- Performing Test SUPERLU_HAS_CLEAN_ENUMS - Success
+[37.025s] -- Performing Test SUPERLU_HAS_GLOBALLU_T
+[37.222s] -- Performing Test SUPERLU_HAS_GLOBALLU_T - Success
+[37.222s] -- Found SuperLU: /usr/include/superlu (found suitable version "5.0", minimum required is "4.0") 
+[37.782s] -- Checking for one of the modules 'hwloc'
+[38.004s] -- Performing Test HAVE_HWLOC_PARENT_MEMBER
+[38.199s] -- Performing Test HAVE_HWLOC_PARENT_MEMBER - Success
+[38.199s] -- Performing Test HAVE_HWLOC_CACHE_ATTR
+[38.368s] -- Performing Test HAVE_HWLOC_CACHE_ATTR - Success
+[38.369s] -- Performing Test HAVE_HWLOC_OBJ_PU
+[38.540s] -- Performing Test HAVE_HWLOC_OBJ_PU - Success
+[38.541s] -- Looking for hwloc_bitmap_free in hwloc
+[38.684s] -- Looking for hwloc_bitmap_free in hwloc - found
+[38.719s] -- Looking for Fortran sgemm
+[38.925s] -- Looking for Fortran sgemm - found
+[38.942s] -- Performing Test SCOTCH_Num_4
+[39.004s] -- Performing Test SCOTCH_Num_4 - Failed
+[39.005s] -- Performing Test SCOTCH_Num_8
+[39.074s] -- Performing Test SCOTCH_Num_8 - Failed
+[39.078s] -- A version of Pastix has been found but pastix_nompi.h does not exist in the include directory. Because Eigen tests require a version without MPI, we disable the Pastix backend.
+[39.088s] -- Found SPQR: /usr/include/suitesparse  
+[39.111s] -- Found unsuitable Qt version "5.12.8" from /usr/bin/qmake
+[39.469s] -- Performing Test COMPILER_SUPPORT_FASTMATH
+[39.643s] -- Performing Test COMPILER_SUPPORT_FASTMATH - Success
+[39.686s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.53.0")  
+[39.780s] -- Found Threads: TRUE  
+[39.783s] -- Could NOT find GoogleHash (missing: GOOGLEHASH_INCLUDES GOOGLEHASH_COMPILE) 
+[39.791s] -- Could NOT find Adolc (missing: ADOLC_INCLUDES ADOLC_LIBRARIES) 
+[39.834s] -- Could NOT find MPFR (missing: MPFR_INCLUDES MPFR_LIBRARIES MPFR_VERSION_OK) (Required is at least version "1.0.0")
+[39.853s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[39.881s] -- Could NOT find FFTW (missing: FFTW_INCLUDES FFTW_LIBRARIES) 
+[40.024s] -- Found CUDA: /usr/local/cuda (found suitable version "11.4", minimum required is "7.0") 
+[40.058s] -- Found unsuitable Qt version "5.12.8" from /usr/bin/qmake
+[40.059s] -- Qt4 not found, so disabling the mandelbrot and opengl demos
+[40.118s] -- A version of Pastix has been found but pastix_nompi.h does not exist in the include directory. Because Eigen tests require a version without MPI, we disable the Pastix backend.
+[40.214s] -- ************************************************************
+[40.219s] -- ***    Eigen's unit tests configuration summary          ***
+[40.219s] -- ************************************************************
+[40.219s] -- 
+[40.219s] -- Build type:        Release
+[40.219s] -- Build site:        agxorin1
+[40.219s] -- Build string:      linux-5.10.104-tegra-_-9.4.0-sse2-64bit
+[40.220s] -- Enabled backends:  CHOLMOD,  UMFPACK,  KLU,  SuperLU,  SPQR,  Boost.Multiprecision, 
+[40.220s] -- Disabled backends: PaStiX,  METIS,  Qt4 support,  GoogleHash,  Adolc,  MPFR C++,  fftw,  OpenGL, 
+[40.220s] -- Default order:     Column-major
+[40.220s] -- Maximal matrix/vector size: 320
+[40.220s] -- SSE2:              Using architecture defaults
+[40.220s] -- SSE3:              Using architecture defaults
+[40.220s] -- SSSE3:             Using architecture defaults
+[40.220s] -- SSE4.1:            Using architecture defaults
+[40.221s] -- SSE4.2:            Using architecture defaults
+[40.221s] -- AVX:               Using architecture defaults
+[40.221s] -- AVX2:              Using architecture defaults
+[40.222s] -- FMA:               Using architecture defaults
+[40.222s] -- AVX512:            Using architecture defaults
+[40.222s] -- AVX512DQ:          Using architecture defaults
+[40.222s] -- Altivec:           Using architecture defaults
+[40.222s] -- VSX:               Using architecture defaults
+[40.222s] -- MIPS MSA:          Using architecture defaults
+[40.222s] -- ARM NEON:          Using architecture defaults
+[40.222s] -- ARMv8 NEON:        Using architecture defaults
+[40.222s] -- S390X ZVECTOR:     Using architecture defaults
+[40.223s] -- C++11:             OFF
+[40.223s] -- SYCL:              OFF
+[40.223s] -- CUDA:              OFF
+[40.223s] -- HIP:               OFF
+[40.223s] -- 
+[40.223s] CXX:               /usr/bin/c++
+[40.223s]  CXX_VERSION:       c++ (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0
+[40.223s]  CXX_FLAGS:          -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi
+[40.224s]  Sparse lib flags:   ;/usr/lib/aarch64-linux-gnu/libcholmod.so;/usr/lib/aarch64-linux-gnu/libamd.so;/usr/lib/aarch64-linux-gnu/libcolamd.so;/usr/lib/aarch64-linux-gnu/libcamd.so;/usr/lib/aarch64-linux-gnu/libccolamd.so;eigen_blas;eigen_lapack;/usr/lib/aarch64-linux-gnu/libumfpack.so;/usr/lib/aarch64-linux-gnu/libcolamd.so;/usr/lib/aarch64-linux-gnu/libamd.so;/usr/lib/aarch64-linux-gnu/libcholmod.so;eigen_blas;/usr/lib/aarch64-linux-gnu/libklu.so;/usr/lib/aarch64-linux-gnu/libcolamd.so;/usr/lib/aarch64-linux-gnu/libamd.so;/usr/lib/aarch64-linux-gnu/libbtf.so;eigen_blas;/usr/lib/aarch64-linux-gnu/libsuperlu.so;eigen_blas;/usr/lib/aarch64-linux-gnu/libspqr.so;/usr/lib/aarch64-linux-gnu/libcholmod.so;/usr/lib/aarch64-linux-gnu/libcholmod.so;/usr/lib/aarch64-linux-gnu/libamd.so;/usr/lib/aarch64-linux-gnu/libcolamd.so;/usr/lib/aarch64-linux-gnu/libcamd.so;/usr/lib/aarch64-linux-gnu/libccolamd.so;eigen_lapack;eigen_blas
+[40.224s] 
+[40.224s] -- ************************************************************
+[40.224s] -- 
+[40.224s] -- Configured Eigen 3.4.0
+[40.224s] -- 
+[40.224s] -- Available targets (use: make TARGET):
+[40.225s] -- ---------+--------------------------------------------------------------
+[40.225s] -- Target   |   Description
+[40.226s] -- ---------+--------------------------------------------------------------
+[40.226s] -- install  | Install Eigen. Headers will be installed to:
+[40.226s] --          |     <CMAKE_INSTALL_PREFIX>/<INCLUDE_INSTALL_DIR>
+[40.226s] --          |   Using the following values:
+[40.226s] --          |     CMAKE_INSTALL_PREFIX: /workspaces/isaac_ros-dev/build/nvblox/eigen
+[40.226s] --          |     INCLUDE_INSTALL_DIR:  include/eigen3
+[40.226s] --          |   Change the install location of Eigen headers using:
+[40.227s] --          |     cmake . -DCMAKE_INSTALL_PREFIX=yourprefix
+[40.227s] --          |   Or:
+[40.227s] --          |     cmake . -DINCLUDE_INSTALL_DIR=yourdir
+[40.227s] -- doc      | Generate the API documentation, requires Doxygen & LaTeX
+[40.227s] -- check    | Build and run the unit-tests. Read this page:
+[40.227s] --          |   http://eigen.tuxfamily.org/index.php?title=Tests
+[40.227s] -- blas     | Build BLAS library (not the same thing as Eigen)
+[40.227s] -- uninstall| Remove files installed by the install target
+[40.228s] -- ---------+--------------------------------------------------------------
+[40.228s] -- 
+[40.228s] -- Configuring done
+[44.947s] -- Generating done
+[45.220s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/nvblox/eigen/src/ext_eigen-build
+[45.403s] [  5%] [34m[1mPerforming build step for 'ext_eigen'[0m
+[45.790s] [  6%] [34m[1mPerforming install step for 'ext_eigen'[0m
+[46.434s] [36mInstall the project...[0m
+[46.444s] -- Install configuration: "Release"
+[46.445s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/signature_of_eigen3_matrix_library
+[46.445s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/share/pkgconfig/eigen3.pc
+[46.446s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen
+[46.446s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/SVD
+[46.446s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/KLUSupport
+[46.447s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/SPQRSupport
+[46.447s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/MetisSupport
+[46.447s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/Dense
+[46.447s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/StdList
+[46.448s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/Eigen
+[46.448s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/Cholesky
+[46.448s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/CholmodSupport
+[46.449s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/Sparse
+[46.449s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/IterativeLinearSolvers
+[46.449s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/Eigenvalues
+[46.449s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/QR
+[46.450s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/PardisoSupport
+[46.450s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/Geometry
+[46.450s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/SparseCore
+[46.451s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/QtAlignedMalloc
+[46.451s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/Core
+[46.451s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/UmfPackSupport
+[46.451s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/Jacobi
+[46.452s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/LU
+[46.452s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/SuperLUSupport
+[46.452s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/SparseQR
+[46.453s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/SparseCholesky
+[46.453s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/OrderingMethods
+[46.453s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src
+[46.453s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SVD
+[46.454s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SVD/SVDBase.h
+[46.454s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SVD/JacobiSVD.h
+[46.454s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SVD/JacobiSVD_LAPACKE.h
+[46.455s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SVD/BDCSVD.h
+[46.455s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h
+[46.456s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/KLUSupport
+[46.456s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/KLUSupport/KLUSupport.h
+[46.456s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SPQRSupport
+[46.457s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SPQRSupport/SuiteSparseQRSupport.h
+[46.457s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/MetisSupport
+[46.457s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/MetisSupport/MetisSupport.h
+[46.458s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/misc
+[46.458s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/misc/RealSvd2x2.h
+[46.458s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/misc/lapack.h
+[46.458s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/misc/lapacke.h
+[46.461s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/misc/Image.h
+[46.461s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/misc/Kernel.h
+[46.461s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/misc/blas.h
+[46.462s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/misc/lapacke_mangling.h
+[46.462s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Cholesky
+[46.462s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Cholesky/LLT_LAPACKE.h
+[46.463s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Cholesky/LLT.h
+[46.463s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Cholesky/LDLT.h
+[46.463s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/CholmodSupport
+[46.464s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/CholmodSupport/CholmodSupport.h
+[46.464s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/IterativeLinearSolvers
+[46.464s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h
+[46.465s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h
+[46.465s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h
+[46.466s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h
+[46.466s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h
+[46.467s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h
+[46.467s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h
+[46.467s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h
+[46.468s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues
+[46.468s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+[46.468s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+[46.469s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+[46.469s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
+[46.469s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/RealSchur_LAPACKE.h
+[46.470s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h
+[46.470s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
+[46.470s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h
+[46.471s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur_LAPACKE.h
+[46.471s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
+[46.471s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h
+[46.472s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h
+[46.472s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+[46.472s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+[46.473s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/QR
+[46.473s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h
+[46.473s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/QR/HouseholderQR.h
+[46.474s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/QR/HouseholderQR_LAPACKE.h
+[46.474s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/QR/ColPivHouseholderQR_LAPACKE.h
+[46.474s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h
+[46.475s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h
+[46.475s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/PardisoSupport
+[46.475s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/PardisoSupport/PardisoSupport.h
+[46.476s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/plugins
+[46.476s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h
+[46.477s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h
+[46.477s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h
+[46.477s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/plugins/ReshapedMethods.h
+[46.478s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/plugins/BlockMethods.h
+[46.479s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h
+[46.479s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h
+[46.479s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+[46.479s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
+[46.480s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry
+[46.480s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/Umeyama.h
+[46.480s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/EulerAngles.h
+[46.481s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/arch
+[46.481s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h
+[46.481s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/Translation.h
+[46.482s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h
+[46.482s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/Rotation2D.h
+[46.482s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/AngleAxis.h
+[46.483s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/Transform.h
+[46.483s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/Quaternion.h
+[46.483s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/Scaling.h
+[46.484s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/RotationBase.h
+[46.484s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/Hyperplane.h
+[46.484s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/Homogeneous.h
+[46.485s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/AlignedBox.h
+[46.485s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/OrthoMethods.h
+[46.485s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore
+[46.486s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h
+[46.486s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseUtil.h
+[46.487s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h
+[46.487s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h
+[46.487s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h
+[46.488s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h
+[46.488s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/AmbiVector.h
+[46.488s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h
+[46.489s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseAssign.h
+[46.489s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h
+[46.490s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseProduct.h
+[46.490s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseDot.h
+[46.490s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseBlock.h
+[46.491s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseView.h
+[46.491s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h
+[46.491s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseRedux.h
+[46.492s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseRef.h
+[46.492s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h
+[46.492s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/MappedSparseMatrix.h
+[46.493s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h
+[46.493s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h
+[46.494s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h
+[46.494s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h
+[46.494s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h
+[46.495s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h
+[46.495s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseVector.h
+[46.495s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/TriangularSolver.h
+[46.496s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseMap.h
+[46.496s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h
+[46.497s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h
+[46.497s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/StlSupport
+[46.498s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/StlSupport/details.h
+[46.498s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/StlSupport/StdVector.h
+[46.498s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/StlSupport/StdList.h
+[46.499s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/StlSupport/StdDeque.h
+[46.499s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core
+[46.499s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/AssignEvaluator.h
+[46.500s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/GlobalFunctions.h
+[46.500s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/GenericPacketMath.h
+[46.500s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products
+[46.501s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h
+[46.501s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h
+[46.501s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h
+[46.502s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h
+[46.502s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h
+[46.502s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h
+[46.503s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h
+[46.503s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h
+[46.504s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
+[46.504s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h
+[46.506s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h
+[46.507s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h
+[46.507s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h
+[46.507s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h
+[46.507s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h
+[46.507s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h
+[46.508s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h
+[46.508s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/Parallelizer.h
+[46.508s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h
+[46.509s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
+[46.509s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h
+[46.509s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/EigenBase.h
+[46.510s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Ref.h
+[46.510s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/ReturnByValue.h
+[46.510s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/NoAlias.h
+[46.511s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Replicate.h
+[46.511s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Random.h
+[46.511s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/MatrixBase.h
+[46.512s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/IO.h
+[46.512s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Inverse.h
+[46.513s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Redux.h
+[46.513s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h
+[46.513s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Reshaped.h
+[46.514s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Swap.h
+[46.514s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Product.h
+[46.519s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/CoreIterators.h
+[46.519s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util
+[46.519s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/Macros.h
+[46.519s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/Meta.h
+[46.520s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/BlasUtil.h
+[46.520s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/StaticAssert.h
+[46.520s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
+[46.520s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h
+[46.520s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h
+[46.521s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/Memory.h
+[46.521s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/IntegralConstant.h
+[46.521s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
+[46.521s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h
+[46.521s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/NonMPL2.h
+[46.522s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/Constants.h
+[46.522s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h
+[46.522s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h
+[46.523s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/XprHelper.h
+[46.523s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/MKL_support.h
+[46.523s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/StableNorm.h
+[46.524s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/IndexedView.h
+[46.524s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Visitor.h
+[46.524s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Dot.h
+[46.525s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch
+[46.525s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/CUDA
+[46.525s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
+[46.526s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/ZVector
+[46.526s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/ZVector/PacketMath.h
+[46.526s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/ZVector/Complex.h
+[46.527s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/ZVector/MathFunctions.h
+[46.527s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AltiVec
+[46.527s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AltiVec/MatrixProductCommon.h
+[46.528s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
+[46.528s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AltiVec/Complex.h
+[46.529s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
+[46.529s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AltiVec/MatrixProduct.h
+[46.529s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AltiVec/MatrixProductMMA.h
+[46.530s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AVX512
+[46.530s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AVX512/PacketMath.h
+[46.531s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AVX512/Complex.h
+[46.531s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AVX512/MathFunctions.h
+[46.531s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AVX512/TypeCasting.h
+[46.532s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AVX
+[46.532s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h
+[46.532s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AVX/Complex.h
+[46.533s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AVX/MathFunctions.h
+[46.533s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AVX/TypeCasting.h
+[46.533s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/MSA
+[46.534s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/MSA/PacketMath.h
+[46.534s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/MSA/Complex.h
+[46.534s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/MSA/MathFunctions.h
+[46.535s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/HIP
+[46.535s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/HIP/hcc
+[46.535s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/HIP/hcc/math_constants.h
+[46.536s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/Default
+[46.536s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h
+[46.536s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
+[46.537s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/Default/Half.h
+[46.538s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h
+[46.538s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
+[46.539s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h
+[46.540s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h
+[46.541s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SYCL
+[46.541s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SYCL/InteropHeaders.h
+[46.541s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SYCL/PacketMath.h
+[46.541s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SYCL/MathFunctions.h
+[46.542s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SYCL/TypeCasting.h
+[46.548s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SYCL/SyclMemoryModel.h
+[46.548s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SSE
+[46.549s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h
+[46.549s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h
+[46.549s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h
+[46.549s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h
+[46.550s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/NEON
+[46.550s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h
+[46.550s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
+[46.550s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/NEON/MathFunctions.h
+[46.550s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/NEON/GeneralBlockPanelKernel.h
+[46.550s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/NEON/TypeCasting.h
+[46.551s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SVE
+[46.551s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SVE/PacketMath.h
+[46.551s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SVE/MathFunctions.h
+[46.551s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SVE/TypeCasting.h
+[46.551s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/GPU
+[46.552s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/GPU/PacketMath.h
+[46.552s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/GPU/MathFunctions.h
+[46.552s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/GPU/TypeCasting.h
+[46.552s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/ArrayWrapper.h
+[46.552s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h
+[46.553s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h
+[46.553s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/NumTraits.h
+[46.553s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/VectorwiseOp.h
+[46.553s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Solve.h
+[46.553s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/GeneralProduct.h
+[46.553s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/ArithmeticSequence.h
+[46.554s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/SolverBase.h
+[46.554s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/SelfAdjointView.h
+[46.554s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h
+[46.554s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/ConditionEstimator.h
+[46.554s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/DenseStorage.h
+[46.554s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h
+[46.555s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Fuzzy.h
+[46.555s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Map.h
+[46.555s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/VectorBlock.h
+[46.555s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/SolveTriangular.h
+[46.555s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/MathFunctions.h
+[46.555s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/TriangularMatrix.h
+[46.556s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/CoreEvaluators.h
+[46.556s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Stride.h
+[46.556s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Assign.h
+[46.556s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/DenseBase.h
+[46.556s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/CwiseUnaryView.h
+[46.556s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h
+[46.557s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/ForceAlignedAccess.h
+[46.557s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/DiagonalProduct.h
+[46.557s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Assign_MKL.h
+[46.557s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/DiagonalMatrix.h
+[46.557s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Transpositions.h
+[46.558s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/ProductEvaluators.h
+[46.558s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/MapBase.h
+[46.558s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h
+[46.559s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Reverse.h
+[46.559s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/StlIterators.h
+[46.559s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/CommaInitializer.h
+[46.560s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Select.h
+[46.560s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Block.h
+[46.560s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/functors
+[46.561s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h
+[46.561s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h
+[46.562s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h
+[46.562s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/functors/StlFunctors.h
+[46.562s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h
+[46.563s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h
+[46.563s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Matrix.h
+[46.564s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Array.h
+[46.564s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Diagonal.h
+[46.564s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/PlainObjectBase.h
+[46.565s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/PermutationMatrix.h
+[46.565s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/ArrayBase.h
+[46.565s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/BooleanRedux.h
+[46.566s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h
+[46.566s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Transpose.h
+[46.566s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/NestByValue.h
+[46.567s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/BandMatrix.h
+[46.567s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/UmfPackSupport
+[46.567s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/UmfPackSupport/UmfPackSupport.h
+[46.568s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Jacobi
+[46.568s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Jacobi/Jacobi.h
+[46.568s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/LU
+[46.568s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/LU/FullPivLU.h
+[46.569s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/LU/InverseImpl.h
+[46.569s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/LU/Determinant.h
+[46.569s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/LU/arch
+[46.570s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/LU/arch/InverseSize4.h
+[46.570s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/LU/PartialPivLU.h
+[46.570s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
+[46.571s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SuperLUSupport
+[46.574s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SuperLUSupport/SuperLUSupport.h
+[46.593s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseQR
+[46.593s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseQR/SparseQR.h
+[46.593s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCholesky
+[46.593s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h
+[46.593s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h
+[46.594s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/OrderingMethods
+[46.595s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
+[46.595s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/OrderingMethods/Amd.h
+[46.599s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
+[46.599s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Householder
+[46.599s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Householder/Householder.h
+[46.600s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
+[46.601s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
+[46.601s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/PaStiXSupport
+[46.601s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/PaStiXSupport/PaStiXSupport.h
+[46.601s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU
+[46.601s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_kernel_bmod.h
+[46.602s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_Structs.h
+[46.602s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_gemm_kernel.h
+[46.602s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_Utils.h
+[46.602s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_bmod.h
+[46.602s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_relax_snode.h
+[46.602s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_column_bmod.h
+[46.603s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h
+[46.603s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h
+[46.603s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_Memory.h
+[46.603s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLUImpl.h
+[46.603s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_dfs.h
+[46.603s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU.h
+[46.604s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h
+[46.604s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h
+[46.604s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h
+[46.604s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h
+[46.604s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/Householder
+[46.604s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/PaStiXSupport
+[46.604s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/StdVector
+[46.605s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/SparseLU
+[46.605s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/StdDeque
+[46.605s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/share/eigen3/cmake/Eigen3Targets.cmake
+[46.605s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/share/eigen3/cmake/UseEigen3.cmake
+[46.605s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/share/eigen3/cmake/Eigen3Config.cmake
+[46.605s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/share/eigen3/cmake/Eigen3ConfigVersion.cmake
+[46.606s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/AdolcForward
+[46.606s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/AlignedVector3
+[46.606s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/ArpackSupport
+[46.606s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/AutoDiff
+[46.606s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/BVH
+[46.606s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/EulerAngles
+[46.607s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/FFT
+[46.607s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/IterativeSolvers
+[46.607s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/KroneckerProduct
+[46.607s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/LevenbergMarquardt
+[46.607s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/MatrixFunctions
+[46.607s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/MoreVectorization
+[46.608s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/MPRealSupport
+[46.608s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/NonLinearOptimization
+[46.608s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/NumericalDiff
+[46.608s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/OpenGLSupport
+[46.608s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/Polynomials
+[46.609s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/Skyline
+[46.609s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/SparseExtra
+[46.609s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/SpecialFunctions
+[46.609s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/Splines
+[46.609s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src
+[46.609s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions
+[46.609s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsArrayAPI.h
+[46.610s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch
+[46.610s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/AVX512
+[46.610s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/AVX512/SpecialFunctions.h
+[46.610s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/AVX512/BesselFunctions.h
+[46.610s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/AVX
+[46.611s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/AVX/SpecialFunctions.h
+[46.611s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/AVX/BesselFunctions.h
+[46.611s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/NEON
+[46.611s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/NEON/SpecialFunctions.h
+[46.612s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/NEON/BesselFunctions.h
+[46.612s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/GPU
+[46.612s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/GPU/SpecialFunctions.h
+[46.612s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsFunctors.h
+[46.613s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsPacketMath.h
+[46.613s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsHalf.h
+[46.613s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsImpl.h
+[46.613s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsArrayAPI.h
+[46.613s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsPacketMath.h
+[46.613s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/HipVectorCompatibility.h
+[46.614s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsBFloat16.h
+[46.614s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsHalf.h
+[46.614s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsBFloat16.h
+[46.614s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsImpl.h
+[46.614s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsFunctors.h
+[46.614s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/BVH
+[46.615s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/BVH/KdBVH.h
+[46.615s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/BVH/BVAlgorithms.h
+[46.615s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Polynomials
+[46.616s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Polynomials/PolynomialUtils.h
+[46.616s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Polynomials/Companion.h
+[46.618s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Polynomials/PolynomialSolver.h
+[46.619s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Skyline
+[46.619s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Skyline/SkylineProduct.h
+[46.620s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Skyline/SkylineUtil.h
+[46.620s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Skyline/SkylineMatrix.h
+[46.620s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Skyline/SkylineStorage.h
+[46.620s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Skyline/SkylineMatrixBase.h
+[46.620s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Skyline/SkylineInplaceLU.h
+[46.621s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt
+[46.621s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LMqrsolv.h
+[46.621s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LMpar.h
+[46.621s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LMcovar.h
+[46.621s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LMonestep.h
+[46.621s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LevenbergMarquardt.h
+[46.622s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NonLinearOptimization
+[46.622s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/fdjac1.h
+[46.622s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/HybridNonLinearSolver.h
+[46.622s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/dogleg.h
+[46.622s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/rwupdt.h
+[46.622s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/covar.h
+[46.623s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/LevenbergMarquardt.h
+[46.623s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/r1mpyq.h
+[46.623s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/r1updt.h
+[46.623s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/chkder.h
+[46.623s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/lmpar.h
+[46.624s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/qrsolv.h
+[46.624s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SparseExtra
+[46.624s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SparseExtra/MatrixMarketIterator.h
+[46.624s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SparseExtra/BlockOfDynamicSparseMatrix.h
+[46.624s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SparseExtra/MarketIO.h
+[46.624s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SparseExtra/BlockSparseMatrix.h
+[46.625s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SparseExtra/DynamicSparseMatrix.h
+[46.625s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SparseExtra/RandomSetter.h
+[46.625s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/MoreVectorization
+[46.625s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/MoreVectorization/MathFunctions.h
+[46.625s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Eigenvalues
+[46.625s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Eigenvalues/ArpackSelfAdjointEigenSolver.h
+[46.625s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/AutoDiff
+[46.626s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/AutoDiff/AutoDiffVector.h
+[46.626s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/AutoDiff/AutoDiffJacobian.h
+[46.626s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/AutoDiff/AutoDiffScalar.h
+[46.626s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/EulerAngles
+[46.626s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/EulerAngles/EulerAngles.h
+[46.626s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/EulerAngles/EulerSystem.h
+[46.626s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/IterativeSolvers
+[46.627s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/IterativeSolvers/ConstrainedConjGrad.h
+[46.627s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/IterativeSolvers/MINRES.h
+[46.627s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/IterativeSolvers/DGMRES.h
+[46.627s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/IterativeSolvers/IterationController.h
+[46.627s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/IterativeSolvers/IDRS.h
+[46.627s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/IterativeSolvers/Scaling.h
+[46.628s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/IterativeSolvers/IncompleteLU.h
+[46.628s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/IterativeSolvers/GMRES.h
+[46.628s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/FFT
+[46.628s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/FFT/ei_fftw_impl.h
+[46.628s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/FFT/ei_kissfft_impl.h
+[46.629s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NumericalDiff
+[46.629s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NumericalDiff/NumericalDiff.h
+[46.630s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/KroneckerProduct
+[46.630s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/KroneckerProduct/KroneckerTensorProduct.h
+[46.631s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Splines
+[46.631s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Splines/SplineFwd.h
+[46.632s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Splines/Spline.h
+[46.632s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Splines/SplineFitting.h
+[46.633s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/MatrixFunctions
+[46.633s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixExponential.h
+[46.634s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixFunction.h
+[46.635s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/MatrixFunctions/StemFunction.h
+[46.635s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixPower.h
+[46.636s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixSquareRoot.h
+[46.636s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixLogarithm.h
+[46.638s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/Tensor
+[46.638s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/TensorSymmetry
+[46.639s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/ThreadPool
+[46.640s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src
+[46.640s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/util
+[46.641s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/util/CXX11Workarounds.h
+[46.641s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/util/MaxSizeVector.h
+[46.642s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/util/CXX11Meta.h
+[46.642s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/util/EmulateArray.h
+[46.643s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry
+[46.643s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/Symmetry.h
+[46.644s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/util
+[46.645s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/util/TemplateGroupTheory.h
+[46.647s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/DynamicSymmetry.h
+[46.647s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/StaticSymmetry.h
+[46.648s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool
+[46.648s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/ThreadLocal.h
+[46.648s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/ThreadEnvironment.h
+[46.649s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/ThreadPoolInterface.h
+[46.649s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/Barrier.h
+[46.650s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/ThreadCancel.h
+[46.650s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/NonBlockingThreadPool.h
+[46.651s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/EventCount.h
+[46.652s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/RunQueue.h
+[46.652s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/ThreadYield.h
+[46.653s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor
+[46.653s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorCostModel.h
+[46.654s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceThreadPool.h
+[46.654s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorInitializer.h
+[46.655s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorCustomOp.h
+[46.655s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorUInt128.h
+[46.656s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMacros.h
+[46.656s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorTrace.h
+[46.657s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorScan.h
+[46.657s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIO.h
+[46.658s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorLayoutSwap.h
+[46.658s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReductionGpu.h
+[46.659s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorForwardDeclarations.h
+[46.659s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionMapper.h
+[46.660s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionThreadPool.h
+[46.661s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFunctors.h
+[46.662s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionCuda.h
+[46.663s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMap.h
+[46.663s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h
+[46.663s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorExecutor.h
+[46.664s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDevice.h
+[46.664s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorInflation.h
+[46.665s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionSycl.h
+[46.666s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorStriding.h
+[46.666s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceGpu.h
+[46.667s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFixedSize.h
+[46.667s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorVolumePatch.h
+[46.668s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorForcedEval.h
+[46.668s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorScanSycl.h
+[46.669s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMorphing.h
+[46.670s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorTraits.h
+[46.670s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorStorage.h
+[46.671s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorPatch.h
+[46.671s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConversion.h
+[46.672s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIntDiv.h
+[46.672s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDimensions.h
+[46.673s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReductionCuda.h
+[46.673s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorGlobalFunctions.h
+[46.674s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorExpr.h
+[46.675s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorGpuHipCudaDefines.h
+[46.675s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBase.h
+[46.676s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBroadcasting.h
+[46.676s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionBlocking.h
+[46.677s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorAssign.h
+[46.678s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorShuffling.h
+[46.678s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorRef.h
+[46.679s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDimensionList.h
+[46.679s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorImagePatch.h
+[46.680s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceSycl.h
+[46.681s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConcatenation.h
+[46.681s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorPadding.h
+[46.682s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h
+[46.682s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionGpu.h
+[46.683s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReductionSycl.h
+[46.684s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReduction.h
+[46.685s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorRandom.h
+[46.685s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorEvaluator.h
+[46.685s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorChipping.h
+[46.686s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorGpuHipCudaUndefines.h
+[46.686s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFFT.h
+[46.687s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConvolution.h
+[46.687s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceCuda.h
+[46.687s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContraction.h
+[46.688s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorEvalTo.h
+[46.688s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/Tensor.h
+[46.689s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMeta.h
+[46.689s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceDefault.h
+[46.689s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConvolutionSycl.h
+[46.690s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorGenerator.h
+[46.690s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReverse.h
+[46.690s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorArgMax.h
+[46.717s] [  7%] [34m[1mCompleted 'ext_eigen'[0m
+[46.757s] [  7%] Built target ext_eigen
+[46.789s] [  8%] [32mBuilding CUDA object CMakeFiles/nvblox_gpu_hash.dir/src/core/error_check.cu.o[0m
+[50.130s] [  8%] [32mBuilding CUDA object CMakeFiles/nvblox_gpu_hash.dir/src/gpu_hash/gpu_set.cu.o[0m
+[73.969s] [  9%] [32mBuilding CUDA object CMakeFiles/nvblox_gpu_hash.dir/src/gpu_hash/gpu_layer_view.cu.o[0m
+[73.990s] [ 10%] [32mBuilding CXX object CMakeFiles/nvblox_gpu_hash.dir/src/utils/nvtx_ranges.cpp.o[0m
+[140.388s] [ 10%] [32mBuilding CXX object CMakeFiles/nvblox_gpu_hash.dir/src/utils/timing.cpp.o[0m
+[142.941s] [ 11%] [32m[1mLinking CXX static library libnvblox_gpu_hash.a[0m
+[143.125s] [ 11%] Built target nvblox_gpu_hash
+[143.162s] [ 11%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/core/warmup.cu.o[0m
+[143.164s] [ 12%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/core/error_check.cu.o[0m
+[146.555s] [ 13%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/integrators/view_calculator.cu.o[0m
+[149.571s] [ 14%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/integrators/occupancy_decay_integrator.cu.o[0m
+[150.591s] [ 14%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/mapper/multi_mapper.cpp.o[0m
+[151.665s] [ 15%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/mapper/mapper.cpp.o[0m
+[152.653s] [ 15%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/geometry/bounding_spheres.cpp.o[0m
+[153.717s] [ 16%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/geometry/bounding_boxes.cpp.o[0m
+[179.861s] [ 16%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/rays/sphere_tracer.cu.o[0m
+[179.861s] [ 17%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/integrators/esdf_integrator.cu.o[0m
+[180.875s] [ 18%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/integrators/projective_color_integrator.cu.o[0m
+[180.876s] [ 18%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/interpolation/interpolation_3d.cpp.o[0m
+[181.932s] [ 19%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/integrators/projective_tsdf_integrator.cu.o[0m
+[181.963s] [ 19%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/integrators/projective_occupancy_integrator.cu.o[0m
+[183.031s] [ 19%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/sensors/image.cu.o[0m
+[183.044s] [ 20%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/sensors/pointcloud.cu.o[0m
+[184.117s] [ 20%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/sensors/color.cpp.o[0m
+[184.151s] [ 21%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/sensors/camera.cpp.o[0m
+[269.670s] [ 22%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/mesh/mesh_integrator.cu.o[0m
+[270.681s] [ 22%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/mesh/mesh_integrator_color.cu.o[0m
+[270.762s] [ 23%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/mesh/mesh_block.cu.o[0m
+[271.775s] [ 24%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/mesh/mesh.cpp.o[0m
+[272.788s] [ 24%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/mesh/marching_cubes.cu.o[0m
+[273.800s] [ 25%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/io/image_io.cpp.o[0m
+[274.814s] [ 25%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/io/pointcloud_io.cpp.o[0m
+[275.849s] [ 26%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/io/layer_cake_io.cpp.o[0m
+[276.901s] [ 26%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/io/ply_writer.cpp.o[0m
+[277.945s] [ 27%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/io/mesh_io.cpp.o[0m
+[278.999s] [ 28%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/map/layer.cu.o[0m
+[301.714s] [ 29%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/semantics/image_projector.cu.o[0m
+[301.714s] [ 29%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/semantics/image_masker.cu.o[0m
+[303.820s] [ 31%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/serialization/layer_type_register.cpp.o[0m
+[303.821s] [ 31%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/serialization/sqlite_database.cpp.o[0m
+[308.342s] [ 32%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/utils/nvtx_ranges.cpp.o[0m
+[308.342s] [ 32%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/utils/timing.cpp.o[0m
+[308.343s] [ 32%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/serialization/serializer.cpp.o[0m
+[309.370s] [ 32%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/primitives/primitives.cpp.o[0m
+[309.375s] [ 32%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/map/blox.cu.o[0m
+[309.385s] [ 33%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/primitives/scene.cpp.o[0m
+[330.494s] [ 33%] [32m[1mLinking CUDA device code CMakeFiles/nvblox_lib.dir/cmake_device_link.o[0m
+[336.693s] [ 34%] [32m[1mLinking CXX shared library libnvblox_lib.so[0m
+[339.205s] [ 34%] Built target nvblox_lib
+[339.235s] [ 34%] [32mBuilding CXX object CMakeFiles/sphere_benchmark.dir/src/benchmarks/sphere_benchmark.cpp.o[0m
+[339.237s] [ 34%] [32mBuilding CUDA object examples/CMakeFiles/esdf_query.dir/src/esdf_query.cu.o[0m
+[339.237s] [ 35%] [32mBuilding CXX object executables/CMakeFiles/nvblox_datasets.dir/src/datasets/3dmatch.cpp.o[0m
+[339.238s] [ 36%] [32mBuilding CXX object executables/CMakeFiles/nvblox_datasets.dir/src/datasets/image_loader.cpp.o[0m
+[339.238s] [ 36%] [32mBuilding CXX object examples/CMakeFiles/load_map_and_mesh.dir/src/load_map_and_mesh.cpp.o[0m
+[339.238s] [ 36%] [32mBuilding CXX object executables/CMakeFiles/nvblox_datasets.dir/src/fuser.cpp.o[0m
+[339.238s] [ 36%] [32mBuilding CXX object executables/CMakeFiles/nvblox_datasets.dir/src/datasets/replica.cpp.o[0m
+[339.241s] [ 37%] [32mBuilding CXX object executables/CMakeFiles/nvblox_datasets.dir/src/datasets/redwood.cpp.o[0m
+[351.629s] [ 38%] [32m[1mLinking CUDA device code CMakeFiles/sphere_benchmark.dir/cmake_device_link.o[0m
+[351.738s] [ 39%] [32m[1mLinking CXX executable sphere_benchmark[0m
+[351.865s] [ 40%] [32m[1mLinking CUDA device code CMakeFiles/load_map_and_mesh.dir/cmake_device_link.o[0m
+[351.990s] [ 40%] [32m[1mLinking CXX executable load_map_and_mesh[0m
+[352.082s] [ 40%] Built target sphere_benchmark
+[352.322s] [ 40%] Built target load_map_and_mesh
+[372.676s] [ 41%] [32m[1mLinking CUDA device code CMakeFiles/esdf_query.dir/cmake_device_link.o[0m
+[372.851s] [ 41%] [32m[1mLinking CXX executable esdf_query[0m
+[373.184s] [ 41%] Built target esdf_query
+[379.195s] [ 42%] [32m[1mLinking CUDA device code CMakeFiles/nvblox_datasets.dir/cmake_device_link.o[0m
+[379.328s] [ 42%] [32m[1mLinking CXX shared library libnvblox_datasets.so[0m
+[380.543s] [ 42%] Built target nvblox_datasets
+[380.574s] [ 42%] [32mBuilding CXX object executables/CMakeFiles/fuse_3dmatch.dir/src/fuse_3dmatch.cpp.o[0m
+[380.576s] [ 43%] [32mBuilding CXX object executables/CMakeFiles/fuse_redwood.dir/src/fuse_redwood.cpp.o[0m
+[380.576s] [ 44%] [32mBuilding CXX object experiments/CMakeFiles/test_bench.dir/src/test_bench.cpp.o[0m
+[380.577s] [ 44%] [32mBuilding CUDA object tests/CMakeFiles/nvblox_test_utils.dir/lib/cuda/blox_utils.cu.o[0m
+[380.578s] [ 45%] [32mBuilding CXX object executables/CMakeFiles/fuse_replica.dir/src/fuse_replica.cpp.o[0m
+[380.579s] [ 46%] [32mBuilding CUDA object tests/CMakeFiles/nvblox_test_utils.dir/lib/cuda/blox.cu.o[0m
+[380.579s] [ 47%] [32mBuilding CUDA object tests/CMakeFiles/nvblox_test_utils.dir/lib/cuda/gpu_indexing.cu.o[0m
+[380.584s] [ 48%] [32mBuilding CUDA object tests/CMakeFiles/nvblox_test_utils.dir/lib/cuda/gpu_layer_utils.cu.o[0m
+[380.585s] [ 48%] [32mBuilding CUDA object tests/CMakeFiles/nvblox_test_utils.dir/lib/cuda/gpu_image_routines.cu.o[0m
+[380.589s] [ 48%] [32mBuilding CUDA object tests/CMakeFiles/nvblox_test_utils.dir/lib/cuda/increment_kernel.cu.o[0m
+[380.591s] [ 48%] [32mBuilding CUDA object tests/CMakeFiles/nvblox_test_utils.dir/lib/cuda/layer.cu.o[0m
+[380.601s] [ 49%] [32mBuilding CUDA object tests/CMakeFiles/nvblox_test_utils.dir/lib/cuda/interpolation_2d_gpu.cu.o[0m
+[384.717s] [ 50%] [32mBuilding CUDA object tests/CMakeFiles/nvblox_test_utils.dir/lib/cuda/mesh_utils.cu.o[0m
+[392.848s] [ 50%] [32m[1mLinking CUDA device code CMakeFiles/fuse_replica.dir/cmake_device_link.o[0m
+[393.229s] [ 51%] [32m[1mLinking CXX executable fuse_replica[0m
+[393.659s] [ 51%] Built target fuse_replica
+[393.671s] [ 51%] [32mBuilding CUDA object tests/CMakeFiles/nvblox_test_utils.dir/lib/cuda/projective_tsdf_integrator_cuda_components.cu.o[0m
+[393.731s] [ 52%] [32m[1mLinking CUDA device code CMakeFiles/fuse_3dmatch.dir/cmake_device_link.o[0m
+[393.808s] [ 53%] [32mBuilding CUDA object tests/CMakeFiles/nvblox_test_utils.dir/lib/cuda/test_utils_cuda.cu.o[0m
+[394.119s] [ 53%] [32m[1mLinking CXX executable fuse_3dmatch[0m
+[394.134s] [ 53%] [32m[1mLinking CUDA device code CMakeFiles/fuse_redwood.dir/cmake_device_link.o[0m
+[394.447s] [ 53%] Built target fuse_3dmatch
+[394.476s] [ 54%] [32m[1mLinking CXX executable fuse_redwood[0m
+[394.480s] [ 55%] [32mBuilding CUDA object tests/CMakeFiles/nvblox_test_utils.dir/lib/cuda/weighting_utils.cu.o[0m
+[394.891s] [ 55%] Built target fuse_redwood
+[394.904s] [ 55%] [32mBuilding CXX object tests/CMakeFiles/nvblox_test_utils.dir/lib/projective_tsdf_integrator_cpu.cpp.o[0m
+[396.077s] [ 55%] [32m[1mLinking CXX executable test_bench[0m
+[396.358s] [ 55%] Built target test_bench
+[396.401s] [ 56%] [32mBuilding CXX object tests/CMakeFiles/nvblox_test_utils.dir/lib/utils.cpp.o[0m
+[399.696s] [ 56%] [32mBuilding CXX object tests/CMakeFiles/nvblox_test_utils.dir/lib/esdf_integrator_cpu.cpp.o[0m
+[401.169s] [ 57%] [32mBuilding CXX object tests/CMakeFiles/nvblox_test_utils.dir/lib/integrator_utils.cpp.o[0m
+[434.881s] [ 57%] [32m[1mLinking CUDA device code CMakeFiles/nvblox_test_utils.dir/cmake_device_link.o[0m
+[437.522s] [ 58%] [32m[1mLinking CXX shared library libnvblox_test_utils.so[0m
+[438.539s] [ 58%] Built target nvblox_test_utils
+[438.607s] [ 59%] [32mBuilding CXX object tests/CMakeFiles/test_indexing.dir/test_indexing.cpp.o[0m
+[438.628s] [ 59%] [32mBuilding CXX object tests/CMakeFiles/test_camera.dir/test_camera.cpp.o[0m
+[438.631s] [ 59%] [32mBuilding CXX object tests/CMakeFiles/test_tsdf_integrator.dir/test_tsdf_integrator.cpp.o[0m
+[438.653s] [ 60%] [32mBuilding CXX object tests/CMakeFiles/test_3d_interpolation.dir/test_3d_interpolation.cpp.o[0m
+[438.685s] [ 61%] [32mBuilding CXX object tests/CMakeFiles/test_layer.dir/test_layer.cpp.o[0m
+[438.686s] [ 62%] [32mBuilding CXX object tests/CMakeFiles/test_3dmatch.dir/test_3dmatch.cpp.o[0m
+[438.721s] [ 63%] [32mBuilding CXX object tests/CMakeFiles/test_unified_ptr.dir/test_unified_ptr.cpp.o[0m
+[438.767s] [ 64%] [32mBuilding CXX object tests/CMakeFiles/test_scene.dir/test_scene.cpp.o[0m
+[438.768s] [ 64%] [32mBuilding CXX object tests/CMakeFiles/test_mesh.dir/test_mesh.cpp.o[0m
+[438.779s] [ 64%] [32mBuilding CXX object tests/CMakeFiles/test_depth_image.dir/test_depth_image.cpp.o[0m
+[438.841s] [ 65%] [32mBuilding CXX object tests/CMakeFiles/test_tsdf_integrator_cuda_components.dir/test_tsdf_integrator_cuda_components.cpp.o[0m
+[439.893s] [ 66%] [32mBuilding CXX object tests/CMakeFiles/test_unified_vector.dir/test_unified_vector.cpp.o[0m
+[457.977s] [ 66%] [32m[1mLinking CXX executable test_unified_ptr[0m
+[458.577s] [ 66%] Built target test_unified_ptr
+[462.295s] [ 66%] [32m[1mLinking CXX executable test_unified_vector[0m
+[462.748s] [ 66%] [32m[1mLinking CXX executable test_indexing[0m
+[463.114s] [ 66%] Built target test_unified_vector
+[463.400s] [ 66%] Built target test_indexing
+[464.985s] [ 67%] [32m[1mLinking CXX executable test_depth_image[0m
+[465.680s] [ 67%] Built target test_depth_image
+[466.524s] [ 67%] [32m[1mLinking CXX executable test_tsdf_integrator_cuda_components[0m
+[467.424s] [ 67%] Built target test_tsdf_integrator_cuda_components
+[468.012s] [ 68%] [32m[1mLinking CUDA device code CMakeFiles/test_3dmatch.dir/cmake_device_link.o[0m
+[468.416s] [ 68%] [32m[1mLinking CXX executable test_3dmatch[0m
+[469.005s] [ 68%] Built target test_3dmatch
+[469.973s] [ 68%] [32m[1mLinking CXX executable test_layer[0m
+[470.348s] [ 68%] [32m[1mLinking CXX executable test_3d_interpolation[0m
+[470.689s] [ 68%] Built target test_layer
+[470.911s] [ 68%] Built target test_3d_interpolation
+[471.345s] [ 69%] [32m[1mLinking CXX executable test_camera[0m
+[471.778s] [ 69%] Built target test_camera
+[476.658s] [ 70%] [32m[1mLinking CXX executable test_tsdf_integrator[0m
+[477.189s] [ 70%] Built target test_tsdf_integrator
+[478.988s] [ 71%] [32m[1mLinking CXX executable test_mesh[0m
+[479.619s] [ 71%] Built target test_mesh
+[490.662s] [ 71%] [32mBuilding CXX object tests/CMakeFiles/test_serialization.dir/test_serialization.cpp.o[0m
+[490.662s] [ 72%] [32mBuilding CXX object tests/CMakeFiles/test_traits.dir/test_traits.cpp.o[0m
+[490.662s] [ 72%] [32mBuilding CXX object tests/CMakeFiles/test_cake.dir/test_cake.cpp.o[0m
+[491.329s] [ 73%] [32m[1mLinking CXX executable test_scene[0m
+[491.683s] [ 73%] [32mBuilding CXX object tests/CMakeFiles/test_sphere_tracing.dir/test_sphere_tracing.cpp.o[0m
+[491.683s] [ 73%] [32mBuilding CXX object tests/CMakeFiles/test_gpu_layer_view.dir/test_gpu_layer_view.cpp.o[0m
+[492.167s] [ 73%] Built target test_scene
+[492.198s] [ 74%] [32mBuilding CXX object tests/CMakeFiles/test_frustum.dir/test_frustum.cpp.o[0m
+[493.220s] [ 76%] [32mBuilding CXX object tests/CMakeFiles/test_for_memory_leaks.dir/test_for_memory_leaks.cpp.o[0m
+[493.221s] [ 76%] [32mBuilding CXX object tests/CMakeFiles/test_lidar.dir/test_lidar.cpp.o[0m
+[494.337s] [ 76%] [32mBuilding CXX object tests/CMakeFiles/test_color_integrator.dir/test_color_integrator.cpp.o[0m
+[494.358s] [ 76%] [32mBuilding CXX object tests/CMakeFiles/test_mesh_coloring.dir/test_mesh_coloring.cpp.o[0m
+[494.446s] [ 76%] [32mBuilding CXX object tests/CMakeFiles/test_color_image.dir/test_color_image.cpp.o[0m
+[494.449s] [ 77%] [32mBuilding CXX object tests/CMakeFiles/test_esdf_integrator.dir/test_esdf_integrator.cpp.o[0m
+[499.306s] [ 78%] [32m[1mLinking CXX executable test_traits[0m
+[499.789s] [ 78%] Built target test_traits
+[507.205s] [ 79%] [32m[1mLinking CXX executable test_cake[0m
+[508.001s] [ 79%] Built target test_cake
+[509.505s] [ 79%] [32m[1mLinking CXX executable test_for_memory_leaks[0m
+[510.177s] [ 79%] Built target test_for_memory_leaks
+[510.810s] [ 80%] [32m[1mLinking CXX executable test_gpu_layer_view[0m
+[511.446s] [ 80%] Built target test_gpu_layer_view
+[515.823s] [ 81%] [32m[1mLinking CXX executable test_color_image[0m
+[516.194s] [ 81%] Built target test_color_image
+[516.413s] [ 81%] [32m[1mLinking CXX executable test_lidar[0m
+[516.586s] [ 82%] [32m[1mLinking CXX executable test_serialization[0m
+[516.862s] [ 82%] Built target test_lidar
+[517.025s] [ 82%] Built target test_serialization
+[517.821s] [ 83%] [32m[1mLinking CXX executable test_mesh_coloring[0m
+[518.247s] [ 83%] Built target test_mesh_coloring
+[523.434s] [ 83%] [32m[1mLinking CXX executable test_frustum[0m
+[524.083s] [ 83%] Built target test_frustum
+[524.819s] [ 84%] [32m[1mLinking CXX executable test_color_integrator[0m
+[525.114s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/test_occupancy_integrator.dir/test_occupancy_integrator.cpp.o[0m
+[525.292s] [ 85%] Built target test_color_integrator
+[525.309s] [ 86%] [32mBuilding CXX object tests/CMakeFiles/test_pointcloud.dir/test_pointcloud.cpp.o[0m
+[525.320s] [ 86%] [32mBuilding CXX object tests/CMakeFiles/test_image_projector.dir/test_image_projector.cpp.o[0m
+[526.337s] [ 87%] [32mBuilding CXX object tests/CMakeFiles/test_occupancy_decay.dir/test_occupancy_decay.cpp.o[0m
+[527.356s] [ 87%] [32mBuilding CXX object tests/CMakeFiles/test_multi_mapper.dir/test_multi_mapper.cpp.o[0m
+[528.376s] [ 87%] [32mBuilding CXX object tests/CMakeFiles/test_image_masker.dir/test_image_masker.cpp.o[0m
+[528.584s] [ 87%] [32m[1mLinking CXX executable test_esdf_integrator[0m
+[529.297s] [ 87%] Built target test_esdf_integrator
+[529.327s] [ 87%] [32mBuilding CXX object tests/CMakeFiles/test_mapper.dir/test_mapper.cpp.o[0m
+[529.331s] [ 88%] [32mBuilding CXX object tests/CMakeFiles/test_bounding_spheres.dir/test_bounding_spheres.cpp.o[0m
+[530.412s] [ 89%] [32mBuilding CXX object tests/CMakeFiles/test_weighting_function.dir/test_weighting_function.cpp.o[0m
+[531.473s] [ 90%] [32mBuilding CXX object tests/CMakeFiles/test_fuser.dir/test_fuser.cpp.o[0m
+[532.057s] [ 91%] [32m[1mLinking CXX executable test_sphere_tracing[0m
+[532.564s] [ 92%] [32mBuilding CXX object tests/CMakeFiles/test_lidar_integration.dir/test_lidar_integration.cpp.o[0m
+[533.113s] [ 92%] Built target test_sphere_tracing
+[533.245s] [ 92%] [32mBuilding CXX object tests/CMakeFiles/test_image_io.dir/test_image_io.cpp.o[0m
+[536.462s] [ 92%] [32m[1mLinking CXX executable test_pointcloud[0m
+[536.960s] [ 92%] [32m[1mLinking CXX executable test_occupancy_decay[0m
+[537.134s] [ 92%] Built target test_pointcloud
+[537.501s] [ 92%] Built target test_occupancy_decay
+[537.945s] [ 93%] [32m[1mLinking CXX executable test_weighting_function[0m
+[538.373s] [ 93%] Built target test_weighting_function
+[538.873s] [ 93%] [32m[1mLinking CXX executable test_bounding_spheres[0m
+[539.149s] [ 93%] Built target test_bounding_spheres
+[541.872s] [ 94%] [32m[1mLinking CXX executable test_image_masker[0m
+[542.219s] [ 94%] Built target test_image_masker
+[543.344s] [ 95%] [32m[1mLinking CXX executable test_multi_mapper[0m
+[543.708s] [ 95%] Built target test_multi_mapper
+[545.230s] [ 95%] [32m[1mLinking CXX executable test_occupancy_integrator[0m
+[545.641s] [ 95%] Built target test_occupancy_integrator
+[545.929s] [ 96%] [32m[1mLinking CXX executable test_fuser[0m
+[546.062s] [ 97%] [32m[1mLinking CXX executable test_image_projector[0m
+[546.216s] [ 98%] [32m[1mLinking CXX executable test_image_io[0m
+[546.260s] [ 98%] Built target test_fuser
+[546.475s] [ 98%] Built target test_image_io
+[546.492s] [ 98%] Built target test_image_projector
+[550.298s] [ 99%] [32m[1mLinking CXX executable test_lidar_integration[0m
+[550.664s] [ 99%] Built target test_lidar_integration
+[551.859s] [100%] [32m[1mLinking CXX executable test_mapper[0m
+[552.263s] [100%] Built target test_mapper
+[552.280s] Invoked command in '/workspaces/isaac_ros-dev/build/nvblox' returned '0': /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/nvblox -- -j12 -l12
+[552.761s] Invoking command in '/workspaces/isaac_ros-dev/build/nvblox': /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/nvblox
+[552.772s] -- Install configuration: "RelWithDebInfo"
+[552.773s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/lib/cmake/stdgpu/cuda/FindCUDAToolkit.cmake
+[552.774s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/lib/libstdgpu.a
+[552.775s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include
+[552.776s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu
+[552.776s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/cmath.h
+[552.776s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/contract.h
+[552.776s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/queue.cuh
+[552.776s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/compiler.h
+[552.777s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/mutex_fwd
+[552.777s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/memory.h
+[552.777s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/atomic_fwd
+[552.777s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl
+[552.778s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/memory_detail.h
+[552.778s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/vector_detail.cuh
+[552.778s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/platform_check.h
+[552.779s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/functional_detail.h
+[552.779s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/iterator_detail.h
+[552.779s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/unordered_set_detail.cuh
+[552.779s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/utility_detail.h
+[552.780s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/ranges_detail.h
+[552.780s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/cmath_detail.h
+[552.780s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/limits_detail.h
+[552.780s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/algorithm_detail.h
+[552.781s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/unordered_base_detail.cuh
+[552.781s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/unordered_map_detail.cuh
+[552.781s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/stack_detail.cuh
+[552.781s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/mutex_detail.cuh
+[552.782s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/type_traits.h
+[552.782s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/unordered_base.cuh
+[552.782s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/deque_detail.cuh
+[552.783s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/atomic_detail.cuh
+[552.783s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/queue_detail.cuh
+[552.783s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/bitset_detail.cuh
+[552.783s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/bit_detail.h
+[552.784s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/utility.h
+[552.784s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/ranges.h
+[552.784s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/unordered_map.cuh
+[552.784s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/stack.cuh
+[552.785s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/unordered_map_fwd
+[552.785s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/cuda
+[552.785s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/cuda/platform_check.h
+[552.785s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/cuda/memory.h
+[552.786s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/cuda/impl
+[552.786s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/cuda/impl/atomic_detail.cuh
+[552.786s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/cuda/atomic.cuh
+[552.786s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/cuda/platform.h
+[552.786s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/mutex.cuh
+[552.787s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/functional.h
+[552.787s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/bitset_fwd
+[552.787s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/bitset.cuh
+[552.787s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/iterator.h
+[552.788s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/queue_fwd
+[552.788s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/stack_fwd
+[552.788s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/unordered_set_fwd
+[552.789s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/algorithm.h
+[552.789s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/limits.h
+[552.789s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/deque.cuh
+[552.789s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/attribute.h
+[552.790s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/cstddef.h
+[552.790s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/atomic.cuh
+[552.790s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/platform.h
+[552.791s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/vector_fwd
+[552.791s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/vector.cuh
+[552.791s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/openmp
+[552.791s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/openmp/platform_check.h
+[552.791s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/openmp/memory.h
+[552.792s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/openmp/impl
+[552.792s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/openmp/impl/atomic_detail.h
+[552.792s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/openmp/atomic.h
+[552.792s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/openmp/platform.h
+[552.793s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/bit.h
+[552.793s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/unordered_set.cuh
+[552.793s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/deque_fwd
+[552.793s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/hip
+[552.793s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/hip/platform_check.h
+[552.794s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/hip/memory.h
+[552.794s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/hip/impl
+[552.794s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/hip/impl/atomic_detail.h
+[552.794s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/hip/atomic.h
+[552.795s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/hip/platform.h
+[552.795s] -- Up-to-date: /workspaces/isaac_ros-dev/install/nvblox/include
+[552.795s] -- Up-to-date: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu
+[552.795s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/config.h
+[552.795s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/lib/cmake/stdgpu/stdgpu-dependencies.cmake
+[552.796s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/lib/cmake/stdgpu/Findthrust.cmake
+[552.796s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/lib/cmake/stdgpu/stdgpu-targets.cmake
+[552.797s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/lib/cmake/stdgpu/stdgpu-targets-relwithdebinfo.cmake
+[552.797s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/lib/cmake/stdgpu/stdgpu-config.cmake
+[552.797s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/lib/cmake/stdgpu/stdgpu-config-version.cmake
+[552.798s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/lib/libnvblox_lib.so
+[552.942s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/nvblox/lib/libnvblox_lib.so" to ""
+[552.943s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/lib/nvblox/libnvblox_gpu_hash.a
+[552.986s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/lib/libnvblox_datasets.so
+[553.037s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/nvblox/lib/libnvblox_datasets.so" to ""
+[553.038s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/lib/nvblox/libstdgpu.a
+[553.039s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/bin/nvblox/fuse_3dmatch
+[553.048s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/nvblox/bin/nvblox/fuse_3dmatch" to ""
+[553.048s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/bin/nvblox/fuse_replica
+[553.057s] -- Set runtime path of "/workspaces/isaac_ros-dev/install/nvblox/bin/nvblox/fuse_replica" to ""
+[553.057s] -- Up-to-date: /workspaces/isaac_ros-dev/install/nvblox/include
+[553.057s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox
+[553.058s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators
+[553.058s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/projective_occupancy_integrator.h
+[553.058s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/view_calculator.h
+[553.058s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/projective_color_integrator.h
+[553.058s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/internal
+[553.059s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/internal/impl
+[553.059s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/internal/impl/integrators_common_impl.h
+[553.059s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/internal/impl/projective_integrator_impl.h
+[553.059s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/internal/impl/weighting_function_impl.h
+[553.059s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/internal/integrators_common.h
+[553.059s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/internal/cuda
+[553.060s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/internal/cuda/impl
+[553.060s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/internal/cuda/impl/projective_integrators_common_impl.cuh
+[553.060s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/internal/cuda/impl/projective_integrator_impl.cuh
+[553.060s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/internal/cuda/projective_integrators_common.cuh
+[553.060s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/internal/projective_integrator.h
+[553.061s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/esdf_integrator.h
+[553.061s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/weighting_function.h
+[553.061s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/occupancy_decay_integrator.h
+[553.061s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/projective_tsdf_integrator.h
+[553.061s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/sensors
+[553.062s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/sensors/image.h
+[553.062s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/sensors/camera.h
+[553.062s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/sensors/pointcloud.h
+[553.062s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/sensors/internal
+[553.063s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/sensors/internal/impl
+[553.063s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/sensors/internal/impl/lidar_impl.h
+[553.063s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/sensors/internal/impl/image_cuda_impl.h
+[553.063s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/sensors/internal/impl/camera_impl.h
+[553.063s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/sensors/internal/impl/image_impl.h
+[553.064s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/sensors/lidar.h
+[553.064s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/rays
+[553.064s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/rays/ray_caster.h
+[553.064s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/rays/internal
+[553.064s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/rays/internal/impl
+[553.065s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/rays/internal/impl/ray_caster_impl.h
+[553.065s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/rays/sphere_tracer.h
+[553.065s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/geometry
+[553.065s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/geometry/bounding_spheres.h
+[553.065s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/geometry/internal
+[553.066s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/geometry/internal/impl
+[553.066s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/geometry/internal/impl/bounding_boxes_impl.h
+[553.066s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/geometry/bounding_boxes.h
+[553.066s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/nvblox.h
+[553.066s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/interpolation
+[553.067s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/interpolation/interpolation_2d.h
+[553.067s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/interpolation/internal
+[553.067s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/interpolation/internal/impl
+[553.067s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/interpolation/internal/impl/interpolation_2d_impl.h
+[553.067s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/interpolation/internal/impl/interpolation_3d_impl.h
+[553.068s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/interpolation/interpolation_3d.h
+[553.068s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/serialization
+[553.068s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/serialization/internal
+[553.068s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/serialization/internal/layer_serialization.h
+[553.068s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/serialization/internal/impl
+[553.068s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/serialization/internal/impl/common_types_impl.h
+[553.069s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/serialization/internal/impl/layer_serialization_impl.h
+[553.069s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/serialization/internal/impl/block_serialization_impl.h
+[553.069s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/serialization/internal/serializer.h
+[553.069s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/serialization/internal/common_types.h
+[553.070s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/serialization/internal/block_serialization.h
+[553.070s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/serialization/internal/layer_type_register.h
+[553.070s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/serialization/internal/sqlite_database.h
+[553.070s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/semantics
+[553.071s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/semantics/image_masker.h
+[553.071s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/semantics/image_projector.h
+[553.071s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map
+[553.071s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/blox.h
+[553.071s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/accessors.h
+[553.072s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/common_names.h
+[553.072s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/voxels.h
+[553.072s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/layer.h
+[553.072s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/layer_cake.h
+[553.073s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/internal
+[553.073s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/internal/impl
+[553.073s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/internal/impl/layer_impl.h
+[553.073s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/internal/impl/blox_impl.h
+[553.073s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/internal/impl/layer_cake_impl.h
+[553.074s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/internal/impl/accessors_impl.h
+[553.074s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/internal/cuda
+[553.074s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/internal/cuda/impl
+[553.074s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/internal/cuda/impl/layer_impl.cuh
+[553.074s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core
+[553.075s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/unified_ptr.h
+[553.075s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/indexing.h
+[553.075s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/log_odds.h
+[553.075s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/types.h
+[553.075s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/variadic_template_tools.h
+[553.076s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/hash.h
+[553.076s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/traits.h
+[553.076s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/color.h
+[553.076s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/iterator.h
+[553.077s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/internal
+[553.077s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/internal/impl
+[553.077s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/internal/impl/indexing_impl.h
+[553.077s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/internal/impl/unified_vector_impl.h
+[553.077s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/internal/impl/variadic_template_tools_impl.h
+[553.078s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/internal/impl/unified_ptr_impl.h
+[553.078s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/internal/cuda
+[553.078s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/internal/cuda/impl
+[553.078s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/internal/cuda/impl/atomic_float_impl.cuh
+[553.078s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/internal/cuda/atomic_float.cuh
+[553.079s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/internal/error_check.h
+[553.079s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/internal/warmup_cuda.h
+[553.079s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/unified_vector.h
+[553.079s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/gpu_hash
+[553.080s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/gpu_hash/gpu_layer_view.h
+[553.080s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/gpu_hash/internal
+[553.080s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/gpu_hash/internal/cuda
+[553.080s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/gpu_hash/internal/cuda/impl
+[553.080s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/gpu_hash/internal/cuda/impl/gpu_layer_view_impl.cuh
+[553.080s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/gpu_hash/internal/cuda/impl/gpu_hash_interface_impl.cuh
+[553.081s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/gpu_hash/internal/cuda/gpu_indexing.cuh
+[553.081s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/gpu_hash/internal/cuda/gpu_hash_interface.cuh
+[553.081s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/gpu_hash/internal/cuda/gpu_set.cuh
+[553.081s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/mesh
+[553.082s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/mesh/mesh.h
+[553.082s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/mesh/internal
+[553.082s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/mesh/internal/impl
+[553.082s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/mesh/internal/impl/marching_cubes_table.h
+[553.082s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/mesh/internal/marching_cubes.h
+[553.083s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/mesh/mesh_block.h
+[553.083s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/mesh/mesh_integrator.h
+[553.083s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io
+[553.083s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/pointcloud_io.h
+[553.083s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/ply_writer.h
+[553.084s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/layer_cake_io.h
+[553.084s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/mesh_io.h
+[553.084s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/image_io.h
+[553.084s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/internal
+[553.085s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/internal/thirdparty
+[553.085s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/internal/thirdparty/stb_image.h
+[553.085s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/internal/thirdparty/stb_image_write.h
+[553.086s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/internal/impl
+[553.086s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/internal/impl/csv_impl.h
+[553.086s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/internal/impl/pointcloud_io_impl.h
+[553.086s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/csv.h
+[553.087s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/utils
+[553.087s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/utils/timing.h
+[553.087s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/utils/logging.h
+[553.087s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/utils/nvtx_ranges.h
+[553.087s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/primitives
+[553.088s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/primitives/primitives.h
+[553.088s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/primitives/internal
+[553.088s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/primitives/internal/impl
+[553.088s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/primitives/internal/impl/scene_impl.h
+[553.088s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/primitives/scene.h
+[553.089s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/mapper
+[553.089s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/mapper/multi_mapper.h
+[553.089s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/mapper/mapper.h
+[553.089s] -- Up-to-date: /workspaces/isaac_ros-dev/install/nvblox/include
+[553.090s] -- Up-to-date: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox
+[553.090s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/datasets
+[553.090s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/datasets/impl
+[553.091s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/datasets/impl/image_loader_impl.h
+[553.091s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/datasets/3dmatch.h
+[553.091s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/datasets/external
+[553.091s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/datasets/external/stb_image.h
+[553.091s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/datasets/redwood.h
+[553.092s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/datasets/data_loader.h
+[553.092s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/datasets/replica.h
+[553.092s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/datasets/image_loader.h
+[553.092s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/executables
+[553.092s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/nvblox/executables/fuser.h
+[553.093s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3
+[553.093s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen
+[553.093s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/SVD
+[553.093s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/KLUSupport
+[553.094s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/SPQRSupport
+[553.094s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/MetisSupport
+[553.094s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/Dense
+[553.094s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/StdList
+[553.094s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/Eigen
+[553.095s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/Cholesky
+[553.095s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/CholmodSupport
+[553.095s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/Sparse
+[553.095s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/IterativeLinearSolvers
+[553.096s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/Eigenvalues
+[553.096s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/QR
+[553.096s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/PardisoSupport
+[553.096s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/Geometry
+[553.097s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/SparseCore
+[553.097s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/QtAlignedMalloc
+[553.097s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/Core
+[553.097s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/UmfPackSupport
+[553.097s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/Jacobi
+[553.098s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/LU
+[553.098s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/SuperLUSupport
+[553.098s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/SparseQR
+[553.098s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/SparseCholesky
+[553.099s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/OrderingMethods
+[553.099s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src
+[553.099s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SVD
+[553.099s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SVD/SVDBase.h
+[553.100s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SVD/JacobiSVD.h
+[553.100s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SVD/JacobiSVD_LAPACKE.h
+[553.100s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SVD/BDCSVD.h
+[553.100s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h
+[553.101s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/KLUSupport
+[553.101s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/KLUSupport/KLUSupport.h
+[553.101s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SPQRSupport
+[553.101s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SPQRSupport/SuiteSparseQRSupport.h
+[553.102s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/MetisSupport
+[553.102s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/MetisSupport/MetisSupport.h
+[553.102s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/misc
+[553.102s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/misc/RealSvd2x2.h
+[553.102s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/misc/lapack.h
+[553.103s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/misc/lapacke.h
+[553.105s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/misc/Image.h
+[553.105s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/misc/Kernel.h
+[553.105s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/misc/blas.h
+[553.106s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/misc/lapacke_mangling.h
+[553.106s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Cholesky
+[553.106s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Cholesky/LLT_LAPACKE.h
+[553.106s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Cholesky/LLT.h
+[553.107s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Cholesky/LDLT.h
+[553.107s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/CholmodSupport
+[553.107s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/CholmodSupport/CholmodSupport.h
+[553.107s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/IterativeLinearSolvers
+[553.108s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h
+[553.108s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h
+[553.108s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h
+[553.109s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h
+[553.109s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h
+[553.109s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h
+[553.109s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h
+[553.110s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h
+[553.110s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues
+[553.110s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+[553.110s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+[553.111s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+[553.111s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
+[553.111s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/RealSchur_LAPACKE.h
+[553.111s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h
+[553.112s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
+[553.112s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h
+[553.112s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur_LAPACKE.h
+[553.112s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
+[553.113s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h
+[553.113s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h
+[553.113s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+[553.114s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+[553.114s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/QR
+[553.114s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h
+[553.114s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/QR/HouseholderQR.h
+[553.115s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/QR/HouseholderQR_LAPACKE.h
+[553.115s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/QR/ColPivHouseholderQR_LAPACKE.h
+[553.115s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h
+[553.115s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h
+[553.116s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/PardisoSupport
+[553.116s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/PardisoSupport/PardisoSupport.h
+[553.116s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/plugins
+[553.117s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h
+[553.117s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h
+[553.117s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h
+[553.117s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/plugins/ReshapedMethods.h
+[553.118s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/plugins/BlockMethods.h
+[553.118s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h
+[553.118s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h
+[553.118s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+[553.119s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
+[553.119s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry
+[553.119s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/Umeyama.h
+[553.120s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/EulerAngles.h
+[553.120s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/arch
+[553.120s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h
+[553.120s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/Translation.h
+[553.120s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h
+[553.121s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/Rotation2D.h
+[553.121s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/AngleAxis.h
+[553.121s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/Transform.h
+[553.122s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/Quaternion.h
+[553.122s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/Scaling.h
+[553.122s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/RotationBase.h
+[553.122s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/Hyperplane.h
+[553.123s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/Homogeneous.h
+[553.123s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/AlignedBox.h
+[553.123s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/OrthoMethods.h
+[553.123s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore
+[553.124s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h
+[553.124s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseUtil.h
+[553.124s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h
+[553.124s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h
+[553.125s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h
+[553.125s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h
+[553.125s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/AmbiVector.h
+[553.126s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h
+[553.126s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseAssign.h
+[553.126s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h
+[553.126s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseProduct.h
+[553.127s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseDot.h
+[553.127s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseBlock.h
+[553.127s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseView.h
+[553.127s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h
+[553.128s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseRedux.h
+[553.128s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseRef.h
+[553.128s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h
+[553.128s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/MappedSparseMatrix.h
+[553.129s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h
+[553.129s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h
+[553.129s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h
+[553.129s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h
+[553.130s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h
+[553.130s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h
+[553.130s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseVector.h
+[553.131s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/TriangularSolver.h
+[553.131s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseMap.h
+[553.131s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h
+[553.131s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h
+[553.132s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/StlSupport
+[553.132s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/StlSupport/details.h
+[553.132s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/StlSupport/StdVector.h
+[553.132s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/StlSupport/StdList.h
+[553.133s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/StlSupport/StdDeque.h
+[553.133s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core
+[553.133s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/AssignEvaluator.h
+[553.133s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/GlobalFunctions.h
+[553.134s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/GenericPacketMath.h
+[553.134s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products
+[553.134s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h
+[553.134s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h
+[553.135s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h
+[553.135s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h
+[553.135s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h
+[553.135s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h
+[553.136s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h
+[553.136s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h
+[553.136s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
+[553.137s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h
+[553.137s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h
+[553.137s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h
+[553.138s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h
+[553.138s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h
+[553.138s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h
+[553.139s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h
+[553.139s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h
+[553.139s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/Parallelizer.h
+[553.139s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h
+[553.140s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
+[553.140s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h
+[553.140s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/EigenBase.h
+[553.141s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Ref.h
+[553.141s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/ReturnByValue.h
+[553.141s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/NoAlias.h
+[553.141s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Replicate.h
+[553.142s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Random.h
+[553.142s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/MatrixBase.h
+[553.142s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/IO.h
+[553.142s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Inverse.h
+[553.143s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Redux.h
+[553.143s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h
+[553.143s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Reshaped.h
+[553.143s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Swap.h
+[553.144s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Product.h
+[553.144s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/CoreIterators.h
+[553.144s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util
+[553.144s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/Macros.h
+[553.145s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/Meta.h
+[553.145s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/BlasUtil.h
+[553.145s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/StaticAssert.h
+[553.146s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
+[553.146s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h
+[553.146s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h
+[553.146s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/Memory.h
+[553.147s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/IntegralConstant.h
+[553.147s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
+[553.147s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h
+[553.148s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/NonMPL2.h
+[553.148s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/Constants.h
+[553.148s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h
+[553.148s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h
+[553.149s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/XprHelper.h
+[553.149s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/MKL_support.h
+[553.149s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/StableNorm.h
+[553.150s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/IndexedView.h
+[553.150s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Visitor.h
+[553.150s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Dot.h
+[553.150s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch
+[553.150s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/CUDA
+[553.151s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
+[553.151s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/ZVector
+[553.151s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/ZVector/PacketMath.h
+[553.151s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/ZVector/Complex.h
+[553.152s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/ZVector/MathFunctions.h
+[553.152s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AltiVec
+[553.152s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AltiVec/MatrixProductCommon.h
+[553.153s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
+[553.153s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AltiVec/Complex.h
+[553.153s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
+[553.154s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AltiVec/MatrixProduct.h
+[553.154s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AltiVec/MatrixProductMMA.h
+[553.154s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AVX512
+[553.154s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AVX512/PacketMath.h
+[553.155s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AVX512/Complex.h
+[553.155s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AVX512/MathFunctions.h
+[553.155s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AVX512/TypeCasting.h
+[553.156s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AVX
+[553.156s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h
+[553.156s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AVX/Complex.h
+[553.157s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AVX/MathFunctions.h
+[553.157s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AVX/TypeCasting.h
+[553.157s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/MSA
+[553.157s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/MSA/PacketMath.h
+[553.158s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/MSA/Complex.h
+[553.158s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/MSA/MathFunctions.h
+[553.158s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/HIP
+[553.158s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/HIP/hcc
+[553.158s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/HIP/hcc/math_constants.h
+[553.159s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/Default
+[553.159s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h
+[553.159s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
+[553.159s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/Default/Half.h
+[553.160s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h
+[553.160s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
+[553.160s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h
+[553.161s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h
+[553.161s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SYCL
+[553.161s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SYCL/InteropHeaders.h
+[553.161s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SYCL/PacketMath.h
+[553.162s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SYCL/MathFunctions.h
+[553.162s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SYCL/TypeCasting.h
+[553.162s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SYCL/SyclMemoryModel.h
+[553.163s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SSE
+[553.163s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h
+[553.163s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h
+[553.163s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h
+[553.164s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h
+[553.164s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/NEON
+[553.164s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h
+[553.165s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
+[553.166s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/NEON/MathFunctions.h
+[553.166s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/NEON/GeneralBlockPanelKernel.h
+[553.166s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/NEON/TypeCasting.h
+[553.167s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SVE
+[553.167s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SVE/PacketMath.h
+[553.167s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SVE/MathFunctions.h
+[553.167s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SVE/TypeCasting.h
+[553.168s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/GPU
+[553.168s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/GPU/PacketMath.h
+[553.168s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/GPU/MathFunctions.h
+[553.169s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/GPU/TypeCasting.h
+[553.169s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/ArrayWrapper.h
+[553.169s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h
+[553.170s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h
+[553.170s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/NumTraits.h
+[553.170s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/VectorwiseOp.h
+[553.170s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Solve.h
+[553.171s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/GeneralProduct.h
+[553.171s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/ArithmeticSequence.h
+[553.171s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/SolverBase.h
+[553.172s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/SelfAdjointView.h
+[553.172s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h
+[553.172s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/ConditionEstimator.h
+[553.172s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/DenseStorage.h
+[553.173s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h
+[553.173s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Fuzzy.h
+[553.173s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Map.h
+[553.174s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/VectorBlock.h
+[553.174s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/SolveTriangular.h
+[553.174s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/MathFunctions.h
+[553.174s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/TriangularMatrix.h
+[553.175s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/CoreEvaluators.h
+[553.175s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Stride.h
+[553.175s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Assign.h
+[553.176s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/DenseBase.h
+[553.176s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/CwiseUnaryView.h
+[553.176s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h
+[553.177s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/ForceAlignedAccess.h
+[553.177s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/DiagonalProduct.h
+[553.177s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Assign_MKL.h
+[553.177s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/DiagonalMatrix.h
+[553.178s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Transpositions.h
+[553.178s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/ProductEvaluators.h
+[553.178s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/MapBase.h
+[553.179s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h
+[553.179s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Reverse.h
+[553.179s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/StlIterators.h
+[553.180s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/CommaInitializer.h
+[553.180s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Select.h
+[553.180s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Block.h
+[553.180s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/functors
+[553.181s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h
+[553.181s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h
+[553.181s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h
+[553.182s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/functors/StlFunctors.h
+[553.182s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h
+[553.182s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h
+[553.182s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Matrix.h
+[553.183s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Array.h
+[553.183s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Diagonal.h
+[553.183s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/PlainObjectBase.h
+[553.184s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/PermutationMatrix.h
+[553.184s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/ArrayBase.h
+[553.184s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/BooleanRedux.h
+[553.185s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h
+[553.185s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Transpose.h
+[553.185s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/NestByValue.h
+[553.185s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/BandMatrix.h
+[553.186s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/UmfPackSupport
+[553.186s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/UmfPackSupport/UmfPackSupport.h
+[553.186s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Jacobi
+[553.186s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Jacobi/Jacobi.h
+[553.187s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/LU
+[553.187s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/LU/FullPivLU.h
+[553.187s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/LU/InverseImpl.h
+[553.187s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/LU/Determinant.h
+[553.188s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/LU/arch
+[553.188s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/LU/arch/InverseSize4.h
+[553.188s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/LU/PartialPivLU.h
+[553.188s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
+[553.189s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SuperLUSupport
+[553.189s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SuperLUSupport/SuperLUSupport.h
+[553.189s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseQR
+[553.189s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseQR/SparseQR.h
+[553.190s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCholesky
+[553.190s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h
+[553.190s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h
+[553.191s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/OrderingMethods
+[553.191s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
+[553.191s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/OrderingMethods/Amd.h
+[553.191s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
+[553.191s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Householder
+[553.192s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Householder/Householder.h
+[553.192s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
+[553.192s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
+[553.193s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/PaStiXSupport
+[553.193s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/PaStiXSupport/PaStiXSupport.h
+[553.193s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU
+[553.193s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_kernel_bmod.h
+[553.194s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_Structs.h
+[553.194s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_gemm_kernel.h
+[553.194s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_Utils.h
+[553.194s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_bmod.h
+[553.195s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_relax_snode.h
+[553.195s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_column_bmod.h
+[553.195s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h
+[553.195s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h
+[553.196s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_Memory.h
+[553.196s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLUImpl.h
+[553.196s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_dfs.h
+[553.197s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU.h
+[553.197s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h
+[553.197s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h
+[553.197s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h
+[553.198s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h
+[553.198s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/Householder
+[553.198s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/PaStiXSupport
+[553.198s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/StdVector
+[553.199s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/SparseLU
+[553.199s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/StdDeque
+[553.199s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/include/eigen3/signature_of_eigen3_matrix_library
+[553.200s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/share/nvblox/cmake/nvbloxConfig.cmake
+[553.200s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/share/nvblox/cmake/nvbloxConfigVersion.cmake
+[553.201s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/share/nvblox/cmake/nvbloxTargets.cmake
+[553.201s] -- Installing: /workspaces/isaac_ros-dev/install/nvblox/share/nvblox/cmake/nvbloxTargets-relwithdebinfo.cmake
+[553.216s] Invoked command in '/workspaces/isaac_ros-dev/build/nvblox' returned '0': /usr/bin/cmake --install /workspaces/isaac_ros-dev/build/nvblox

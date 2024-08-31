@@ -1,0 +1,392 @@
+[0.000000] (-) TimerEvent: {}
+[0.000737] (-) JobUnselected: {'identifier': 'agv_bot_description'}
+[0.001424] (-) JobUnselected: {'identifier': 'async_web_server_cpp'}
+[0.001754] (-) JobUnselected: {'identifier': 'camera_calibration_parsers'}
+[0.003558] (-) JobUnselected: {'identifier': 'camera_info_manager'}
+[0.003664] (-) JobUnselected: {'identifier': 'camera_publishers'}
+[0.003840] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.003924] (-) JobUnselected: {'identifier': 'geodesy'}
+[0.003973] (-) JobUnselected: {'identifier': 'geographic_info'}
+[0.004024] (-) JobUnselected: {'identifier': 'geographic_msgs'}
+[0.004097] (-) JobUnselected: {'identifier': 'gps_package'}
+[0.004160] (-) JobUnselected: {'identifier': 'image_common'}
+[0.005667] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.005751] (-) JobUnselected: {'identifier': 'image_stitcher'}
+[0.005882] (-) JobUnselected: {'identifier': 'image_transport'}
+[0.005953] (-) JobUnselected: {'identifier': 'isaac_ros_apriltag_interfaces'}
+[0.005998] (-) JobUnselected: {'identifier': 'isaac_ros_bi3d_interfaces'}
+[0.006047] (-) JobUnselected: {'identifier': 'isaac_ros_common'}
+[0.006114] (-) JobUnselected: {'identifier': 'isaac_ros_nvblox'}
+[0.007528] (-) JobUnselected: {'identifier': 'isaac_ros_pointcloud_interfaces'}
+[0.007631] (-) JobUnselected: {'identifier': 'isaac_ros_tensor_list_interfaces'}
+[0.007772] (-) JobUnselected: {'identifier': 'isaac_ros_test'}
+[0.007849] (-) JobUnselected: {'identifier': 'joint_state_publisher'}
+[0.007894] (-) JobUnselected: {'identifier': 'joint_state_publisher_gui'}
+[0.007944] (-) JobUnselected: {'identifier': 'motor_control_pkg'}
+[0.008011] (-) JobUnselected: {'identifier': 'nvblox'}
+[0.008056] (-) JobUnselected: {'identifier': 'nvblox_cpu_gpu_tools'}
+[0.008115] (-) JobUnselected: {'identifier': 'nvblox_examples_bringup'}
+[0.008504] (-) JobUnselected: {'identifier': 'nvblox_image_padding'}
+[0.008600] (-) JobUnselected: {'identifier': 'nvblox_isaac_sim'}
+[0.008672] (-) JobUnselected: {'identifier': 'nvblox_msgs'}
+[0.008718] (-) JobUnselected: {'identifier': 'nvblox_nav2'}
+[0.009942] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement'}
+[0.011464] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement_msgs'}
+[0.011565] (-) JobUnselected: {'identifier': 'nvblox_ros'}
+[0.011648] (-) JobUnselected: {'identifier': 'nvblox_ros_common'}
+[0.011724] (-) JobUnselected: {'identifier': 'nvblox_rviz_plugin'}
+[0.011802] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.011868] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.011954] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.012017] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.012159] (-) JobUnselected: {'identifier': 'realsense_obj_det'}
+[0.012237] (-) JobUnselected: {'identifier': 'road_segmentation'}
+[0.012282] (-) JobUnselected: {'identifier': 'semantic_label_conversion'}
+[0.012326] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.012394] (-) JobUnselected: {'identifier': 'stdgpu'}
+[0.012546] (-) JobUnselected: {'identifier': 'teleop_twist_joy'}
+[0.012620] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.012714] (-) JobUnselected: {'identifier': 'twist_converter'}
+[0.012778] (-) JobUnselected: {'identifier': 'twist_mux'}
+[0.012822] (-) JobUnselected: {'identifier': 'velodyne'}
+[0.012871] (-) JobUnselected: {'identifier': 'velodyne_driver'}
+[0.012910] (-) JobUnselected: {'identifier': 'velodyne_laserscan'}
+[0.012950] (-) JobUnselected: {'identifier': 'velodyne_msgs'}
+[0.013022] (-) JobUnselected: {'identifier': 'velodyne_pointcloud'}
+[0.013108] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.013170] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.013306] (-) JobUnselected: {'identifier': 'xacro'}
+[0.013388] (data_logger) JobQueued: {'identifier': 'data_logger', 'dependencies': OrderedDict([('cv_bridge', '/avlcode/workspaces/isaac_ros-dev/install/cv_bridge'), ('image_transport', '/avlcode/workspaces/isaac_ros-dev/install/image_transport')])}
+[0.013499] (data_logger) JobStarted: {'identifier': 'data_logger'}
+[0.041333] (data_logger) JobProgress: {'identifier': 'data_logger', 'progress': 'cmake'}
+[0.043714] (data_logger) JobProgress: {'identifier': 'data_logger', 'progress': 'build'}
+[0.045323] (data_logger) Command: {'cmd': ['/usr/bin/cmake', '--build', '/avlcode/workspaces/isaac_ros-dev/build/data_logger', '--', '-j12', '-l12'], 'cwd': '/avlcode/workspaces/isaac_ros-dev/build/data_logger', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'agxorin1'), ('LD_LIBRARY_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport/lib:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib'), ('HOME', '/root'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --packages-select data_logger'), ('AMENT_PREFIX_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'admin'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/avlcode/workspaces/isaac_ros-dev/build/data_logger'), ('PYTHONPATH', '/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge')]), 'shell': False}
+[0.099102] (-) TimerEvent: {}
+[0.101770] (data_logger) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target data_logger_node2\x1b[0m\n'}
+[0.133988] (data_logger) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/data_logger_node2.dir/src/data_logger_node2.cpp.o\x1b[0m\n'}
+[0.199262] (-) TimerEvent: {}
+[0.300127] (-) TimerEvent: {}
+[0.401017] (-) TimerEvent: {}
+[0.501909] (-) TimerEvent: {}
+[0.602730] (-) TimerEvent: {}
+[0.703450] (-) TimerEvent: {}
+[0.804157] (-) TimerEvent: {}
+[0.904916] (-) TimerEvent: {}
+[1.005784] (-) TimerEvent: {}
+[1.106669] (-) TimerEvent: {}
+[1.207573] (-) TimerEvent: {}
+[1.308457] (-) TimerEvent: {}
+[1.409341] (-) TimerEvent: {}
+[1.510215] (-) TimerEvent: {}
+[1.611112] (-) TimerEvent: {}
+[1.711989] (-) TimerEvent: {}
+[1.812828] (-) TimerEvent: {}
+[1.913523] (-) TimerEvent: {}
+[2.014222] (-) TimerEvent: {}
+[2.114940] (-) TimerEvent: {}
+[2.215690] (-) TimerEvent: {}
+[2.316565] (-) TimerEvent: {}
+[2.417331] (-) TimerEvent: {}
+[2.518050] (-) TimerEvent: {}
+[2.618946] (-) TimerEvent: {}
+[2.719821] (-) TimerEvent: {}
+[2.820706] (-) TimerEvent: {}
+[2.921543] (-) TimerEvent: {}
+[3.022382] (-) TimerEvent: {}
+[3.123294] (-) TimerEvent: {}
+[3.224191] (-) TimerEvent: {}
+[3.325073] (-) TimerEvent: {}
+[3.425924] (-) TimerEvent: {}
+[3.526874] (-) TimerEvent: {}
+[3.627607] (-) TimerEvent: {}
+[3.728320] (-) TimerEvent: {}
+[3.829018] (-) TimerEvent: {}
+[3.929730] (-) TimerEvent: {}
+[4.030456] (-) TimerEvent: {}
+[4.131196] (-) TimerEvent: {}
+[4.231938] (-) TimerEvent: {}
+[4.332646] (-) TimerEvent: {}
+[4.433380] (-) TimerEvent: {}
+[4.534085] (-) TimerEvent: {}
+[4.634839] (-) TimerEvent: {}
+[4.735554] (-) TimerEvent: {}
+[4.836272] (-) TimerEvent: {}
+[4.937044] (-) TimerEvent: {}
+[5.037791] (-) TimerEvent: {}
+[5.138528] (-) TimerEvent: {}
+[5.239264] (-) TimerEvent: {}
+[5.339974] (-) TimerEvent: {}
+[5.440701] (-) TimerEvent: {}
+[5.541414] (-) TimerEvent: {}
+[5.642149] (-) TimerEvent: {}
+[5.742876] (-) TimerEvent: {}
+[5.843601] (-) TimerEvent: {}
+[5.944316] (-) TimerEvent: {}
+[6.045038] (-) TimerEvent: {}
+[6.145753] (-) TimerEvent: {}
+[6.246472] (-) TimerEvent: {}
+[6.347209] (-) TimerEvent: {}
+[6.447916] (-) TimerEvent: {}
+[6.548659] (-) TimerEvent: {}
+[6.649395] (-) TimerEvent: {}
+[6.750106] (-) TimerEvent: {}
+[6.850851] (-) TimerEvent: {}
+[6.951569] (-) TimerEvent: {}
+[7.052300] (-) TimerEvent: {}
+[7.153019] (-) TimerEvent: {}
+[7.253740] (-) TimerEvent: {}
+[7.354459] (-) TimerEvent: {}
+[7.455193] (-) TimerEvent: {}
+[7.555913] (-) TimerEvent: {}
+[7.656624] (-) TimerEvent: {}
+[7.757341] (-) TimerEvent: {}
+[7.858070] (-) TimerEvent: {}
+[7.958807] (-) TimerEvent: {}
+[8.059532] (-) TimerEvent: {}
+[8.160275] (-) TimerEvent: {}
+[8.260997] (-) TimerEvent: {}
+[8.361717] (-) TimerEvent: {}
+[8.462434] (-) TimerEvent: {}
+[8.563172] (-) TimerEvent: {}
+[8.663890] (-) TimerEvent: {}
+[8.764597] (-) TimerEvent: {}
+[8.865330] (-) TimerEvent: {}
+[8.966056] (-) TimerEvent: {}
+[9.066798] (-) TimerEvent: {}
+[9.167507] (-) TimerEvent: {}
+[9.268221] (-) TimerEvent: {}
+[9.368920] (-) TimerEvent: {}
+[9.469640] (-) TimerEvent: {}
+[9.570366] (-) TimerEvent: {}
+[9.671106] (-) TimerEvent: {}
+[9.771831] (-) TimerEvent: {}
+[9.872554] (-) TimerEvent: {}
+[9.954404] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDataLogger::DataLogger()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.955087] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:30:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[9.955296] (data_logger) StderrLine: {'line': b'   30 |             m_log_count(0), m_image_count(0), \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[9.955462] (data_logger) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.966233] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:49:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kentry\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[9.966639] (data_logger) StderrLine: {'line': b'   49 |     for (const auto &\x1b[01;35m\x1b[Kentry\x1b[m\x1b[K : fs::directory_iterator(m_drive)) {\n'}
+[9.966825] (data_logger) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.968061] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:65:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kentry\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[9.968233] (data_logger) StderrLine: {'line': b'   65 |     for (const auto &\x1b[01;35m\x1b[Kentry\x1b[m\x1b[K : fs::directory_iterator(m_image_drive)) {\n'}
+[9.968375] (data_logger) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.972612] (-) TimerEvent: {}
+[9.973265] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:100:107:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsgs\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.974603] (data_logger) StderrLine: {'line': b'  100 |             typedef message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image, sensor_msgs::\x1b[01;31m\x1b[Kmsgs\x1b[m\x1b[K::Image,\n'}
+[9.974831] (data_logger) StderrLine: {'line': b'      |                                                                                                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.975004] (data_logger) StderrLine: {'line': b'      |                                                                                                           \x1b[32m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[9.975154] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:101:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[9.975312] (data_logger) StderrLine: {'line': b'  101 |                 sensor_msgs::msgs::Image, geometry_msgs::msgs::Twist\x1b[01;31m\x1b[K>\x1b[m\x1b[K approximate_policy;\n'}
+[9.975658] (data_logger) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.975809] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41\x1b[m\x1b[K,\n'}
+[9.976090] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:13\x1b[m\x1b[K:\n'}
+[9.976231] (data_logger) StderrLine: {'line': b'/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass message_filters::Synchronizer<int>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.976367] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:104:35:\x1b[m\x1b[K   required from here\n'}
+[9.976499] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:53:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 fails to be a struct or class type\n'}
+[9.976727] (data_logger) StderrLine: {'line': b'   53 | class \x1b[01;31m\x1b[KSynchronizer\x1b[m\x1b[K : public noncopyable, public Policy\n'}
+[9.976863] (data_logger) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.976992] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:56:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a class, struct, or union type\n'}
+[9.977164] (data_logger) StderrLine: {'line': b'   56 |   typedef typename Policy::Messages \x1b[01;31m\x1b[KMessages\x1b[m\x1b[K;\n'}
+[9.977303] (data_logger) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.977441] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:57:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a class, struct, or union type\n'}
+[9.977578] (data_logger) StderrLine: {'line': b'   57 |   typedef typename Policy::Events \x1b[01;31m\x1b[KEvents\x1b[m\x1b[K;\n'}
+[9.977709] (data_logger) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.977838] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:58:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a class, struct, or union type\n'}
+[9.977993] (data_logger) StderrLine: {'line': b'   58 |   typedef typename Policy::Signal \x1b[01;31m\x1b[KSignal\x1b[m\x1b[K;\n'}
+[9.978142] (data_logger) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.978274] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:60:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a class, struct, or union type\n'}
+[9.978425] (data_logger) StderrLine: {'line': b'   60 |   typedef typename std::tuple_element<0, Messages>::type \x1b[01;31m\x1b[KM0\x1b[m\x1b[K;\n'}
+[9.978561] (data_logger) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.978691] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:61:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a class, struct, or union type\n'}
+[9.978853] (data_logger) StderrLine: {'line': b'   61 |   typedef typename std::tuple_element<1, Messages>::type \x1b[01;31m\x1b[KM1\x1b[m\x1b[K;\n'}
+[9.978997] (data_logger) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.979128] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:62:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a class, struct, or union type\n'}
+[9.979259] (data_logger) StderrLine: {'line': b'   62 |   typedef typename std::tuple_element<2, Messages>::type \x1b[01;31m\x1b[KM2\x1b[m\x1b[K;\n'}
+[9.979386] (data_logger) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.979510] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:63:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a class, struct, or union type\n'}
+[9.979636] (data_logger) StderrLine: {'line': b'   63 |   typedef typename std::tuple_element<3, Messages>::type \x1b[01;31m\x1b[KM3\x1b[m\x1b[K;\n'}
+[9.979756] (data_logger) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.979882] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:64:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a class, struct, or union type\n'}
+[9.980008] (data_logger) StderrLine: {'line': b'   64 |   typedef typename std::tuple_element<4, Messages>::type \x1b[01;31m\x1b[KM4\x1b[m\x1b[K;\n'}
+[9.980132] (data_logger) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.980253] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:65:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a class, struct, or union type\n'}
+[9.980376] (data_logger) StderrLine: {'line': b'   65 |   typedef typename std::tuple_element<5, Messages>::type \x1b[01;31m\x1b[KM5\x1b[m\x1b[K;\n'}
+[9.980496] (data_logger) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.980619] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:66:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a class, struct, or union type\n'}
+[9.980781] (data_logger) StderrLine: {'line': b'   66 |   typedef typename std::tuple_element<6, Messages>::type \x1b[01;31m\x1b[KM6\x1b[m\x1b[K;\n'}
+[9.980913] (data_logger) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.981037] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:67:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a class, struct, or union type\n'}
+[9.981163] (data_logger) StderrLine: {'line': b'   67 |   typedef typename std::tuple_element<7, Messages>::type \x1b[01;31m\x1b[KM7\x1b[m\x1b[K;\n'}
+[9.981286] (data_logger) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.981410] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:68:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a class, struct, or union type\n'}
+[9.981559] (data_logger) StderrLine: {'line': b'   68 |   typedef typename std::tuple_element<8, Messages>::type \x1b[01;31m\x1b[KM8\x1b[m\x1b[K;\n'}
+[9.981696] (data_logger) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.981827] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:71:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a class, struct, or union type\n'}
+[9.981959] (data_logger) StderrLine: {'line': b'   71 |   typedef typename std::tuple_element<0, Events>::type \x1b[01;31m\x1b[KM0Event\x1b[m\x1b[K;\n'}
+[9.982086] (data_logger) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.982208] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:72:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a class, struct, or union type\n'}
+[9.982334] (data_logger) StderrLine: {'line': b'   72 |   typedef typename std::tuple_element<1, Events>::type \x1b[01;31m\x1b[KM1Event\x1b[m\x1b[K;\n'}
+[9.982458] (data_logger) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.982583] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:73:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a class, struct, or union type\n'}
+[9.982727] (data_logger) StderrLine: {'line': b'   73 |   typedef typename std::tuple_element<2, Events>::type \x1b[01;31m\x1b[KM2Event\x1b[m\x1b[K;\n'}
+[9.982905] (data_logger) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.983035] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:74:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a class, struct, or union type\n'}
+[9.983163] (data_logger) StderrLine: {'line': b'   74 |   typedef typename std::tuple_element<3, Events>::type \x1b[01;31m\x1b[KM3Event\x1b[m\x1b[K;\n'}
+[9.983288] (data_logger) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.983435] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:75:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a class, struct, or union type\n'}
+[9.983572] (data_logger) StderrLine: {'line': b'   75 |   typedef typename std::tuple_element<4, Events>::type \x1b[01;31m\x1b[KM4Event\x1b[m\x1b[K;\n'}
+[9.983702] (data_logger) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.983829] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:76:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a class, struct, or union type\n'}
+[9.983959] (data_logger) StderrLine: {'line': b'   76 |   typedef typename std::tuple_element<5, Events>::type \x1b[01;31m\x1b[KM5Event\x1b[m\x1b[K;\n'}
+[9.984083] (data_logger) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.984205] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:77:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a class, struct, or union type\n'}
+[9.984330] (data_logger) StderrLine: {'line': b'   77 |   typedef typename std::tuple_element<6, Events>::type \x1b[01;31m\x1b[KM6Event\x1b[m\x1b[K;\n'}
+[9.984453] (data_logger) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.984578] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:78:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a class, struct, or union type\n'}
+[9.984704] (data_logger) StderrLine: {'line': b'   78 |   typedef typename std::tuple_element<7, Events>::type \x1b[01;31m\x1b[KM7Event\x1b[m\x1b[K;\n'}
+[9.984827] (data_logger) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.984952] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:79:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a class, struct, or union type\n'}
+[9.985076] (data_logger) StderrLine: {'line': b'   79 |   typedef typename std::tuple_element<8, Events>::type \x1b[01;31m\x1b[KM8Event\x1b[m\x1b[K;\n'}
+[9.985201] (data_logger) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.985323] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41\x1b[m\x1b[K,\n'}
+[9.985446] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:13\x1b[m\x1b[K:\n'}
+[9.985591] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:325:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktype \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a base type for type \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Synchronizer<int>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.985735] (data_logger) StderrLine: {'line': b'  325 |   using Policy::\x1b[01;31m\x1b[Kadd\x1b[m\x1b[K;\n'}
+[9.985867] (data_logger) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.985995] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:328:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a class, struct, or union type\n'}
+[9.986142] (data_logger) StderrLine: {'line': b'  328 |   void \x1b[01;31m\x1b[Kadd\x1b[m\x1b[K(const std::shared_ptr<typename std::tuple_element<i, Messages>::type const>& msg)\n'}
+[9.986277] (data_logger) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.986405] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:344:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a class, struct, or union type\n'}
+[9.986539] (data_logger) StderrLine: {'line': b'  344 |   void \x1b[01;31m\x1b[Kcb\x1b[m\x1b[K(const typename std::tuple_element<i, Events>::type& evt)\n'}
+[9.986670] (data_logger) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.986818] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:104:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpression list treated as compound expression in functional cast [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[9.986965] (data_logger) StderrLine: {'line': b'  104 |                 approximate_policy(1, 0\x1b[01;31m\x1b[K)\x1b[m\x1b[K, m_front_camera, m_left_camera, m_right_camera, m_steering_msg);\n'}
+[9.987094] (data_logger) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.987218] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:104:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[9.987384] (data_logger) StderrLine: {'line': b'  104 |                 approximate_policy(\x1b[01;35m\x1b[K1\x1b[m\x1b[K, 0), m_front_camera, m_left_camera, m_right_camera, m_steering_msg);\n'}
+[9.987516] (data_logger) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.987646] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:106:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass message_filters::Synchronizer<int>\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KsetMaxIntervalDuration\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.987784] (data_logger) StderrLine: {'line': b'  106 |             syncApproximate.\x1b[01;31m\x1b[KsetMaxIntervalDuration\x1b[m\x1b[K(rclcpp::Duration(3, 0));\n'}
+[9.987916] (data_logger) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.072831] (-) TimerEvent: {}
+[10.173542] (-) TimerEvent: {}
+[10.274280] (-) TimerEvent: {}
+[10.375015] (-) TimerEvent: {}
+[10.475726] (-) TimerEvent: {}
+[10.562935] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41\x1b[m\x1b[K,\n'}
+[10.563491] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:13\x1b[m\x1b[K:\n'}
+[10.563838] (data_logger) StderrLine: {'line': b'/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Synchronizer<Policy>::Synchronizer(const Policy&, F0&, F1&, F2&, F3&) [with F0 = message_filters::Subscriber<sensor_msgs::msg::Image_<std::allocator<void> > >; F1 = message_filters::Subscriber<sensor_msgs::msg::Image_<std::allocator<void> > >; F2 = message_filters::Subscriber<sensor_msgs::msg::Image_<std::allocator<void> > >; F3 = message_filters::Subscriber<geometry_msgs::msg::Twist_<std::allocator<void> > >; Policy = int]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.564059] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:104:104:\x1b[m\x1b[K   required from here\n'}
+[10.564217] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:162:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktype \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 is not a direct base of \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Synchronizer<int>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.564372] (data_logger) StderrLine: {'line': b'  162 |   : Policy(policy\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[10.564513] (data_logger) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.564645] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41\x1b[m\x1b[K,\n'}
+[10.564775] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:13\x1b[m\x1b[K:\n'}
+[10.564903] (data_logger) StderrLine: {'line': b'/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Connection message_filters::Synchronizer<Policy>::registerCallback(const C&, T*) [with C = void (DataLogger::*)(const sensor_msgs::msg::Image_<std::allocator<void> >&, const sensor_msgs::msg::Image_<std::allocator<void> >&, const sensor_msgs::msg::Image_<std::allocator<void> >&, std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >); T = DataLogger; Policy = int]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.565070] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:107:85:\x1b[m\x1b[K   required from here\n'}
+[10.565212] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:304:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kusing invalid field \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Synchronizer<Policy>::signal_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.565360] (data_logger) StderrLine: {'line': b'  304 |     return \x1b[01;31m\x1b[Ksignal_\x1b[m\x1b[K.addCallback(callback, t);\n'}
+[10.565495] (data_logger) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.575864] (-) TimerEvent: {}
+[10.676519] (-) TimerEvent: {}
+[10.777254] (-) TimerEvent: {}
+[10.877954] (-) TimerEvent: {}
+[10.978681] (-) TimerEvent: {}
+[11.079460] (-) TimerEvent: {}
+[11.180179] (-) TimerEvent: {}
+[11.280883] (-) TimerEvent: {}
+[11.381590] (-) TimerEvent: {}
+[11.482303] (-) TimerEvent: {}
+[11.583031] (-) TimerEvent: {}
+[11.683739] (-) TimerEvent: {}
+[11.784461] (-) TimerEvent: {}
+[11.885160] (-) TimerEvent: {}
+[11.985866] (-) TimerEvent: {}
+[12.086583] (-) TimerEvent: {}
+[12.187312] (-) TimerEvent: {}
+[12.288035] (-) TimerEvent: {}
+[12.388768] (-) TimerEvent: {}
+[12.489465] (-) TimerEvent: {}
+[12.590178] (-) TimerEvent: {}
+[12.690922] (-) TimerEvent: {}
+[12.791645] (-) TimerEvent: {}
+[12.892353] (-) TimerEvent: {}
+[12.993090] (-) TimerEvent: {}
+[13.093819] (-) TimerEvent: {}
+[13.194553] (-) TimerEvent: {}
+[13.295319] (-) TimerEvent: {}
+[13.396045] (-) TimerEvent: {}
+[13.496765] (-) TimerEvent: {}
+[13.597494] (-) TimerEvent: {}
+[13.698192] (-) TimerEvent: {}
+[13.798947] (-) TimerEvent: {}
+[13.899668] (-) TimerEvent: {}
+[14.000378] (-) TimerEvent: {}
+[14.101091] (-) TimerEvent: {}
+[14.201799] (-) TimerEvent: {}
+[14.302518] (-) TimerEvent: {}
+[14.403256] (-) TimerEvent: {}
+[14.503967] (-) TimerEvent: {}
+[14.604692] (-) TimerEvent: {}
+[14.705400] (-) TimerEvent: {}
+[14.806107] (-) TimerEvent: {}
+[14.906855] (-) TimerEvent: {}
+[15.007564] (-) TimerEvent: {}
+[15.108276] (-) TimerEvent: {}
+[15.208997] (-) TimerEvent: {}
+[15.309715] (-) TimerEvent: {}
+[15.410438] (-) TimerEvent: {}
+[15.511189] (-) TimerEvent: {}
+[15.611928] (-) TimerEvent: {}
+[15.712639] (-) TimerEvent: {}
+[15.813392] (-) TimerEvent: {}
+[15.914103] (-) TimerEvent: {}
+[16.014854] (-) TimerEvent: {}
+[16.115542] (-) TimerEvent: {}
+[16.216267] (-) TimerEvent: {}
+[16.317037] (-) TimerEvent: {}
+[16.417782] (-) TimerEvent: {}
+[16.518477] (-) TimerEvent: {}
+[16.619206] (-) TimerEvent: {}
+[16.719930] (-) TimerEvent: {}
+[16.820671] (-) TimerEvent: {}
+[16.921392] (-) TimerEvent: {}
+[17.022101] (-) TimerEvent: {}
+[17.122841] (-) TimerEvent: {}
+[17.223568] (-) TimerEvent: {}
+[17.324300] (-) TimerEvent: {}
+[17.425009] (-) TimerEvent: {}
+[17.525734] (-) TimerEvent: {}
+[17.626448] (-) TimerEvent: {}
+[17.727190] (-) TimerEvent: {}
+[17.827917] (-) TimerEvent: {}
+[17.928640] (-) TimerEvent: {}
+[18.029376] (-) TimerEvent: {}
+[18.130097] (-) TimerEvent: {}
+[18.230824] (-) TimerEvent: {}
+[18.331519] (-) TimerEvent: {}
+[18.432210] (-) TimerEvent: {}
+[18.532919] (-) TimerEvent: {}
+[18.633633] (-) TimerEvent: {}
+[18.734342] (-) TimerEvent: {}
+[18.835063] (-) TimerEvent: {}
+[18.935759] (-) TimerEvent: {}
+[19.036450] (-) TimerEvent: {}
+[19.137162] (-) TimerEvent: {}
+[19.237874] (-) TimerEvent: {}
+[19.338573] (-) TimerEvent: {}
+[19.439321] (-) TimerEvent: {}
+[19.540037] (-) TimerEvent: {}
+[19.640734] (-) TimerEvent: {}
+[19.741461] (-) TimerEvent: {}
+[19.842174] (-) TimerEvent: {}
+[19.942915] (-) TimerEvent: {}
+[20.043638] (-) TimerEvent: {}
+[20.129194] (data_logger) StderrLine: {'line': b'make[2]: *** [CMakeFiles/data_logger_node2.dir/build.make:76: CMakeFiles/data_logger_node2.dir/src/data_logger_node2.cpp.o] Error 1\n'}
+[20.130361] (data_logger) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/data_logger_node2.dir/all] Error 2\n'}
+[20.130578] (data_logger) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[20.133576] (data_logger) CommandEnded: {'returncode': 2}
+[20.143798] (-) TimerEvent: {}
+[20.219873] (data_logger) JobEnded: {'identifier': 'data_logger', 'rc': 2}
+[20.230939] (-) EventReactorShutdown: {}

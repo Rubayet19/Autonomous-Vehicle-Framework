@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000729] (-) JobUnselected: {'identifier': 'agv_bot_description'}
+[0.001385] (-) JobUnselected: {'identifier': 'async_web_server_cpp'}
+[0.001711] (-) JobUnselected: {'identifier': 'camera_calibration_parsers'}
+[0.003392] (-) JobUnselected: {'identifier': 'camera_info_manager'}
+[0.003502] (-) JobUnselected: {'identifier': 'camera_publishers'}
+[0.003677] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.003782] (-) JobUnselected: {'identifier': 'data_logger'}
+[0.003878] (-) JobUnselected: {'identifier': 'geodesy'}
+[0.003946] (-) JobUnselected: {'identifier': 'geographic_info'}
+[0.005463] (-) JobUnselected: {'identifier': 'geographic_msgs'}
+[0.005576] (-) JobUnselected: {'identifier': 'gps_package'}
+[0.005710] (-) JobUnselected: {'identifier': 'image_common'}
+[0.005787] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.005832] (-) JobUnselected: {'identifier': 'image_stitcher'}
+[0.005877] (-) JobUnselected: {'identifier': 'image_transport'}
+[0.005937] (-) JobUnselected: {'identifier': 'isaac_ros_apriltag_interfaces'}
+[0.005982] (-) JobUnselected: {'identifier': 'isaac_ros_bi3d_interfaces'}
+[0.007372] (-) JobUnselected: {'identifier': 'isaac_ros_common'}
+[0.007464] (-) JobUnselected: {'identifier': 'isaac_ros_nvblox'}
+[0.007619] (-) JobUnselected: {'identifier': 'isaac_ros_pointcloud_interfaces'}
+[0.007699] (-) JobUnselected: {'identifier': 'isaac_ros_tensor_list_interfaces'}
+[0.007799] (-) JobUnselected: {'identifier': 'isaac_ros_test'}
+[0.007848] (-) JobUnselected: {'identifier': 'joint_state_publisher'}
+[0.007906] (-) JobUnselected: {'identifier': 'joint_state_publisher_gui'}
+[0.008312] (-) JobUnselected: {'identifier': 'motor_control_pkg'}
+[0.008412] (-) JobUnselected: {'identifier': 'nvblox'}
+[0.008460] (-) JobUnselected: {'identifier': 'nvblox_cpu_gpu_tools'}
+[0.008505] (-) JobUnselected: {'identifier': 'nvblox_examples_bringup'}
+[0.008560] (-) JobUnselected: {'identifier': 'nvblox_image_padding'}
+[0.008610] (-) JobUnselected: {'identifier': 'nvblox_isaac_sim'}
+[0.008652] (-) JobUnselected: {'identifier': 'nvblox_msgs'}
+[0.011815] (-) JobUnselected: {'identifier': 'nvblox_nav2'}
+[0.013438] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement'}
+[0.013569] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement_msgs'}
+[0.013662] (-) JobUnselected: {'identifier': 'nvblox_ros'}
+[0.013745] (-) JobUnselected: {'identifier': 'nvblox_ros_common'}
+[0.013824] (-) JobUnselected: {'identifier': 'nvblox_rviz_plugin'}
+[0.013891] (-) JobUnselected: {'identifier': 'object_avoidance'}
+[0.013967] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.014074] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.014252] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.014335] (-) JobUnselected: {'identifier': 'realsense_obj_det'}
+[0.014379] (-) JobUnselected: {'identifier': 'road_segmentation'}
+[0.014460] (-) JobUnselected: {'identifier': 'semantic_label_conversion'}
+[0.014524] (-) JobUnselected: {'identifier': 'simple_http_server'}
+[0.014685] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.014760] (-) JobUnselected: {'identifier': 'stdgpu'}
+[0.014878] (-) JobUnselected: {'identifier': 'teleop_twist_joy'}
+[0.014944] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.014990] (-) JobUnselected: {'identifier': 'twist_converter'}
+[0.015028] (-) JobUnselected: {'identifier': 'twist_mux'}
+[0.015095] (-) JobUnselected: {'identifier': 'velodyne'}
+[0.015131] (-) JobUnselected: {'identifier': 'velodyne_driver'}
+[0.015169] (-) JobUnselected: {'identifier': 'velodyne_laserscan'}
+[0.015222] (-) JobUnselected: {'identifier': 'velodyne_msgs'}
+[0.015275] (-) JobUnselected: {'identifier': 'velodyne_pointcloud'}
+[0.015324] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.015369] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.015458] (-) JobUnselected: {'identifier': 'web_video_server_python'}
+[0.015530] (-) JobUnselected: {'identifier': 'xacro'}
+[0.015606] (realsense2_camera) JobQueued: {'identifier': 'realsense2_camera', 'dependencies': OrderedDict([('cv_bridge', '/avlcode/workspaces/isaac_ros-dev/install/cv_bridge'), ('image_transport', '/avlcode/workspaces/isaac_ros-dev/install/image_transport'), ('realsense2_camera_msgs', '/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera_msgs')])}
+[0.015822] (realsense2_camera) JobStarted: {'identifier': 'realsense2_camera'}
+[0.044126] (realsense2_camera) JobProgress: {'identifier': 'realsense2_camera', 'progress': 'cmake'}
+[0.045342] (realsense2_camera) Command: {'cmd': ['/usr/bin/cmake', '/avlcode/workspaces/isaac_ros-dev/src/realsense-ros/realsense2_camera', '-DCMAKE_INSTALL_PREFIX=/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera'], 'cwd': '/avlcode/workspaces/isaac_ros-dev/build/realsense2_camera', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'agxorin1'), ('LD_LIBRARY_PATH', '/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib:/avlcode/workspaces/isaac_ros-dev/install/image_transport/lib:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib'), ('HOME', '/root'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --packages-select realsense2_camera'), ('AMENT_PREFIX_PATH', '/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'admin'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/avlcode/workspaces/isaac_ros-dev/build/realsense2_camera'), ('PYTHONPATH', '/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/avlcode/workspaces/isaac_ros-dev/install/image_transport:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge')]), 'shell': False}
+[0.068202] (realsense2_camera) StdoutLine: {'line': b'-- Create Release Build.\n'}
+[0.098865] (-) TimerEvent: {}
+[0.103895] (realsense2_camera) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:90 (find_package):\n'}
+[0.104300] (realsense2_camera) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.104482] (realsense2_camera) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.104645] (realsense2_camera) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.104820] (realsense2_camera) StderrLine: {'line': b'\n'}
+[0.104964] (realsense2_camera) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.105103] (realsense2_camera) StderrLine: {'line': b'  any of the following names:\n'}
+[0.105236] (realsense2_camera) StderrLine: {'line': b'\n'}
+[0.105365] (realsense2_camera) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.105494] (realsense2_camera) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.105621] (realsense2_camera) StderrLine: {'line': b'\n'}
+[0.105748] (realsense2_camera) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.105876] (realsense2_camera) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.106003] (realsense2_camera) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.106129] (realsense2_camera) StderrLine: {'line': b'  has been installed.\n'}
+[0.106254] (realsense2_camera) StderrLine: {'line': b'\n'}
+[0.106466] (realsense2_camera) StderrLine: {'line': b'\x1b[0m\n'}
+[0.106984] (realsense2_camera) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.108106] (realsense2_camera) StdoutLine: {'line': b'See also "/avlcode/workspaces/isaac_ros-dev/build/realsense2_camera/CMakeFiles/CMakeOutput.log".\n'}
+[0.108431] (realsense2_camera) CommandEnded: {'returncode': 1}
+[0.162173] (realsense2_camera) JobEnded: {'identifier': 'realsense2_camera', 'rc': 1}
+[0.173433] (-) EventReactorShutdown: {}

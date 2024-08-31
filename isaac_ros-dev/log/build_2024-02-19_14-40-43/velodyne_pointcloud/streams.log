@@ -1,0 +1,110 @@
+[1.187s] Invoking command in '/workspaces/isaac_ros-dev/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/isaac_ros-dev/src/velodyne/velodyne_pointcloud -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/velodyne_pointcloud
+[2.261s] -- The C compiler identification is GNU 9.4.0
+[2.261s] -- The CXX compiler identification is GNU 9.4.0
+[2.262s] -- Detecting C compiler ABI info
+[2.262s] -- Detecting C compiler ABI info - done
+[2.262s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.262s] -- Detecting C compile features
+[2.262s] -- Detecting C compile features - done
+[2.262s] -- Detecting CXX compiler ABI info
+[2.262s] -- Detecting CXX compiler ABI info - done
+[2.262s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.263s] -- Detecting CXX compile features
+[2.263s] -- Detecting CXX compile features - done
+[2.263s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[3.747s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[3.971s] -- Found angles: 1.15.0 (/opt/ros/humble/install/share/angles/cmake)
+[3.977s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/humble/install/share/diagnostic_updater/cmake)
+[4.082s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[4.094s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[4.116s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[4.152s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.201s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.609s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[4.617s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/install/share/rmw_fastrtps_cpp/cmake)
+[5.005s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.099s] -- Found FastRTPS: /opt/ros/humble/install/include  
+[5.288s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.310s] -- Looking for pthread.h
+[5.478s] -- Looking for pthread.h - found
+[5.479s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.639s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.640s] -- Looking for pthread_create in pthreads
+[5.778s] -- Looking for pthread_create in pthreads - not found
+[5.778s] -- Looking for pthread_create in pthread
+[5.928s] -- Looking for pthread_create in pthread - found
+[5.931s] -- Found Threads: TRUE  
+[6.264s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/install/share/geometry_msgs/cmake)
+[6.367s] -- Found message_filters: 4.3.2 (/opt/ros/humble/install/share/message_filters/cmake)
+[6.421s] -- Checking for module 'eigen3'
+[6.481s] --   Found eigen3, version 3.3.7
+[6.653s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[6.653s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[6.769s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[6.776s] -- looking for PCL_COMMON
+[6.783s] [33mCMake Warning (dev) at /usr/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[6.789s]   The package name passed to `find_package_handle_standard_args` (PCL_COMMON)
+[6.790s]   does not match the name of the calling package (PCL).  This can lead to
+[6.790s]   problems in calling code that expects `find_package` result variables
+[6.790s]   (e.g., `_FOUND`) to follow a certain pattern.
+[6.790s] Call Stack (most recent call first):
+[6.790s]   /usr/lib/aarch64-linux-gnu/cmake/pcl/PCLConfig.cmake:616 (find_package_handle_standard_args)
+[6.791s]   CMakeLists.txt:19 (find_package)
+[6.791s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.791s] [0m
+[6.791s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[6.792s] -- Found PCL: pcl_common;/usr/lib/aarch64-linux-gnu/libboost_system.so;/usr/lib/aarch64-linux-gnu/libboost_filesystem.so;/usr/lib/aarch64-linux-gnu/libboost_date_time.so;/usr/lib/aarch64-linux-gnu/libboost_iostreams.so;/usr/lib/aarch64-linux-gnu/libboost_regex.so  
+[6.795s] -- Found rclcpp_components: 16.0.3 (/opt/ros/humble/install/share/rclcpp_components/cmake)
+[6.930s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/install/share/sensor_msgs/cmake)
+[7.145s] -- Found tf2: 0.25.2 (/opt/ros/humble/install/share/tf2/cmake)
+[7.165s] -- Found tf2_ros: 0.25.2 (/opt/ros/humble/install/share/tf2_ros/cmake)
+[7.784s] -- Found velodyne_msgs: 2.3.0 (/workspaces/isaac_ros-dev/install/velodyne_msgs/share/velodyne_msgs/cmake)
+[7.931s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[7.933s] -- Checking for module 'yaml-cpp'
+[8.075s] --   Found yaml-cpp, version 0.6.2
+[8.518s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[8.735s] -- Found gtest sources under '/opt/ros/humble/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.748s] -- Check if compiler accepts -pthread
+[8.940s] -- Check if compiler accepts -pthread - yes
+[8.963s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.971s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.972s] -- Configured cppcheck include dirs: /workspaces/isaac_ros-dev/src/velodyne/velodyne_pointcloud/include
+[8.972s] -- Configured cppcheck exclude dirs and/or files: 
+[8.980s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.981s] -- Configured cpplint exclude dirs and/or files: 
+[8.983s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.986s] -- Added test 'lint_cmake' to check CMake code style
+[8.988s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.996s] -- Added test 'uncrustify' to check C / C++ code style
+[8.996s] -- Configured uncrustify additional arguments: 
+[9.000s] -- Configuring done
+[9.154s] -- Generating done
+[9.161s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/velodyne_pointcloud
+[9.977s] Invoked command in '/workspaces/isaac_ros-dev/build/velodyne_pointcloud' returned '0': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/isaac_ros-dev/src/velodyne/velodyne_pointcloud -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/velodyne_pointcloud
+[9.977s] Invoking command in '/workspaces/isaac_ros-dev/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/velodyne_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/velodyne_pointcloud -- -j12 -l12
+[10.099s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[10.100s] [ 11%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_rawdata.dir/calibration.cpp.o[0m
+[10.108s] [ 16%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_cloud_types.dir/organized_cloudXYZIRT.cpp.o[0m
+[10.115s] [ 22%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_cloud_types.dir/pointcloudXYZIRT.cpp.o[0m
+[10.116s] [ 27%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_rawdata.dir/rawdata.cpp.o[0m
+[10.135s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[12.379s] [ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[12.547s] [ 38%] Built target gtest_main
+[19.140s] [ 44%] [32m[1mLinking CXX static library libgtest.a[0m
+[19.426s] [ 44%] Built target gtest
+[19.582s] [ 50%] [32mBuilding CXX object tests/CMakeFiles/test_row_step.dir/test_row_step.cpp.o[0m
+[34.794s] [ 55%] [32m[1mLinking CXX shared library libvelodyne_cloud_types.so[0m
+[35.801s] [ 55%] Built target velodyne_cloud_types
+[36.974s] [ 61%] [32m[1mLinking CXX shared library libvelodyne_rawdata.so[0m
+[38.188s] [ 61%] Built target velodyne_rawdata
+[38.318s] [ 66%] [32mBuilding CXX object CMakeFiles/transform.dir/src/conversions/transform.cpp.o[0m
+[58.542s] [ 72%] [32m[1mLinking CXX executable test_row_step[0m
+[59.555s] [ 72%] Built target test_row_step
+[91.059s] [ 77%] [32m[1mLinking CXX shared library libtransform.so[0m
+[92.927s] [ 77%] Built target transform
+[92.982s] [ 83%] [32mBuilding CXX object tests/CMakeFiles/test_calibration.dir/test_calibration.cpp.o[0m
+[96.652s] [ 88%] [32m[1mLinking CXX executable test_calibration[0m
+[97.180s] [ 88%] Built target test_calibration
+[97.211s] [ 94%] [32mBuilding CXX object CMakeFiles/velodyne_transform_node.dir/src/conversions/transform_node.cpp.o[0m
+[113.823s] [100%] [32m[1mLinking CXX executable velodyne_transform_node[0m
+[114.821s] [100%] Built target velodyne_transform_node

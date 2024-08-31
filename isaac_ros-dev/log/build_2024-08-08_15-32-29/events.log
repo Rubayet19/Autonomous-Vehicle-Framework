@@ -1,0 +1,505 @@
+[0.000000] (-) TimerEvent: {}
+[0.000742] (-) JobUnselected: {'identifier': 'agv_bot_description'}
+[0.001312] (-) JobUnselected: {'identifier': 'async_web_server_cpp'}
+[0.001630] (-) JobUnselected: {'identifier': 'camera_calibration_parsers'}
+[0.003909] (-) JobUnselected: {'identifier': 'camera_info_manager'}
+[0.004011] (-) JobUnselected: {'identifier': 'camera_publishers'}
+[0.004190] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.004273] (-) JobUnselected: {'identifier': 'geodesy'}
+[0.004363] (-) JobUnselected: {'identifier': 'geographic_info'}
+[0.004427] (-) JobUnselected: {'identifier': 'geographic_msgs'}
+[0.006043] (-) JobUnselected: {'identifier': 'gps_package'}
+[0.006127] (-) JobUnselected: {'identifier': 'image_common'}
+[0.006410] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.006486] (-) JobUnselected: {'identifier': 'image_stitcher'}
+[0.006535] (-) JobUnselected: {'identifier': 'image_transport'}
+[0.006598] (-) JobUnselected: {'identifier': 'isaac_ros_apriltag_interfaces'}
+[0.006656] (-) JobUnselected: {'identifier': 'isaac_ros_bi3d_interfaces'}
+[0.008126] (-) JobUnselected: {'identifier': 'isaac_ros_common'}
+[0.008204] (-) JobUnselected: {'identifier': 'isaac_ros_nvblox'}
+[0.008324] (-) JobUnselected: {'identifier': 'isaac_ros_pointcloud_interfaces'}
+[0.008411] (-) JobUnselected: {'identifier': 'isaac_ros_tensor_list_interfaces'}
+[0.008463] (-) JobUnselected: {'identifier': 'isaac_ros_test'}
+[0.008510] (-) JobUnselected: {'identifier': 'joint_state_publisher'}
+[0.008555] (-) JobUnselected: {'identifier': 'joint_state_publisher_gui'}
+[0.008597] (-) JobUnselected: {'identifier': 'motor_control_pkg'}
+[0.008960] (-) JobUnselected: {'identifier': 'nvblox'}
+[0.009052] (-) JobUnselected: {'identifier': 'nvblox_cpu_gpu_tools'}
+[0.009099] (-) JobUnselected: {'identifier': 'nvblox_examples_bringup'}
+[0.009145] (-) JobUnselected: {'identifier': 'nvblox_image_padding'}
+[0.009187] (-) JobUnselected: {'identifier': 'nvblox_isaac_sim'}
+[0.009228] (-) JobUnselected: {'identifier': 'nvblox_msgs'}
+[0.009273] (-) JobUnselected: {'identifier': 'nvblox_nav2'}
+[0.010766] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement'}
+[0.012432] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement_msgs'}
+[0.012544] (-) JobUnselected: {'identifier': 'nvblox_ros'}
+[0.012623] (-) JobUnselected: {'identifier': 'nvblox_ros_common'}
+[0.012695] (-) JobUnselected: {'identifier': 'nvblox_rviz_plugin'}
+[0.012761] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.012825] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.012889] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.012956] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.013019] (-) JobUnselected: {'identifier': 'realsense_obj_det'}
+[0.013083] (-) JobUnselected: {'identifier': 'road_segmentation'}
+[0.013145] (-) JobUnselected: {'identifier': 'semantic_label_conversion'}
+[0.013209] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.013276] (-) JobUnselected: {'identifier': 'stdgpu'}
+[0.013341] (-) JobUnselected: {'identifier': 'teleop_twist_joy'}
+[0.013405] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.013469] (-) JobUnselected: {'identifier': 'twist_converter'}
+[0.013533] (-) JobUnselected: {'identifier': 'twist_mux'}
+[0.013597] (-) JobUnselected: {'identifier': 'velodyne'}
+[0.013659] (-) JobUnselected: {'identifier': 'velodyne_driver'}
+[0.013722] (-) JobUnselected: {'identifier': 'velodyne_laserscan'}
+[0.013786] (-) JobUnselected: {'identifier': 'velodyne_msgs'}
+[0.013850] (-) JobUnselected: {'identifier': 'velodyne_pointcloud'}
+[0.013914] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.013978] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.014041] (-) JobUnselected: {'identifier': 'xacro'}
+[0.014119] (data_logger) JobQueued: {'identifier': 'data_logger', 'dependencies': OrderedDict([('cv_bridge', '/avlcode/workspaces/isaac_ros-dev/install/cv_bridge'), ('image_transport', '/avlcode/workspaces/isaac_ros-dev/install/image_transport')])}
+[0.014233] (data_logger) JobStarted: {'identifier': 'data_logger'}
+[0.085046] (data_logger) JobProgress: {'identifier': 'data_logger', 'progress': 'cmake'}
+[0.086884] (data_logger) JobProgress: {'identifier': 'data_logger', 'progress': 'build'}
+[0.088330] (data_logger) Command: {'cmd': ['/usr/bin/cmake', '--build', '/avlcode/workspaces/isaac_ros-dev/build/data_logger', '--', '-j12', '-l12'], 'cwd': '/avlcode/workspaces/isaac_ros-dev/build/data_logger', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources'), ('HOSTNAME', 'agxorin1'), ('ROS_PACKAGE_PATH', '/avlcode/workspaces/isaac_ros-dev/install/async_web_server_cpp/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport/lib:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/avlcode/workspaces/isaac_ros-dev/install/velodyne_pointcloud/lib:/avlcode/workspaces/isaac_ros-dev/install/velodyne_driver/lib:/avlcode/workspaces/isaac_ros-dev/install/velodyne_msgs/lib:/avlcode/workspaces/isaac_ros-dev/install/velodyne_laserscan/lib:/avlcode/workspaces/isaac_ros-dev/install/teleop_twist_joy/lib:/avlcode/workspaces/isaac_ros-dev/install/slam_toolbox/lib:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera/lib:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_ros/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_image_padding/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_ros_common/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_nav2/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_msgs/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox/lib:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib:/avlcode/workspaces/isaac_ros-dev/install/image_geometry/lib:/avlcode/workspaces/isaac_ros-dev/install/geographic_msgs/lib:/avlcode/workspaces/isaac_ros-dev/install/camera_info_manager/lib:/avlcode/workspaces/isaac_ros-dev/install/camera_calibration_parsers/lib:/avlcode/workspaces/isaac_ros-dev/install/async_web_server_cpp/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/avlcode/workspaces'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install:/avlcode/workspaces/isaac_ros-dev/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig:/avlcode/workspaces/isaac_ros-dev/install/async_web_server_cpp/lib/aarch64-linux-gnu/pkgconfig:/avlcode/workspaces/isaac_ros-dev/install/async_web_server_cpp/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('USERNAME', 'admin'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/avlcode/workspaces/isaac_ros-dev/install/xacro/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvidia/tao:/usr/local/cuda/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/usr/local/share/middleware_profiles/husarnet_fastdds_profile.xml'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/opt/ros/humble/install:/avlcode/workspaces/isaac_ros-dev/install/realsense2_description:/avlcode/workspaces/isaac_ros-dev/install/agv_bot_description:/avlcode/workspaces/isaac_ros-dev/install/xacro:/avlcode/workspaces/isaac_ros-dev/install/web_video_server:/avlcode/workspaces/isaac_ros-dev/install/vision_opencv:/avlcode/workspaces/isaac_ros-dev/install/velodyne:/avlcode/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/avlcode/workspaces/isaac_ros-dev/install/velodyne_driver:/avlcode/workspaces/isaac_ros-dev/install/velodyne_msgs:/avlcode/workspaces/isaac_ros-dev/install/velodyne_laserscan:/avlcode/workspaces/isaac_ros-dev/install/twist_mux:/avlcode/workspaces/isaac_ros-dev/install/teleop_twist_joy:/avlcode/workspaces/isaac_ros-dev/install/slam_toolbox:/avlcode/workspaces/isaac_ros-dev/install/semantic_label_conversion:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/avlcode/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin:/avlcode/workspaces/isaac_ros-dev/install/nvblox_performance_measurement:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_nvblox:/avlcode/workspaces/isaac_ros-dev/install/nvblox_ros:/avlcode/workspaces/isaac_ros-dev/install/nvblox_image_padding:/avlcode/workspaces/isaac_ros-dev/install/nvblox_ros_common:/avlcode/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs:/avlcode/workspaces/isaac_ros-dev/install/nvblox_nav2:/avlcode/workspaces/isaac_ros-dev/install/nvblox_msgs:/avlcode/workspaces/isaac_ros-dev/install/nvblox_examples_bringup:/avlcode/workspaces/isaac_ros-dev/install/motor_control_pkg:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_common:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/avlcode/workspaces/isaac_ros-dev/install/image_common:/avlcode/workspaces/isaac_ros-dev/install/image_transport:/avlcode/workspaces/isaac_ros-dev/install/image_stitcher:/avlcode/workspaces/isaac_ros-dev/install/image_geometry:/avlcode/workspaces/isaac_ros-dev/install/geographic_info:/avlcode/workspaces/isaac_ros-dev/install/geographic_msgs:/avlcode/workspaces/isaac_ros-dev/install/data_logger:/avlcode/workspaces/isaac_ros-dev/install/camera_info_manager'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/avlcode/workspaces/isaac_ros-dev/build/data_logger'), ('PYTHONPATH', '/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/twist_converter/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/teleop_twist_keyboard/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/slam_toolbox/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/road_segmentation/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/realsense_obj_det/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/opencv_tests/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/nvblox_msgs/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/nvblox_isaac_sim/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/nvblox_cpu_gpu_tools/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/motor_control_pkg/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/joint_state_publisher_gui/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/joint_state_publisher/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/image_stitcher/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/image_geometry/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/gps_package/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/geographic_msgs/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/geodesy/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/camera_publishers/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/camera_calibration_parsers/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('USER_GID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge:/avlcode/workspaces/isaac_ros-dev/install/motor_control_pkg:/avlcode/workspaces/isaac_ros-dev/install/image_stitcher:/opt/ros/humble/install:/avlcode/workspaces/isaac_ros-dev/install/realsense2_description:/avlcode/workspaces/isaac_ros-dev/install/agv_bot_description:/avlcode/workspaces/isaac_ros-dev/install/xacro:/avlcode/workspaces/isaac_ros-dev/install/web_video_server:/avlcode/workspaces/isaac_ros-dev/install/vision_opencv:/avlcode/workspaces/isaac_ros-dev/install/velodyne:/avlcode/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/avlcode/workspaces/isaac_ros-dev/install/velodyne_driver:/avlcode/workspaces/isaac_ros-dev/install/velodyne_msgs:/avlcode/workspaces/isaac_ros-dev/install/velodyne_laserscan:/avlcode/workspaces/isaac_ros-dev/install/twist_mux:/avlcode/workspaces/isaac_ros-dev/install/teleop_twist_joy:/avlcode/workspaces/isaac_ros-dev/install/slam_toolbox:/avlcode/workspaces/isaac_ros-dev/install/semantic_label_conversion:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/avlcode/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin:/avlcode/workspaces/isaac_ros-dev/install/nvblox_performance_measurement:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_nvblox:/avlcode/workspaces/isaac_ros-dev/install/nvblox_ros:/avlcode/workspaces/isaac_ros-dev/install/nvblox_image_padding:/avlcode/workspaces/isaac_ros-dev/install/nvblox_ros_common:/avlcode/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs:/avlcode/workspaces/isaac_ros-dev/install/nvblox_nav2:/avlcode/workspaces/isaac_ros-dev/install/nvblox_msgs:/avlcode/workspaces/isaac_ros-dev/install/nvblox_examples_bringup:/avlcode/workspaces/isaac_ros-dev/install/nvblox:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_common:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/avlcode/workspaces/isaac_ros-dev/install/image_common:/avlcode/workspaces/isaac_ros-dev/install/image_geometry:/avlcode/workspaces/isaac_ros-dev/install/geographic_info:/avlcode/workspaces/isaac_ros-dev/install/geographic_msgs:/avlcode/workspaces/isaac_ros-dev/install/data_logger:/avlcode/workspaces/isaac_ros-dev/install/camera_info_manager:/avlcode/workspaces/isaac_ros-dev/install/async_web_server_cpp')]), 'shell': False}
+[0.099259] (-) TimerEvent: {}
+[0.183439] (data_logger) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target data_logger_node2\x1b[0m\n'}
+[0.199326] (-) TimerEvent: {}
+[0.229882] (data_logger) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/data_logger_node2.dir/src/data_logger_node2.cpp.o\x1b[0m\n'}
+[0.299507] (-) TimerEvent: {}
+[0.400209] (-) TimerEvent: {}
+[0.500925] (-) TimerEvent: {}
+[0.601619] (-) TimerEvent: {}
+[0.702316] (-) TimerEvent: {}
+[0.802985] (-) TimerEvent: {}
+[0.903658] (-) TimerEvent: {}
+[1.004336] (-) TimerEvent: {}
+[1.105027] (-) TimerEvent: {}
+[1.205708] (-) TimerEvent: {}
+[1.306429] (-) TimerEvent: {}
+[1.407157] (-) TimerEvent: {}
+[1.507893] (-) TimerEvent: {}
+[1.608594] (-) TimerEvent: {}
+[1.709318] (-) TimerEvent: {}
+[1.810031] (-) TimerEvent: {}
+[1.910771] (-) TimerEvent: {}
+[2.011478] (-) TimerEvent: {}
+[2.112240] (-) TimerEvent: {}
+[2.213029] (-) TimerEvent: {}
+[2.313796] (-) TimerEvent: {}
+[2.414523] (-) TimerEvent: {}
+[2.515225] (-) TimerEvent: {}
+[2.615922] (-) TimerEvent: {}
+[2.716635] (-) TimerEvent: {}
+[2.817337] (-) TimerEvent: {}
+[2.918042] (-) TimerEvent: {}
+[3.018740] (-) TimerEvent: {}
+[3.119623] (-) TimerEvent: {}
+[3.220325] (-) TimerEvent: {}
+[3.321042] (-) TimerEvent: {}
+[3.422061] (-) TimerEvent: {}
+[3.522865] (-) TimerEvent: {}
+[3.623739] (-) TimerEvent: {}
+[3.724471] (-) TimerEvent: {}
+[3.825159] (-) TimerEvent: {}
+[3.925826] (-) TimerEvent: {}
+[4.026472] (-) TimerEvent: {}
+[4.127159] (-) TimerEvent: {}
+[4.227846] (-) TimerEvent: {}
+[4.328536] (-) TimerEvent: {}
+[4.429228] (-) TimerEvent: {}
+[4.529925] (-) TimerEvent: {}
+[4.630643] (-) TimerEvent: {}
+[4.731376] (-) TimerEvent: {}
+[4.832090] (-) TimerEvent: {}
+[4.932807] (-) TimerEvent: {}
+[5.034328] (-) TimerEvent: {}
+[5.135042] (-) TimerEvent: {}
+[5.235660] (-) TimerEvent: {}
+[5.336281] (-) TimerEvent: {}
+[5.436904] (-) TimerEvent: {}
+[5.537537] (-) TimerEvent: {}
+[5.638177] (-) TimerEvent: {}
+[5.738803] (-) TimerEvent: {}
+[5.839409] (-) TimerEvent: {}
+[5.940028] (-) TimerEvent: {}
+[6.040658] (-) TimerEvent: {}
+[6.141303] (-) TimerEvent: {}
+[6.241948] (-) TimerEvent: {}
+[6.342609] (-) TimerEvent: {}
+[6.443271] (-) TimerEvent: {}
+[6.543956] (-) TimerEvent: {}
+[6.644613] (-) TimerEvent: {}
+[6.745255] (-) TimerEvent: {}
+[6.845917] (-) TimerEvent: {}
+[6.946770] (-) TimerEvent: {}
+[7.047464] (-) TimerEvent: {}
+[7.148171] (-) TimerEvent: {}
+[7.248982] (-) TimerEvent: {}
+[7.349747] (-) TimerEvent: {}
+[7.450458] (-) TimerEvent: {}
+[7.551203] (-) TimerEvent: {}
+[7.651907] (-) TimerEvent: {}
+[7.752623] (-) TimerEvent: {}
+[7.853319] (-) TimerEvent: {}
+[7.954006] (-) TimerEvent: {}
+[8.054697] (-) TimerEvent: {}
+[8.155390] (-) TimerEvent: {}
+[8.256083] (-) TimerEvent: {}
+[8.356778] (-) TimerEvent: {}
+[8.457451] (-) TimerEvent: {}
+[8.558149] (-) TimerEvent: {}
+[8.658873] (-) TimerEvent: {}
+[8.759596] (-) TimerEvent: {}
+[8.860312] (-) TimerEvent: {}
+[8.961028] (-) TimerEvent: {}
+[9.061742] (-) TimerEvent: {}
+[9.162744] (-) TimerEvent: {}
+[9.263448] (-) TimerEvent: {}
+[9.364156] (-) TimerEvent: {}
+[9.464876] (-) TimerEvent: {}
+[9.565573] (-) TimerEvent: {}
+[9.666317] (-) TimerEvent: {}
+[9.767029] (-) TimerEvent: {}
+[9.867750] (-) TimerEvent: {}
+[9.968461] (-) TimerEvent: {}
+[10.069141] (-) TimerEvent: {}
+[10.169839] (-) TimerEvent: {}
+[10.270574] (-) TimerEvent: {}
+[10.371304] (-) TimerEvent: {}
+[10.419698] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:25:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[10.420357] (data_logger) StderrLine: {'line': b'   25 | using std::placeholders::_1; \x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[10.420551] (data_logger) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.471475] (-) TimerEvent: {}
+[10.572169] (-) TimerEvent: {}
+[10.672853] (-) TimerEvent: {}
+[10.773559] (-) TimerEvent: {}
+[10.874256] (-) TimerEvent: {}
+[10.924758] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDataLogger::DataLogger()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.925368] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:148:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDataLogger::m_image_count\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[10.925563] (data_logger) StderrLine: {'line': b'  148 |   int \x1b[01;35m\x1b[Km_image_count\x1b[m\x1b[K;\n'}
+[10.925724] (data_logger) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.925871] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:127:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kmessage_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, geometry_msgs::msg::Twist_<std::allocator<void> > > > DataLogger::m_sync_approximate\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[10.926037] (data_logger) StderrLine: {'line': b'  127 |         message_filters::Synchronizer<m_approximate_policy> \x1b[01;35m\x1b[Km_sync_approximate\x1b[m\x1b[K;\n'}
+[10.926210] (data_logger) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.926365] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:30:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K-Wreorder\x1b[m\x1b[K]\n'}
+[10.926509] (data_logger) StderrLine: {'line': b'   30 |   \x1b[01;35m\x1b[KDataLogger\x1b[m\x1b[K() : Node("data_logger_node"),\n'}
+[10.926641] (data_logger) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.939354] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:50:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kentry\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[10.939722] (data_logger) StderrLine: {'line': b'   50 |     for (const auto &\x1b[01;35m\x1b[Kentry\x1b[m\x1b[K : fs::directory_iterator(m_drive)) {\n'}
+[10.939877] (data_logger) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.941030] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:66:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kentry\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[10.941209] (data_logger) StderrLine: {'line': b'   66 |     for (const auto &\x1b[01;35m\x1b[Kentry\x1b[m\x1b[K : fs::directory_iterator(m_image_drive)) {\n'}
+[10.941348] (data_logger) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.974432] (-) TimerEvent: {}
+[11.075116] (-) TimerEvent: {}
+[11.175781] (-) TimerEvent: {}
+[11.276433] (-) TimerEvent: {}
+[11.377101] (-) TimerEvent: {}
+[11.477758] (-) TimerEvent: {}
+[11.578444] (-) TimerEvent: {}
+[11.679101] (-) TimerEvent: {}
+[11.779780] (-) TimerEvent: {}
+[11.880426] (-) TimerEvent: {}
+[11.981101] (-) TimerEvent: {}
+[12.081762] (-) TimerEvent: {}
+[12.182467] (-) TimerEvent: {}
+[12.283114] (-) TimerEvent: {}
+[12.383747] (-) TimerEvent: {}
+[12.484387] (-) TimerEvent: {}
+[12.585090] (-) TimerEvent: {}
+[12.685702] (-) TimerEvent: {}
+[12.786272] (-) TimerEvent: {}
+[12.886851] (-) TimerEvent: {}
+[12.987447] (-) TimerEvent: {}
+[13.088103] (-) TimerEvent: {}
+[13.188866] (-) TimerEvent: {}
+[13.289621] (-) TimerEvent: {}
+[13.390374] (-) TimerEvent: {}
+[13.491172] (-) TimerEvent: {}
+[13.592007] (-) TimerEvent: {}
+[13.692995] (-) TimerEvent: {}
+[13.793811] (-) TimerEvent: {}
+[13.894652] (-) TimerEvent: {}
+[13.995466] (-) TimerEvent: {}
+[14.096259] (-) TimerEvent: {}
+[14.197051] (-) TimerEvent: {}
+[14.297882] (-) TimerEvent: {}
+[14.398921] (-) TimerEvent: {}
+[14.499790] (-) TimerEvent: {}
+[14.600541] (-) TimerEvent: {}
+[14.701285] (-) TimerEvent: {}
+[14.802090] (-) TimerEvent: {}
+[14.902929] (-) TimerEvent: {}
+[15.003675] (-) TimerEvent: {}
+[15.104502] (-) TimerEvent: {}
+[15.205231] (-) TimerEvent: {}
+[15.305939] (-) TimerEvent: {}
+[15.406733] (-) TimerEvent: {}
+[15.507433] (-) TimerEvent: {}
+[15.608120] (-) TimerEvent: {}
+[15.708796] (-) TimerEvent: {}
+[15.809476] (-) TimerEvent: {}
+[15.910293] (-) TimerEvent: {}
+[16.010949] (-) TimerEvent: {}
+[16.111644] (-) TimerEvent: {}
+[16.212353] (-) TimerEvent: {}
+[16.313009] (-) TimerEvent: {}
+[16.413698] (-) TimerEvent: {}
+[16.514418] (-) TimerEvent: {}
+[16.615112] (-) TimerEvent: {}
+[16.715805] (-) TimerEvent: {}
+[16.816509] (-) TimerEvent: {}
+[16.917207] (-) TimerEvent: {}
+[17.017906] (-) TimerEvent: {}
+[17.118617] (-) TimerEvent: {}
+[17.219299] (-) TimerEvent: {}
+[17.320280] (-) TimerEvent: {}
+[17.420994] (-) TimerEvent: {}
+[17.522215] (-) TimerEvent: {}
+[17.622907] (-) TimerEvent: {}
+[17.723588] (-) TimerEvent: {}
+[17.824283] (-) TimerEvent: {}
+[17.924999] (-) TimerEvent: {}
+[18.025706] (-) TimerEvent: {}
+[18.126413] (-) TimerEvent: {}
+[18.227090] (-) TimerEvent: {}
+[18.327745] (-) TimerEvent: {}
+[18.428411] (-) TimerEvent: {}
+[18.529050] (-) TimerEvent: {}
+[18.629699] (-) TimerEvent: {}
+[18.730370] (-) TimerEvent: {}
+[18.830996] (-) TimerEvent: {}
+[18.931627] (-) TimerEvent: {}
+[19.032248] (-) TimerEvent: {}
+[19.132880] (-) TimerEvent: {}
+[19.233630] (-) TimerEvent: {}
+[19.334322] (-) TimerEvent: {}
+[19.434930] (-) TimerEvent: {}
+[19.535538] (-) TimerEvent: {}
+[19.636146] (-) TimerEvent: {}
+[19.736756] (-) TimerEvent: {}
+[19.837335] (-) TimerEvent: {}
+[19.937900] (-) TimerEvent: {}
+[20.038544] (-) TimerEvent: {}
+[20.139179] (-) TimerEvent: {}
+[20.240380] (-) TimerEvent: {}
+[20.341035] (-) TimerEvent: {}
+[20.441732] (-) TimerEvent: {}
+[20.542421] (-) TimerEvent: {}
+[20.643080] (-) TimerEvent: {}
+[20.743738] (-) TimerEvent: {}
+[20.844382] (-) TimerEvent: {}
+[20.945027] (-) TimerEvent: {}
+[21.045698] (-) TimerEvent: {}
+[21.146429] (-) TimerEvent: {}
+[21.247051] (-) TimerEvent: {}
+[21.347695] (-) TimerEvent: {}
+[21.448375] (-) TimerEvent: {}
+[21.549048] (-) TimerEvent: {}
+[21.649693] (-) TimerEvent: {}
+[21.750390] (-) TimerEvent: {}
+[21.851070] (-) TimerEvent: {}
+[21.951754] (-) TimerEvent: {}
+[22.052448] (-) TimerEvent: {}
+[22.153140] (-) TimerEvent: {}
+[22.253852] (-) TimerEvent: {}
+[22.354537] (-) TimerEvent: {}
+[22.455208] (-) TimerEvent: {}
+[22.555883] (-) TimerEvent: {}
+[22.656567] (-) TimerEvent: {}
+[22.757251] (-) TimerEvent: {}
+[22.857904] (-) TimerEvent: {}
+[22.958621] (-) TimerEvent: {}
+[23.059353] (-) TimerEvent: {}
+[23.160057] (-) TimerEvent: {}
+[23.260740] (-) TimerEvent: {}
+[23.361404] (-) TimerEvent: {}
+[23.462094] (-) TimerEvent: {}
+[23.562814] (-) TimerEvent: {}
+[23.663500] (-) TimerEvent: {}
+[23.764228] (-) TimerEvent: {}
+[23.864961] (-) TimerEvent: {}
+[23.965668] (-) TimerEvent: {}
+[24.066389] (-) TimerEvent: {}
+[24.167077] (-) TimerEvent: {}
+[24.267794] (-) TimerEvent: {}
+[24.368596] (-) TimerEvent: {}
+[24.469684] (-) TimerEvent: {}
+[24.570798] (-) TimerEvent: {}
+[24.671808] (-) TimerEvent: {}
+[24.772802] (-) TimerEvent: {}
+[24.873638] (-) TimerEvent: {}
+[24.974437] (-) TimerEvent: {}
+[25.075180] (-) TimerEvent: {}
+[25.175861] (-) TimerEvent: {}
+[25.276601] (-) TimerEvent: {}
+[25.377245] (-) TimerEvent: {}
+[25.477872] (-) TimerEvent: {}
+[25.578523] (-) TimerEvent: {}
+[25.679166] (-) TimerEvent: {}
+[25.779817] (-) TimerEvent: {}
+[25.880457] (-) TimerEvent: {}
+[25.981105] (-) TimerEvent: {}
+[26.081745] (-) TimerEvent: {}
+[26.182391] (-) TimerEvent: {}
+[26.283035] (-) TimerEvent: {}
+[26.383684] (-) TimerEvent: {}
+[26.484342] (-) TimerEvent: {}
+[26.584988] (-) TimerEvent: {}
+[26.685624] (-) TimerEvent: {}
+[26.786231] (-) TimerEvent: {}
+[26.886812] (-) TimerEvent: {}
+[26.987420] (-) TimerEvent: {}
+[27.088031] (-) TimerEvent: {}
+[27.188658] (-) TimerEvent: {}
+[27.289270] (-) TimerEvent: {}
+[27.389883] (-) TimerEvent: {}
+[27.490540] (-) TimerEvent: {}
+[27.591135] (-) TimerEvent: {}
+[27.691781] (-) TimerEvent: {}
+[27.792407] (-) TimerEvent: {}
+[27.893026] (-) TimerEvent: {}
+[27.993621] (-) TimerEvent: {}
+[28.094271] (-) TimerEvent: {}
+[28.194973] (-) TimerEvent: {}
+[28.295758] (-) TimerEvent: {}
+[28.396542] (-) TimerEvent: {}
+[28.497347] (-) TimerEvent: {}
+[28.598200] (-) TimerEvent: {}
+[28.698981] (-) TimerEvent: {}
+[28.799781] (-) TimerEvent: {}
+[28.900602] (-) TimerEvent: {}
+[29.001379] (-) TimerEvent: {}
+[29.102204] (-) TimerEvent: {}
+[29.202965] (-) TimerEvent: {}
+[29.303694] (-) TimerEvent: {}
+[29.404510] (-) TimerEvent: {}
+[29.505219] (-) TimerEvent: {}
+[29.605994] (-) TimerEvent: {}
+[29.706762] (-) TimerEvent: {}
+[29.807571] (-) TimerEvent: {}
+[29.908370] (-) TimerEvent: {}
+[30.009177] (-) TimerEvent: {}
+[30.109981] (-) TimerEvent: {}
+[30.210829] (-) TimerEvent: {}
+[30.311647] (-) TimerEvent: {}
+[30.412443] (-) TimerEvent: {}
+[30.513234] (-) TimerEvent: {}
+[30.614019] (-) TimerEvent: {}
+[30.714832] (-) TimerEvent: {}
+[30.815627] (-) TimerEvent: {}
+[30.916335] (-) TimerEvent: {}
+[31.017098] (-) TimerEvent: {}
+[31.117861] (-) TimerEvent: {}
+[31.218826] (-) TimerEvent: {}
+[31.319723] (-) TimerEvent: {}
+[31.420859] (-) TimerEvent: {}
+[31.522376] (-) TimerEvent: {}
+[31.623413] (-) TimerEvent: {}
+[31.724207] (-) TimerEvent: {}
+[31.824893] (-) TimerEvent: {}
+[31.925549] (-) TimerEvent: {}
+[32.026342] (-) TimerEvent: {}
+[32.127073] (-) TimerEvent: {}
+[32.227853] (-) TimerEvent: {}
+[32.328632] (-) TimerEvent: {}
+[32.429458] (-) TimerEvent: {}
+[32.530214] (-) TimerEvent: {}
+[32.630969] (-) TimerEvent: {}
+[32.731658] (-) TimerEvent: {}
+[32.832420] (-) TimerEvent: {}
+[32.933054] (-) TimerEvent: {}
+[33.033872] (-) TimerEvent: {}
+[33.134558] (-) TimerEvent: {}
+[33.235247] (-) TimerEvent: {}
+[33.336004] (-) TimerEvent: {}
+[33.436776] (-) TimerEvent: {}
+[33.537555] (-) TimerEvent: {}
+[33.638322] (-) TimerEvent: {}
+[33.739016] (-) TimerEvent: {}
+[33.839719] (-) TimerEvent: {}
+[33.940522] (-) TimerEvent: {}
+[34.041337] (-) TimerEvent: {}
+[34.142146] (-) TimerEvent: {}
+[34.243020] (-) TimerEvent: {}
+[34.343838] (-) TimerEvent: {}
+[34.444629] (-) TimerEvent: {}
+[34.545428] (-) TimerEvent: {}
+[34.646286] (-) TimerEvent: {}
+[34.747091] (-) TimerEvent: {}
+[34.847916] (-) TimerEvent: {}
+[34.948737] (-) TimerEvent: {}
+[35.049515] (-) TimerEvent: {}
+[35.150259] (-) TimerEvent: {}
+[35.251016] (-) TimerEvent: {}
+[35.351791] (-) TimerEvent: {}
+[35.452589] (-) TimerEvent: {}
+[35.553361] (-) TimerEvent: {}
+[35.654100] (-) TimerEvent: {}
+[35.754829] (-) TimerEvent: {}
+[35.855612] (-) TimerEvent: {}
+[35.956639] (-) TimerEvent: {}
+[36.057420] (-) TimerEvent: {}
+[36.158405] (-) TimerEvent: {}
+[36.259275] (-) TimerEvent: {}
+[36.360148] (-) TimerEvent: {}
+[36.460901] (-) TimerEvent: {}
+[36.561786] (-) TimerEvent: {}
+[36.662633] (-) TimerEvent: {}
+[36.763508] (-) TimerEvent: {}
+[36.864286] (-) TimerEvent: {}
+[36.965011] (-) TimerEvent: {}
+[37.065745] (-) TimerEvent: {}
+[37.166559] (-) TimerEvent: {}
+[37.267410] (-) TimerEvent: {}
+[37.368232] (-) TimerEvent: {}
+[37.468939] (-) TimerEvent: {}
+[37.569672] (-) TimerEvent: {}
+[37.670399] (-) TimerEvent: {}
+[37.771083] (-) TimerEvent: {}
+[37.774067] (data_logger) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable data_logger_node2\x1b[0m\n'}
+[37.871278] (-) TimerEvent: {}
+[37.972331] (-) TimerEvent: {}
+[38.073056] (-) TimerEvent: {}
+[38.173751] (-) TimerEvent: {}
+[38.274470] (-) TimerEvent: {}
+[38.375180] (-) TimerEvent: {}
+[38.475877] (-) TimerEvent: {}
+[38.576806] (-) TimerEvent: {}
+[38.677568] (-) TimerEvent: {}
+[38.778337] (-) TimerEvent: {}
+[38.879103] (-) TimerEvent: {}
+[38.980330] (-) TimerEvent: {}
+[39.080996] (-) TimerEvent: {}
+[39.181674] (-) TimerEvent: {}
+[39.282310] (-) TimerEvent: {}
+[39.382938] (-) TimerEvent: {}
+[39.483595] (-) TimerEvent: {}
+[39.584252] (-) TimerEvent: {}
+[39.684976] (-) TimerEvent: {}
+[39.785579] (-) TimerEvent: {}
+[39.886253] (-) TimerEvent: {}
+[39.986842] (-) TimerEvent: {}
+[40.087441] (-) TimerEvent: {}
+[40.188067] (-) TimerEvent: {}
+[40.282230] (data_logger) StdoutLine: {'line': b'[100%] Built target data_logger_node2\n'}
+[40.288168] (-) TimerEvent: {}
+[40.299144] (data_logger) CommandEnded: {'returncode': 0}
+[40.388380] (-) TimerEvent: {}
+[40.409934] (data_logger) JobProgress: {'identifier': 'data_logger', 'progress': 'install'}
+[40.433804] (data_logger) Command: {'cmd': ['/usr/bin/cmake', '--install', '/avlcode/workspaces/isaac_ros-dev/build/data_logger'], 'cwd': '/avlcode/workspaces/isaac_ros-dev/build/data_logger', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources'), ('HOSTNAME', 'agxorin1'), ('ROS_PACKAGE_PATH', '/avlcode/workspaces/isaac_ros-dev/install/async_web_server_cpp/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport/lib:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/avlcode/workspaces/isaac_ros-dev/install/velodyne_pointcloud/lib:/avlcode/workspaces/isaac_ros-dev/install/velodyne_driver/lib:/avlcode/workspaces/isaac_ros-dev/install/velodyne_msgs/lib:/avlcode/workspaces/isaac_ros-dev/install/velodyne_laserscan/lib:/avlcode/workspaces/isaac_ros-dev/install/teleop_twist_joy/lib:/avlcode/workspaces/isaac_ros-dev/install/slam_toolbox/lib:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera/lib:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_ros/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_image_padding/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_ros_common/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_nav2/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox_msgs/lib:/avlcode/workspaces/isaac_ros-dev/install/nvblox/lib:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_common/lib:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib:/avlcode/workspaces/isaac_ros-dev/install/image_geometry/lib:/avlcode/workspaces/isaac_ros-dev/install/geographic_msgs/lib:/avlcode/workspaces/isaac_ros-dev/install/camera_info_manager/lib:/avlcode/workspaces/isaac_ros-dev/install/camera_calibration_parsers/lib:/avlcode/workspaces/isaac_ros-dev/install/async_web_server_cpp/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/avlcode/workspaces'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install:/avlcode/workspaces/isaac_ros-dev/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig:/avlcode/workspaces/isaac_ros-dev/install/async_web_server_cpp/lib/aarch64-linux-gnu/pkgconfig:/avlcode/workspaces/isaac_ros-dev/install/async_web_server_cpp/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('USERNAME', 'admin'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/avlcode/workspaces/isaac_ros-dev/install/xacro/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvidia/tao:/usr/local/cuda/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/usr/local/share/middleware_profiles/husarnet_fastdds_profile.xml'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/opt/ros/humble/install:/avlcode/workspaces/isaac_ros-dev/install/realsense2_description:/avlcode/workspaces/isaac_ros-dev/install/agv_bot_description:/avlcode/workspaces/isaac_ros-dev/install/xacro:/avlcode/workspaces/isaac_ros-dev/install/web_video_server:/avlcode/workspaces/isaac_ros-dev/install/vision_opencv:/avlcode/workspaces/isaac_ros-dev/install/velodyne:/avlcode/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/avlcode/workspaces/isaac_ros-dev/install/velodyne_driver:/avlcode/workspaces/isaac_ros-dev/install/velodyne_msgs:/avlcode/workspaces/isaac_ros-dev/install/velodyne_laserscan:/avlcode/workspaces/isaac_ros-dev/install/twist_mux:/avlcode/workspaces/isaac_ros-dev/install/teleop_twist_joy:/avlcode/workspaces/isaac_ros-dev/install/slam_toolbox:/avlcode/workspaces/isaac_ros-dev/install/semantic_label_conversion:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/avlcode/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin:/avlcode/workspaces/isaac_ros-dev/install/nvblox_performance_measurement:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_nvblox:/avlcode/workspaces/isaac_ros-dev/install/nvblox_ros:/avlcode/workspaces/isaac_ros-dev/install/nvblox_image_padding:/avlcode/workspaces/isaac_ros-dev/install/nvblox_ros_common:/avlcode/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs:/avlcode/workspaces/isaac_ros-dev/install/nvblox_nav2:/avlcode/workspaces/isaac_ros-dev/install/nvblox_msgs:/avlcode/workspaces/isaac_ros-dev/install/nvblox_examples_bringup:/avlcode/workspaces/isaac_ros-dev/install/motor_control_pkg:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_common:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/avlcode/workspaces/isaac_ros-dev/install/image_common:/avlcode/workspaces/isaac_ros-dev/install/image_transport:/avlcode/workspaces/isaac_ros-dev/install/image_stitcher:/avlcode/workspaces/isaac_ros-dev/install/image_geometry:/avlcode/workspaces/isaac_ros-dev/install/geographic_info:/avlcode/workspaces/isaac_ros-dev/install/geographic_msgs:/avlcode/workspaces/isaac_ros-dev/install/data_logger:/avlcode/workspaces/isaac_ros-dev/install/camera_info_manager'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/avlcode/workspaces/isaac_ros-dev/build/data_logger'), ('PYTHONPATH', '/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/xacro/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/twist_converter/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/teleop_twist_keyboard/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/slam_toolbox/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/road_segmentation/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/realsense_obj_det/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera_msgs/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/opencv_tests/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/nvblox_msgs/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/nvblox_isaac_sim/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/nvblox_cpu_gpu_tools/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/motor_control_pkg/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/joint_state_publisher_gui/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/joint_state_publisher/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_test/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/image_stitcher/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/image_geometry/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/gps_package/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/geographic_msgs/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/geodesy/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/camera_publishers/lib/python3.8/site-packages:/avlcode/workspaces/isaac_ros-dev/install/camera_calibration_parsers/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('USER_GID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge:/avlcode/workspaces/isaac_ros-dev/install/motor_control_pkg:/avlcode/workspaces/isaac_ros-dev/install/image_stitcher:/opt/ros/humble/install:/avlcode/workspaces/isaac_ros-dev/install/realsense2_description:/avlcode/workspaces/isaac_ros-dev/install/agv_bot_description:/avlcode/workspaces/isaac_ros-dev/install/xacro:/avlcode/workspaces/isaac_ros-dev/install/web_video_server:/avlcode/workspaces/isaac_ros-dev/install/vision_opencv:/avlcode/workspaces/isaac_ros-dev/install/velodyne:/avlcode/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/avlcode/workspaces/isaac_ros-dev/install/velodyne_driver:/avlcode/workspaces/isaac_ros-dev/install/velodyne_msgs:/avlcode/workspaces/isaac_ros-dev/install/velodyne_laserscan:/avlcode/workspaces/isaac_ros-dev/install/twist_mux:/avlcode/workspaces/isaac_ros-dev/install/teleop_twist_joy:/avlcode/workspaces/isaac_ros-dev/install/slam_toolbox:/avlcode/workspaces/isaac_ros-dev/install/semantic_label_conversion:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera:/avlcode/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/avlcode/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin:/avlcode/workspaces/isaac_ros-dev/install/nvblox_performance_measurement:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_nvblox:/avlcode/workspaces/isaac_ros-dev/install/nvblox_ros:/avlcode/workspaces/isaac_ros-dev/install/nvblox_image_padding:/avlcode/workspaces/isaac_ros-dev/install/nvblox_ros_common:/avlcode/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs:/avlcode/workspaces/isaac_ros-dev/install/nvblox_nav2:/avlcode/workspaces/isaac_ros-dev/install/nvblox_msgs:/avlcode/workspaces/isaac_ros-dev/install/nvblox_examples_bringup:/avlcode/workspaces/isaac_ros-dev/install/nvblox:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_common:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/avlcode/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/avlcode/workspaces/isaac_ros-dev/install/image_common:/avlcode/workspaces/isaac_ros-dev/install/image_geometry:/avlcode/workspaces/isaac_ros-dev/install/geographic_info:/avlcode/workspaces/isaac_ros-dev/install/geographic_msgs:/avlcode/workspaces/isaac_ros-dev/install/data_logger:/avlcode/workspaces/isaac_ros-dev/install/camera_info_manager:/avlcode/workspaces/isaac_ros-dev/install/async_web_server_cpp')]), 'shell': False}
+[40.452322] (data_logger) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[40.453047] (data_logger) StdoutLine: {'line': b'-- Installing: /avlcode/workspaces/isaac_ros-dev/install/data_logger/lib/data_logger/data_logger_node2\n'}
+[40.453238] (data_logger) StderrLine: {'line': b'\x1b[31mCMake Error at cmake_install.cmake:52 (file):\n'}
+[40.453441] (data_logger) StderrLine: {'line': b'  file INSTALL cannot copy file\n'}
+[40.453883] (data_logger) StderrLine: {'line': b'  "/avlcode/workspaces/isaac_ros-dev/build/data_logger/data_logger_node2" to\n'}
+[40.454553] (data_logger) StderrLine: {'line': b'  "/avlcode/workspaces/isaac_ros-dev/install/data_logger/lib/data_logger/data_logger_node2":\n'}
+[40.455204] (data_logger) StderrLine: {'line': b'  Permission denied.\n'}
+[40.455387] (data_logger) StderrLine: {'line': b'\n'}
+[40.455544] (data_logger) StderrLine: {'line': b'\x1b[0m\n'}
+[40.456383] (data_logger) CommandEnded: {'returncode': 1}
+[40.488582] (-) TimerEvent: {}
+[40.591036] (-) TimerEvent: {}
+[40.644812] (data_logger) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 85, in build\n    create_environment_scripts(\n  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 89, in create_environment_scripts\n    create_file_with_runtime_dependencies(prefix_path, pkg))\n  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 172, in create_file_with_runtime_dependencies\n    path.write_text(\n  File "/usr/lib/python3.8/pathlib.py", line 1255, in write_text\n    with self.open(mode=\'w\', encoding=encoding, errors=errors) as f:\n  File "/usr/lib/python3.8/pathlib.py", line 1222, in open\n    return io.open(self, mode, buffering, encoding, errors, newline,\n  File "/usr/lib/python3.8/pathlib.py", line 1078, in _opener\n    return self._accessor.open(self, flags, mode)\nPermissionError: [Errno 13] Permission denied: \'/avlcode/workspaces/isaac_ros-dev/install/data_logger/share/colcon-core/packages/data_logger\'\n'}
+[40.645546] (data_logger) JobEnded: {'identifier': 'data_logger', 'rc': 1}
+[40.656405] (-) EventReactorShutdown: {}

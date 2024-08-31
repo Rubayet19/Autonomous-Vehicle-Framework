@@ -1,0 +1,90 @@
+[0.275s] Invoking command in '/workspaces/isaac_ros-dev/build/nvblox': /usr/bin/cmake /workspaces/isaac_ros-dev/src/isaac_ros_nvblox/nvblox/nvblox -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/nvblox
+[1.443s] -- The CXX compiler identification is GNU 9.4.0
+[2.134s] -- The CUDA compiler identification is NVIDIA 11.4.315
+[2.151s] -- Detecting CXX compiler ABI info
+[2.353s] -- Detecting CXX compiler ABI info - done
+[2.370s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.371s] -- Detecting CXX compile features
+[2.373s] -- Detecting CXX compile features - done
+[2.382s] -- Detecting CUDA compiler ABI info
+[3.695s] -- Detecting CUDA compiler ABI info - done
+[3.738s] -- Check for working CUDA compiler: /usr/local/cuda/bin/nvcc - skipped
+[3.739s] -- Detecting CUDA compile features
+[3.739s] -- Detecting CUDA compile features - done
+[3.741s] -- Downloading 3rdparty dependencies
+[3.742s] -- Downloading Eigen
+[3.770s] -- Downloading STDGPU
+[8.891s] -- Found thrust: /usr/local/cuda/include (found suitable version "1.12.1", minimum required is "1.9.2") 
+[8.910s] -- Found CUDAToolkit: /usr/local/cuda/include (found suitable version "11.4.315", minimum required is "10.0") 
+[9.015s] -- Looking for C++ include pthread.h
+[9.515s] -- Looking for C++ include pthread.h - found
+[9.516s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.894s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.894s] -- Looking for pthread_create in pthreads
+[10.234s] -- Looking for pthread_create in pthreads - not found
+[10.234s] -- Looking for pthread_create in pthread
+[10.485s] -- Looking for pthread_create in pthread - found
+[10.488s] -- Found Threads: TRUE  
+[10.831s] -- Could NOT find Doxygen: Found unsuitable version "1.8.17", but required is at least "1.9.1" (found /usr/bin/doxygen, found components: doxygen dot)
+[10.891s] -- 
+[10.892s] -- ************************ stdgpu Configuration Summary *************************
+[10.892s] -- 
+[10.892s] -- General:
+[10.892s] --   Version                                   :   1.3.0
+[10.892s] --   System                                    :   Linux
+[10.892s] --   Build type                                :   RelWithDebInfo
+[10.892s] -- 
+[10.893s] -- Build:
+[10.893s] --   STDGPU_BACKEND                            :   STDGPU_BACKEND_CUDA
+[10.893s] --   STDGPU_BUILD_SHARED_LIBS                  :   OFF
+[10.893s] --   STDGPU_SETUP_COMPILER_FLAGS               :   OFF
+[10.893s] --   STDGPU_TREAT_WARNINGS_AS_ERRORS           :   OFF
+[10.893s] --   STDGPU_ANALYZE_WITH_CLANG_TIDY            :   OFF
+[10.893s] --   STDGPU_ANALYZE_WITH_CPPCHECK              :   OFF
+[10.893s] -- 
+[10.894s] -- Configuration:
+[10.894s] --   STDGPU_ENABLE_CONTRACT_CHECKS             :   OFF
+[10.894s] --   STDGPU_USE_32_BIT_INDEX                   :   ON
+[10.894s] -- 
+[10.894s] -- Examples:
+[10.894s] --   STDGPU_BUILD_EXAMPLES                     :   OFF
+[10.894s] -- 
+[10.894s] -- Tests:
+[10.895s] --   STDGPU_BUILD_TESTS                        :   OFF
+[10.895s] --   STDGPU_BUILD_TEST_COVERAGE                :   OFF
+[10.895s] -- 
+[10.895s] -- Documentation:
+[10.895s] --   Doxygen                                   :   NO
+[10.895s] -- 
+[10.895s] -- *******************************************************************************
+[10.895s] -- 
+[10.895s] -- Detecting CCs of GPUs : /workspaces/isaac_ros-dev/build/nvblox/_deps/ext_stdgpu-src/cmake/cuda/compute_capability.cpp
+[12.114s] -- Detecting CCs of GPUs : /workspaces/isaac_ros-dev/build/nvblox/_deps/ext_stdgpu-src/cmake/cuda/compute_capability.cpp - Success (found CCs : 87)
+[12.114s] -- Enabled compilation for CC 87
+[12.114s] -- Building with modified CMAKE_CUDA_ARCHITECTURES : 87
+[12.177s] -- Found CUDA: /usr/local/cuda (found version "11.4") 
+[12.186s] -- Found Glog: /usr/include  
+[12.200s] -- Found SQLite3: /usr/include (found version "3.31.1") 
+[12.226s] -- Found GTest: /opt/ros/humble/install/lib/cmake/GTest/GTestConfig.cmake (found version "1.10.0")  
+[12.228s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data
+[12.229s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch
+[12.229s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/camera-intrinsics.txt
+[12.229s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01
+[12.230s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000000.depth.png
+[12.230s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000001.color.png
+[12.232s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000001.depth.png
+[12.233s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000002.color.png
+[12.235s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000002.depth.png
+[12.236s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000116.pose.txt
+[12.237s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000001.pose.txt
+[12.238s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000000.pose.txt
+[12.239s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000422.depth.png
+[12.239s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000002.pose.txt
+[12.240s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000422.pose.txt
+[12.241s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000422.color.png
+[12.242s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000000.color.png
+[12.244s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000116.depth.png
+[12.245s] -- Installing: /workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000116.color.png
+[12.270s] -- Configuring done
+[12.614s] -- Generating done
+[12.629s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/nvblox

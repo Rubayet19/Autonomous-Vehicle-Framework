@@ -1,0 +1,322 @@
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:25:30:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   25 | using std::placeholders::_1; [01;35m[K;[m[K
+      |                              [01;35m[K^[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:148:54:[m[K [01;31m[Kerror: [m[K‘[01m[KImageConstPtr[m[K’ in namespace ‘[01m[Ksensor_msgs[m[K’ does not name a type
+  148 |         void camera_sync_callback(const sensor_msgs::[01;31m[KImageConstPtr[m[K &front_image, const sensor_msgs::ImageConstPtr &left_image,
+      |                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:148:101:[m[K [01;31m[Kerror: [m[K‘[01m[KImageConstPtr[m[K’ in namespace ‘[01m[Ksensor_msgs[m[K’ does not name a type
+  148 |         void camera_sync_callback(const sensor_msgs::ImageConstPtr &front_image, const sensor_msgs::[01;31m[KImageConstPtr[m[K &left_image,
+      |                                                                                                     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:149:32:[m[K [01;31m[Kerror: [m[K‘[01m[KImageConstPtr[m[K’ in namespace ‘[01m[Ksensor_msgs[m[K’ does not name a type
+  149 |             const sensor_msgs::[01;31m[KImageConstPtr[m[K &right_image, const geometry_msgs::ConstPtr &msg){
+      |                                [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:149:81:[m[K [01;31m[Kerror: [m[K‘[01m[KConstPtr[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+  149 |             const sensor_msgs::ImageConstPtr &right_image, const geometry_msgs::[01;31m[KConstPtr[m[K &msg){
+      |                                                                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:[m[K In constructor ‘[01m[KDataLogger::DataLogger()[m[K’:
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:147:7:[m[K [01;35m[Kwarning: [m[K‘[01m[KDataLogger::m_image_count[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  147 |   int [01;35m[Km_image_count[m[K;
+      |       [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:126:61:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kmessage_filters::Synchronizer<message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, geometry_msgs::msg::Twist_<std::allocator<void> > > > DataLogger::m_sync_approximate[m[K’ [[01;35m[K-Wreorder[m[K]
+  126 |         message_filters::Synchronizer<m_approximate_policy> [01;35m[Km_sync_approximate[m[K;
+      |                                                             [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:30:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   30 |   [01;35m[KDataLogger[m[K() : Node("data_logger_node"),
+      |   [01;35m[K^~~~~~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:50:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kentry[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   50 |     for (const auto &[01;35m[Kentry[m[K : fs::directory_iterator(m_drive)) {
+      |                      [01;35m[K^~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:66:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kentry[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   66 |     for (const auto &[01;35m[Kentry[m[K : fs::directory_iterator(m_image_drive)) {
+      |                      [01;35m[K^~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:[m[K In member function ‘[01m[Kvoid DataLogger::camera_sync_callback(const int&, const int&, const int&, const int&)[m[K’:
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:161:95:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoCvCopy(const int&, const char [5])[m[K’
+  161 |             cv_front_ptr = cv_bridge::toCvCopy(front_image, sensor_msgs::image_encodings::BGR8[01;31m[K)[m[K;
+      |                                                                                               [01;31m[K^[m[K
+In file included from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:9[m[K:
+[01m[K/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp:177:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)[m[K’
+  177 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp:178:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst int[m[K’ to ‘[01m[Kconst ConstSharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&[m[K’}
+  178 |   [01;36m[Kconst sensor_msgs::msg::Image::ConstSharedPtr & source[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp:181:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)[m[K’
+  181 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp:182:61:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst int[m[K’ to ‘[01m[Kconst ConstSharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::CompressedImage_<std::allocator<void> > >&[m[K’}
+  182 |   [01;36m[Kconst sensor_msgs::msg::CompressedImage::ConstSharedPtr & source[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp:204:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const Image&, const string&)[m[K’
+  204 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp:205:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst int[m[K’ to ‘[01m[Kconst Image&[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Image_<std::allocator<void> >&[m[K’}
+  205 |   [01;36m[Kconst sensor_msgs::msg::Image & source[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp:208:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const CompressedImage&, const string&)[m[K’
+  208 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp:209:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst int[m[K’ to ‘[01m[Kconst CompressedImage&[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::CompressedImage_<std::allocator<void> >&[m[K’}
+  209 |   [01;36m[Kconst sensor_msgs::msg::CompressedImage & source[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:162:93:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoCvCopy(const int&, const char [5])[m[K’
+  162 |             cv_left_ptr = cv_bridge::toCvCopy(left_image, sensor_msgs::image_encodings::BGR8[01;31m[K)[m[K;
+      |                                                                                             [01;31m[K^[m[K
+In file included from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:9[m[K:
+[01m[K/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp:177:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)[m[K’
+  177 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp:178:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst int[m[K’ to ‘[01m[Kconst ConstSharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&[m[K’}
+  178 |   [01;36m[Kconst sensor_msgs::msg::Image::ConstSharedPtr & source[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp:181:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)[m[K’
+  181 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp:182:61:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst int[m[K’ to ‘[01m[Kconst ConstSharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::CompressedImage_<std::allocator<void> > >&[m[K’}
+  182 |   [01;36m[Kconst sensor_msgs::msg::CompressedImage::ConstSharedPtr & source[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp:204:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const Image&, const string&)[m[K’
+  204 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp:205:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst int[m[K’ to ‘[01m[Kconst Image&[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Image_<std::allocator<void> >&[m[K’}
+  205 |   [01;36m[Kconst sensor_msgs::msg::Image & source[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp:208:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const CompressedImage&, const string&)[m[K’
+  208 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp:209:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst int[m[K’ to ‘[01m[Kconst CompressedImage&[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::CompressedImage_<std::allocator<void> >&[m[K’}
+  209 |   [01;36m[Kconst sensor_msgs::msg::CompressedImage & source[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:163:95:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoCvCopy(const int&, const char [5])[m[K’
+  163 |             cv_right_ptr = cv_bridge::toCvCopy(right_image, sensor_msgs::image_encodings::BGR8[01;31m[K)[m[K;
+      |                                                                                               [01;31m[K^[m[K
+In file included from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:9[m[K:
+[01m[K/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp:177:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)[m[K’
+  177 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp:178:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst int[m[K’ to ‘[01m[Kconst ConstSharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&[m[K’}
+  178 |   [01;36m[Kconst sensor_msgs::msg::Image::ConstSharedPtr & source[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp:181:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const ConstSharedPtr&, const string&)[m[K’
+  181 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp:182:61:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst int[m[K’ to ‘[01m[Kconst ConstSharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::CompressedImage_<std::allocator<void> > >&[m[K’}
+  182 |   [01;36m[Kconst sensor_msgs::msg::CompressedImage::ConstSharedPtr & source[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp:204:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const Image&, const string&)[m[K’
+  204 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp:205:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst int[m[K’ to ‘[01m[Kconst Image&[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Image_<std::allocator<void> >&[m[K’}
+  205 |   [01;36m[Kconst sensor_msgs::msg::Image & source[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp:208:29:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImagePtr cv_bridge::toCvCopy(const CompressedImage&, const string&)[m[K’
+  208 | CV_BRIDGE_EXPORT CvImagePtr [01;36m[KtoCvCopy[m[K(
+      |                             [01;36m[K^~~~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.hpp:209:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst int[m[K’ to ‘[01m[Kconst CompressedImage&[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::CompressedImage_<std::allocator<void> >&[m[K’}
+  209 |   [01;36m[Kconst sensor_msgs::msg::CompressedImage & source[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:177:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  177 |    double steering_angle = msg[01;31m[K->[m[Kangular.z;
+      |                               [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14[m[K:
+/opt/ros/humble/install/include/message_filters/message_filters/signal9.h: In instantiation of ‘[01m[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(C&) [with C = const std::_Bind<void (DataLogger::*(DataLogger*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>))(const int&, const int&, const int&, const int&)>; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’:
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:298:40:[m[K   required from ‘[01m[Kmessage_filters::Connection message_filters::Synchronizer<Policy>::registerCallback(const C&) [with C = std::_Bind<void (DataLogger::*(DataLogger*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>))(const int&, const int&, const int&, const int&)>; Policy = message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, geometry_msgs::msg::Twist_<std::allocator<void> > >][m[K’
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:111:50:[m[K   required from here
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmessage_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, geometry_msgs::msg::Twist_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::addCallback<const M0ConstPtr&, const M1ConstPtr&, const M2ConstPtr&, const M3ConstPtr&, const M4ConstPtr&, const M5ConstPtr&, const M6ConstPtr&, const M7ConstPtr&, const M8ConstPtr&>(std::_Bind_helper<false, const std::_Bind<void (DataLogger::*(DataLogger*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>))(const int&, const int&, const int&, const int&)>&, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&, const std::_Placeholder<4>&, const std::_Placeholder<5>&, const std::_Placeholder<6>&, const std::_Placeholder<7>&, const std::_Placeholder<8>&, const std::_Placeholder<9>&>::type)[m[K’
+  280 | placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)[01;31m[K)[m[K;
+      |                                                                                                                                     [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14[m[K:
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:170:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(const std::function<void(P0, P1, P2, P3, P4, P5, P6, P7, P8)>&) [with P0 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P1 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P2 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P3 = const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&; P4 = const std::shared_ptr<const message_filters::NullType>&; P5 = const std::shared_ptr<const message_filters::NullType>&; P6 = const std::shared_ptr<const message_filters::NullType>&; P7 = const std::shared_ptr<const message_filters::NullType>&; P8 = const std::shared_ptr<const message_filters::NullType>&; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  170 |   Connection [01;36m[KaddCallback[m[K(const std::function<void(P0, P1, P2, P3, P4, P5, P6, P7, P8)>& callback)
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:170:89:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_Bind_helper<false, const std::_Bind<void (DataLogger::*(DataLogger*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>))(const int&, const int&, const int&, const int&)>&, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&, const std::_Placeholder<4>&, const std::_Placeholder<5>&, const std::_Placeholder<6>&, const std::_Placeholder<7>&, const std::_Placeholder<8>&, const std::_Placeholder<9>&>::type[m[K’ {aka ‘[01m[Kstd::_Bind<std::_Bind<void (DataLogger::*(DataLogger*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>))(const int&, const int&, const int&, const int&)>(std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>, std::_Placeholder<5>, std::_Placeholder<6>, std::_Placeholder<7>, std::_Placeholder<8>, std::_Placeholder<9>)>[m[K’} to ‘[01m[Kconst std::function<void(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&)>&[m[K’
+  170 |   Connection addCallback([01;36m[Kconst std::function<void(P0, P1, P2, P3, P4, P5, P6, P7, P8)>& callback[m[K)
+      |                          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:180:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class P0, class P1> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1)) [with P0 = P0; P1 = P1; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  180 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1))
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:180:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14[m[K:
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 2)
+  280 | placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)[01;31m[K)[m[K;
+      |                                                                                                                                     [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14[m[K:
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:186:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class P0, class P1, class P2> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2)) [with P0 = P0; P1 = P1; P2 = P2; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  186 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2))
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:186:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14[m[K:
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 3)
+  280 | placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)[01;31m[K)[m[K;
+      |                                                                                                                                     [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14[m[K:
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:192:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class P0, class P1, class P2, class P3> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3)) [with P0 = P0; P1 = P1; P2 = P2; P3 = P3; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  192 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3))
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:192:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14[m[K:
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 4)
+  280 | placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)[01;31m[K)[m[K;
+      |                                                                                                                                     [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14[m[K:
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:198:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class P0, class P1, class P2, class P3, class P4> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4)) [with P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  198 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3, P4))
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:198:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14[m[K:
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 5)
+  280 | placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)[01;31m[K)[m[K;
+      |                                                                                                                                     [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14[m[K:
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:204:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class P0, class P1, class P2, class P3, class P4, class P5> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4, P5)) [with P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  204 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3, P4, P5))
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:204:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14[m[K:
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 6)
+  280 | placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)[01;31m[K)[m[K;
+      |                                                                                                                                     [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14[m[K:
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:210:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class P0, class P1, class P2, class P3, class P4, class P5, class P6> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4, P5, P6)) [with P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; P6 = P6; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  210 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3, P4, P5, P6))
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:210:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:47[m[K,
+                 from [01m[K/opt/ros/humble/install/include/message_filters/message_filters/time_synchronizer.h:41[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:14[m[K:
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 7)
+  280 | placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)[01;31m[K)[m[K;
+      |                                                                                                                                     [01;31m[K^[m[K
+
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:216:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class P0, class P1, class P2, class P3, class P4, class P5, class P6, class P7> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4, P5, P6, P7)) [with P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; P6 = P6; P7 = P7; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  216 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3, P4, P5, P6, P7))
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:216:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 8)
+  280 | placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)[01;31m[K)[m[K;
+      |                                                                                                                                     [01;31m[K^[m[K
+
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:222:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (*)(P0, P1, P2, P3, P4, P5, P6, P7, P8)) [with P0 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P1 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P2 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P3 = const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&; P4 = const std::shared_ptr<const message_filters::NullType>&; P5 = const std::shared_ptr<const message_filters::NullType>&; P6 = const std::shared_ptr<const message_filters::NullType>&; P7 = const std::shared_ptr<const message_filters::NullType>&; P8 = const std::shared_ptr<const message_filters::NullType>&; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  222 |   Connection [01;36m[KaddCallback[m[K(void(*callback)(P0, P1, P2, P3, P4, P5, P6, P7, P8))
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:222:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_Bind_helper<false, const std::_Bind<void (DataLogger::*(DataLogger*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>))(const int&, const int&, const int&, const int&)>&, const std::_Placeholder<1>&, const std::_Placeholder<2>&, const std::_Placeholder<3>&, const std::_Placeholder<4>&, const std::_Placeholder<5>&, const std::_Placeholder<6>&, const std::_Placeholder<7>&, const std::_Placeholder<8>&, const std::_Placeholder<9>&>::type[m[K’ {aka ‘[01m[Kstd::_Bind<std::_Bind<void (DataLogger::*(DataLogger*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>))(const int&, const int&, const int&, const int&)>(std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>, std::_Placeholder<5>, std::_Placeholder<6>, std::_Placeholder<7>, std::_Placeholder<8>, std::_Placeholder<9>)>[m[K’} to ‘[01m[Kvoid (*)(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&, const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&, const std::shared_ptr<const message_filters::NullType>&)[m[K’
+  222 |   Connection addCallback([01;36m[Kvoid(*callback)(P0, P1, P2, P3, P4, P5, P6, P7, P8)[m[K)
+      |                          [01;36m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:228:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class P0, class P1> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1), T*) [with T = T; P0 = P0; P1 = P1; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  228 |   Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1), T* t)
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:228:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 3)
+  280 | placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)[01;31m[K)[m[K;
+      |                                                                                                                                     [01;31m[K^[m[K
+
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:234:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class P0, class P1, class P2> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2), T*) [with T = T; P0 = P0; P1 = P1; P2 = P2; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  234 |   Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1, P2), T* t)
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:234:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 4)
+  280 | placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)[01;31m[K)[m[K;
+      |                                                                                                                                     [01;31m[K^[m[K
+
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:240:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class P0, class P1, class P2, class P3> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3), T*) [with T = T; P0 = P0; P1 = P1; P2 = P2; P3 = P3; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  240 |   Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1, P2, P3), T* t)
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:240:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 5)
+  280 | placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)[01;31m[K)[m[K;
+      |                                                                                                                                     [01;31m[K^[m[K
+
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:246:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class P0, class P1, class P2, class P3, class P4> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3, P4), T*) [with T = T; P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  246 |   Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1, P2, P3, P4), T* t)
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:246:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 6)
+  280 | placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)[01;31m[K)[m[K;
+      |                                                                                                                                     [01;31m[K^[m[K
+
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:252:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class P0, class P1, class P2, class P3, class P4, class P5> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3, P4, P5), T*) [with T = T; P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  252 |   Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1, P2, P3, P4, P5), T* t)
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:252:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 7)
+  280 | placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)[01;31m[K)[m[K;
+      |                                                                                                                                     [01;31m[K^[m[K
+
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:258:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class P0, class P1, class P2, class P3, class P4, class P5, class P6> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3, P4, P5, P6), T*) [with T = T; P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; P6 = P6; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  258 |   Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1, P2, P3, P4, P5, P6), T* t)
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:258:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 8)
+  280 | placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)[01;31m[K)[m[K;
+      |                                                                                                                                     [01;31m[K^[m[K
+
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:264:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class P0, class P1, class P2, class P3, class P4, class P5, class P6, class P7> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(void (T::*)(P0, P1, P2, P3, P4, P5, P6, P7), T*) [with T = T; P0 = P0; P1 = P1; P2 = P2; P3 = P3; P4 = P4; P5 = P5; P6 = P6; P7 = P7; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  264 |   Connection [01;36m[KaddCallback[m[K(void(T::*callback)(P0, P1, P2, P3, P4, P5, P6, P7), T* t)
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:264:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/opt/ros/humble/install/include/message_filters/message_filters/signal9.h: In substitution of ‘[01m[Ktemplate<class T, class P0, class P1, class P2, class P3, class P4, class P5, class P6, class P7> message_filters::Connection message_filters::Signal9<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, geometry_msgs::msg::Twist_<std::allocator<void> >, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType, message_filters::NullType>::addCallback<T, P0, P1, P2, P3, P4, P5, P6, P7>(void (T::*)(P0, P1, P2, P3, P4, P5, P6, P7), T*) [with T = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P0 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P1 = const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&; P2 = const std::shared_ptr<const geometry_msgs::msg::Twist_<std::allocator<void> > >&; P3 = const std::shared_ptr<const message_filters::NullType>&; P4 = const std::shared_ptr<const message_filters::NullType>&; P5 = const std::shared_ptr<const message_filters::NullType>&; P6 = const std::shared_ptr<const message_filters::NullType>&; P7 = const std::shared_ptr<const message_filters::NullType>&][m[K’:
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:[m[K   required from ‘[01m[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(C&) [with C = const std::_Bind<void (DataLogger::*(DataLogger*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>))(const int&, const int&, const int&, const int&)>; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:298:40:[m[K   required from ‘[01m[Kmessage_filters::Connection message_filters::Synchronizer<Policy>::registerCallback(const C&) [with C = std::_Bind<void (DataLogger::*(DataLogger*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>))(const int&, const int&, const int&, const int&)>; Policy = message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, geometry_msgs::msg::Twist_<std::allocator<void> > >][m[K’
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:111:50:[m[K   required from here
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:264:14:[m[K [01;31m[Kerror: [m[Kforming pointer to reference type ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&[m[K’
+/opt/ros/humble/install/include/message_filters/message_filters/signal9.h: In instantiation of ‘[01m[Kmessage_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(C&) [with C = const std::_Bind<void (DataLogger::*(DataLogger*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>))(const int&, const int&, const int&, const int&)>; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’:
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/synchronizer.h:298:40:[m[K   required from ‘[01m[Kmessage_filters::Connection message_filters::Synchronizer<Policy>::registerCallback(const C&) [with C = std::_Bind<void (DataLogger::*(DataLogger*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>, std::_Placeholder<4>))(const int&, const int&, const int&, const int&)>; Policy = message_filters::sync_policies::ApproximateTime<sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, sensor_msgs::msg::Image_<std::allocator<void> >, geometry_msgs::msg::Twist_<std::allocator<void> > >][m[K’
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node2.cpp:111:50:[m[K   required from here
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:270:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class C> message_filters::Connection message_filters::Signal9<M0, M1, M2, M3, M4, M5, M6, M7, M8>::addCallback(C&) [with C = C; M0 = sensor_msgs::msg::Image_<std::allocator<void> >; M1 = sensor_msgs::msg::Image_<std::allocator<void> >; M2 = sensor_msgs::msg::Image_<std::allocator<void> >; M3 = geometry_msgs::msg::Twist_<std::allocator<void> >; M4 = message_filters::NullType; M5 = message_filters::NullType; M6 = message_filters::NullType; M7 = message_filters::NullType; M8 = message_filters::NullType][m[K’
+  270 |   Connection [01;36m[KaddCallback[m[K( C& callback)
+      |              [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:270:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/opt/ros/humble/install/include/message_filters/message_filters/signal9.h:280:267:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (9, should be 1)
+  280 | placeholders::_4, std::placeholders::_5, std::placeholders::_6, std::placeholders::_7, std::placeholders::_8, std::placeholders::_9)[01;31m[K)[m[K;
+      |                                                                                                                                     [01;31m[K^[m[K
+
+make[2]: *** [CMakeFiles/data_logger_node2.dir/build.make:76: CMakeFiles/data_logger_node2.dir/src/data_logger_node2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/data_logger_node2.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 85, in build
+    create_environment_scripts(
+  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 89, in create_environment_scripts
+    create_file_with_runtime_dependencies(prefix_path, pkg))
+  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 172, in create_file_with_runtime_dependencies
+    path.write_text(
+  File "/usr/lib/python3.8/pathlib.py", line 1255, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors) as f:
+  File "/usr/lib/python3.8/pathlib.py", line 1222, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/usr/lib/python3.8/pathlib.py", line 1078, in _opener
+    return self._accessor.open(self, flags, mode)
+PermissionError: [Errno 13] Permission denied: '/avlcode/workspaces/isaac_ros-dev/install/data_logger/share/colcon-core/packages/data_logger'

@@ -1,5 +1,4 @@
 # California Polytechnic University, Pomona - Autonomous Vehicles Lab
-# Advisor : Dr. Behnam Bahr
 
 ## Purpose of this document
 This document serves as an introduction to the autonomous vehicles lab's codebase. This lab's main purpose is to provide an extensible system for students to research various topics in autonomous systems.

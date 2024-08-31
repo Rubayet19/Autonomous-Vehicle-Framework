@@ -1,0 +1,5 @@
+if(EXISTS "/avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_occupancy_decay[1]_tests.cmake")
+  include("/avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_occupancy_decay[1]_tests.cmake")
+else()
+  add_test(test_occupancy_decay_NOT_BUILT test_occupancy_decay_NOT_BUILT)
+endif()

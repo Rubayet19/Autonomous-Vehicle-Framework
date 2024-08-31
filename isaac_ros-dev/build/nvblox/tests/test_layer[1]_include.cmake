@@ -1,0 +1,5 @@
+if(EXISTS "/avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_layer[1]_tests.cmake")
+  include("/avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_layer[1]_tests.cmake")
+else()
+  add_test(test_layer_NOT_BUILT test_layer_NOT_BUILT)
+endif()

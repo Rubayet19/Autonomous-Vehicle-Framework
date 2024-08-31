@@ -1,0 +1,46 @@
+#!/usr/bin/env python3
+
+import os
+import sys
+
+from launch import LaunchDescription
+from launch import LaunchService
+from launch.actions import ExecuteProcess
+
+from launch_testing.legacy import LaunchTestService
+
+
+def main(argv=sys.argv[1:]):
+    ld = LaunchDescription()
+
+    web_server_action = ExecuteProcess(
+        cmd=['/avlcode/workspaces/isaac_ros-dev/build/async_web_server_cpp/test/test_web_server'])
+    ld.add_action(web_server_action)
+
+    test_directory = '/avlcode/workspaces/isaac_ros-dev/src/async_web_server_cpp/test'
+
+    test1_action = ExecuteProcess(
+        cmd=[
+            sys.executable, '-u',
+            os.path.join(test_directory, 'simple_http_requests_test.py')],
+        name='simple_http_requests_test',
+    )
+
+    test2_action = ExecuteProcess(
+        cmd=[
+            sys.executable, '-u',
+            os.path.join(test_directory, 'websocket_test.py')],
+        name='websocket_test',
+    )
+
+    lts = LaunchTestService()
+    lts.add_test_action(ld, test1_action)
+    lts.add_test_action(ld, test2_action)
+
+    ls = LaunchService(argv=argv)
+    ls.include_launch_description(ld)
+    return lts.run(ls)
+
+
+if __name__ == '__main__':
+    sys.exit(main())

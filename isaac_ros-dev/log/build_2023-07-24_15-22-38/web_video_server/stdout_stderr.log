@@ -1,0 +1,117 @@
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)
+-- Found async_web_server_cpp: 2.0.0 (/workspaces/isaac_ros-dev/install/async_web_server_cpp/share/async_web_server_cpp/cmake)
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.71.0") found components: filesystem thread 
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/install/share/cv_bridge/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found image_transport: 3.1.5 (/opt/ros/humble/install/share/image_transport/cmake)
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/install/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspaces/isaac_ros-dev/build/web_video_server
+[35m[1mConsolidate compiler generated dependencies of target web_video_server[0m
+[  9%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/web_video_server.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/png_streamers.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/multipart_stream.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/ros_compressed_streamer.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/jpeg_streamers.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/vp9_streamer.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/h264_streamer.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/vp8_streamer.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/libav_streamer.cpp.o[0m
+[01m[K/workspaces/isaac_ros-dev/src/web_video_server/src/libav_streamer.cpp:[m[K In constructor ‘[01m[Kweb_video_server::LibavStreamer::LibavStreamer(const async_web_server_cpp::HttpRequest&, async_web_server_cpp::HttpConnectionPtr, rclcpp::Node::SharedPtr, const string&, const string&, const string&)[m[K’:
+[01m[K/workspaces/isaac_ros-dev/src/web_video_server/src/libav_streamer.cpp:65:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint av_lockmgr_register(int (*)(void**, AVLockOp))[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   65 |   av_lockmgr_register(&ffmpeg_boost_mutex_lock_manager[01;35m[K)[m[K;
+      |                                                       [01;35m[K^[m[K
+In file included from [01m[K/workspaces/isaac_ros-dev/src/web_video_server/include/web_video_server/libav_streamer.h:11[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/web_video_server/src/libav_streamer.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/libavcodec/avcodec.h:6163:5:[m[K [01;36m[Knote: [m[Kdeclared here
+ 6163 | int [01;36m[Kav_lockmgr_register[m[K(int (*cb)(void **mutex, enum AVLockOp op));
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/isaac_ros-dev/src/web_video_server/src/libav_streamer.cpp:65:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint av_lockmgr_register(int (*)(void**, AVLockOp))[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   65 |   av_lockmgr_register(&ffmpeg_boost_mutex_lock_manager[01;35m[K)[m[K;
+      |                                                       [01;35m[K^[m[K
+In file included from [01m[K/workspaces/isaac_ros-dev/src/web_video_server/include/web_video_server/libav_streamer.h:11[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/web_video_server/src/libav_streamer.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/libavcodec/avcodec.h:6163:5:[m[K [01;36m[Knote: [m[Kdeclared here
+ 6163 | int [01;36m[Kav_lockmgr_register[m[K(int (*cb)(void **mutex, enum AVLockOp op));
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/isaac_ros-dev/src/web_video_server/src/libav_streamer.cpp:66:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid av_register_all()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   66 |   av_register_all([01;35m[K)[m[K;
+      |                   [01;35m[K^[m[K
+In file included from [01m[K/workspaces/isaac_ros-dev/src/web_video_server/include/web_video_server/libav_streamer.h:12[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/web_video_server/src/libav_streamer.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/libavformat/avformat.h:2050:6:[m[K [01;36m[Knote: [m[Kdeclared here
+ 2050 | void [01;36m[Kav_register_all[m[K(void);
+      |      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/isaac_ros-dev/src/web_video_server/src/libav_streamer.cpp:66:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid av_register_all()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   66 |   av_register_all([01;35m[K)[m[K;
+      |                   [01;35m[K^[m[K
+In file included from [01m[K/workspaces/isaac_ros-dev/src/web_video_server/include/web_video_server/libav_streamer.h:12[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/web_video_server/src/libav_streamer.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/libavformat/avformat.h:2050:6:[m[K [01;36m[Knote: [m[Kdeclared here
+ 2050 | void [01;36m[Kav_register_all[m[K(void);
+      |      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/workspaces/isaac_ros-dev/src/web_video_server/src/libav_streamer.cpp:[m[K In member function ‘[01m[Kvirtual void web_video_server::LibavStreamer::initialize(const cv::Mat&)[m[K’:
+[01m[K/workspaces/isaac_ros-dev/src/web_video_server/src/libav_streamer.cpp:160:35:[m[K [01;35m[Kwarning: [m[K‘[01m[KAVStream::codec[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  160 |   codec_context_ = video_stream_->[01;35m[Kcodec[m[K;
+      |                                   [01;35m[K^~~~~[m[K
+In file included from [01m[K/workspaces/isaac_ros-dev/src/web_video_server/include/web_video_server/libav_streamer.h:12[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/web_video_server/src/libav_streamer.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/libavformat/avformat.h:885:21:[m[K [01;36m[Knote: [m[Kdeclared here
+  885 |     AVCodecContext *[01;36m[Kcodec[m[K;
+      |                     [01;36m[K^~~~~[m[K
+[01m[K/workspaces/isaac_ros-dev/src/web_video_server/src/libav_streamer.cpp:160:35:[m[K [01;35m[Kwarning: [m[K‘[01m[KAVStream::codec[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  160 |   codec_context_ = video_stream_->[01;35m[Kcodec[m[K;
+      |                                   [01;35m[K^~~~~[m[K
+In file included from [01m[K/workspaces/isaac_ros-dev/src/web_video_server/include/web_video_server/libav_streamer.h:12[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/web_video_server/src/libav_streamer.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/libavformat/avformat.h:885:21:[m[K [01;36m[Knote: [m[Kdeclared here
+  885 |     AVCodecContext *[01;36m[Kcodec[m[K;
+      |                     [01;36m[K^~~~~[m[K
+[01m[K/workspaces/isaac_ros-dev/src/web_video_server/src/libav_streamer.cpp:160:35:[m[K [01;35m[Kwarning: [m[K‘[01m[KAVStream::codec[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  160 |   codec_context_ = video_stream_->[01;35m[Kcodec[m[K;
+      |                                   [01;35m[K^~~~~[m[K
+In file included from [01m[K/workspaces/isaac_ros-dev/src/web_video_server/include/web_video_server/libav_streamer.h:12[m[K,
+                 from [01m[K/workspaces/isaac_ros-dev/src/web_video_server/src/libav_streamer.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/libavformat/avformat.h:885:21:[m[K [01;36m[Knote: [m[Kdeclared here
+  885 |     AVCodecContext *[01;36m[Kcodec[m[K;
+      |                     [01;36m[K^~~~~[m[K
+[ 90%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/image_streamer.cpp.o[0m
+[100%] [32m[1mLinking CXX executable web_video_server[0m
+[100%] Built target web_video_server
+-- Install configuration: ""
+-- Installing: /workspaces/isaac_ros-dev/install/web_video_server/lib/web_video_server/web_video_server
+-- Set runtime path of "/workspaces/isaac_ros-dev/install/web_video_server/lib/web_video_server/web_video_server" to ""
+-- Up-to-date: /workspaces/isaac_ros-dev/install/web_video_server/include/web_video_server
+-- Installing: /workspaces/isaac_ros-dev/install/web_video_server/include/web_video_server/png_streamers.h
+-- Installing: /workspaces/isaac_ros-dev/install/web_video_server/include/web_video_server/vp9_streamer.h
+-- Installing: /workspaces/isaac_ros-dev/install/web_video_server/include/web_video_server/ros_compressed_streamer.h
+-- Installing: /workspaces/isaac_ros-dev/install/web_video_server/include/web_video_server/web_video_server.h
+-- Installing: /workspaces/isaac_ros-dev/install/web_video_server/include/web_video_server/h264_streamer.h
+-- Installing: /workspaces/isaac_ros-dev/install/web_video_server/include/web_video_server/image_streamer.h
+-- Installing: /workspaces/isaac_ros-dev/install/web_video_server/include/web_video_server/libav_streamer.h
+-- Installing: /workspaces/isaac_ros-dev/install/web_video_server/include/web_video_server/vp8_streamer.h
+-- Installing: /workspaces/isaac_ros-dev/install/web_video_server/include/web_video_server/jpeg_streamers.h
+-- Installing: /workspaces/isaac_ros-dev/install/web_video_server/include/web_video_server/multipart_stream.h
+-- Up-to-date: /workspaces/isaac_ros-dev/install/web_video_server/share/ament_index/resource_index/package_run_dependencies/web_video_server
+-- Installing: /workspaces/isaac_ros-dev/install/web_video_server/share/ament_index/resource_index/parent_prefix_path/web_video_server
+-- Up-to-date: /workspaces/isaac_ros-dev/install/web_video_server/share/web_video_server/environment/ament_prefix_path.sh
+-- Installing: /workspaces/isaac_ros-dev/install/web_video_server/share/web_video_server/environment/ament_prefix_path.dsv
+-- Up-to-date: /workspaces/isaac_ros-dev/install/web_video_server/share/web_video_server/environment/path.sh
+-- Installing: /workspaces/isaac_ros-dev/install/web_video_server/share/web_video_server/environment/path.dsv
+-- Up-to-date: /workspaces/isaac_ros-dev/install/web_video_server/share/web_video_server/local_setup.bash
+-- Up-to-date: /workspaces/isaac_ros-dev/install/web_video_server/share/web_video_server/local_setup.sh
+-- Up-to-date: /workspaces/isaac_ros-dev/install/web_video_server/share/web_video_server/local_setup.zsh
+-- Installing: /workspaces/isaac_ros-dev/install/web_video_server/share/web_video_server/local_setup.dsv
+-- Installing: /workspaces/isaac_ros-dev/install/web_video_server/share/web_video_server/package.dsv
+-- Up-to-date: /workspaces/isaac_ros-dev/install/web_video_server/share/ament_index/resource_index/packages/web_video_server
+-- Up-to-date: /workspaces/isaac_ros-dev/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig.cmake
+-- Up-to-date: /workspaces/isaac_ros-dev/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig-version.cmake
+-- Installing: /workspaces/isaac_ros-dev/install/web_video_server/share/web_video_server/package.xml

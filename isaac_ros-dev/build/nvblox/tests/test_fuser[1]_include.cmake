@@ -1,0 +1,5 @@
+if(EXISTS "/avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_fuser[1]_tests.cmake")
+  include("/avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_fuser[1]_tests.cmake")
+else()
+  add_test(test_fuser_NOT_BUILT test_fuser_NOT_BUILT)
+endif()

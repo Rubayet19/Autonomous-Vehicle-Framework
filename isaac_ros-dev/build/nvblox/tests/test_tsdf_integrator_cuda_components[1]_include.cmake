@@ -1,0 +1,5 @@
+if(EXISTS "/avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_tsdf_integrator_cuda_components[1]_tests.cmake")
+  include("/avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_tsdf_integrator_cuda_components[1]_tests.cmake")
+else()
+  add_test(test_tsdf_integrator_cuda_components_NOT_BUILT test_tsdf_integrator_cuda_components_NOT_BUILT)
+endif()

@@ -1,0 +1,7 @@
+add_test([=[WeightingFunctionTest.TestConstantWeight]=]  /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_weighting_function [==[--gtest_filter=WeightingFunctionTest.TestConstantWeight]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[WeightingFunctionTest.TestConstantWeight]=]  PROPERTIES WORKING_DIRECTORY /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[WeightingFunctionTest.TestConstantDropoffWeight]=]  /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_weighting_function [==[--gtest_filter=WeightingFunctionTest.TestConstantDropoffWeight]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[WeightingFunctionTest.TestConstantDropoffWeight]=]  PROPERTIES WORKING_DIRECTORY /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[WeightingFunctionTest.TestInverseSquare]=]  /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/test_weighting_function [==[--gtest_filter=WeightingFunctionTest.TestInverseSquare]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[WeightingFunctionTest.TestInverseSquare]=]  PROPERTIES WORKING_DIRECTORY /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  test_weighting_function_TESTS WeightingFunctionTest.TestConstantWeight WeightingFunctionTest.TestConstantDropoffWeight WeightingFunctionTest.TestInverseSquare)

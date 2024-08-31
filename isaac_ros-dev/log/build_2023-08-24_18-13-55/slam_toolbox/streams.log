@@ -1,0 +1,364 @@
+[0.064s] Invoking command in '/workspaces/isaac_ros-dev/build/slam_toolbox': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/realsense2_description:/workspaces/isaac_ros-dev/install/agv_bot_description:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/web_video_server:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/usb_cam:/workspaces/isaac_ros-dev/install/twist_mux:/workspaces/isaac_ros-dev/install/teleop_twist_joy:/workspaces/isaac_ros-dev/install/semantic_label_conversion:/workspaces/isaac_ros-dev/install/robot_localization:/workspaces/isaac_ros-dev/install/realsense2_camera:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement:/workspaces/isaac_ros-dev/install/isaac_ros_nvblox:/workspaces/isaac_ros-dev/install/nvblox_ros:/workspaces/isaac_ros-dev/install/nvblox_image_padding:/workspaces/isaac_ros-dev/install/nvblox_ros_common:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs:/workspaces/isaac_ros-dev/install/nvblox_nav2:/workspaces/isaac_ros-dev/install/nvblox_msgs:/workspaces/isaac_ros-dev/install/nvblox_examples_bringup:/workspaces/isaac_ros-dev/install/nvblox:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/geographic_info:/workspaces/isaac_ros-dev/install/geodesy:/workspaces/isaac_ros-dev/install/geographic_msgs:/workspaces/isaac_ros-dev/install/twist_converter:/workspaces/isaac_ros-dev/install/teleop_twist_keyboard:/workspaces/isaac_ros-dev/install/simulator_control:/workspaces/isaac_ros-dev/install/road_segmentation:/workspaces/isaac_ros-dev/install/realsense_obj_det:/workspaces/isaac_ros-dev/install/nvblox_isaac_sim:/workspaces/isaac_ros-dev/install/nvblox_cpu_gpu_tools:/workspaces/isaac_ros-dev/install/lin_det_pkg:/workspaces/isaac_ros-dev/install/joint_state_publisher_gui:/workspaces/isaac_ros-dev/install/joint_state_publisher:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/image_stitcher:/workspaces/isaac_ros-dev/install/gps_package:/workspaces/isaac_ros-dev/install/encoder_pkg:/workspaces/isaac_ros-dev/install/async_web_server_cpp:/opt/ros/humble/install /usr/bin/cmake /workspaces/isaac_ros-dev/src/slam_toolbox -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/slam_toolbox
+[0.276s] -- The C compiler identification is GNU 9.4.0
+[0.409s] -- The CXX compiler identification is GNU 9.4.0
+[0.434s] -- Detecting C compiler ABI info
+[0.591s] -- Detecting C compiler ABI info - done
+[0.616s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.617s] -- Detecting C compile features
+[0.618s] -- Detecting C compile features - done
+[0.627s] -- Detecting CXX compiler ABI info
+[0.793s] -- Detecting CXX compiler ABI info - done
+[0.814s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.815s] -- Detecting CXX compile features
+[0.816s] -- Detecting CXX compile features - done
+[0.835s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[3.150s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[3.549s] -- Found message_filters: 4.3.2 (/opt/ros/humble/install/share/message_filters/cmake)
+[3.781s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[3.813s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[3.853s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[3.909s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.986s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.246s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[4.265s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/install/share/rmw_fastrtps_cpp/cmake)
+[4.716s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.817s] -- Found FastRTPS: /opt/ros/humble/install/include  
+[4.986s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.043s] -- Looking for pthread.h
+[5.200s] -- Looking for pthread.h - found
+[5.201s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.361s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.361s] -- Looking for pthread_create in pthreads
+[5.497s] -- Looking for pthread_create in pthreads - not found
+[5.497s] -- Looking for pthread_create in pthread
+[5.654s] -- Looking for pthread_create in pthread - found
+[5.658s] -- Found Threads: TRUE  
+[6.049s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/install/share/nav_msgs/cmake)
+[6.318s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/install/share/sensor_msgs/cmake)
+[6.500s] -- Found tf2: 0.25.2 (/opt/ros/humble/install/share/tf2/cmake)
+[6.543s] -- Found tf2_ros: 0.25.2 (/opt/ros/humble/install/share/tf2_ros/cmake)
+[7.295s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/install/share/visualization_msgs/cmake)
+[7.533s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/install/share/pluginlib/cmake)
+[7.627s] -- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/install/share/tf2_geometry_msgs/cmake)
+[7.694s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/install/share/eigen3_cmake_module/cmake)
+[7.697s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[7.697s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.729s] -- Found tf2_sensor_msgs: 0.25.2 (/opt/ros/humble/install/share/tf2_sensor_msgs/cmake)
+[7.783s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/install/share/std_srvs/cmake)
+[7.834s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/install/share/rosidl_default_generators/cmake)
+[7.890s] -- Found rviz_common: 11.2.5 (/opt/ros/humble/install/share/rviz_common/cmake)
+[7.985s] -- library: libassimp.so.5
+[8.001s] -- Setting OGRE_DIR to: '/opt/ros/humble/install/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[8.005s] -- Found OGRE
+[8.005s] --   static     : OFF
+[8.006s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[8.006s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_EXR
+[8.006s] --   media      : /opt/ros/humble/install/opt/rviz_ogre_vendor/share/OGRE/Media
+[8.007s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[8.007s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/install/opt/rviz_ogre_vendor/lib
+[8.007s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_EXR
+[8.008s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/install/opt/rviz_ogre_vendor/lib/OGRE
+[8.008s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/install/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[8.008s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/install/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[8.008s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/install/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[8.009s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/install/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[8.011s] -- Could not find freeimage library
+[8.078s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[8.103s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   
+[8.513s] -- Found X11: /usr/include   
+[8.514s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[8.678s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[8.679s] -- Looking for gethostbyname
+[8.834s] -- Looking for gethostbyname - found
+[8.835s] -- Looking for connect
+[8.992s] -- Looking for connect - found
+[8.993s] -- Looking for remove
+[9.154s] -- Looking for remove - found
+[9.154s] -- Looking for shmat
+[9.312s] -- Looking for shmat - found
+[9.312s] -- Looking for IceConnectionNumber in ICE
+[9.476s] -- Looking for IceConnectionNumber in ICE - found
+[9.486s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[9.487s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[9.879s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[10.104s] -- Found rviz_default_plugins: 11.2.5 (/opt/ros/humble/install/share/rviz_default_plugins/cmake)
+[10.873s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system serialization filesystem thread 
+[10.910s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[10.939s] -- Found CHOLMOD: /usr/include/suitesparse  
+[10.946s] -- Found CSparse: /usr/include/suitesparse  
+[11.058s] -- Looking for sgemm_
+[11.211s] -- Looking for sgemm_ - not found
+[11.363s] -- Looking for sgemm_
+[11.549s] -- Looking for sgemm_ - found
+[11.550s] -- Found BLAS: /usr/lib/aarch64-linux-gnu/libopenblas.so  
+[11.555s] -- Looking for cheev_
+[11.748s] -- Looking for cheev_ - found
+[11.749s] -- Found LAPACK: /usr/lib/aarch64-linux-gnu/libopenblas.so;-lpthread;-lm;-ldl  
+[11.771s] -- Found installed version of Eigen: /usr/lib/cmake/eigen3
+[11.773s] -- Found required Ceres dependency: Eigen version 3.3.7 in /usr/include/eigen3
+[11.797s] -- Found required Ceres dependency: glog
+[11.802s] -- Found installed version of gflags: /usr/lib/aarch64-linux-gnu/cmake/gflags
+[11.802s] -- Detected gflags version: 2.2.2
+[11.804s] -- Found required Ceres dependency: gflags
+[11.806s] -- Found Ceres version: 1.14.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, OpenMP, Multithreading]
+[12.645s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)
+[13.614s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.979s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.063s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") 
+[14.077s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)
+[14.175s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[14.176s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[14.176s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[14.176s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[14.257s] -- Found PythonExtra: .so  
+[14.909s] -- Configuring done
+[15.449s] -- Generating done
+[15.461s] -- Build files have been written to: /workspaces/isaac_ros-dev/build/slam_toolbox
+[15.523s] Invoked command in '/workspaces/isaac_ros-dev/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/realsense2_description:/workspaces/isaac_ros-dev/install/agv_bot_description:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/web_video_server:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/usb_cam:/workspaces/isaac_ros-dev/install/twist_mux:/workspaces/isaac_ros-dev/install/teleop_twist_joy:/workspaces/isaac_ros-dev/install/semantic_label_conversion:/workspaces/isaac_ros-dev/install/robot_localization:/workspaces/isaac_ros-dev/install/realsense2_camera:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement:/workspaces/isaac_ros-dev/install/isaac_ros_nvblox:/workspaces/isaac_ros-dev/install/nvblox_ros:/workspaces/isaac_ros-dev/install/nvblox_image_padding:/workspaces/isaac_ros-dev/install/nvblox_ros_common:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs:/workspaces/isaac_ros-dev/install/nvblox_nav2:/workspaces/isaac_ros-dev/install/nvblox_msgs:/workspaces/isaac_ros-dev/install/nvblox_examples_bringup:/workspaces/isaac_ros-dev/install/nvblox:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/geographic_info:/workspaces/isaac_ros-dev/install/geodesy:/workspaces/isaac_ros-dev/install/geographic_msgs:/workspaces/isaac_ros-dev/install/twist_converter:/workspaces/isaac_ros-dev/install/teleop_twist_keyboard:/workspaces/isaac_ros-dev/install/simulator_control:/workspaces/isaac_ros-dev/install/road_segmentation:/workspaces/isaac_ros-dev/install/realsense_obj_det:/workspaces/isaac_ros-dev/install/nvblox_isaac_sim:/workspaces/isaac_ros-dev/install/nvblox_cpu_gpu_tools:/workspaces/isaac_ros-dev/install/lin_det_pkg:/workspaces/isaac_ros-dev/install/joint_state_publisher_gui:/workspaces/isaac_ros-dev/install/joint_state_publisher:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/image_stitcher:/workspaces/isaac_ros-dev/install/gps_package:/workspaces/isaac_ros-dev/install/encoder_pkg:/workspaces/isaac_ros-dev/install/async_web_server_cpp:/opt/ros/humble/install /usr/bin/cmake /workspaces/isaac_ros-dev/src/slam_toolbox -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/slam_toolbox
+[15.533s] Invoking command in '/workspaces/isaac_ros-dev/build/slam_toolbox': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/realsense2_description:/workspaces/isaac_ros-dev/install/agv_bot_description:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/web_video_server:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/usb_cam:/workspaces/isaac_ros-dev/install/twist_mux:/workspaces/isaac_ros-dev/install/teleop_twist_joy:/workspaces/isaac_ros-dev/install/semantic_label_conversion:/workspaces/isaac_ros-dev/install/robot_localization:/workspaces/isaac_ros-dev/install/realsense2_camera:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement:/workspaces/isaac_ros-dev/install/isaac_ros_nvblox:/workspaces/isaac_ros-dev/install/nvblox_ros:/workspaces/isaac_ros-dev/install/nvblox_image_padding:/workspaces/isaac_ros-dev/install/nvblox_ros_common:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs:/workspaces/isaac_ros-dev/install/nvblox_nav2:/workspaces/isaac_ros-dev/install/nvblox_msgs:/workspaces/isaac_ros-dev/install/nvblox_examples_bringup:/workspaces/isaac_ros-dev/install/nvblox:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/geographic_info:/workspaces/isaac_ros-dev/install/geodesy:/workspaces/isaac_ros-dev/install/geographic_msgs:/workspaces/isaac_ros-dev/install/twist_converter:/workspaces/isaac_ros-dev/install/teleop_twist_keyboard:/workspaces/isaac_ros-dev/install/simulator_control:/workspaces/isaac_ros-dev/install/road_segmentation:/workspaces/isaac_ros-dev/install/realsense_obj_det:/workspaces/isaac_ros-dev/install/nvblox_isaac_sim:/workspaces/isaac_ros-dev/install/nvblox_cpu_gpu_tools:/workspaces/isaac_ros-dev/install/lin_det_pkg:/workspaces/isaac_ros-dev/install/joint_state_publisher_gui:/workspaces/isaac_ros-dev/install/joint_state_publisher:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/image_stitcher:/workspaces/isaac_ros-dev/install/gps_package:/workspaces/isaac_ros-dev/install/encoder_pkg:/workspaces/isaac_ros-dev/install/async_web_server_cpp:/opt/ros/humble/install /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/slam_toolbox -- -j12 -l12
+[15.632s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[15.661s] [  2%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o[0m
+[15.661s] [  2%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o[0m
+[15.661s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[15.673s] [  3%] Built target ament_cmake_python_copy_slam_toolbox
+[16.667s] running egg_info
+[16.669s] creating slam_toolbox.egg-info
+[16.707s] writing slam_toolbox.egg-info/PKG-INFO
+[16.707s] writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+[16.708s] writing top-level names to slam_toolbox.egg-info/top_level.txt
+[16.708s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[16.819s] reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[16.820s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[16.935s] [  3%] Built target ament_cmake_python_build_slam_toolbox_egg
+[17.501s] [  3%] Built target slam_toolbox__cpp
+[17.541s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[17.545s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[17.546s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[17.723s] [  6%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/toggle_interactive__functions.c.o[0m
+[17.724s] [  6%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear_queue__functions.c.o[0m
+[17.724s] [  8%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/save_map__functions.c.o[0m
+[17.724s] [  8%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/pause__functions.c.o[0m
+[17.724s] [  9%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear__functions.c.o[0m
+[17.724s] [  9%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/loop_closure__functions.c.o[0m
+[17.725s] [ 10%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/merge_maps__functions.c.o[0m
+[18.042s] Traceback (most recent call last):
+[18.043s] make[2]: *** Deleting file 'rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp'
+[18.044s] make[2]: *** Deleting file 'rosidl_typesupport_cpp/slam_toolbox/srv/pause__type_support.cpp'
+[18.046s]   File "/opt/ros/humble/install/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 23, in <module>
+[18.047s] Traceback (most recent call last):
+[18.048s]   File "/opt/ros/humble/install/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp", line 28, in <module>
+[18.048s]     sys.exit(main())
+[18.049s]   File "/opt/ros/humble/install/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 19, in main
+[18.049s]     sys.exit(main())
+[18.049s]   File "/opt/ros/humble/install/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp", line 24, in main
+[18.049s] make[2]: *** [CMakeFiles/slam_toolbox__rosidl_generator_c.dir/build.make:374: CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear_queue__functions.c.o] Interrupt
+[18.049s]     generate_cpp(args.generator_arguments_file)
+[18.050s] make[2]: *** [CMakeFiles/slam_toolbox__rosidl_generator_c.dir/build.make:402: CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear__functions.c.o] Interrupt
+[18.050s]   File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py", line 24, in generate_cpp
+[18.050s] make[2]: *** [CMakeFiles/slam_toolbox__rosidl_generator_c.dir/build.make:416: CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/save_map__functions.c.o] Interrupt
+[18.050s] make[2]: *** [CMakeFiles/slam_toolbox__rosidl_generator_c.dir/build.make:430: CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/loop_closure__functions.c.o] Interrupt
+[18.050s]     generate_cpp(args.generator_arguments_file, args.typesupports)
+[18.051s]   File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_typesupport_cpp/__init__.py", line 28, in generate_cpp
+[18.051s] make[2]: *** [CMakeFiles/slam_toolbox__rosidl_generator_c.dir/build.make:444: CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/merge_maps__functions.c.o] Interrupt
+[18.051s]     return generate_files(generator_arguments_file, mapping)
+[18.051s]   File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+[18.051s]     return generate_files(
+[18.051s]   File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+[18.052s]     expand_template(
+[18.052s]   File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+[18.052s]     interpreter.string(template_content, template_path, locals=data)
+[18.052s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[18.052s] make[2]: *** [CMakeFiles/slam_toolbox__rosidl_generator_c.dir/build.make:360: CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/pause__functions.c.o] Interrupt
+[18.054s]     expand_template(
+[18.054s] make[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:76: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o] Interrupt
+[18.054s]   File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+[18.054s] make[2]: *** [CMakeFiles/slam_toolbox__rosidl_generator_c.dir/build.make:388: CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/toggle_interactive__functions.c.o] Interrupt
+[18.055s]     interpreter.string(template_content, template_path, locals=data)
+[18.055s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[18.055s]     self.safe(scanner, True, locals)
+[18.055s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[18.055s] make[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Interrupt
+[18.056s] make[1]: *** [CMakeFiles/Makefile2:259: CMakeFiles/slam_toolbox__rosidl_generator_c.dir/all] Interrupt
+[18.056s]     self.safe(scanner, True, locals)
+[18.056s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[18.056s] make[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Interrupt
+[18.056s]     self.parse(scanner, locals)
+[18.056s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[18.056s]     self.parse(scanner, locals)
+[18.057s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[18.057s]     token.run(self, locals)
+[18.057s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[18.057s]     interpreter.execute(self.code, locals)
+[18.057s]   File "/usr/lib/python3/dist-packages/em.py", line 2595, in execute
+[18.057s]     token.run(self, locals)
+[18.057s]   File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+[18.057s]     _exec(statements, self.globals, locals)
+[18.058s]   File "<string>", line 19, in <module>
+[18.058s] Traceback (most recent call last):
+[18.058s]   File "/usr/lib/python3.8/pathlib.py", line 920, in parts
+[18.058s]     self.subrun(info[0][1], interpreter, locals)
+[18.058s]   File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+[18.058s]     return self._pparts
+[18.058s] AttributeError: _pparts
+[18.059s]     token.run(interpreter, locals)
+[18.059s] 
+[18.059s] During handling of the above exception, another exception occurred:
+[18.059s] 
+[18.059s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[18.059s]   File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+[18.059s] Traceback (most recent call last):
+[18.059s]   File "/opt/ros/humble/install/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp", line 31, in <module>
+[18.060s]     sys.exit(main())
+[18.060s]     interpreter.string(content, str(template_path), kwargs)
+[18.060s]   File "/opt/ros/humble/install/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp", line 27, in main
+[18.060s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[18.060s]     generate_cpp(args.generator_arguments_file)
+[18.060s]   File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_typesupport_introspection_cpp/__init__.py", line 31, in generate_cpp
+[18.060s]     interpreter.execute(self.code, locals)
+[18.061s]   File "/usr/lib/python3/dist-packages/em.py", line 2595, in execute
+[18.061s]     return generate_files(generator_arguments_file, mapping)
+[18.061s]   File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+[18.061s]     self.safe(scanner, True, locals)
+[18.061s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[18.061s]     expand_template(
+[18.061s]   File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+[18.061s]     _exec(statements, self.globals, locals)
+[18.062s]   File "<string>", line 2, in <module>
+[18.062s]     interpreter.string(template_content, template_path, locals=data)
+[18.062s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[18.062s]     self.parse(scanner, locals)
+[18.062s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[18.062s]   File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+[18.062s]     self.safe(scanner, True, locals)
+[18.063s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[18.063s]     interpreter.string(content, str(template_path), kwargs)
+[18.063s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[18.063s]     token.run(self, locals)
+[18.063s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[18.063s]     interpreter.execute(self.code, locals)
+[18.063s]   File "/usr/lib/python3/dist-packages/em.py", line 2595, in execute
+[18.063s]     self.parse(scanner, locals)
+[18.064s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[18.064s]     self.safe(scanner, True, locals)
+[18.064s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[18.064s]     _exec(statements, self.globals, locals)
+[18.064s]     token.run(self, locals)
+[18.064s]   File "<string>", line 2, in <module>
+[18.064s]   File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+[18.064s]     self.parse(scanner, locals)
+[18.065s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[18.065s]     self.subrun(info[0][1], interpreter, locals)
+[18.065s]   File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+[18.065s]   File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+[18.065s]     interpreter.string(content, str(template_path), kwargs)
+[18.065s]     token.run(self, locals)
+[18.065s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[18.066s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[18.066s]     token.run(interpreter, locals)
+[18.066s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[18.066s]     interpreter.execute(self.code, locals)
+[18.066s]   File "/usr/lib/python3/dist-packages/em.py", line 2595, in execute
+[18.066s]     interpreter.execute(self.code, locals)
+[18.066s]   File "/usr/lib/python3/dist-packages/em.py", line 2595, in execute
+[18.066s]     self.safe(scanner, True, locals)
+[18.067s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[18.067s]     _exec(statements, self.globals, locals)
+[18.067s]   File "<string>", line 2, in <module>
+[18.067s]     self.parse(scanner, locals)
+[18.067s]   File "/usr/lib/python3/dist-packages/em.py", line 2417, in parse
+[18.067s]     _exec(statements, self.globals, locals)
+[18.067s]   File "<string>", line 2, in <module>
+[18.067s]   File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+[18.068s]     token = scanner.one()
+[18.068s]   File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+[18.068s]     interpreter.string(content, str(template_path), kwargs)
+[18.068s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[18.068s]   File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+[18.068s]     interpreter.string(content, str(template_path), kwargs)
+[18.068s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[18.068s]     token.scan(self)
+[18.069s]   File "/usr/lib/python3/dist-packages/em.py", line 1468, in scan
+[18.069s]     self.safe(scanner, True, locals)
+[18.069s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[18.069s]     self.subscan(scanner, self.type)
+[18.069s]     self.safe(scanner, True, locals)
+[18.069s]   File "/usr/lib/python3/dist-packages/em.py", line 1483, in subscan
+[18.069s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[18.070s]     self.parse(scanner, locals)
+[18.070s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[18.070s]     token = scanner.one()
+[18.070s]   File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+[18.070s]     self.parse(scanner, locals)
+[18.070s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[18.070s]     token.scan(self)
+[18.070s]   File "/usr/lib/python3/dist-packages/em.py", line 1468, in scan
+[18.071s]     token.run(self, locals)
+[18.071s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[18.071s]     token.run(self, locals)
+[18.071s]     self.subscan(scanner, self.type)
+[18.071s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[18.071s]   File "/usr/lib/python3/dist-packages/em.py", line 1483, in subscan
+[18.071s]     interpreter.execute(self.code, locals)
+[18.072s]   File "/usr/lib/python3/dist-packages/em.py", line 2595, in execute
+[18.072s]     interpreter.execute(self.code, locals)
+[18.072s]     token = scanner.one()
+[18.072s]   File "/usr/lib/python3/dist-packages/em.py", line 2595, in execute
+[18.072s]   File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+[18.072s]     _exec(statements, self.globals, locals)
+[18.072s]   File "<string>", line 2, in <module>
+[18.072s]     token.scan(self)
+[18.073s]   File "/usr/lib/python3/dist-packages/em.py", line 1456, in scan
+[18.073s]     _exec(statements, self.globals, locals)
+[18.073s]   File "<string>", line 2, in <module>
+[18.073s]     i = scanner.complex('[', ']', 0)
+[18.073s]   File "/usr/lib/python3/dist-packages/em.py", line 1893, in complex
+[18.073s] KeyboardInterrupt
+[18.073s]   File "/opt/ros/humble/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+[18.074s]     interpreter.string(content, str(template_path), kwargs)
+[18.074s]     newQuote = self.check(i, quote)
+[18.074s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[18.074s]   File "/usr/lib/python3/dist-packages/em.py", line 1762, in check
+[18.074s]     def check(self, i, archetype=None):
+[18.074s] KeyboardInterrupt
+[18.074s]     self.safe(scanner, True, locals)
+[18.075s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[18.075s]     self.parse(scanner, locals)
+[18.075s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[18.075s]     token.run(self, locals)
+[18.075s]   File "/usr/lib/python3/dist-packages/em.py", line 1333, in run
+[18.075s]     result = interpreter.evaluate(self.testCode, locals)
+[18.076s]   File "/usr/lib/python3/dist-packages/em.py", line 2572, in evaluate
+[18.076s]     result = eval(expression, self.globals, locals)
+[18.076s]   File "<string>", line 1, in <module>
+[18.076s]   File "/usr/lib/python3.8/pathlib.py", line 921, in parts
+[18.076s]     except AttributeError:
+[18.076s] KeyboardInterrupt
+[18.076s] Exception ignored in: <function Interpreter.__del__ at 0xffff99e98b80>
+[18.077s] Traceback (most recent call last):
+[18.077s]   File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+[18.077s]   File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+[18.077s]   File "/usr/lib/python3/dist-packages/em.py", line 2646, in finalize
+[18.077s]   File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+[18.077s] AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+[18.078s] Exception ignored in: <function Interpreter.__del__ at 0xffff8afe5dc0>
+[18.078s] Traceback (most recent call last):
+[18.078s]   File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+[18.079s]   File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+[18.079s]   File "/usr/lib/python3/dist-packages/em.py", line 2646, in finalize
+[18.079s]   File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+[18.079s] AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+[18.083s] Exception ignored in: <function Interpreter.__del__ at 0xffff8a5e2b80>
+[18.083s] Traceback (most recent call last):
+[18.084s]   File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+[18.084s]   File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+[18.084s]   File "/usr/lib/python3/dist-packages/em.py", line 2646, in finalize
+[18.084s]   File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+[18.084s] AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+[18.092s] make[2]: *** [CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/build.make:200: rosidl_typesupport_cpp/slam_toolbox/srv/pause__type_support.cpp] Interrupt
+[18.092s] make[1]: *** [CMakeFiles/Makefile2:440: CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/all] Interrupt
+[18.096s] make[2]: *** [CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/build.make:202: rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/pause__type_support.cpp] Interrupt
+[18.096s] make[1]: *** [CMakeFiles/Makefile2:336: CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+[18.102s] make[2]: *** [CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/build.make:202: rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp] Interrupt
+[18.102s] make[1]: *** [CMakeFiles/Makefile2:414: CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+[18.103s] make: *** [Makefile:146: all] Interrupt
+[18.107s] Invoked command in '/workspaces/isaac_ros-dev/build/slam_toolbox' returned '-2': CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/realsense2_description:/workspaces/isaac_ros-dev/install/agv_bot_description:/workspaces/isaac_ros-dev/install/xacro:/workspaces/isaac_ros-dev/install/web_video_server:/workspaces/isaac_ros-dev/install/velodyne:/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/workspaces/isaac_ros-dev/install/usb_cam:/workspaces/isaac_ros-dev/install/twist_mux:/workspaces/isaac_ros-dev/install/teleop_twist_joy:/workspaces/isaac_ros-dev/install/semantic_label_conversion:/workspaces/isaac_ros-dev/install/robot_localization:/workspaces/isaac_ros-dev/install/realsense2_camera:/workspaces/isaac_ros-dev/install/realsense2_camera_msgs:/workspaces/isaac_ros-dev/install/nvblox_rviz_plugin:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement:/workspaces/isaac_ros-dev/install/isaac_ros_nvblox:/workspaces/isaac_ros-dev/install/nvblox_ros:/workspaces/isaac_ros-dev/install/nvblox_image_padding:/workspaces/isaac_ros-dev/install/nvblox_ros_common:/workspaces/isaac_ros-dev/install/nvblox_performance_measurement_msgs:/workspaces/isaac_ros-dev/install/nvblox_nav2:/workspaces/isaac_ros-dev/install/nvblox_msgs:/workspaces/isaac_ros-dev/install/nvblox_examples_bringup:/workspaces/isaac_ros-dev/install/nvblox:/workspaces/isaac_ros-dev/install/isaac_ros_tensor_list_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_pointcloud_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_common:/workspaces/isaac_ros-dev/install/isaac_ros_bi3d_interfaces:/workspaces/isaac_ros-dev/install/isaac_ros_apriltag_interfaces:/workspaces/isaac_ros-dev/install/geographic_info:/workspaces/isaac_ros-dev/install/geodesy:/workspaces/isaac_ros-dev/install/geographic_msgs:/workspaces/isaac_ros-dev/install/twist_converter:/workspaces/isaac_ros-dev/install/teleop_twist_keyboard:/workspaces/isaac_ros-dev/install/simulator_control:/workspaces/isaac_ros-dev/install/road_segmentation:/workspaces/isaac_ros-dev/install/realsense_obj_det:/workspaces/isaac_ros-dev/install/nvblox_isaac_sim:/workspaces/isaac_ros-dev/install/nvblox_cpu_gpu_tools:/workspaces/isaac_ros-dev/install/lin_det_pkg:/workspaces/isaac_ros-dev/install/joint_state_publisher_gui:/workspaces/isaac_ros-dev/install/joint_state_publisher:/workspaces/isaac_ros-dev/install/isaac_ros_test:/workspaces/isaac_ros-dev/install/image_stitcher:/workspaces/isaac_ros-dev/install/gps_package:/workspaces/isaac_ros-dev/install/encoder_pkg:/workspaces/isaac_ros-dev/install/async_web_server_cpp:/opt/ros/humble/install /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/slam_toolbox -- -j12 -l12

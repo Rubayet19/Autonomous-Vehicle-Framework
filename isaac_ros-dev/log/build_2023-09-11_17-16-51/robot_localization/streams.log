@@ -1,0 +1,49 @@
+[1.473s] Invoking command in '/workspaces/isaac_ros-dev/build/robot_localization': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/geographic_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/geographic_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/geographic_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/geographic_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/robot_localization -- -j12 -l12
+[1.626s] -- robot_localization: You did not request a specific build type: selecting 'RelWithDebInfo'.
+[1.626s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[1.833s] -- Found angles: 1.15.0 (/opt/ros/humble/install/share/angles/cmake)
+[1.835s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/install/share/rclcpp/cmake)
+[1.915s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[1.921s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[1.938s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[1.967s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.013s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.152s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[2.153s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/install/share/rmw_fastrtps_cpp/cmake)
+[2.544s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.864s] -- Found diagnostic_msgs: 4.2.3 (/opt/ros/humble/install/share/diagnostic_msgs/cmake)
+[2.959s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/humble/install/share/diagnostic_updater/cmake)
+[2.994s] -- Found geographic_msgs: 1.0.5 (/workspaces/isaac_ros-dev/install/geographic_msgs/share/geographic_msgs/cmake)
+[3.317s] -- Found message_filters: 4.3.2 (/opt/ros/humble/install/share/message_filters/cmake)
+[3.329s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/install/share/nav_msgs/cmake)
+[3.489s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/install/share/rosidl_default_generators/cmake)
+[3.506s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/install/share/sensor_msgs/cmake)
+[3.667s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/install/share/std_srvs/cmake)
+[3.704s] -- Found tf2: 0.25.2 (/opt/ros/humble/install/share/tf2/cmake)
+[3.723s] -- Found tf2_eigen: 0.25.2 (/opt/ros/humble/install/share/tf2_eigen/cmake)
+[4.366s] -- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/install/share/tf2_geometry_msgs/cmake)
+[4.376s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/install/share/eigen3_cmake_module/cmake)
+[4.379s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.408s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/install/share/yaml_cpp_vendor/cmake)
+[4.452s] [31mCMake Error at CMakeLists.txt:39 (find_package):
+[4.452s]   By not providing "FindGeographicLib.cmake" in CMAKE_MODULE_PATH this
+[4.453s]   project has asked CMake to find a package configuration file provided by
+[4.453s]   "GeographicLib", but CMake did not find one.
+[4.453s] 
+[4.453s]   Could not find a package configuration file provided by "GeographicLib"
+[4.454s]   with any of the following names:
+[4.454s] 
+[4.454s]     GeographicLibConfig.cmake
+[4.454s]     geographiclib-config.cmake
+[4.455s] 
+[4.455s]   Add the installation prefix of "GeographicLib" to CMAKE_PREFIX_PATH or set
+[4.455s]   "GeographicLib_DIR" to a directory containing one of the above files.  If
+[4.455s]   "GeographicLib" provides a separate development package or SDK, be sure it
+[4.456s]   has been installed.
+[4.456s] 
+[4.456s] [0m
+[4.457s] -- Configuring incomplete, errors occurred!
+[4.457s] See also "/workspaces/isaac_ros-dev/build/robot_localization/CMakeFiles/CMakeOutput.log".
+[4.457s] See also "/workspaces/isaac_ros-dev/build/robot_localization/CMakeFiles/CMakeError.log".
+[4.475s] make: *** [Makefile:2621: cmake_check_build_system] Error 1
+[4.478s] Invoked command in '/workspaces/isaac_ros-dev/build/robot_localization' returned '2': AMENT_PREFIX_PATH=/workspaces/isaac_ros-dev/install/geographic_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/isaac_ros-dev/install/geographic_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/isaac_ros-dev/install/geographic_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib PYTHONPATH=/workspaces/isaac_ros-dev/install/geographic_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/isaac_ros-dev/build/robot_localization -- -j12 -l12

@@ -1,0 +1,40 @@
+[ 12%] Built target geographic_msgs__rosidl_generator_c
+[ 12%] Built target geographic_msgs__cpp
+[ 12%] Built target ament_cmake_python_copy_geographic_msgs
+[ 24%] Built target geographic_msgs__rosidl_typesupport_c
+[ 38%] Built target geographic_msgs__rosidl_typesupport_fastrtps_c
+[ 48%] Built target geographic_msgs__rosidl_typesupport_introspection_c
+[ 61%] Built target geographic_msgs__rosidl_typesupport_introspection_cpp
+[ 73%] Built target geographic_msgs__rosidl_typesupport_cpp
+[ 85%] Built target geographic_msgs__rosidl_typesupport_fastrtps_cpp
+[ 85%] Built target geographic_msgs
+[ 86%] Built target geographic_msgs__py
+[ 97%] Built target geographic_msgs__rosidl_generator_py
+[ 98%] Built target geographic_msgs__rosidl_typesupport_fastrtps_c__pyext
+[ 99%] Built target geographic_msgs__rosidl_typesupport_c__pyext
+[100%] Built target geographic_msgs__rosidl_typesupport_introspection_c__pyext
+Traceback (most recent call last):
+  File "setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/usr/local/lib/python3.8/dist-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/usr/local/lib/python3.8/dist-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/usr/local/lib/python3.8/dist-packages/pkg_resources/__init__.py", line 3260, in <module>
+    def _initialize_master_working_set():
+  File "/usr/local/lib/python3.8/dist-packages/pkg_resources/__init__.py", line 3234, in _call_aside
+    f(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/pkg_resources/__init__.py", line 3295, in _initialize_master_working_set
+    list(map(working_set.add_entry, sys.path))
+  File "/usr/local/lib/python3.8/dist-packages/pkg_resources/__init__.py", line 621, in add_entry
+    for dist in find_distributions(entry, True):
+  File "/usr/local/lib/python3.8/dist-packages/pkg_resources/__init__.py", line 2096, in find_on_path
+    for dist in factory(fullpath):
+  File "/usr/local/lib/python3.8/dist-packages/pkg_resources/__init__.py", line 2153, in distributions_from_metadata
+    if os.path.isdir(path):
+  File "/usr/lib/python3.8/genericpath.py", line 42, in isdir
+    st = os.stat(s)
+KeyboardInterrupt
+make[2]: *** [CMakeFiles/ament_cmake_python_build_geographic_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_geographic_msgs_egg] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_geographic_msgs_egg.dir/all] Interrupt
+make: *** [Makefile:146: all] Interrupt

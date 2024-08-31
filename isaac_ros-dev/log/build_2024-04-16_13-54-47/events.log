@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.000790] (-) JobUnselected: {'identifier': 'agv_bot_description'}
+[0.001224] (-) JobUnselected: {'identifier': 'async_web_server_cpp'}
+[0.001501] (-) JobUnselected: {'identifier': 'camera_calibration_parsers'}
+[0.003230] (-) JobUnselected: {'identifier': 'camera_info_manager'}
+[0.003280] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.003372] (-) JobUnselected: {'identifier': 'geodesy'}
+[0.003534] (-) JobUnselected: {'identifier': 'geographic_info'}
+[0.003617] (-) JobUnselected: {'identifier': 'geographic_msgs'}
+[0.003663] (-) JobUnselected: {'identifier': 'gps_package'}
+[0.003756] (-) JobUnselected: {'identifier': 'image_common'}
+[0.003797] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.003854] (-) JobUnselected: {'identifier': 'image_stitcher'}
+[0.005313] (-) JobUnselected: {'identifier': 'image_transport'}
+[0.005354] (-) JobUnselected: {'identifier': 'isaac_ros_apriltag_interfaces'}
+[0.005430] (-) JobUnselected: {'identifier': 'isaac_ros_bi3d_interfaces'}
+[0.005563] (-) JobUnselected: {'identifier': 'isaac_ros_common'}
+[0.005637] (-) JobUnselected: {'identifier': 'isaac_ros_nvblox'}
+[0.005681] (-) JobUnselected: {'identifier': 'isaac_ros_pointcloud_interfaces'}
+[0.005753] (-) JobUnselected: {'identifier': 'isaac_ros_tensor_list_interfaces'}
+[0.005805] (-) JobUnselected: {'identifier': 'isaac_ros_test'}
+[0.007141] (-) JobUnselected: {'identifier': 'joint_state_publisher'}
+[0.007229] (-) JobUnselected: {'identifier': 'joint_state_publisher_gui'}
+[0.007360] (-) JobUnselected: {'identifier': 'motor_control_pkg'}
+[0.007432] (-) JobUnselected: {'identifier': 'nvblox'}
+[0.007471] (-) JobUnselected: {'identifier': 'nvblox_cpu_gpu_tools'}
+[0.007509] (-) JobUnselected: {'identifier': 'nvblox_examples_bringup'}
+[0.007574] (-) JobUnselected: {'identifier': 'nvblox_image_padding'}
+[0.007619] (-) JobUnselected: {'identifier': 'nvblox_isaac_sim'}
+[0.007656] (-) JobUnselected: {'identifier': 'nvblox_msgs'}
+[0.007994] (-) JobUnselected: {'identifier': 'nvblox_nav2'}
+[0.008035] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement'}
+[0.008124] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement_msgs'}
+[0.008167] (-) JobUnselected: {'identifier': 'nvblox_ros'}
+[0.008222] (-) JobUnselected: {'identifier': 'nvblox_ros_common'}
+[0.008276] (-) JobUnselected: {'identifier': 'nvblox_rviz_plugin'}
+[0.008315] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.009573] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.009613] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.011050] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.011090] (-) JobUnselected: {'identifier': 'realsense_obj_det'}
+[0.011194] (-) JobUnselected: {'identifier': 'road_segmentation'}
+[0.011277] (-) JobUnselected: {'identifier': 'semantic_label_conversion'}
+[0.011353] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.011428] (-) JobUnselected: {'identifier': 'teleop_twist_joy'}
+[0.011502] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.011566] (-) JobUnselected: {'identifier': 'twist_converter'}
+[0.011632] (-) JobUnselected: {'identifier': 'twist_mux'}
+[0.011693] (-) JobUnselected: {'identifier': 'velodyne_driver'}
+[0.011752] (-) JobUnselected: {'identifier': 'velodyne_laserscan'}
+[0.011881] (-) JobUnselected: {'identifier': 'velodyne_msgs'}
+[0.011923] (-) JobUnselected: {'identifier': 'velodyne_pointcloud'}
+[0.011993] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.012077] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.012122] (-) JobUnselected: {'identifier': 'xacro'}
+[0.012269] (velodyne) JobQueued: {'identifier': 'velodyne', 'dependencies': OrderedDict([('velodyne_laserscan', '/workspaces/isaac_ros-dev/install/velodyne_laserscan'), ('velodyne_msgs', '/workspaces/isaac_ros-dev/install/velodyne_msgs'), ('velodyne_driver', '/workspaces/isaac_ros-dev/install/velodyne_driver'), ('velodyne_pointcloud', '/workspaces/isaac_ros-dev/install/velodyne_pointcloud')])}
+[0.012369] (velodyne) JobStarted: {'identifier': 'velodyne'}
+[0.065323] (velodyne) JobProgress: {'identifier': 'velodyne', 'progress': 'cmake'}
+[0.066702] (velodyne) JobProgress: {'identifier': 'velodyne', 'progress': 'build'}
+[0.067990] (velodyne) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/isaac_ros-dev/build/velodyne', '--', '-j12', '-l12'], 'cwd': '/workspaces/isaac_ros-dev/build/velodyne', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources'), ('HOSTNAME', 'agxorin1'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/workspaces/isaac_ros-dev/install/velodyne_pointcloud/lib:/workspaces/isaac_ros-dev/install/velodyne_driver/lib:/workspaces/isaac_ros-dev/install/velodyne_msgs/lib:/workspaces/isaac_ros-dev/install/velodyne_laserscan/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib'), ('HOME', '/home/admin'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('USERNAME', 'admin'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvidia/tao:/usr/local/cuda/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/usr/local/share/middleware_profiles/husarnet_fastdds_profile.xml'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/workspaces/isaac_ros-dev/build/velodyne'), ('PYTHONPATH', '/workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('USER_GID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/opt/ros/humble/install')]), 'shell': False}
+[0.099032] (-) TimerEvent: {}
+[0.121238] (velodyne) CommandEnded: {'returncode': 0}
+[0.166711] (velodyne) JobProgress: {'identifier': 'velodyne', 'progress': 'install'}
+[0.182057] (velodyne) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/isaac_ros-dev/build/velodyne'], 'cwd': '/workspaces/isaac_ros-dev/build/velodyne', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources'), ('HOSTNAME', 'agxorin1'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/workspaces/isaac_ros-dev/install/velodyne_pointcloud/lib:/workspaces/isaac_ros-dev/install/velodyne_driver/lib:/workspaces/isaac_ros-dev/install/velodyne_msgs/lib:/workspaces/isaac_ros-dev/install/velodyne_laserscan/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-11.4/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi2/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib'), ('HOME', '/home/admin'), ('ROS_PYTHON_VERSION', '3'), ('USER_UID', '1000'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('USERNAME', 'admin'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/nvidia/tao:/usr/local/cuda/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/usr/local/share/middleware_profiles/husarnet_fastdds_profile.xml'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/workspaces/isaac_ros-dev/build/velodyne'), ('PYTHONPATH', '/workspaces/isaac_ros-dev/install/velodyne_msgs/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('USER_GID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/isaac_ros-dev/install/velodyne_pointcloud:/workspaces/isaac_ros-dev/install/velodyne_driver:/workspaces/isaac_ros-dev/install/velodyne_msgs:/workspaces/isaac_ros-dev/install/velodyne_laserscan:/opt/ros/humble/install')]), 'shell': False}
+[0.194915] (velodyne) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.195373] (velodyne) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne/share/velodyne/launch\n'}
+[0.195662] (velodyne) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne/share/velodyne/launch/velodyne-all-nodes-VLP32C-launch.py\n'}
+[0.195891] (velodyne) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne/share/velodyne/launch/velodyne-all-nodes-VLP16-launch.py\n'}
+[0.196089] (velodyne) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne/share/velodyne/launch/velodyne-all-nodes-VLP16-composed-launch.py\n'}
+[0.196355] (velodyne) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne/share/velodyne/launch/velodyne-all-nodes-VLP32C-composed-launch.py\n'}
+[0.196554] (velodyne) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne/share/ament_index/resource_index/package_run_dependencies/velodyne\n'}
+[0.196698] (velodyne) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne/share/ament_index/resource_index/parent_prefix_path/velodyne\n'}
+[0.196829] (velodyne) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne/share/velodyne/environment/ament_prefix_path.sh\n'}
+[0.196996] (velodyne) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne/share/velodyne/environment/ament_prefix_path.dsv\n'}
+[0.197300] (velodyne) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne/share/velodyne/environment/path.sh\n'}
+[0.197564] (velodyne) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne/share/velodyne/environment/path.dsv\n'}
+[0.197767] (velodyne) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne/share/velodyne/local_setup.bash\n'}
+[0.197964] (velodyne) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne/share/velodyne/local_setup.sh\n'}
+[0.198155] (velodyne) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne/share/velodyne/local_setup.zsh\n'}
+[0.198483] (velodyne) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne/share/velodyne/local_setup.dsv\n'}
+[0.199235] (-) TimerEvent: {}
+[0.199903] (velodyne) StdoutLine: {'line': b'-- Installing: /workspaces/isaac_ros-dev/install/velodyne/share/velodyne/package.dsv\n'}
+[0.200500] (velodyne) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne/share/ament_index/resource_index/packages/velodyne\n'}
+[0.205613] (velodyne) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne/share/velodyne/cmake/velodyneConfig.cmake\n'}
+[0.206006] (velodyne) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne/share/velodyne/cmake/velodyneConfig-version.cmake\n'}
+[0.206657] (velodyne) StdoutLine: {'line': b'-- Up-to-date: /workspaces/isaac_ros-dev/install/velodyne/share/velodyne/package.xml\n'}
+[0.209592] (velodyne) CommandEnded: {'returncode': 0}
+[0.299486] (-) TimerEvent: {}
+[0.344045] (velodyne) JobEnded: {'identifier': 'velodyne', 'rc': 0}
+[0.345601] (-) EventReactorShutdown: {}

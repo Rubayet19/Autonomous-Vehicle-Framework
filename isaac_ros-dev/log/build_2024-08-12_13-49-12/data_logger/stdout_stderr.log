@@ -1,0 +1,39 @@
+[35m[1mConsolidate compiler generated dependencies of target data_logger_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/data_logger_node.dir/src/data_logger_node.cpp.o[0m
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:[m[K In constructor ‘[01m[KDataLogger::DataLogger()[m[K’:
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:89:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kentry[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   89 |     for (const auto &[01;35m[Kentry[m[K : fs::directory_iterator(m_drive)) {
+      |                      [01;35m[K^~~~~[m[K
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:100:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kentry[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  100 |     for (const auto &[01;35m[Kentry[m[K : fs::directory_iterator(m_image_drive)) {
+      |                      [01;35m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/install/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/install/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/install/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/install/include/rclcpp/rclcpp/node.hpp:40[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/install/image_transport/include/image_transport/image_transport/image_transport.hpp:37[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:14[m[K:
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:111:59:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<<[m[K’ (operand types are ‘[01m[Kconst char [19][m[K’ and ‘[01m[Kstd::filesystem::__cxx11::path[m[K’)
+  111 |     RCLCPP_ERROR(this->get_logger(), [32m[K"File is not open: "[m[K [01;31m[K<<[m[K [34m[Kfs::current_path()[m[K);
+      |                                      [32m[K~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~~~~~~[m[K
+      |                                      [32m[K|[m[K                                       [34m[K|[m[K
+      |                                      [32m[Kconst char [19][m[K                         [34m[Kstd::filesystem::__cxx11::path[m[K
+In file included from [01m[K/usr/include/c++/9/filesystem:37[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:4[m[K:
+[01m[K/usr/include/c++/9/bits/fs_path.h:403:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::filesystem::__cxx11::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::filesystem::__cxx11::path&)[m[K’
+  403 |       [01;36m[Koperator[m[K<<(std::basic_ostream<_CharT, _Traits>& __os, const path& __p)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/fs_path.h:403:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/install/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/install/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/install/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/install/include/rclcpp/rclcpp/node.hpp:40[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/install/image_transport/include/image_transport/image_transport/image_transport.hpp:37[m[K,
+                 from [01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:14[m[K:
+[01m[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:111:79:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_ostream<_CharT, _Traits>[m[K’ and ‘[01m[Kconst char [19][m[K’
+  111 | this->get_logger(), "File is not open: " << fs::current_path([01;36m[K)[m[K);
+      |                                                              [01;36m[K^[m[K
+
+make[2]: *** [CMakeFiles/data_logger_node.dir/build.make:76: CMakeFiles/data_logger_node.dir/src/data_logger_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/data_logger_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

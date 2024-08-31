@@ -1,0 +1,66 @@
+[0.027s] Invoking command in '/home/agxorin1/workspaces/isaac_ros-dev/build/joy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/agxorin1/workspaces/isaac_ros-dev/src/joy -DCMAKE_INSTALL_PREFIX=/home/agxorin1/workspaces/isaac_ros-dev/install/joy
+[0.273s] -- The C compiler identification is GNU 9.4.0
+[0.412s] -- The CXX compiler identification is GNU 9.4.0
+[0.429s] -- Check for working C compiler: /usr/bin/cc
+[0.562s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.565s] -- Detecting C compiler ABI info
+[0.704s] -- Detecting C compiler ABI info - done
+[0.735s] -- Detecting C compile features
+[0.736s] -- Detecting C compile features - done
+[0.743s] -- Check for working CXX compiler: /usr/bin/c++
+[0.892s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.893s] -- Detecting CXX compiler ABI info
+[1.041s] -- Detecting CXX compiler ABI info - done
+[1.075s] -- Detecting CXX compile features
+[1.075s] -- Detecting CXX compile features - done
+[1.080s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.147s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.147s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.564s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.658s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.671s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.859s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.915s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.072s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.184s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.188s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.190s] -- Looking for pthread.h
+[2.337s] -- Looking for pthread.h - found
+[2.337s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.476s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.476s] -- Looking for pthread_create in pthreads
+[2.597s] -- Looking for pthread_create in pthreads - not found
+[2.598s] -- Looking for pthread_create in pthread
+[2.736s] -- Looking for pthread_create in pthread - found
+[2.740s] -- Found Threads: TRUE  
+[3.044s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[3.160s] -- Found sdl2_vendor: 3.0.1 (/opt/ros/foxy/share/sdl2_vendor/cmake)
+[3.166s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.386s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.549s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.550s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/agxorin1/workspaces/isaac_ros-dev/src/joy/include>
+[3.550s] -- Configured cppcheck exclude dirs and/or files: 
+[3.552s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.552s] -- Configured cpplint exclude dirs and/or files: 
+[3.553s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.555s] -- Added test 'lint_cmake' to check CMake code style
+[3.556s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.560s] -- Added test 'uncrustify' to check C / C++ code style
+[3.560s] -- Configured uncrustify additional arguments: 
+[3.561s] -- Added test 'xmllint' to check XML markup files
+[3.570s] -- Configuring done
+[3.575s] CMake Error at CMakeLists.txt:20 (add_library):
+[3.576s]   Target "joy" links to target "rclcpp_components::component" but the target
+[3.576s]   was not found.  Perhaps a find_package() call is missing for an IMPORTED
+[3.576s]   target, or an ALIAS target is missing?
+[3.576s] 
+[3.576s] 
+[3.577s] CMake Error at CMakeLists.txt:39 (add_library):
+[3.577s]   Target "game_controller" links to target "rclcpp_components::component" but
+[3.577s]   the target was not found.  Perhaps a find_package() call is missing for an
+[3.577s]   IMPORTED target, or an ALIAS target is missing?
+[3.577s] 
+[3.578s] 
+[3.608s] -- Generating done
+[3.611s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[3.635s] Invoked command in '/home/agxorin1/workspaces/isaac_ros-dev/build/joy' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/agxorin1/workspaces/isaac_ros-dev/src/joy -DCMAKE_INSTALL_PREFIX=/home/agxorin1/workspaces/isaac_ros-dev/install/joy

@@ -1,0 +1,1782 @@
+-- The CXX compiler identification is GNU 9.4.0
+-- The CUDA compiler identification is NVIDIA 11.4.315
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting CUDA compiler ABI info
+-- Detecting CUDA compiler ABI info - done
+-- Check for working CUDA compiler: /usr/local/cuda/bin/nvcc - skipped
+-- Detecting CUDA compile features
+-- Detecting CUDA compile features - done
+-- Downloading 3rdparty dependencies
+-- Downloading Eigen
+-- Downloading STDGPU
+-- Found thrust: /usr/local/cuda/include (found suitable version "1.12.1", minimum required is "1.9.2") 
+-- Found CUDAToolkit: /usr/local/cuda/include (found suitable version "11.4.315", minimum required is "10.0") 
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Could NOT find Doxygen: Found unsuitable version "1.8.17", but required is at least "1.9.1" (found /usr/bin/doxygen, found components: doxygen dot)
+-- 
+-- ************************ stdgpu Configuration Summary *************************
+-- 
+-- General:
+--   Version                                   :   1.3.0
+--   System                                    :   Linux
+--   Build type                                :   RelWithDebInfo
+-- 
+-- Build:
+--   STDGPU_BACKEND                            :   STDGPU_BACKEND_CUDA
+--   STDGPU_BUILD_SHARED_LIBS                  :   OFF
+--   STDGPU_SETUP_COMPILER_FLAGS               :   OFF
+--   STDGPU_TREAT_WARNINGS_AS_ERRORS           :   OFF
+--   STDGPU_ANALYZE_WITH_CLANG_TIDY            :   OFF
+--   STDGPU_ANALYZE_WITH_CPPCHECK              :   OFF
+-- 
+-- Configuration:
+--   STDGPU_ENABLE_CONTRACT_CHECKS             :   OFF
+--   STDGPU_USE_32_BIT_INDEX                   :   ON
+-- 
+-- Examples:
+--   STDGPU_BUILD_EXAMPLES                     :   OFF
+-- 
+-- Tests:
+--   STDGPU_BUILD_TESTS                        :   OFF
+--   STDGPU_BUILD_TEST_COVERAGE                :   OFF
+-- 
+-- Documentation:
+--   Doxygen                                   :   NO
+-- 
+-- *******************************************************************************
+-- 
+-- Detecting CCs of GPUs : /avlcode/workspaces/isaac_ros-dev/build/nvblox/_deps/ext_stdgpu-src/cmake/cuda/compute_capability.cpp
+-- Detecting CCs of GPUs : /avlcode/workspaces/isaac_ros-dev/build/nvblox/_deps/ext_stdgpu-src/cmake/cuda/compute_capability.cpp - Success (found CCs : 87)
+-- Enabled compilation for CC 87
+-- Building with modified CMAKE_CUDA_ARCHITECTURES : 87
+-- Found CUDA: /usr/local/cuda (found version "11.4") 
+-- Found Glog: /usr/include  
+-- Found SQLite3: /usr/include (found version "3.31.1") 
+-- Found GTest: /opt/ros/humble/install/lib/cmake/GTest/GTestConfig.cmake (found version "1.10.0")  
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/data
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/camera-intrinsics.txt
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000116.pose.txt
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000001.pose.txt
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000000.pose.txt
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000002.pose.txt
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/tests/data/3dmatch/seq-01/frame-000422.pose.txt
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /avlcode/workspaces/isaac_ros-dev/build/nvblox
+[  1%] [34m[1mCreating directories for 'ext_eigen'[0m
+[  1%] [34m[1mPerforming download step (download, verify and extract) for 'ext_eigen'[0m
+-- Downloading...
+   dst='/avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/src/eigen-3.4.0.tar.gz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/src/eigen-3.4.0.tar.gz'
+     dst='/avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/src/ext_eigen'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[  2%] [34m[1mNo update step for 'ext_eigen'[0m
+[  2%] [34m[1mNo patch step for 'ext_eigen'[0m
+[  3%] [34m[1mPerforming configure step for 'ext_eigen'[0m
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test EIGEN_COMPILER_SUPPORT_CPP11
+-- Performing Test EIGEN_COMPILER_SUPPORT_CPP11 - Success
+-- Performing Test COMPILER_SUPPORT_std=cpp03
+-- Performing Test COMPILER_SUPPORT_std=cpp03 - Success
+-- Performing Test standard_math_library_linked_to_automatically
+-- Performing Test standard_math_library_linked_to_automatically - Success
+-- Standard libraries to link to explicitly: none
+-- Performing Test COMPILER_SUPPORT_WERROR
+-- Performing Test COMPILER_SUPPORT_WERROR - Success
+-- Performing Test COMPILER_SUPPORT_pedantic
+-- Performing Test COMPILER_SUPPORT_pedantic - Success
+-- Performing Test COMPILER_SUPPORT_Wall
+-- Performing Test COMPILER_SUPPORT_Wall - Success
+-- Performing Test COMPILER_SUPPORT_Wextra
+-- Performing Test COMPILER_SUPPORT_Wextra - Success
+-- Performing Test COMPILER_SUPPORT_Wundef
+-- Performing Test COMPILER_SUPPORT_Wundef - Success
+-- Performing Test COMPILER_SUPPORT_Wcastalign
+-- Performing Test COMPILER_SUPPORT_Wcastalign - Success
+-- Performing Test COMPILER_SUPPORT_Wcharsubscripts
+-- Performing Test COMPILER_SUPPORT_Wcharsubscripts - Success
+-- Performing Test COMPILER_SUPPORT_Wnonvirtualdtor
+-- Performing Test COMPILER_SUPPORT_Wnonvirtualdtor - Success
+-- Performing Test COMPILER_SUPPORT_Wunusedlocaltypedefs
+-- Performing Test COMPILER_SUPPORT_Wunusedlocaltypedefs - Success
+-- Performing Test COMPILER_SUPPORT_Wpointerarith
+-- Performing Test COMPILER_SUPPORT_Wpointerarith - Success
+-- Performing Test COMPILER_SUPPORT_Wwritestrings
+-- Performing Test COMPILER_SUPPORT_Wwritestrings - Success
+-- Performing Test COMPILER_SUPPORT_Wformatsecurity
+-- Performing Test COMPILER_SUPPORT_Wformatsecurity - Success
+-- Performing Test COMPILER_SUPPORT_Wshorten64to32
+-- Performing Test COMPILER_SUPPORT_Wshorten64to32 - Failed
+-- Performing Test COMPILER_SUPPORT_Wlogicalop
+-- Performing Test COMPILER_SUPPORT_Wlogicalop - Success
+-- Performing Test COMPILER_SUPPORT_Wenumconversion
+-- Performing Test COMPILER_SUPPORT_Wenumconversion - Failed
+-- Performing Test COMPILER_SUPPORT_Wcpp11extensions
+-- Performing Test COMPILER_SUPPORT_Wcpp11extensions - Failed
+-- Performing Test COMPILER_SUPPORT_Wdoublepromotion
+-- Performing Test COMPILER_SUPPORT_Wdoublepromotion - Success
+-- Performing Test COMPILER_SUPPORT_Wshadow
+-- Performing Test COMPILER_SUPPORT_Wshadow - Success
+-- Performing Test COMPILER_SUPPORT_Wnopsabi
+-- Performing Test COMPILER_SUPPORT_Wnopsabi - Success
+-- Performing Test COMPILER_SUPPORT_Wnovariadicmacros
+-- Performing Test COMPILER_SUPPORT_Wnovariadicmacros - Success
+-- Performing Test COMPILER_SUPPORT_Wnolonglong
+-- Performing Test COMPILER_SUPPORT_Wnolonglong - Success
+-- Performing Test COMPILER_SUPPORT_fnochecknew
+-- Performing Test COMPILER_SUPPORT_fnochecknew - Success
+-- Performing Test COMPILER_SUPPORT_fnocommon
+-- Performing Test COMPILER_SUPPORT_fnocommon - Success
+-- Performing Test COMPILER_SUPPORT_fstrictaliasing
+-- Performing Test COMPILER_SUPPORT_fstrictaliasing - Success
+-- Performing Test COMPILER_SUPPORT_wd981
+-- Performing Test COMPILER_SUPPORT_wd981 - Failed
+-- Performing Test COMPILER_SUPPORT_wd2304
+-- Performing Test COMPILER_SUPPORT_wd2304 - Failed
+-- Performing Test COMPILER_SUPPORT_STRICTANSI
+-- Performing Test COMPILER_SUPPORT_STRICTANSI - Failed
+-- Performing Test COMPILER_SUPPORT_Qunusedarguments
+-- Performing Test COMPILER_SUPPORT_Qunusedarguments - Failed
+-- Performing Test COMPILER_SUPPORT_ansi
+-- Performing Test COMPILER_SUPPORT_ansi - Success
+-- Performing Test COMPILER_SUPPORT_OPENMP
+-- Performing Test COMPILER_SUPPORT_OPENMP - Success
+-- Found unsuitable Qt version "5.12.8" from /usr/bin/qmake
+-- Looking for a Fortran compiler
+-- Looking for a Fortran compiler - /usr/bin/f95
+-- The Fortran compiler identification is GNU 9.4.0
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Check for working Fortran compiler: /usr/bin/f95 - skipped
+-- Found CHOLMOD: /usr/include/suitesparse  
+-- Found UMFPACK: /usr/include/suitesparse  
+-- Found KLU: /usr/include/suitesparse  
+-- Performing Test SUPERLU_HAS_GLOBAL_MEM_USAGE_T
+-- Performing Test SUPERLU_HAS_GLOBAL_MEM_USAGE_T - Success
+-- Performing Test SUPERLU_HAS_CLEAN_ENUMS
+-- Performing Test SUPERLU_HAS_CLEAN_ENUMS - Success
+-- Performing Test SUPERLU_HAS_GLOBALLU_T
+-- Performing Test SUPERLU_HAS_GLOBALLU_T - Success
+-- Found SuperLU: /usr/include/superlu (found suitable version "5.0", minimum required is "4.0") 
+-- Checking for one of the modules 'hwloc'
+-- Performing Test HAVE_HWLOC_PARENT_MEMBER
+-- Performing Test HAVE_HWLOC_PARENT_MEMBER - Success
+-- Performing Test HAVE_HWLOC_CACHE_ATTR
+-- Performing Test HAVE_HWLOC_CACHE_ATTR - Success
+-- Performing Test HAVE_HWLOC_OBJ_PU
+-- Performing Test HAVE_HWLOC_OBJ_PU - Success
+-- Looking for hwloc_bitmap_free in hwloc
+-- Looking for hwloc_bitmap_free in hwloc - found
+-- Looking for Fortran sgemm
+-- Looking for Fortran sgemm - found
+-- Performing Test SCOTCH_Num_4
+-- Performing Test SCOTCH_Num_4 - Failed
+-- Performing Test SCOTCH_Num_8
+-- Performing Test SCOTCH_Num_8 - Failed
+-- A version of Pastix has been found but pastix_nompi.h does not exist in the include directory. Because Eigen tests require a version without MPI, we disable the Pastix backend.
+-- Found SPQR: /usr/include/suitesparse  
+-- Found unsuitable Qt version "5.12.8" from /usr/bin/qmake
+-- Performing Test COMPILER_SUPPORT_FASTMATH
+-- Performing Test COMPILER_SUPPORT_FASTMATH - Success
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.53.0")  
+-- Found Threads: TRUE  
+-- Could NOT find GoogleHash (missing: GOOGLEHASH_INCLUDES GOOGLEHASH_COMPILE) 
+-- Could NOT find Adolc (missing: ADOLC_INCLUDES ADOLC_LIBRARIES) 
+-- Could NOT find MPFR (missing: MPFR_INCLUDES MPFR_LIBRARIES MPFR_VERSION_OK) (Required is at least version "1.0.0")
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Could NOT find FFTW (missing: FFTW_INCLUDES FFTW_LIBRARIES) 
+-- Found CUDA: /usr/local/cuda (found suitable version "11.4", minimum required is "7.0") 
+-- Found unsuitable Qt version "5.12.8" from /usr/bin/qmake
+-- Qt4 not found, so disabling the mandelbrot and opengl demos
+-- A version of Pastix has been found but pastix_nompi.h does not exist in the include directory. Because Eigen tests require a version without MPI, we disable the Pastix backend.
+-- ************************************************************
+-- ***    Eigen's unit tests configuration summary          ***
+-- ************************************************************
+-- 
+-- Build type:        Release
+-- Build site:        agxorin1
+-- Build string:      linux-5.10.104-tegra-_-9.4.0-sse2-64bit
+-- Enabled backends:  CHOLMOD,  UMFPACK,  KLU,  SuperLU,  SPQR,  Boost.Multiprecision, 
+-- Disabled backends: PaStiX,  METIS,  Qt4 support,  GoogleHash,  Adolc,  MPFR C++,  fftw,  OpenGL, 
+-- Default order:     Column-major
+-- Maximal matrix/vector size: 320
+-- SSE2:              Using architecture defaults
+-- SSE3:              Using architecture defaults
+-- SSSE3:             Using architecture defaults
+-- SSE4.1:            Using architecture defaults
+-- SSE4.2:            Using architecture defaults
+-- AVX:               Using architecture defaults
+-- AVX2:              Using architecture defaults
+-- FMA:               Using architecture defaults
+-- AVX512:            Using architecture defaults
+-- AVX512DQ:          Using architecture defaults
+-- Altivec:           Using architecture defaults
+-- VSX:               Using architecture defaults
+-- MIPS MSA:          Using architecture defaults
+-- ARM NEON:          Using architecture defaults
+-- ARMv8 NEON:        Using architecture defaults
+-- S390X ZVECTOR:     Using architecture defaults
+-- C++11:             OFF
+-- SYCL:              OFF
+-- CUDA:              OFF
+-- HIP:               OFF
+-- 
+CXX:               /usr/bin/c++
+ CXX_VERSION:       c++ (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0
+ CXX_FLAGS:          -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi
+ Sparse lib flags:   ;/usr/lib/aarch64-linux-gnu/libcholmod.so;/usr/lib/aarch64-linux-gnu/libamd.so;/usr/lib/aarch64-linux-gnu/libcolamd.so;/usr/lib/aarch64-linux-gnu/libcamd.so;/usr/lib/aarch64-linux-gnu/libccolamd.so;eigen_blas;eigen_lapack;/usr/lib/aarch64-linux-gnu/libumfpack.so;/usr/lib/aarch64-linux-gnu/libcolamd.so;/usr/lib/aarch64-linux-gnu/libamd.so;/usr/lib/aarch64-linux-gnu/libcholmod.so;eigen_blas;/usr/lib/aarch64-linux-gnu/libklu.so;/usr/lib/aarch64-linux-gnu/libcolamd.so;/usr/lib/aarch64-linux-gnu/libamd.so;/usr/lib/aarch64-linux-gnu/libbtf.so;eigen_blas;/usr/lib/aarch64-linux-gnu/libsuperlu.so;eigen_blas;/usr/lib/aarch64-linux-gnu/libspqr.so;/usr/lib/aarch64-linux-gnu/libcholmod.so;/usr/lib/aarch64-linux-gnu/libcholmod.so;/usr/lib/aarch64-linux-gnu/libamd.so;/usr/lib/aarch64-linux-gnu/libcolamd.so;/usr/lib/aarch64-linux-gnu/libcamd.so;/usr/lib/aarch64-linux-gnu/libccolamd.so;eigen_lapack;eigen_blas
+
+-- ************************************************************
+-- 
+-- Configured Eigen 3.4.0
+-- 
+-- Available targets (use: make TARGET):
+-- ---------+--------------------------------------------------------------
+-- Target   |   Description
+-- ---------+--------------------------------------------------------------
+-- install  | Install Eigen. Headers will be installed to:
+--          |     <CMAKE_INSTALL_PREFIX>/<INCLUDE_INSTALL_DIR>
+--          |   Using the following values:
+--          |     CMAKE_INSTALL_PREFIX: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen
+--          |     INCLUDE_INSTALL_DIR:  include/eigen3
+--          |   Change the install location of Eigen headers using:
+--          |     cmake . -DCMAKE_INSTALL_PREFIX=yourprefix
+--          |   Or:
+--          |     cmake . -DINCLUDE_INSTALL_DIR=yourdir
+-- doc      | Generate the API documentation, requires Doxygen & LaTeX
+-- check    | Build and run the unit-tests. Read this page:
+--          |   http://eigen.tuxfamily.org/index.php?title=Tests
+-- blas     | Build BLAS library (not the same thing as Eigen)
+-- uninstall| Remove files installed by the install target
+-- ---------+--------------------------------------------------------------
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/src/ext_eigen-build
+[  3%] [34m[1mPerforming build step for 'ext_eigen'[0m
+[  4%] [34m[1mPerforming install step for 'ext_eigen'[0m
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/signature_of_eigen3_matrix_library
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/share/pkgconfig/eigen3.pc
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/SVD
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/KLUSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/SPQRSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/MetisSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/Dense
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/StdList
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/Eigen
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/Cholesky
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/CholmodSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/Sparse
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/IterativeLinearSolvers
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/Eigenvalues
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/QR
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/PardisoSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/Geometry
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/SparseCore
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/QtAlignedMalloc
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/Core
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/UmfPackSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/Jacobi
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/LU
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/SuperLUSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/SparseQR
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/SparseCholesky
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/OrderingMethods
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SVD
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SVD/SVDBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SVD/JacobiSVD.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SVD/JacobiSVD_LAPACKE.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SVD/BDCSVD.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/KLUSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/KLUSupport/KLUSupport.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SPQRSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SPQRSupport/SuiteSparseQRSupport.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/MetisSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/MetisSupport/MetisSupport.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/misc
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/misc/RealSvd2x2.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/misc/lapack.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/misc/lapacke.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/misc/Image.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/misc/Kernel.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/misc/blas.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/misc/lapacke_mangling.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Cholesky
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Cholesky/LLT_LAPACKE.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Cholesky/LLT.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Cholesky/LDLT.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/CholmodSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/CholmodSupport/CholmodSupport.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/IterativeLinearSolvers
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/RealSchur_LAPACKE.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur_LAPACKE.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/QR
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/QR/HouseholderQR.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/QR/HouseholderQR_LAPACKE.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/QR/ColPivHouseholderQR_LAPACKE.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/PardisoSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/PardisoSupport/PardisoSupport.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/plugins
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/plugins/ReshapedMethods.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/plugins/BlockMethods.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/Umeyama.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/EulerAngles.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/arch
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/Translation.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/Rotation2D.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/AngleAxis.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/Transform.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/Quaternion.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/Scaling.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/RotationBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/Hyperplane.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/Homogeneous.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/AlignedBox.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Geometry/OrthoMethods.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseUtil.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/AmbiVector.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseAssign.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseProduct.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseDot.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseBlock.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseView.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseRedux.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseRef.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/MappedSparseMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseVector.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/TriangularSolver.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseMap.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/StlSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/StlSupport/details.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/StlSupport/StdVector.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/StlSupport/StdList.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/StlSupport/StdDeque.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/AssignEvaluator.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/GlobalFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/GenericPacketMath.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/Parallelizer.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/EigenBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Ref.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/ReturnByValue.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/NoAlias.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Replicate.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Random.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/MatrixBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/IO.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Inverse.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Redux.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Reshaped.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Swap.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Product.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/CoreIterators.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/Macros.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/Meta.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/BlasUtil.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/StaticAssert.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/Memory.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/IntegralConstant.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/NonMPL2.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/Constants.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/XprHelper.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/util/MKL_support.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/StableNorm.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/IndexedView.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Visitor.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Dot.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/CUDA
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/ZVector
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/ZVector/PacketMath.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/ZVector/Complex.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/ZVector/MathFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AltiVec
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AltiVec/MatrixProductCommon.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AltiVec/Complex.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AltiVec/MatrixProduct.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AltiVec/MatrixProductMMA.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AVX512
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AVX512/PacketMath.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AVX512/Complex.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AVX512/MathFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AVX512/TypeCasting.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AVX
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AVX/Complex.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AVX/MathFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/AVX/TypeCasting.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/MSA
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/MSA/PacketMath.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/MSA/Complex.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/MSA/MathFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/HIP
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/HIP/hcc
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/HIP/hcc/math_constants.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/Default
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/Default/Half.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SYCL
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SYCL/InteropHeaders.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SYCL/PacketMath.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SYCL/MathFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SYCL/TypeCasting.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SYCL/SyclMemoryModel.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SSE
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/NEON
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/NEON/MathFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/NEON/GeneralBlockPanelKernel.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/NEON/TypeCasting.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SVE
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SVE/PacketMath.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SVE/MathFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/SVE/TypeCasting.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/GPU
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/GPU/PacketMath.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/GPU/MathFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/arch/GPU/TypeCasting.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/ArrayWrapper.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/NumTraits.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/VectorwiseOp.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Solve.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/GeneralProduct.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/ArithmeticSequence.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/SolverBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/SelfAdjointView.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/ConditionEstimator.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/DenseStorage.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Fuzzy.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Map.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/VectorBlock.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/SolveTriangular.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/MathFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/TriangularMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/CoreEvaluators.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Stride.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Assign.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/DenseBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/CwiseUnaryView.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/ForceAlignedAccess.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/DiagonalProduct.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Assign_MKL.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/DiagonalMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Transpositions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/ProductEvaluators.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/MapBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Reverse.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/StlIterators.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/CommaInitializer.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Select.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Block.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/functors
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/functors/StlFunctors.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Matrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Array.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Diagonal.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/PlainObjectBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/PermutationMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/ArrayBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/BooleanRedux.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/Transpose.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/NestByValue.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Core/BandMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/UmfPackSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/UmfPackSupport/UmfPackSupport.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Jacobi
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Jacobi/Jacobi.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/LU
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/LU/FullPivLU.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/LU/InverseImpl.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/LU/Determinant.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/LU/arch
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/LU/arch/InverseSize4.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/LU/PartialPivLU.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SuperLUSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SuperLUSupport/SuperLUSupport.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseQR
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseQR/SparseQR.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCholesky
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/OrderingMethods
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/OrderingMethods/Amd.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Householder
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Householder/Householder.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/PaStiXSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/PaStiXSupport/PaStiXSupport.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_kernel_bmod.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_Structs.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_gemm_kernel.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_Utils.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_bmod.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_relax_snode.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_column_bmod.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_Memory.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLUImpl.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_dfs.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/Householder
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/PaStiXSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/StdVector
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/SparseLU
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/Eigen/StdDeque
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/share/eigen3/cmake/Eigen3Targets.cmake
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/share/eigen3/cmake/UseEigen3.cmake
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/share/eigen3/cmake/Eigen3Config.cmake
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/share/eigen3/cmake/Eigen3ConfigVersion.cmake
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/AdolcForward
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/AlignedVector3
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/ArpackSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/AutoDiff
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/BVH
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/EulerAngles
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/FFT
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/IterativeSolvers
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/KroneckerProduct
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/LevenbergMarquardt
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/MatrixFunctions
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/MoreVectorization
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/MPRealSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/NonLinearOptimization
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/NumericalDiff
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/OpenGLSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/Polynomials
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/Skyline
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/SparseExtra
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/SpecialFunctions
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/Splines
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsArrayAPI.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/AVX512
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/AVX512/SpecialFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/AVX512/BesselFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/AVX
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/AVX/SpecialFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/AVX/BesselFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/NEON
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/NEON/SpecialFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/NEON/BesselFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/GPU
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/arch/GPU/SpecialFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsFunctors.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsPacketMath.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsHalf.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsImpl.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsArrayAPI.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsPacketMath.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/HipVectorCompatibility.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsBFloat16.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsHalf.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsBFloat16.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsImpl.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsFunctors.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/BVH
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/BVH/KdBVH.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/BVH/BVAlgorithms.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Polynomials
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Polynomials/PolynomialUtils.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Polynomials/Companion.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Polynomials/PolynomialSolver.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Skyline
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Skyline/SkylineProduct.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Skyline/SkylineUtil.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Skyline/SkylineMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Skyline/SkylineStorage.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Skyline/SkylineMatrixBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Skyline/SkylineInplaceLU.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LMqrsolv.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LMpar.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LMcovar.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LMonestep.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/LevenbergMarquardt/LevenbergMarquardt.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NonLinearOptimization
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/fdjac1.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/HybridNonLinearSolver.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/dogleg.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/rwupdt.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/covar.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/LevenbergMarquardt.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/r1mpyq.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/r1updt.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/chkder.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/lmpar.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NonLinearOptimization/qrsolv.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SparseExtra
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SparseExtra/MatrixMarketIterator.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SparseExtra/BlockOfDynamicSparseMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SparseExtra/MarketIO.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SparseExtra/BlockSparseMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SparseExtra/DynamicSparseMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/SparseExtra/RandomSetter.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/MoreVectorization
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/MoreVectorization/MathFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Eigenvalues
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Eigenvalues/ArpackSelfAdjointEigenSolver.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/AutoDiff
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/AutoDiff/AutoDiffVector.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/AutoDiff/AutoDiffJacobian.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/AutoDiff/AutoDiffScalar.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/EulerAngles
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/EulerAngles/EulerAngles.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/EulerAngles/EulerSystem.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/IterativeSolvers
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/IterativeSolvers/ConstrainedConjGrad.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/IterativeSolvers/MINRES.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/IterativeSolvers/DGMRES.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/IterativeSolvers/IterationController.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/IterativeSolvers/IDRS.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/IterativeSolvers/Scaling.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/IterativeSolvers/IncompleteLU.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/IterativeSolvers/GMRES.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/FFT
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/FFT/ei_fftw_impl.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/FFT/ei_kissfft_impl.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NumericalDiff
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/NumericalDiff/NumericalDiff.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/KroneckerProduct
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/KroneckerProduct/KroneckerTensorProduct.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Splines
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Splines/SplineFwd.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Splines/Spline.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/Splines/SplineFitting.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/MatrixFunctions
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixExponential.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixFunction.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/MatrixFunctions/StemFunction.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixPower.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixSquareRoot.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/src/MatrixFunctions/MatrixLogarithm.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/Tensor
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/TensorSymmetry
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/ThreadPool
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/util
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/util/CXX11Workarounds.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/util/MaxSizeVector.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/util/CXX11Meta.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/util/EmulateArray.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/Symmetry.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/util
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/util/TemplateGroupTheory.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/DynamicSymmetry.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/TensorSymmetry/StaticSymmetry.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/ThreadLocal.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/ThreadEnvironment.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/ThreadPoolInterface.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/Barrier.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/ThreadCancel.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/NonBlockingThreadPool.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/EventCount.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/RunQueue.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/ThreadPool/ThreadYield.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorCostModel.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceThreadPool.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorInitializer.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorCustomOp.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorUInt128.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMacros.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorTrace.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorScan.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIO.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorLayoutSwap.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReductionGpu.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorForwardDeclarations.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionMapper.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionThreadPool.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFunctors.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionCuda.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMap.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorExecutor.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDevice.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorInflation.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionSycl.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorStriding.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceGpu.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFixedSize.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorVolumePatch.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorForcedEval.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorScanSycl.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMorphing.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorTraits.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorStorage.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorPatch.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConversion.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorIntDiv.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDimensions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReductionCuda.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorGlobalFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorExpr.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorGpuHipCudaDefines.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBroadcasting.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionBlocking.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorAssign.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorShuffling.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorRef.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDimensionList.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorImagePatch.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceSycl.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConcatenation.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorPadding.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContractionGpu.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReductionSycl.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReduction.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorRandom.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorEvaluator.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorChipping.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorGpuHipCudaUndefines.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorFFT.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConvolution.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceCuda.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorContraction.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorEvalTo.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/Tensor.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorMeta.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceDefault.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorConvolutionSycl.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorGenerator.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorReverse.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/build/nvblox/eigen/include/eigen3/unsupported/Eigen/CXX11/src/Tensor/TensorArgMax.h
+[  5%] [34m[1mCompleted 'ext_eigen'[0m
+[  5%] Built target ext_eigen
+[  5%] [32mBuilding CXX object _deps/ext_stdgpu-build/src/stdgpu/CMakeFiles/stdgpu.dir/impl/iterator.cpp.o[0m
+[  6%] [32mBuilding CXX object _deps/ext_stdgpu-build/src/stdgpu/CMakeFiles/stdgpu.dir/cuda/impl/memory.cpp.o[0m
+[  6%] [32mBuilding CXX object _deps/ext_stdgpu-build/src/stdgpu/CMakeFiles/stdgpu.dir/impl/limits.cpp.o[0m
+[  7%] [32mBuilding CXX object _deps/ext_stdgpu-build/src/stdgpu/CMakeFiles/stdgpu.dir/impl/memory.cpp.o[0m
+[  7%] [32m[1mLinking CXX static library libstdgpu.a[0m
+[  7%] Built target stdgpu
+[  8%] [32mBuilding CUDA object CMakeFiles/nvblox_gpu_hash.dir/src/core/error_check.cu.o[0m
+[  8%] [32mBuilding CUDA object CMakeFiles/nvblox_gpu_hash.dir/src/gpu_hash/gpu_set.cu.o[0m
+[  9%] [32mBuilding CUDA object CMakeFiles/nvblox_gpu_hash.dir/src/gpu_hash/gpu_layer_view.cu.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/nvblox_gpu_hash.dir/src/utils/nvtx_ranges.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/nvblox_gpu_hash.dir/src/utils/timing.cpp.o[0m
+[ 11%] [32m[1mLinking CXX static library libnvblox_gpu_hash.a[0m
+[ 11%] Built target nvblox_gpu_hash
+[ 11%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/core/warmup.cu.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/mapper/multi_mapper.cpp.o[0m
+[ 12%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/integrators/view_calculator.cu.o[0m
+[ 13%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/integrators/occupancy_decay_integrator.cu.o[0m
+[ 13%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/integrators/projective_occupancy_integrator.cu.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/mapper/mapper.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/geometry/bounding_spheres.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/geometry/bounding_boxes.cpp.o[0m
+[ 15%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/sensors/image.cu.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/interpolation/interpolation_3d.cpp.o[0m
+[ 16%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/rays/sphere_tracer.cu.o[0m
+[ 17%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/integrators/esdf_integrator.cu.o[0m
+[ 17%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/integrators/projective_color_integrator.cu.o[0m
+[ 18%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/integrators/projective_tsdf_integrator.cu.o[0m
+[ 19%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/sensors/pointcloud.cu.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/sensors/color.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/sensors/camera.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/io/mesh_io.cpp.o[0m
+[ 22%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/map/layer.cu.o[0m
+[ 22%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/mesh/marching_cubes.cu.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/io/image_io.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/io/pointcloud_io.cpp.o[0m
+[ 24%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/mesh/mesh_block.cu.o[0m
+[ 24%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/mesh/mesh_integrator_color.cu.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/io/layer_cake_io.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/io/ply_writer.cpp.o[0m
+[ 25%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/map/blox.cu.o[0m
+[ 26%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/core/error_check.cu.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/utils/timing.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/serialization/serializer.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/serialization/sqlite_database.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/utils/nvtx_ranges.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/serialization/layer_type_register.cpp.o[0m
+[ 29%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/semantics/image_masker.cu.o[0m
+[ 31%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/semantics/image_projector.cu.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/primitives/scene.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/primitives/primitives.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/nvblox_lib.dir/src/mesh/mesh.cpp.o[0m
+[ 33%] [32mBuilding CUDA object CMakeFiles/nvblox_lib.dir/src/mesh/mesh_integrator.cu.o[0m
+[ 33%] [32m[1mLinking CUDA device code CMakeFiles/nvblox_lib.dir/cmake_device_link.o[0m
+[ 34%] [32m[1mLinking CXX shared library libnvblox_lib.so[0m
+[ 34%] Built target nvblox_lib
+[ 35%] [32mBuilding CXX object executables/CMakeFiles/nvblox_datasets.dir/src/datasets/3dmatch.cpp.o[0m
+[ 35%] [32mBuilding CXX object examples/CMakeFiles/load_map_and_mesh.dir/src/load_map_and_mesh.cpp.o[0m
+[ 36%] [32mBuilding CUDA object examples/CMakeFiles/esdf_query.dir/src/esdf_query.cu.o[0m
+[ 36%] [32mBuilding CXX object executables/CMakeFiles/nvblox_datasets.dir/src/datasets/replica.cpp.o[0m
+[ 36%] [32mBuilding CXX object executables/CMakeFiles/nvblox_datasets.dir/src/datasets/image_loader.cpp.o[0m
+[ 36%] [32mBuilding CXX object executables/CMakeFiles/nvblox_datasets.dir/src/fuser.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/sphere_benchmark.dir/src/benchmarks/sphere_benchmark.cpp.o[0m
+[ 37%] [32mBuilding CXX object executables/CMakeFiles/nvblox_datasets.dir/src/datasets/redwood.cpp.o[0m
+[ 38%] [32m[1mLinking CUDA device code CMakeFiles/sphere_benchmark.dir/cmake_device_link.o[0m
+[ 39%] [32m[1mLinking CXX executable sphere_benchmark[0m
+[ 39%] Built target sphere_benchmark
+[ 40%] [32m[1mLinking CUDA device code CMakeFiles/load_map_and_mesh.dir/cmake_device_link.o[0m
+[ 40%] [32m[1mLinking CXX executable load_map_and_mesh[0m
+[ 40%] Built target load_map_and_mesh
+[ 41%] [32m[1mLinking CUDA device code CMakeFiles/esdf_query.dir/cmake_device_link.o[0m
+[ 41%] [32m[1mLinking CXX executable esdf_query[0m
+[ 41%] Built target esdf_query
+[ 42%] [32m[1mLinking CUDA device code CMakeFiles/nvblox_datasets.dir/cmake_device_link.o[0m
+[ 42%] [32m[1mLinking CXX shared library libnvblox_datasets.so[0m
+[ 42%] Built target nvblox_datasets
+[ 44%] [32mBuilding CXX object executables/CMakeFiles/fuse_redwood.dir/src/fuse_redwood.cpp.o[0m
+[ 44%] [32mBuilding CXX object executables/CMakeFiles/fuse_replica.dir/src/fuse_replica.cpp.o[0m
+[ 44%] [32mBuilding CUDA object tests/CMakeFiles/nvblox_test_utils.dir/lib/cuda/blox_utils.cu.o[0m
+[ 46%] [32mBuilding CXX object experiments/CMakeFiles/test_bench.dir/src/test_bench.cpp.o[0m
+[ 46%] [32mBuilding CUDA object tests/CMakeFiles/nvblox_test_utils.dir/lib/cuda/gpu_indexing.cu.o[0m
+[ 46%] [32mBuilding CUDA object tests/CMakeFiles/nvblox_test_utils.dir/lib/cuda/gpu_image_routines.cu.o[0m
+[ 44%] [32mBuilding CXX object executables/CMakeFiles/fuse_3dmatch.dir/src/fuse_3dmatch.cpp.o[0m
+[ 47%] [32mBuilding CUDA object tests/CMakeFiles/nvblox_test_utils.dir/lib/cuda/blox.cu.o[0m
+[ 48%] [32mBuilding CUDA object tests/CMakeFiles/nvblox_test_utils.dir/lib/cuda/increment_kernel.cu.o[0m
+[ 48%] [32mBuilding CUDA object tests/CMakeFiles/nvblox_test_utils.dir/lib/cuda/gpu_layer_utils.cu.o[0m
+[ 49%] [32mBuilding CUDA object tests/CMakeFiles/nvblox_test_utils.dir/lib/cuda/interpolation_2d_gpu.cu.o[0m
+[ 49%] [32mBuilding CUDA object tests/CMakeFiles/nvblox_test_utils.dir/lib/cuda/layer.cu.o[0m
+[ 50%] [32mBuilding CUDA object tests/CMakeFiles/nvblox_test_utils.dir/lib/cuda/mesh_utils.cu.o[0m
+[ 50%] [32m[1mLinking CUDA device code CMakeFiles/fuse_replica.dir/cmake_device_link.o[0m
+[ 51%] [32m[1mLinking CXX executable fuse_replica[0m
+[ 51%] [32mBuilding CUDA object tests/CMakeFiles/nvblox_test_utils.dir/lib/cuda/projective_tsdf_integrator_cuda_components.cu.o[0m
+[ 51%] Built target fuse_replica
+[ 52%] [32mBuilding CUDA object tests/CMakeFiles/nvblox_test_utils.dir/lib/cuda/test_utils_cuda.cu.o[0m
+[ 52%] [32m[1mLinking CUDA device code CMakeFiles/fuse_redwood.dir/cmake_device_link.o[0m
+[ 53%] [32m[1mLinking CUDA device code CMakeFiles/fuse_3dmatch.dir/cmake_device_link.o[0m
+[ 54%] [32m[1mLinking CXX executable fuse_redwood[0m
+[ 54%] [32m[1mLinking CXX executable fuse_3dmatch[0m
+[ 54%] Built target fuse_redwood
+[ 54%] Built target fuse_3dmatch
+[ 55%] [32mBuilding CUDA object tests/CMakeFiles/nvblox_test_utils.dir/lib/cuda/weighting_utils.cu.o[0m
+[ 55%] [32mBuilding CXX object tests/CMakeFiles/nvblox_test_utils.dir/lib/projective_tsdf_integrator_cpu.cpp.o[0m
+[ 55%] [32m[1mLinking CXX executable test_bench[0m
+[ 55%] Built target test_bench
+[ 56%] [32mBuilding CXX object tests/CMakeFiles/nvblox_test_utils.dir/lib/utils.cpp.o[0m
+[ 56%] [32mBuilding CXX object tests/CMakeFiles/nvblox_test_utils.dir/lib/esdf_integrator_cpu.cpp.o[0m
+[ 57%] [32mBuilding CXX object tests/CMakeFiles/nvblox_test_utils.dir/lib/integrator_utils.cpp.o[0m
+[ 57%] [32m[1mLinking CUDA device code CMakeFiles/nvblox_test_utils.dir/cmake_device_link.o[0m
+[ 58%] [32m[1mLinking CXX shared library libnvblox_test_utils.so[0m
+[ 58%] Built target nvblox_test_utils
+[ 58%] [32mBuilding CXX object tests/CMakeFiles/test_camera.dir/test_camera.cpp.o[0m
+[ 59%] [32mBuilding CXX object tests/CMakeFiles/test_indexing.dir/test_indexing.cpp.o[0m
+[ 60%] [32mBuilding CXX object tests/CMakeFiles/test_unified_vector.dir/test_unified_vector.cpp.o[0m
+[ 61%] [32mBuilding CXX object tests/CMakeFiles/test_tsdf_integrator_cuda_components.dir/test_tsdf_integrator_cuda_components.cpp.o[0m
+[ 61%] [32mBuilding CXX object tests/CMakeFiles/test_depth_image.dir/test_depth_image.cpp.o[0m
+[ 62%] [32mBuilding CXX object tests/CMakeFiles/test_scene.dir/test_scene.cpp.o[0m
+[ 62%] [32mBuilding CXX object tests/CMakeFiles/test_mesh.dir/test_mesh.cpp.o[0m
+[ 63%] [32mBuilding CXX object tests/CMakeFiles/test_unified_ptr.dir/test_unified_ptr.cpp.o[0m
+[ 63%] [32m[1mLinking CXX executable test_indexing[0m
+[ 63%] Built target test_indexing
+[ 63%] [32m[1mLinking CXX executable test_unified_vector[0m
+[ 63%] Built target test_unified_vector
+[ 63%] [32mBuilding CXX object tests/CMakeFiles/test_color_image.dir/test_color_image.cpp.o[0m
+[ 64%] [32mBuilding CXX object tests/CMakeFiles/test_esdf_integrator.dir/test_esdf_integrator.cpp.o[0m
+[ 64%] [32m[1mLinking CXX executable test_unified_ptr[0m
+[ 65%] [32mBuilding CXX object tests/CMakeFiles/test_3dmatch.dir/test_3dmatch.cpp.o[0m
+[ 65%] Built target test_unified_ptr
+[ 65%] [32mBuilding CXX object tests/CMakeFiles/test_tsdf_integrator.dir/test_tsdf_integrator.cpp.o[0m
+[ 65%] [32mBuilding CXX object tests/CMakeFiles/test_color_integrator.dir/test_color_integrator.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable test_depth_image[0m
+[ 67%] [32mBuilding CXX object tests/CMakeFiles/test_3d_interpolation.dir/test_3d_interpolation.cpp.o[0m
+[ 67%] Built target test_depth_image
+[ 68%] [32m[1mLinking CXX executable test_camera[0m
+[ 68%] Built target test_camera
+[ 69%] [32mBuilding CXX object tests/CMakeFiles/test_for_memory_leaks.dir/test_for_memory_leaks.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable test_tsdf_integrator_cuda_components[0m
+[ 69%] Built target test_tsdf_integrator_cuda_components
+[ 70%] [32m[1mLinking CXX executable test_mesh[0m
+[ 70%] Built target test_mesh
+[ 71%] [32m[1mLinking CUDA device code CMakeFiles/test_3dmatch.dir/cmake_device_link.o[0m
+[ 71%] [32m[1mLinking CXX executable test_3dmatch[0m
+[ 72%] [32m[1mLinking CXX executable test_color_image[0m
+[ 72%] Built target test_3dmatch
+[ 72%] Built target test_color_image
+[ 72%] [32m[1mLinking CXX executable test_for_memory_leaks[0m
+[ 72%] Built target test_for_memory_leaks
+[ 72%] [32m[1mLinking CXX executable test_3d_interpolation[0m
+[ 73%] [32mBuilding CXX object tests/CMakeFiles/test_traits.dir/test_traits.cpp.o[0m
+[ 73%] [32mBuilding CXX object tests/CMakeFiles/test_cake.dir/test_cake.cpp.o[0m
+[ 73%] Built target test_3d_interpolation
+[ 73%] [32mBuilding CXX object tests/CMakeFiles/test_sphere_tracing.dir/test_sphere_tracing.cpp.o[0m
+[ 73%] [32mBuilding CXX object tests/CMakeFiles/test_gpu_layer_view.dir/test_gpu_layer_view.cpp.o[0m
+[ 73%] [32mBuilding CXX object tests/CMakeFiles/test_serialization.dir/test_serialization.cpp.o[0m
+[ 74%] [32mBuilding CXX object tests/CMakeFiles/test_frustum.dir/test_frustum.cpp.o[0m
+[ 74%] [32mBuilding CXX object tests/CMakeFiles/test_mesh_coloring.dir/test_mesh_coloring.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable test_tsdf_integrator[0m
+[ 76%] [32mBuilding CXX object tests/CMakeFiles/test_layer.dir/test_layer.cpp.o[0m
+[ 76%] Built target test_tsdf_integrator
+[ 77%] [32mBuilding CXX object tests/CMakeFiles/test_lidar.dir/test_lidar.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable test_color_integrator[0m
+[ 78%] Built target test_color_integrator
+[ 79%] [32mBuilding CXX object tests/CMakeFiles/test_lidar_integration.dir/test_lidar_integration.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable test_traits[0m
+[ 81%] [32m[1mLinking CXX executable test_scene[0m
+[ 81%] [32m[1mLinking CXX executable test_esdf_integrator[0m
+[ 81%] Built target test_traits
+[ 82%] [32mBuilding CXX object tests/CMakeFiles/test_fuser.dir/test_fuser.cpp.o[0m
+[ 82%] Built target test_scene
+[ 83%] [32mBuilding CXX object tests/CMakeFiles/test_bounding_spheres.dir/test_bounding_spheres.cpp.o[0m
+[ 83%] Built target test_esdf_integrator
+[ 84%] [32m[1mLinking CXX executable test_cake[0m
+[ 84%] Built target test_cake
+[ 85%] [32m[1mLinking CXX executable test_gpu_layer_view[0m
+[ 85%] Built target test_gpu_layer_view
+[ 85%] [32m[1mLinking CXX executable test_bounding_spheres[0m
+[ 85%] Built target test_bounding_spheres
+[ 85%] [32mBuilding CXX object tests/CMakeFiles/test_image_projector.dir/test_image_projector.cpp.o[0m
+[ 85%] [32mBuilding CXX object tests/CMakeFiles/test_multi_mapper.dir/test_multi_mapper.cpp.o[0m
+[ 85%] [32mBuilding CXX object tests/CMakeFiles/test_image_masker.dir/test_image_masker.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable test_fuser[0m
+[ 87%] [32m[1mLinking CXX executable test_mesh_coloring[0m
+[ 87%] [32mBuilding CXX object tests/CMakeFiles/test_mapper.dir/test_mapper.cpp.o[0m
+[ 87%] Built target test_fuser
+[ 88%] [32mBuilding CXX object tests/CMakeFiles/test_pointcloud.dir/test_pointcloud.cpp.o[0m
+[ 89%] [32m[1mLinking CXX executable test_serialization[0m
+[ 89%] Built target test_mesh_coloring
+[ 90%] [32mBuilding CXX object tests/CMakeFiles/test_occupancy_integrator.dir/test_occupancy_integrator.cpp.o[0m
+[ 90%] Built target test_serialization
+[ 91%] [32mBuilding CXX object tests/CMakeFiles/test_occupancy_decay.dir/test_occupancy_decay.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable test_lidar[0m
+[ 91%] Built target test_lidar
+[ 92%] [32m[1mLinking CXX executable test_lidar_integration[0m
+[ 92%] Built target test_lidar_integration
+[ 92%] [32m[1mLinking CXX executable test_layer[0m
+[ 92%] Built target test_layer
+[ 92%] [32m[1mLinking CXX executable test_frustum[0m
+[ 92%] Built target test_frustum
+[ 92%] [32m[1mLinking CXX executable test_pointcloud[0m
+[ 92%] Built target test_pointcloud
+[ 92%] [32m[1mLinking CXX executable test_occupancy_decay[0m
+[ 92%] Built target test_occupancy_decay
+[ 93%] [32m[1mLinking CXX executable test_image_masker[0m
+[ 93%] Built target test_image_masker
+[ 94%] [32m[1mLinking CXX executable test_multi_mapper[0m
+[ 94%] Built target test_multi_mapper
+[ 94%] [32mBuilding CXX object tests/CMakeFiles/test_image_io.dir/test_image_io.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable test_sphere_tracing[0m
+[ 95%] Built target test_sphere_tracing
+[ 96%] [32mBuilding CXX object tests/CMakeFiles/test_weighting_function.dir/test_weighting_function.cpp.o[0m
+[ 97%] [32m[1mLinking CXX executable test_image_projector[0m
+[ 97%] Built target test_image_projector
+[ 97%] [32m[1mLinking CXX executable test_occupancy_integrator[0m
+[ 97%] Built target test_occupancy_integrator
+[ 98%] [32m[1mLinking CXX executable test_mapper[0m
+[ 99%] [32m[1mLinking CXX executable test_weighting_function[0m
+[ 99%] Built target test_weighting_function
+[ 99%] Built target test_mapper
+[100%] [32m[1mLinking CXX executable test_image_io[0m
+[100%] Built target test_image_io
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/lib/cmake/stdgpu/cuda/FindCUDAToolkit.cmake
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/lib/libstdgpu.a
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/cmath.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/contract.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/queue.cuh
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/compiler.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/mutex_fwd
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/memory.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/atomic_fwd
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/memory_detail.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/vector_detail.cuh
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/platform_check.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/functional_detail.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/iterator_detail.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/unordered_set_detail.cuh
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/utility_detail.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/ranges_detail.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/cmath_detail.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/limits_detail.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/algorithm_detail.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/unordered_base_detail.cuh
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/unordered_map_detail.cuh
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/stack_detail.cuh
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/mutex_detail.cuh
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/type_traits.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/unordered_base.cuh
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/deque_detail.cuh
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/atomic_detail.cuh
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/queue_detail.cuh
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/bitset_detail.cuh
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/impl/bit_detail.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/utility.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/ranges.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/unordered_map.cuh
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/stack.cuh
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/unordered_map_fwd
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/cuda
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/cuda/platform_check.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/cuda/memory.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/cuda/impl
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/cuda/impl/atomic_detail.cuh
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/cuda/atomic.cuh
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/cuda/platform.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/mutex.cuh
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/functional.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/bitset_fwd
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/bitset.cuh
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/iterator.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/queue_fwd
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/stack_fwd
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/unordered_set_fwd
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/algorithm.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/limits.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/deque.cuh
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/attribute.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/cstddef.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/atomic.cuh
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/platform.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/vector_fwd
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/vector.cuh
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/openmp
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/openmp/platform_check.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/openmp/memory.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/openmp/impl
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/openmp/impl/atomic_detail.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/openmp/atomic.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/openmp/platform.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/bit.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/unordered_set.cuh
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/deque_fwd
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/hip
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/hip/platform_check.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/hip/memory.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/hip/impl
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/hip/impl/atomic_detail.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/hip/atomic.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/hip/platform.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/stdgpu/config.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/lib/cmake/stdgpu/stdgpu-dependencies.cmake
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/lib/cmake/stdgpu/Findthrust.cmake
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/lib/cmake/stdgpu/stdgpu-targets.cmake
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/lib/cmake/stdgpu/stdgpu-targets-relwithdebinfo.cmake
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/lib/cmake/stdgpu/stdgpu-config.cmake
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/lib/cmake/stdgpu/stdgpu-config-version.cmake
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/lib/libnvblox_lib.so
+-- Set runtime path of "/avlcode/workspaces/isaac_ros-dev/install/nvblox/lib/libnvblox_lib.so" to ""
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/lib/nvblox/libnvblox_gpu_hash.a
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/lib/libnvblox_datasets.so
+-- Set runtime path of "/avlcode/workspaces/isaac_ros-dev/install/nvblox/lib/libnvblox_datasets.so" to ""
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/lib/nvblox/libstdgpu.a
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/bin/nvblox/fuse_3dmatch
+-- Set runtime path of "/avlcode/workspaces/isaac_ros-dev/install/nvblox/bin/nvblox/fuse_3dmatch" to ""
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/bin/nvblox/fuse_replica
+-- Set runtime path of "/avlcode/workspaces/isaac_ros-dev/install/nvblox/bin/nvblox/fuse_replica" to ""
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/projective_occupancy_integrator.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/view_calculator.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/projective_color_integrator.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/internal
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/internal/impl
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/internal/impl/integrators_common_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/internal/impl/projective_integrator_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/internal/impl/weighting_function_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/internal/integrators_common.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/internal/cuda
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/internal/cuda/impl
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/internal/cuda/impl/projective_integrators_common_impl.cuh
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/internal/cuda/impl/projective_integrator_impl.cuh
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/internal/cuda/projective_integrators_common.cuh
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/internal/projective_integrator.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/esdf_integrator.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/weighting_function.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/occupancy_decay_integrator.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/integrators/projective_tsdf_integrator.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/sensors
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/sensors/image.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/sensors/camera.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/sensors/pointcloud.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/sensors/internal
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/sensors/internal/impl
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/sensors/internal/impl/lidar_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/sensors/internal/impl/image_cuda_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/sensors/internal/impl/camera_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/sensors/internal/impl/image_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/sensors/lidar.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/rays
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/rays/ray_caster.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/rays/internal
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/rays/internal/impl
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/rays/internal/impl/ray_caster_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/rays/sphere_tracer.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/geometry
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/geometry/bounding_spheres.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/geometry/internal
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/geometry/internal/impl
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/geometry/internal/impl/bounding_boxes_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/geometry/bounding_boxes.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/nvblox.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/interpolation
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/interpolation/interpolation_2d.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/interpolation/internal
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/interpolation/internal/impl
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/interpolation/internal/impl/interpolation_2d_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/interpolation/internal/impl/interpolation_3d_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/interpolation/interpolation_3d.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/serialization
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/serialization/internal
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/serialization/internal/layer_serialization.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/serialization/internal/impl
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/serialization/internal/impl/common_types_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/serialization/internal/impl/layer_serialization_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/serialization/internal/impl/block_serialization_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/serialization/internal/serializer.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/serialization/internal/common_types.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/serialization/internal/block_serialization.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/serialization/internal/layer_type_register.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/serialization/internal/sqlite_database.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/semantics
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/semantics/image_masker.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/semantics/image_projector.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/blox.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/accessors.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/common_names.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/voxels.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/layer.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/layer_cake.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/internal
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/internal/impl
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/internal/impl/layer_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/internal/impl/blox_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/internal/impl/layer_cake_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/internal/impl/accessors_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/internal/cuda
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/internal/cuda/impl
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/map/internal/cuda/impl/layer_impl.cuh
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/unified_ptr.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/indexing.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/log_odds.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/types.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/variadic_template_tools.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/hash.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/traits.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/color.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/iterator.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/internal
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/internal/impl
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/internal/impl/indexing_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/internal/impl/unified_vector_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/internal/impl/variadic_template_tools_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/internal/impl/unified_ptr_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/internal/cuda
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/internal/cuda/impl
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/internal/cuda/impl/atomic_float_impl.cuh
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/internal/cuda/atomic_float.cuh
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/internal/error_check.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/internal/warmup_cuda.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/core/unified_vector.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/gpu_hash
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/gpu_hash/gpu_layer_view.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/gpu_hash/internal
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/gpu_hash/internal/cuda
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/gpu_hash/internal/cuda/impl
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/gpu_hash/internal/cuda/impl/gpu_layer_view_impl.cuh
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/gpu_hash/internal/cuda/impl/gpu_hash_interface_impl.cuh
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/gpu_hash/internal/cuda/gpu_indexing.cuh
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/gpu_hash/internal/cuda/gpu_hash_interface.cuh
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/gpu_hash/internal/cuda/gpu_set.cuh
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/mesh
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/mesh/mesh.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/mesh/internal
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/mesh/internal/impl
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/mesh/internal/impl/marching_cubes_table.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/mesh/internal/marching_cubes.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/mesh/mesh_block.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/mesh/mesh_integrator.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/pointcloud_io.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/ply_writer.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/layer_cake_io.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/mesh_io.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/image_io.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/internal
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/internal/thirdparty
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/internal/thirdparty/stb_image.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/internal/thirdparty/stb_image_write.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/internal/impl
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/internal/impl/csv_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/internal/impl/pointcloud_io_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/io/csv.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/utils
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/utils/timing.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/utils/logging.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/utils/nvtx_ranges.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/primitives
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/primitives/primitives.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/primitives/internal
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/primitives/internal/impl
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/primitives/internal/impl/scene_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/primitives/scene.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/mapper
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/mapper/multi_mapper.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/mapper/mapper.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/datasets
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/datasets/impl
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/datasets/impl/image_loader_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/datasets/3dmatch.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/datasets/external
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/datasets/external/stb_image.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/datasets/redwood.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/datasets/data_loader.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/datasets/replica.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/datasets/image_loader.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/executables
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/nvblox/executables/fuser.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/SVD
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/KLUSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/SPQRSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/MetisSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/Dense
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/StdList
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/Eigen
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/Cholesky
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/CholmodSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/Sparse
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/IterativeLinearSolvers
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/Eigenvalues
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/QR
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/PardisoSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/Geometry
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/SparseCore
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/QtAlignedMalloc
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/Core
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/UmfPackSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/Jacobi
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/LU
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/SuperLUSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/SparseQR
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/SparseCholesky
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/OrderingMethods
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SVD
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SVD/SVDBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SVD/JacobiSVD.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SVD/JacobiSVD_LAPACKE.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SVD/BDCSVD.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/KLUSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/KLUSupport/KLUSupport.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SPQRSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SPQRSupport/SuiteSparseQRSupport.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/MetisSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/MetisSupport/MetisSupport.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/misc
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/misc/RealSvd2x2.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/misc/lapack.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/misc/lapacke.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/misc/Image.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/misc/Kernel.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/misc/blas.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/misc/lapacke_mangling.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Cholesky
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Cholesky/LLT_LAPACKE.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Cholesky/LLT.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Cholesky/LDLT.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/CholmodSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/CholmodSupport/CholmodSupport.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/IterativeLinearSolvers
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/RealSchur_LAPACKE.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur_LAPACKE.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/QR
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/QR/HouseholderQR.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/QR/HouseholderQR_LAPACKE.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/QR/ColPivHouseholderQR_LAPACKE.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/PardisoSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/PardisoSupport/PardisoSupport.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/plugins
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/plugins/ReshapedMethods.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/plugins/BlockMethods.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/Umeyama.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/EulerAngles.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/arch
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/Translation.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/Rotation2D.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/AngleAxis.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/Transform.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/Quaternion.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/Scaling.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/RotationBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/Hyperplane.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/Homogeneous.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/AlignedBox.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Geometry/OrthoMethods.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseUtil.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/AmbiVector.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseAssign.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseProduct.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseDot.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseBlock.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseView.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseRedux.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseRef.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/MappedSparseMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseVector.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/TriangularSolver.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseMap.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/StlSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/StlSupport/details.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/StlSupport/StdVector.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/StlSupport/StdList.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/StlSupport/StdDeque.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/AssignEvaluator.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/GlobalFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/GenericPacketMath.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/Parallelizer.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/EigenBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Ref.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/ReturnByValue.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/NoAlias.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Replicate.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Random.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/MatrixBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/IO.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Inverse.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Redux.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Reshaped.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Swap.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Product.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/CoreIterators.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/Macros.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/Meta.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/BlasUtil.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/StaticAssert.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/Memory.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/IntegralConstant.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/NonMPL2.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/Constants.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/XprHelper.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/util/MKL_support.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/StableNorm.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/IndexedView.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Visitor.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Dot.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/CUDA
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/ZVector
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/ZVector/PacketMath.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/ZVector/Complex.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/ZVector/MathFunctions.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AltiVec
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AltiVec/MatrixProductCommon.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AltiVec/PacketMath.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AltiVec/Complex.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AltiVec/MathFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AltiVec/MatrixProduct.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AltiVec/MatrixProductMMA.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AVX512
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AVX512/PacketMath.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AVX512/Complex.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AVX512/MathFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AVX512/TypeCasting.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AVX
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AVX/Complex.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AVX/MathFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/AVX/TypeCasting.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/MSA
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/MSA/PacketMath.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/MSA/Complex.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/MSA/MathFunctions.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/HIP
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/HIP/hcc
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/HIP/hcc/math_constants.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/Default
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/Default/Half.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SYCL
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SYCL/InteropHeaders.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SYCL/PacketMath.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SYCL/MathFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SYCL/TypeCasting.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SYCL/SyclMemoryModel.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SSE
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/NEON
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/NEON/MathFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/NEON/GeneralBlockPanelKernel.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/NEON/TypeCasting.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SVE
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SVE/PacketMath.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SVE/MathFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/SVE/TypeCasting.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/GPU
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/GPU/PacketMath.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/GPU/MathFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/arch/GPU/TypeCasting.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/ArrayWrapper.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/NumTraits.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/VectorwiseOp.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Solve.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/GeneralProduct.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/ArithmeticSequence.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/SolverBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/SelfAdjointView.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/ConditionEstimator.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/DenseStorage.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Fuzzy.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Map.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/VectorBlock.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/SolveTriangular.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/MathFunctions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/TriangularMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/CoreEvaluators.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Stride.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Assign.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/DenseBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/CwiseUnaryView.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/ForceAlignedAccess.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/DiagonalProduct.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Assign_MKL.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/DiagonalMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Transpositions.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/ProductEvaluators.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/MapBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Reverse.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/StlIterators.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/CommaInitializer.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Select.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Block.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/functors
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/functors/StlFunctors.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Matrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Array.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Diagonal.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/PlainObjectBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/PermutationMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/ArrayBase.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/BooleanRedux.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/Transpose.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/NestByValue.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Core/BandMatrix.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/UmfPackSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/UmfPackSupport/UmfPackSupport.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Jacobi
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Jacobi/Jacobi.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/LU
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/LU/FullPivLU.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/LU/InverseImpl.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/LU/Determinant.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/LU/arch
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/LU/arch/InverseSize4.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/LU/PartialPivLU.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/LU/PartialPivLU_LAPACKE.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SuperLUSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SuperLUSupport/SuperLUSupport.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseQR
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseQR/SparseQR.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCholesky
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/OrderingMethods
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/OrderingMethods/Ordering.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/OrderingMethods/Amd.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Householder
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Householder/Householder.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/PaStiXSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/PaStiXSupport/PaStiXSupport.h
+-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_kernel_bmod.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_Structs.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_gemm_kernel.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_Utils.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_bmod.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_relax_snode.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_column_bmod.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_Memory.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLUImpl.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_dfs.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/Householder
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/PaStiXSupport
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/StdVector
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/SparseLU
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/Eigen/StdDeque
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/include/eigen3/signature_of_eigen3_matrix_library
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/share/nvblox/cmake/nvbloxConfig.cmake
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/share/nvblox/cmake/nvbloxConfigVersion.cmake
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/share/nvblox/cmake/nvbloxTargets.cmake
+-- Installing: /avlcode/workspaces/isaac_ros-dev/install/nvblox/share/nvblox/cmake/nvbloxTargets-relwithdebinfo.cmake

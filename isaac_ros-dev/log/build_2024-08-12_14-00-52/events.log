@@ -1,0 +1,414 @@
+[0.000000] (-) TimerEvent: {}
+[0.001156] (-) JobUnselected: {'identifier': 'agv_bot_description'}
+[0.001500] (-) JobUnselected: {'identifier': 'async_web_server_cpp'}
+[0.003341] (-) JobUnselected: {'identifier': 'camera_calibration_parsers'}
+[0.003460] (-) JobUnselected: {'identifier': 'camera_info_manager'}
+[0.003639] (-) JobUnselected: {'identifier': 'camera_publishers'}
+[0.003739] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.003798] (-) JobUnselected: {'identifier': 'geodesy'}
+[0.003848] (-) JobUnselected: {'identifier': 'geographic_info'}
+[0.003911] (-) JobUnselected: {'identifier': 'geographic_msgs'}
+[0.003980] (-) JobUnselected: {'identifier': 'gps_package'}
+[0.005539] (-) JobUnselected: {'identifier': 'image_common'}
+[0.005626] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.005764] (-) JobUnselected: {'identifier': 'image_stitcher'}
+[0.005841] (-) JobUnselected: {'identifier': 'image_transport'}
+[0.005893] (-) JobUnselected: {'identifier': 'isaac_ros_apriltag_interfaces'}
+[0.005956] (-) JobUnselected: {'identifier': 'isaac_ros_bi3d_interfaces'}
+[0.006010] (-) JobUnselected: {'identifier': 'isaac_ros_common'}
+[0.007411] (-) JobUnselected: {'identifier': 'isaac_ros_nvblox'}
+[0.007501] (-) JobUnselected: {'identifier': 'isaac_ros_pointcloud_interfaces'}
+[0.007655] (-) JobUnselected: {'identifier': 'isaac_ros_tensor_list_interfaces'}
+[0.007732] (-) JobUnselected: {'identifier': 'isaac_ros_test'}
+[0.007786] (-) JobUnselected: {'identifier': 'joint_state_publisher'}
+[0.007852] (-) JobUnselected: {'identifier': 'joint_state_publisher_gui'}
+[0.007917] (-) JobUnselected: {'identifier': 'motor_control_pkg'}
+[0.008282] (-) JobUnselected: {'identifier': 'nvblox'}
+[0.008381] (-) JobUnselected: {'identifier': 'nvblox_cpu_gpu_tools'}
+[0.008431] (-) JobUnselected: {'identifier': 'nvblox_examples_bringup'}
+[0.008479] (-) JobUnselected: {'identifier': 'nvblox_image_padding'}
+[0.008528] (-) JobUnselected: {'identifier': 'nvblox_isaac_sim'}
+[0.009792] (-) JobUnselected: {'identifier': 'nvblox_msgs'}
+[0.011517] (-) JobUnselected: {'identifier': 'nvblox_nav2'}
+[0.011657] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement'}
+[0.011756] (-) JobUnselected: {'identifier': 'nvblox_performance_measurement_msgs'}
+[0.011846] (-) JobUnselected: {'identifier': 'nvblox_ros'}
+[0.011930] (-) JobUnselected: {'identifier': 'nvblox_ros_common'}
+[0.011990] (-) JobUnselected: {'identifier': 'nvblox_rviz_plugin'}
+[0.012087] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.012146] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.012316] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.012409] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.012505] (-) JobUnselected: {'identifier': 'realsense_obj_det'}
+[0.012571] (-) JobUnselected: {'identifier': 'road_segmentation'}
+[0.012743] (-) JobUnselected: {'identifier': 'semantic_label_conversion'}
+[0.012820] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.012927] (-) JobUnselected: {'identifier': 'stdgpu'}
+[0.012987] (-) JobUnselected: {'identifier': 'teleop_twist_joy'}
+[0.013094] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.013186] (-) JobUnselected: {'identifier': 'twist_converter'}
+[0.013279] (-) JobUnselected: {'identifier': 'twist_mux'}
+[0.013358] (-) JobUnselected: {'identifier': 'velodyne'}
+[0.013537] (-) JobUnselected: {'identifier': 'velodyne_driver'}
+[0.013612] (-) JobUnselected: {'identifier': 'velodyne_laserscan'}
+[0.013683] (-) JobUnselected: {'identifier': 'velodyne_msgs'}
+[0.013752] (-) JobUnselected: {'identifier': 'velodyne_pointcloud'}
+[0.013926] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.014014] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.014190] (-) JobUnselected: {'identifier': 'xacro'}
+[0.014265] (data_logger) JobQueued: {'identifier': 'data_logger', 'dependencies': OrderedDict([('cv_bridge', '/avlcode/workspaces/isaac_ros-dev/install/cv_bridge'), ('image_transport', '/avlcode/workspaces/isaac_ros-dev/install/image_transport')])}
+[0.014351] (data_logger) JobStarted: {'identifier': 'data_logger'}
+[0.039806] (data_logger) JobProgress: {'identifier': 'data_logger', 'progress': 'cmake'}
+[0.041580] (data_logger) JobProgress: {'identifier': 'data_logger', 'progress': 'build'}
+[0.043108] (data_logger) Command: {'cmd': ['/usr/bin/cmake', '--build', '/avlcode/workspaces/isaac_ros-dev/build/data_logger', '--', '-j12', '-l12'], 'cwd': '/avlcode/workspaces/isaac_ros-dev/build/data_logger', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'agxorin1'), ('LD_LIBRARY_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport/lib:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib'), ('HOME', '/root'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --packages-select data_logger'), ('AMENT_PREFIX_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'admin'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/avlcode/workspaces/isaac_ros-dev/build/data_logger'), ('PYTHONPATH', '/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge')]), 'shell': False}
+[0.098962] (-) TimerEvent: {}
+[0.099709] (data_logger) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target data_logger_node\x1b[0m\n'}
+[0.136298] (data_logger) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/data_logger_node.dir/src/data_logger_node.cpp.o\x1b[0m\n'}
+[0.199123] (-) TimerEvent: {}
+[0.299843] (-) TimerEvent: {}
+[0.400584] (-) TimerEvent: {}
+[0.501371] (-) TimerEvent: {}
+[0.602203] (-) TimerEvent: {}
+[0.703027] (-) TimerEvent: {}
+[0.803753] (-) TimerEvent: {}
+[0.904488] (-) TimerEvent: {}
+[1.005365] (-) TimerEvent: {}
+[1.106275] (-) TimerEvent: {}
+[1.207142] (-) TimerEvent: {}
+[1.307989] (-) TimerEvent: {}
+[1.408717] (-) TimerEvent: {}
+[1.509569] (-) TimerEvent: {}
+[1.610593] (-) TimerEvent: {}
+[1.711445] (-) TimerEvent: {}
+[1.812173] (-) TimerEvent: {}
+[1.913107] (-) TimerEvent: {}
+[2.014002] (-) TimerEvent: {}
+[2.114909] (-) TimerEvent: {}
+[2.215715] (-) TimerEvent: {}
+[2.316879] (-) TimerEvent: {}
+[2.417735] (-) TimerEvent: {}
+[2.518497] (-) TimerEvent: {}
+[2.619378] (-) TimerEvent: {}
+[2.720155] (-) TimerEvent: {}
+[2.820788] (-) TimerEvent: {}
+[2.921451] (-) TimerEvent: {}
+[3.022301] (-) TimerEvent: {}
+[3.123058] (-) TimerEvent: {}
+[3.223868] (-) TimerEvent: {}
+[3.324675] (-) TimerEvent: {}
+[3.425460] (-) TimerEvent: {}
+[3.526184] (-) TimerEvent: {}
+[3.626961] (-) TimerEvent: {}
+[3.727651] (-) TimerEvent: {}
+[3.828373] (-) TimerEvent: {}
+[3.929229] (-) TimerEvent: {}
+[4.030040] (-) TimerEvent: {}
+[4.130894] (-) TimerEvent: {}
+[4.231735] (-) TimerEvent: {}
+[4.332577] (-) TimerEvent: {}
+[4.433292] (-) TimerEvent: {}
+[4.534017] (-) TimerEvent: {}
+[4.634770] (-) TimerEvent: {}
+[4.735486] (-) TimerEvent: {}
+[4.836180] (-) TimerEvent: {}
+[4.936872] (-) TimerEvent: {}
+[5.037601] (-) TimerEvent: {}
+[5.138584] (-) TimerEvent: {}
+[5.239442] (-) TimerEvent: {}
+[5.340188] (-) TimerEvent: {}
+[5.440920] (-) TimerEvent: {}
+[5.541638] (-) TimerEvent: {}
+[5.642331] (-) TimerEvent: {}
+[5.743068] (-) TimerEvent: {}
+[5.843745] (-) TimerEvent: {}
+[5.944391] (-) TimerEvent: {}
+[6.045034] (-) TimerEvent: {}
+[6.145733] (-) TimerEvent: {}
+[6.246431] (-) TimerEvent: {}
+[6.347150] (-) TimerEvent: {}
+[6.447853] (-) TimerEvent: {}
+[6.548565] (-) TimerEvent: {}
+[6.649286] (-) TimerEvent: {}
+[6.749997] (-) TimerEvent: {}
+[6.850713] (-) TimerEvent: {}
+[6.951423] (-) TimerEvent: {}
+[7.052155] (-) TimerEvent: {}
+[7.152910] (-) TimerEvent: {}
+[7.253627] (-) TimerEvent: {}
+[7.354263] (-) TimerEvent: {}
+[7.454928] (-) TimerEvent: {}
+[7.555595] (-) TimerEvent: {}
+[7.656265] (-) TimerEvent: {}
+[7.756964] (-) TimerEvent: {}
+[7.857665] (-) TimerEvent: {}
+[7.958399] (-) TimerEvent: {}
+[8.059092] (-) TimerEvent: {}
+[8.159750] (-) TimerEvent: {}
+[8.260408] (-) TimerEvent: {}
+[8.361088] (-) TimerEvent: {}
+[8.461823] (-) TimerEvent: {}
+[8.562580] (-) TimerEvent: {}
+[8.663309] (-) TimerEvent: {}
+[8.764037] (-) TimerEvent: {}
+[8.864745] (-) TimerEvent: {}
+[8.965449] (-) TimerEvent: {}
+[9.066484] (-) TimerEvent: {}
+[9.167267] (-) TimerEvent: {}
+[9.267903] (-) TimerEvent: {}
+[9.368668] (-) TimerEvent: {}
+[9.469296] (-) TimerEvent: {}
+[9.569948] (-) TimerEvent: {}
+[9.670565] (-) TimerEvent: {}
+[9.771175] (-) TimerEvent: {}
+[9.871786] (-) TimerEvent: {}
+[9.972523] (-) TimerEvent: {}
+[10.073275] (-) TimerEvent: {}
+[10.112595] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDataLogger::DataLogger()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.113282] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:89:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kentry\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[10.113493] (data_logger) StderrLine: {'line': b'   89 |     for (const auto &\x1b[01;35m\x1b[Kentry\x1b[m\x1b[K : fs::directory_iterator(m_drive)) {\n'}
+[10.113670] (data_logger) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.113833] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:100:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kentry\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[10.113989] (data_logger) StderrLine: {'line': b'  100 |     for (const auto &\x1b[01;35m\x1b[Kentry\x1b[m\x1b[K : fs::directory_iterator(m_image_drive)) {\n'}
+[10.114186] (data_logger) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.115190] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[10.115490] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[10.115655] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[10.115820] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/node.hpp:40\x1b[m\x1b[K,\n'}
+[10.116001] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/install/image_transport/include/image_transport/image_transport/image_transport.hpp:37\x1b[m\x1b[K,\n'}
+[10.116154] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:14\x1b[m\x1b[K:\n'}
+[10.116309] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:111:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%c\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::filesystem::__cxx11::path\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[10.116471] (data_logger) StderrLine: {'line': b'  111 |     RCLCPP_ERROR(this->get_logger(), \x1b[01;35m\x1b[K"File is not open: %c"\x1b[m\x1b[K, \x1b[32m\x1b[Kfs::current_path()\x1b[m\x1b[K);\n'}
+[10.116627] (data_logger) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.116770] (data_logger) StderrLine: {'line': b'      |                                                                              \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[10.116913] (data_logger) StderrLine: {'line': b'      |                                                                              \x1b[32m\x1b[Kstd::filesystem::__cxx11::path\x1b[m\x1b[K\n'}
+[10.117059] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:111:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[10.117201] (data_logger) StderrLine: {'line': b'  111 |     RCLCPP_ERROR(this->get_logger(), "File is not open: \x1b[01;36m\x1b[K%c\x1b[m\x1b[K", fs::current_path());\n'}
+[10.117342] (data_logger) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[10.117483] (data_logger) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[10.117619] (data_logger) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[10.131518] (data_logger) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[10.132055] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[10.132248] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[10.132455] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/install/include/rclcpp/rclcpp/node.hpp:40\x1b[m\x1b[K,\n'}
+[10.132619] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/install/image_transport/include/image_transport/image_transport/image_transport.hpp:37\x1b[m\x1b[K,\n'}
+[10.132789] (data_logger) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:14\x1b[m\x1b[K:\n'}
+[10.132940] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DataLogger::topic_callback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.133100] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:169:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%c\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::filesystem::__cxx11::path\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[10.133296] (data_logger) StderrLine: {'line': b'  169 |     RCLCPP_ERROR(this->get_logger(), \x1b[01;35m\x1b[K"File is not open:  %c"\x1b[m\x1b[K, \x1b[32m\x1b[Kfs::current_path()\x1b[m\x1b[K);\n'}
+[10.133462] (data_logger) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.133610] (data_logger) StderrLine: {'line': b'      |                                                                               \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[10.133754] (data_logger) StderrLine: {'line': b'      |                                                                               \x1b[32m\x1b[Kstd::filesystem::__cxx11::path\x1b[m\x1b[K\n'}
+[10.133897] (data_logger) StderrLine: {'line': b'\x1b[01m\x1b[K/avlcode/workspaces/isaac_ros-dev/src/data_logger/src/data_logger_node.cpp:169:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[10.134041] (data_logger) StderrLine: {'line': b'  169 |     RCLCPP_ERROR(this->get_logger(), "File is not open:  \x1b[01;36m\x1b[K%c\x1b[m\x1b[K", fs::current_path());\n'}
+[10.134211] (data_logger) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[10.134360] (data_logger) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[10.134510] (data_logger) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[10.173446] (-) TimerEvent: {}
+[10.274110] (-) TimerEvent: {}
+[10.374785] (-) TimerEvent: {}
+[10.475450] (-) TimerEvent: {}
+[10.576127] (-) TimerEvent: {}
+[10.676773] (-) TimerEvent: {}
+[10.777447] (-) TimerEvent: {}
+[10.878264] (-) TimerEvent: {}
+[10.978929] (-) TimerEvent: {}
+[11.079628] (-) TimerEvent: {}
+[11.180340] (-) TimerEvent: {}
+[11.281074] (-) TimerEvent: {}
+[11.381775] (-) TimerEvent: {}
+[11.482490] (-) TimerEvent: {}
+[11.583166] (-) TimerEvent: {}
+[11.683889] (-) TimerEvent: {}
+[11.784603] (-) TimerEvent: {}
+[11.885301] (-) TimerEvent: {}
+[11.985998] (-) TimerEvent: {}
+[12.086749] (-) TimerEvent: {}
+[12.187410] (-) TimerEvent: {}
+[12.288175] (-) TimerEvent: {}
+[12.388920] (-) TimerEvent: {}
+[12.489653] (-) TimerEvent: {}
+[12.590403] (-) TimerEvent: {}
+[12.691139] (-) TimerEvent: {}
+[12.791854] (-) TimerEvent: {}
+[12.892601] (-) TimerEvent: {}
+[12.993351] (-) TimerEvent: {}
+[13.094154] (-) TimerEvent: {}
+[13.194865] (-) TimerEvent: {}
+[13.295629] (-) TimerEvent: {}
+[13.396497] (-) TimerEvent: {}
+[13.497241] (-) TimerEvent: {}
+[13.598105] (-) TimerEvent: {}
+[13.698900] (-) TimerEvent: {}
+[13.799637] (-) TimerEvent: {}
+[13.900379] (-) TimerEvent: {}
+[14.001107] (-) TimerEvent: {}
+[14.101827] (-) TimerEvent: {}
+[14.202633] (-) TimerEvent: {}
+[14.303381] (-) TimerEvent: {}
+[14.404123] (-) TimerEvent: {}
+[14.504850] (-) TimerEvent: {}
+[14.605578] (-) TimerEvent: {}
+[14.706301] (-) TimerEvent: {}
+[14.807020] (-) TimerEvent: {}
+[14.907749] (-) TimerEvent: {}
+[15.008497] (-) TimerEvent: {}
+[15.109223] (-) TimerEvent: {}
+[15.209955] (-) TimerEvent: {}
+[15.310722] (-) TimerEvent: {}
+[15.411428] (-) TimerEvent: {}
+[15.512103] (-) TimerEvent: {}
+[15.612873] (-) TimerEvent: {}
+[15.713926] (-) TimerEvent: {}
+[15.814856] (-) TimerEvent: {}
+[15.915623] (-) TimerEvent: {}
+[16.016429] (-) TimerEvent: {}
+[16.117258] (-) TimerEvent: {}
+[16.217911] (-) TimerEvent: {}
+[16.318603] (-) TimerEvent: {}
+[16.419284] (-) TimerEvent: {}
+[16.519959] (-) TimerEvent: {}
+[16.620616] (-) TimerEvent: {}
+[16.721220] (-) TimerEvent: {}
+[16.821850] (-) TimerEvent: {}
+[16.922532] (-) TimerEvent: {}
+[17.023228] (-) TimerEvent: {}
+[17.123913] (-) TimerEvent: {}
+[17.224573] (-) TimerEvent: {}
+[17.325234] (-) TimerEvent: {}
+[17.425871] (-) TimerEvent: {}
+[17.526518] (-) TimerEvent: {}
+[17.627182] (-) TimerEvent: {}
+[17.727838] (-) TimerEvent: {}
+[17.828468] (-) TimerEvent: {}
+[17.929099] (-) TimerEvent: {}
+[18.029771] (-) TimerEvent: {}
+[18.130476] (-) TimerEvent: {}
+[18.231102] (-) TimerEvent: {}
+[18.331821] (-) TimerEvent: {}
+[18.432706] (-) TimerEvent: {}
+[18.533634] (-) TimerEvent: {}
+[18.634575] (-) TimerEvent: {}
+[18.735242] (-) TimerEvent: {}
+[18.835889] (-) TimerEvent: {}
+[18.936600] (-) TimerEvent: {}
+[19.037438] (-) TimerEvent: {}
+[19.138278] (-) TimerEvent: {}
+[19.239088] (-) TimerEvent: {}
+[19.339759] (-) TimerEvent: {}
+[19.440447] (-) TimerEvent: {}
+[19.541251] (-) TimerEvent: {}
+[19.642075] (-) TimerEvent: {}
+[19.742901] (-) TimerEvent: {}
+[19.843700] (-) TimerEvent: {}
+[19.944506] (-) TimerEvent: {}
+[20.045273] (-) TimerEvent: {}
+[20.146070] (-) TimerEvent: {}
+[20.246934] (-) TimerEvent: {}
+[20.347729] (-) TimerEvent: {}
+[20.448542] (-) TimerEvent: {}
+[20.549341] (-) TimerEvent: {}
+[20.650159] (-) TimerEvent: {}
+[20.750961] (-) TimerEvent: {}
+[20.851753] (-) TimerEvent: {}
+[20.952882] (-) TimerEvent: {}
+[21.053742] (-) TimerEvent: {}
+[21.154697] (-) TimerEvent: {}
+[21.255524] (-) TimerEvent: {}
+[21.356350] (-) TimerEvent: {}
+[21.457184] (-) TimerEvent: {}
+[21.558034] (-) TimerEvent: {}
+[21.658910] (-) TimerEvent: {}
+[21.759748] (-) TimerEvent: {}
+[21.860594] (-) TimerEvent: {}
+[21.961481] (-) TimerEvent: {}
+[22.062332] (-) TimerEvent: {}
+[22.163158] (-) TimerEvent: {}
+[22.263995] (-) TimerEvent: {}
+[22.365003] (-) TimerEvent: {}
+[22.465886] (-) TimerEvent: {}
+[22.566765] (-) TimerEvent: {}
+[22.667584] (-) TimerEvent: {}
+[22.768418] (-) TimerEvent: {}
+[22.869255] (-) TimerEvent: {}
+[22.970066] (-) TimerEvent: {}
+[23.070896] (-) TimerEvent: {}
+[23.171741] (-) TimerEvent: {}
+[23.272483] (-) TimerEvent: {}
+[23.373246] (-) TimerEvent: {}
+[23.473992] (-) TimerEvent: {}
+[23.574770] (-) TimerEvent: {}
+[23.675520] (-) TimerEvent: {}
+[23.776346] (-) TimerEvent: {}
+[23.877101] (-) TimerEvent: {}
+[23.977847] (-) TimerEvent: {}
+[24.078633] (-) TimerEvent: {}
+[24.179483] (-) TimerEvent: {}
+[24.280236] (-) TimerEvent: {}
+[24.381037] (-) TimerEvent: {}
+[24.481828] (-) TimerEvent: {}
+[24.582631] (-) TimerEvent: {}
+[24.683316] (-) TimerEvent: {}
+[24.784209] (-) TimerEvent: {}
+[24.884824] (-) TimerEvent: {}
+[24.985464] (-) TimerEvent: {}
+[25.086243] (-) TimerEvent: {}
+[25.186896] (-) TimerEvent: {}
+[25.288154] (-) TimerEvent: {}
+[25.389259] (-) TimerEvent: {}
+[25.489967] (-) TimerEvent: {}
+[25.590973] (-) TimerEvent: {}
+[25.691651] (-) TimerEvent: {}
+[25.792399] (-) TimerEvent: {}
+[25.893128] (-) TimerEvent: {}
+[25.993828] (-) TimerEvent: {}
+[26.094590] (-) TimerEvent: {}
+[26.195302] (-) TimerEvent: {}
+[26.296055] (-) TimerEvent: {}
+[26.396927] (-) TimerEvent: {}
+[26.497923] (-) TimerEvent: {}
+[26.513323] (data_logger) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable data_logger_node\x1b[0m\n'}
+[26.598029] (-) TimerEvent: {}
+[26.698946] (-) TimerEvent: {}
+[26.799828] (-) TimerEvent: {}
+[26.900694] (-) TimerEvent: {}
+[27.001530] (-) TimerEvent: {}
+[27.102422] (-) TimerEvent: {}
+[27.203202] (-) TimerEvent: {}
+[27.304183] (-) TimerEvent: {}
+[27.405069] (-) TimerEvent: {}
+[27.506010] (-) TimerEvent: {}
+[27.606904] (-) TimerEvent: {}
+[27.707772] (-) TimerEvent: {}
+[27.808646] (-) TimerEvent: {}
+[27.909519] (-) TimerEvent: {}
+[28.010433] (-) TimerEvent: {}
+[28.111192] (-) TimerEvent: {}
+[28.211903] (-) TimerEvent: {}
+[28.312631] (-) TimerEvent: {}
+[28.360893] (data_logger) StdoutLine: {'line': b'[100%] Built target data_logger_node\n'}
+[28.373223] (data_logger) CommandEnded: {'returncode': 0}
+[28.406357] (data_logger) JobProgress: {'identifier': 'data_logger', 'progress': 'install'}
+[28.412865] (-) TimerEvent: {}
+[28.421169] (data_logger) Command: {'cmd': ['/usr/bin/cmake', '--install', '/avlcode/workspaces/isaac_ros-dev/build/data_logger'], 'cwd': '/avlcode/workspaces/isaac_ros-dev/build/data_logger', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'agxorin1'), ('LD_LIBRARY_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport/lib:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib'), ('HOME', '/root'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --packages-select data_logger'), ('AMENT_PREFIX_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'admin'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/avlcode/workspaces/isaac_ros-dev/build/data_logger'), ('PYTHONPATH', '/avlcode/workspaces/isaac_ros-dev/install/cv_bridge/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/avlcode/workspaces/isaac_ros-dev/install/image_transport:/avlcode/workspaces/isaac_ros-dev/install/cv_bridge')]), 'shell': False}
+[28.434496] (data_logger) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.435091] (data_logger) StdoutLine: {'line': b'-- Installing: /avlcode/workspaces/isaac_ros-dev/install/data_logger/lib/data_logger/data_logger_node\n'}
+[28.449300] (data_logger) StdoutLine: {'line': b'-- Set runtime path of "/avlcode/workspaces/isaac_ros-dev/install/data_logger/lib/data_logger/data_logger_node" to ""\n'}
+[28.449808] (data_logger) StdoutLine: {'line': b'-- Installing: /avlcode/workspaces/isaac_ros-dev/install/data_logger/share/ament_index/resource_index/package_run_dependencies/data_logger\n'}
+[28.450075] (data_logger) StdoutLine: {'line': b'-- Installing: /avlcode/workspaces/isaac_ros-dev/install/data_logger/share/ament_index/resource_index/parent_prefix_path/data_logger\n'}
+[28.450494] (data_logger) StdoutLine: {'line': b'-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/data_logger/share/data_logger/environment/ament_prefix_path.sh\n'}
+[28.450742] (data_logger) StdoutLine: {'line': b'-- Installing: /avlcode/workspaces/isaac_ros-dev/install/data_logger/share/data_logger/environment/ament_prefix_path.dsv\n'}
+[28.451102] (data_logger) StdoutLine: {'line': b'-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/data_logger/share/data_logger/environment/path.sh\n'}
+[28.451331] (data_logger) StdoutLine: {'line': b'-- Installing: /avlcode/workspaces/isaac_ros-dev/install/data_logger/share/data_logger/environment/path.dsv\n'}
+[28.451684] (data_logger) StdoutLine: {'line': b'-- Installing: /avlcode/workspaces/isaac_ros-dev/install/data_logger/share/data_logger/local_setup.bash\n'}
+[28.452066] (data_logger) StdoutLine: {'line': b'-- Installing: /avlcode/workspaces/isaac_ros-dev/install/data_logger/share/data_logger/local_setup.sh\n'}
+[28.452490] (data_logger) StdoutLine: {'line': b'-- Installing: /avlcode/workspaces/isaac_ros-dev/install/data_logger/share/data_logger/local_setup.zsh\n'}
+[28.452856] (data_logger) StdoutLine: {'line': b'-- Installing: /avlcode/workspaces/isaac_ros-dev/install/data_logger/share/data_logger/local_setup.dsv\n'}
+[28.453240] (data_logger) StdoutLine: {'line': b'-- Installing: /avlcode/workspaces/isaac_ros-dev/install/data_logger/share/data_logger/package.dsv\n'}
+[28.453653] (data_logger) StdoutLine: {'line': b'-- Installing: /avlcode/workspaces/isaac_ros-dev/install/data_logger/share/ament_index/resource_index/packages/data_logger\n'}
+[28.454043] (data_logger) StdoutLine: {'line': b'-- Installing: /avlcode/workspaces/isaac_ros-dev/install/data_logger/share/data_logger/cmake/data_loggerConfig.cmake\n'}
+[28.454472] (data_logger) StdoutLine: {'line': b'-- Installing: /avlcode/workspaces/isaac_ros-dev/install/data_logger/share/data_logger/cmake/data_loggerConfig-version.cmake\n'}
+[28.454848] (data_logger) StdoutLine: {'line': b'-- Up-to-date: /avlcode/workspaces/isaac_ros-dev/install/data_logger/share/data_logger/package.xml\n'}
+[28.457804] (data_logger) CommandEnded: {'returncode': 0}
+[28.513202] (-) TimerEvent: {}
+[28.589805] (data_logger) JobEnded: {'identifier': 'data_logger', 'rc': 0}
+[28.592142] (-) EventReactorShutdown: {}
